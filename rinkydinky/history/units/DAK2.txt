@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "DAK"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+		medium_armor = { x = 2 y = 2 }
+		medium_armor = { x = 2 y = 3 }
+		medium_armor = { x = 3 y = 0 }
+		medium_armor = { x = 3 y = 1 }
+	}
+
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+units = {
+division= {	
+		name = "1. DAK"
+		location = 1149
+		division_template = "DAK"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "2. DAK"
+		location = 1149
+		division_template = "DAK"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}

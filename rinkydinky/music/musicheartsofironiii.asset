@@ -1,0 +1,332 @@
+
+# MAIN THEME
+music = {
+	name = "titletheme_heartsofiron"
+	file = "titletheme_heartsofiron.mp3"
+	volume = 0.65
+}
+
+# General:
+music = {
+	name = "general_peace_1"
+	file = "gen_peace_1.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "general_peace_2"
+	file = "gen_peace_2.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "airborne"
+	file = "airborne.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "alliesdoinggood"
+	file = "alliesdoinggood.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "axis_marchofdominance"
+	file = "axis_marchofdominance.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "bigairforce"
+	file = "bigairforce.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "bigarmy"
+	file = "bigarmy.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "bigfleet"
+	file = "bigfleet.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "bombingthem"
+	file = "bombingthem.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "bombingus"
+	file = "bombingus.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "convoys"
+	file = "convoys.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "convoysgetsunk"
+	file = "convoysgetsunk.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "dangeroustoothers"
+	file = "dangeroustoothers.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "defensive"
+	file = "defensive.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "diesiraeintro"
+	file = "diesiraeintro.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "diplomaticsuccess"
+	file = "diplomaticsuccess.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "dissent"
+	file = "dissent.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "epicbattle"
+	file = "epicbattle.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "faction_allies_setfordeparture"
+	file = "faction_allies_setfordeparture.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "faction_axis_roadfromberlin"
+	file = "general_peace_heartsofmen.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "faction_com"
+	file = "faction_com.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gen_allies_unitednations"
+	file = "gen_allies_unitednations.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gen_axis_landoftherisingsun"
+	file = "gen_axis_landoftherisingsun.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gen_com_leningrad"
+	file = "gen_com_leningrad.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gen_peace_wearefree"
+	file = "gen_peace_wearefree.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gen_war_balletofwar"
+	file = "gen_war_balletofwar.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gen_war_omahabeach"
+	file = "gen_war_omahabeach.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gen_war_worldatwar"
+	file = "gen_war_worldatwar.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "genaxis1_luftwaffe"
+	file = "genaxis1_luftwaffe.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gencom1_risemycomrades"
+	file = "gencom1_risemycomrades.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "genpeace_lettersfromhome"
+	file = "genpeace_lettersfromhome.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "genpeace_thepacific"
+	file = "genpeace_thepacific.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "hymnfortheoneslostatsea"
+	file = "hymnfortheoneslostatsea.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "landactions"
+	file = "landactions.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "leavingshore"
+	file = "leavingshore.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "loosealotofbattles"
+	file = "loosealotofbattles.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "lotsofbattles_welloiledwarmachine"
+	file = "lotsofbattles_welloiledwarmachine.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "lowonmanpower"
+	file = "lowonmanpower.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "manyarmiesmoving"
+	file = "manyarmiesmoving.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "montgomerysmarch"
+	file = "montgomerysmarch.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "offensive"
+	file = "offensive.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "seaactions"
+	file = "seaactions.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sovietsuite_part1"
+	file = "sovietsuite_part1.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sovietsuite_part2"
+	file = "sovietsuite_part2.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sovietsuite_part3"
+	file = "sovietsuite_part3.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sovietsuite_part4"
+	file = "sovietsuite_part4.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sovietvictory"
+	file = "sovietvictory.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "tanksalot"
+	file = "tanksalot.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "theironanthem_v1"
+	file = "theironanthem_v1.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "theraf"
+	file = "theraf.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "threatenedwhileatpeace"
+	file = "threatenedwhileatpeace.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "unitylow"
+	file = "unitylow.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "victorymarchverdi"
+	file = "victorymarchverdi.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "winalotofbattles"
+	file = "winalotofbattles.ogg"
+	volume = 0.65
+}

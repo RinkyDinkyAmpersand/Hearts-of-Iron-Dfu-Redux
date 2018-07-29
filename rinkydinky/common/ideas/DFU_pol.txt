@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		 POL_war_of_lib = {
+			picture = chi_army_corruption3
+
+			allowed = {
+				original_tag = "POL"
+			}
+
+			cancel = {
+				NOT = {
+					has_war = yes
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				partisan_effect = 0.5
+			}
+		}
+	}
+	country = {
+		 POL_war_ideo = {
+			picture = generic_fascism_banned
+
+
+
+			allowed = {
+				original_tag = "POL"
+			}
+
+			cancel = {
+				NOT = {
+					has_war = yes
+				}
+			}
+
+			removal_cost = -1
+
+			 	targeted_modifier = { tag = GER attack_bonus_against = 0.1 }
+				targeted_modifier = { tag = ITA attack_bonus_against = 0.1 }
+				targeted_modifier = { tag = JAP attack_bonus_against = 0.1 }
+		}
+	}
+}

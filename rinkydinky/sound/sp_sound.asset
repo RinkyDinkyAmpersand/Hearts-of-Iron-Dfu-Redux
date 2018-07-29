@@ -1,0 +1,11 @@
+#################
+#German Speeches#
+#################
+
+sound =
+{
+	name = "anthem"
+	file = "ger_sound/anthem.wav"
+
+}
+
