@@ -21,6 +21,9 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			rule = {
+				can_create_factions = yes
+			}
 
 			allowed_civil_war = {
 				NOT = {
