@@ -1052,40 +1052,6 @@ focus_tree = {
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = GER_anti_comitern_pact }
 	    available = {
-			date > 1941.4.1
-			date < 1941.9.21
-		}
-
-		x = 9
-		y = 2
-		cost = 1.43
-
-		bypass = {
-			date > 1941.9.21
-		}
-
-		completion_reward = {
-			GER = {
-				declare_war_on = {
-					target = SOV
-					type = annex_everything
-				}
-			}
-			hidden_effect = {
-				SOV = {
-					remove_ideas = SOV_molotov_ribbentrop_pact
-					add_timed_idea = { idea = shattered_retreat days = 120 }
-				}
-			}
-		}
-	}
-
-	# barbarossa
-	focus = {
-		id = GER_ussr_war_goal
-		icon = GFX_goal_generic_war_with_comintern
-		prerequisite = { focus = GER_anti_comitern_pact }
-	    available = {
 			date > 1941.5.21
 			date < 1941.9.21
 		}
@@ -1113,6 +1079,59 @@ focus_tree = {
 					remove_ideas = SOV_molotov_ribbentrop_pact
 					add_timed_idea = { idea = shattered_retreat days = 80 }
 				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_fall_blau
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = GER_ussr_war_goal }
+	    available = {
+			date > 1942.3.10
+			date < 1942.10.10
+			NOT = { has_idea = GER_blitzkrieg }
+			GER = { controls_state = 206 }
+			SOV = { controls_state = 219 }
+			SOV = { controls_state = 217 }
+			SOV = { controls_state = 238 }
+			SOV = { controls_state = 234 }
+		}
+
+		x = 10
+		y = 3
+		cost = 0.2
+
+		completion_reward = {
+			add_timed_idea = { idea = fall_blau days = 80 }
+			custom_effect_tooltip = GER_fall_blau_tt
+			hidden_effect = {
+			
+				if = {
+					limit = { NOT = { GER = { has_tech = basic_medium_td } } }
+					GER = { set_technology = { basic_medium_td = 1 } }
+				}
+				if = {
+					limit = { NOT = { GER = { has_tech = mechanised_infantry } } }
+					GER = { set_technology = { mechanised_infantry = 1 } }
+				}
+
+				SOV = {
+					add_resource = {
+						type = oil
+						amount = 60
+						state = 232
+					}
+				}
+				SOV = {
+					add_resource = {
+						type = oil
+						amount = 40
+						state = 229
+					}
+			    }
+				load_oob = GER_fallblau
+				add_manpower = -50000
 			}
 		}
 	}

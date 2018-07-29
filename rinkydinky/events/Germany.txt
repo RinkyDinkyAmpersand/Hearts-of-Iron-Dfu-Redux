@@ -3389,6 +3389,7 @@ country_event = {
 			ideology = nazism
 }
 		news_event = news.289
+		add_ideas = fourth_Reich
 	}
 
 # Rudolf Hess killed No Hindenburg
@@ -3422,6 +3423,8 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = nazism
 }
+news_event = news.289
+		add_ideas = fourth_Reich
 		
 	}
 
@@ -3458,6 +3461,8 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = nazism
 }
+news_event = news.289
+		add_ideas = fourth_Reich
 		
 	}
 
@@ -3492,6 +3497,8 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = nazism
 }
+news_event = news.289
+		add_ideas = fourth_Reich
 		
 	}
 
