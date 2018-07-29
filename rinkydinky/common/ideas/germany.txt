@@ -1,6 +1,26 @@
 ideas = {
 
 	country = {
+		fourth_reich = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.25
+				fascism_drift = 0.10
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
 		sour_loser = {
 
 			allowed = {
