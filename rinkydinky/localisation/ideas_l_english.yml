@@ -187,6 +187,8 @@ ATTACHE_LIST:0 "We received military attachés from $LIST$. And they give us the
  okmo:0 "OKMO"
  stalingrad_tractor_factory:0 "Stalingrad Tractor Factory"
  leningrad_polytechnical_institute:0 "Leningrad Industrial Institute"
+ leningrad_treaty:0 "Treaty of Leningrad"
+ leningrad_treaty_desc:0 "We have lost the war, our people are hopeless and the stability of our country is in tatters. The reparations to Germany have put a toll on our inflation, we must take this time to stabilize our government and rebuild our army for the coming struggles ahead."
  tula_arms_plant:0 "Tula Arms Plant"
  gaz:0 "GAZ"
  nevskoye_design_bureau:0 "Nevskoye Design Bureau"
