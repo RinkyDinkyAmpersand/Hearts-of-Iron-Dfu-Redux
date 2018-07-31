@@ -1,6 +1,28 @@
 ideas = {
 	
 	country = {
+		soviet_defeat = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = fourth_international
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_core_attack_factor = 0.25
+				winter_attrition_factor = -0.75
+				mobilization_speed = 0.5
+				production_speed_industrial_complex_factor = 0.75
+			}
+			}
 		shattered_retreat = {
 
 			allowed = {

@@ -2237,6 +2237,7 @@ country_event = {
 			remove_ideas = SOV_order_227 
 			remove_ideas = wartime_propaganda
 			add_timed_idea = { idea = leningrad_treaty days = 300 }
+			add_ideas = soviet_defeat
 			white_peace = GER
 			white_peace = SLO
 			white_peace = CRO

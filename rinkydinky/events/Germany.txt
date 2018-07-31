@@ -4,6 +4,41 @@
 
 add_namespace = germany
 
+#Supplies
+country_event = {
+	id = germany.1100
+	title = germany.1100.t
+	desc = germany.1100.d
+	picture = GFX_report_event_hungarian_soldiers
+
+is_triggered_only = no
+
+	trigger = {
+	tag = GER
+	NOT = { SOV = { controls_state = 200 } }
+	NOT = { SOV = { controls_state = 196 } }
+	NOT = { SOV = { controls_state = 226 } }
+	NOT = { SOV = { controls_state = 259 } }
+	NOT = { SOV = { controls_state = 203 } }
+	NOT = { SOV = { controls_state = 202 } }
+	NOT = { SOV = { controls_state = 193 } }
+	NOT = { SOV = { controls_state = 241 } }
+	NOT = { SOV = { controls_state = 207 } }
+	NOT = { SOV = { controls_state = 12 } }
+	}
+	
+	mean_time_to_happen = { days = 0 }
+	
+	fire_only_once = yes
+
+
+	option = { 
+		name = germany.1100.a
+		add_timed_idea = { idea = bad_supplies days = 120 }
+		}
+}
+
+
 # Austrian Anschluss Completed
 country_event = {
 	id = germany.4
@@ -4485,3 +4520,5 @@ picture = GFX_report_event_polish_tanks_02
 	}
 
 }
+
+

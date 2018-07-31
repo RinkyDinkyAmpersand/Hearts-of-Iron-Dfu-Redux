@@ -1,6 +1,30 @@
 ideas = {
 
 	country = {
+		bad_supplies = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = FRA_factory_strikes
+
+			removal_cost = -1
+
+			equipment_bonus = {
+			mechanized = { reliability = -0.40 }
+			motorized = { reliability = -0.4 }
+			infantry = { reliability = -0.25 }
+			artillery = { reliability = -0.25 }
+			armor= { reliability = -0.4 }
+			}
+			
+		}
+		
 		fourth_reich = {
 
 			allowed = {
@@ -1824,149 +1848,6 @@ ideas = {
 
 			}
 		}
-		country_event = {
-	id = pfu.48  
-	title = pfu.47.t
-	desc = pfu.47.d
-	picture = GFX_report_event_usa_election_generic
-	
-	trigger = {
-		tag = SOV
-		NOT = { SOV = { controls_state = 219 } }
-		NOT = { SOV = { controls_state = 195 } }
-		has_war_with = GER
-		surrender_progress > 0.90
-		not = { has_global_flag = pfu.47 }
-	}
-
-	mean_time_to_happen = { days = 0 }
-
-	fire_only_once = yes
-
-
-	option = {
-		name = pfu.47.a
-
-		
-		set_cosmetic_tag = SOV_SIBERIA
-		
-		kill_country_leader = yes
-		
-		SOV = {			
-			remove_ideas = great_patriotic_war
-			remove_ideas = SOV_order_227 
-			remove_ideas = wartime_propaganda
-			add_timed_idea = { idea = treaty_Leningrad1 days = 300 }
-			white_peace = GER
-			white_peace = SLO
-			white_peace = CRO
-			white_peace = BUL
-			white_peace = ROM
-			white_peace = HUN
-			white_peace = FIN
-			white_peace = ITA
-			white_peace = SPR
-		    white_peace = SWE
-			white_peace = SIA
-            white_peace = JAP
-            white_peace = MAN
-            white_peace = MEN
-            white_peace = EFR
-            white_peace = AFG			
-		}
-		
-		FIN = {
-		set_cosmetic_tag = FIN_SIBERIA
-		transfer_state = 146
-	    transfer_state = 147
-		transfer_state = 770
-		transfer_state = 771
-		transfer_state = 213
-		transfer_state = 215
-		transfer_state = 216
-			}
-			
-		ROM = {
-		transfer_state = 192
-		transfer_state = 198
-		transfer_state = 78
-		transfer_state = 80
-		}
-		
-		PER = {
-		transfer_state = 420
-		transfer_state = 419
-		transfer_state = 266
-		transfer_state = 418
-		transfer_state = 416
-		}
-		
-		GER = {
-		remove_ideas = GER_total_war
-		set_cosmetic_tag = GER_SIBERIA
-		#east poland
-		transfer_state = 89
-		transfer_state = 91
-		transfer_state = 93
-		transfer_state = 94
-		transfer_state = 95
-		transfer_state = 96
-		transfer_state = 97
-		#baltics
-		transfer_state = 188
-		transfer_state = 11
-		transfer_state = 189
-		transfer_state = 190
-		transfer_state = 12
-		transfer_state = 13
-		transfer_state = 191
-		#north
-		transfer_state = 195
-		transfer_state = 208
-		transfer_state = 209
-		transfer_state = 210
-		transfer_state = 246
-		transfer_state = 94
-		transfer_state = 263
-		transfer_state = 244
-		transfer_state = 264
-		transfer_state = 247
-		transfer_state = 351
-		transfer_state = 214
-		#belarus
-		transfer_state = 207
-		transfer_state = 206
-		transfer_state = 204
-		transfer_state = 194
-		transfer_state = 241
-		transfer_state = 242
-		transfer_state = 243
-		transfer_state = 224
-		transfer_state = 205
-		
-		transfer_state = 219
-
-
-			
-		
-		}
-			
-			GER = {
-				country_event = { id = pfu.49 hours = 1 }
-				country_event = { id = pfu.50 hours = 8 }
-			}
-			SOV = {
-				country_event = { id = pfu.51 hours = 35 }
-			}
-
-		
-		
-	
-	set_global_flag = pfu.47
-	
-	}
-	
- }
 
 
 
