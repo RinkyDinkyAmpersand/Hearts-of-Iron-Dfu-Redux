@@ -30,11 +30,57 @@ is_triggered_only = no
 	mean_time_to_happen = { days = 0 }
 	
 	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			}
+			GER = {country_event = { id = germany.1101 days = 80 }}
+		}
+	
+	option = { 
+		name = germany.1100.a
+		add_timed_idea = { idea = bad_supplies days = 80 }
+		}
+}
+country_event = {
+	id = germany.1101
+	title = germany.1101.t
+	desc = germany.1101.d
+	picture = GFX_report_event_hungarian_soldiers
+
+is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			}
+			GER = {country_event = { id = germany.1102 days = 80 }}
+		}
+		option = { 
+		name = germany.1101.a
+		add_timed_idea = { idea = bad_supplies2 days = 80 }
+		}
+}
+
+country_event = {
+	id = germany.1102
+	title = germany.1102.t
+	desc = germany.1102.d
+	picture = GFX_report_event_hungarian_soldiers
+
+is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	
+	fire_only_once = yes
 
 
 	option = { 
-		name = germany.1100.a
-		add_timed_idea = { idea = bad_supplies days = 120 }
+		name = germany.1102.a
+		add_ideas = bad_supplies3
 		}
 }
 

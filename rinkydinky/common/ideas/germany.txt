@@ -15,12 +15,46 @@ ideas = {
 
 			removal_cost = -1
 
-			equipment_bonus = {
-			mechanized = { reliability = -0.40 }
-			motorized = { reliability = -0.4 }
-			infantry = { reliability = -0.25 }
-			artillery = { reliability = -0.25 }
-			armor= { reliability = -0.4 }
+			modifier = {
+				supply_consumption_factor = 0.20 
+			}
+			
+		}
+		bad_supplies2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = FRA_factory_strikes
+
+			removal_cost = -1
+
+			modifier = {
+				supply_consumption_factor = 0.10 
+			}
+			
+		}
+		bad_supplies3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = FRA_factory_strikes
+
+			removal_cost = -1
+
+			modifier = {
+				supply_consumption_factor = 0.05 
 			}
 			
 		}
