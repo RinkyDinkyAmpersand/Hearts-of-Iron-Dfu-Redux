@@ -1,0 +1,22 @@
+
+state={
+	id=788
+	name="STATE_788"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		4073 12049 13219 13220 
+	}
+	manpower=58000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -9,12 +9,19 @@ state={
 	
 	resources={
 		steel=15 # was: 24
+		tungsten 77
 	}
 
 	history={
 		owner = SPR
 		victory_points = {
-			3816 1 
+			3816 3
+		}
+		victory_points = {
+			9840 1
+		}
+		victory_points = {
+			7213 1
 		}
 		buildings = {
 			infrastructure = 6

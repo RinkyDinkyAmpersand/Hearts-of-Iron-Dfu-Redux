@@ -1,13 +1,20 @@
 #################
-#German Speeches# 
+#DFU SOUNDS     # 
 #################
 
 soundeffect = {
-	name = "anthem"
+	name = "germanwar"
 	sounds = {
 		sound = 
-			anthem
+			germanwar
 	}
-	volume = 1.3
+	volume = 1.0
 }
-
+soundeffect = {
+	name = "sovietwar"
+	sounds = {
+		sound = 
+			sovietwar
+	}
+	volume = 0.6
+}

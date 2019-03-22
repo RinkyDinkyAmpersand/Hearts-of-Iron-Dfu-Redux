@@ -1,0 +1,15 @@
+units = {
+	##### PFU LSSAH #####
+	division= {
+		name = "Afrika Korps"
+		location = 1149
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "Afrika Korps"
+		location = 1149
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.5
+	}
+}

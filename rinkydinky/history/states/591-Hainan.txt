@@ -4,15 +4,10 @@ state={
 	manpower = 4350000
 	state_category = town
 
-		resources={
-		rubber=30.000
-	}
-	
 	history={
 		owner = GXC
 		add_core_of = GXC
 		add_core_of = CHI
-		add_core_of = JPO
 		add_core_of = PRC
 		
 		victory_points = {
@@ -29,8 +24,13 @@ state={
 		}
 
 		1938.10.25 = {
-			remove_core_of = GXC
-			owner = CHI
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				remove_core_of = GXC
+				CHI = { transfer_state = PREV }
+			}
 			controller = JAP
 		}
 	}

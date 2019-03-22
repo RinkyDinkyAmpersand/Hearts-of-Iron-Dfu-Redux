@@ -107,10 +107,78 @@ GER_case_anton_category = {
 }
 
 political_actions = {
+	afrikakorps = {
+	icon = generic_civil_support
 
+		available = {
+			FRA = { has_capitulated = yes }
+			ITL = { controls_state = 448 }
+			OR = {
+			has_equipment = {
+			infantry_equipment_1 > 1300
+			}
+			has_equipment = {
+			infantry_equipment_2 > 1300
+			}
+			}
+			has_equipment = {
+			medium_tank_equipment_2 > 1400
+			}
+			has_equipment = {
+			support_equipment > 160
+			}
+			has_equipment = {
+			motorized_equipment > 640
+			}
+			
+		}
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			tag = GER
+		}
+		complete_effect = {
+			GER = {
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1300
+			producer = GER
+			}
+			}
+			GER = {
+			add_equipment_to_stockpile = {
+			type = medium_tank_equipment
+			amount = -1400
+			producer = GER
+			}
+			}
+			GER = {
+			add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -160
+			producer = GER
+			}
+			}
+			GER = {
+			add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = -640
+			producer = GER
+			}
+			}
+		}
+		days_remove = 30
+          remove_effect = {
+               load_oob = "GER_afrikakorps"
+          }
+		  }
 	annex_bulgaria = {
 		ai_will_do = { factor = 0 }
-		cost = 20
+		cost = 30
 
 		visible = {
 			tag = GER
@@ -121,7 +189,39 @@ political_actions = {
 		complete_effect = {
 			GER = {
 				annex_country = { target = BUL transfer_troops = yes }
-				add_ideas = annex_bulgaria_idea
+			}
+		}
+	}
+	annex_slovakia = {
+		ai_will_do = { factor = 0 }
+		cost = 30
+
+		visible = {
+			tag = GER
+			SLO = { is_ai = yes }
+			HUN = { is_ai = yes }
+			country_exists = SLO
+		}
+
+		complete_effect = {
+			GER = {
+				annex_country = { target = SLO transfer_troops = yes }
+			}
+		}
+	}
+	annex_slovakia_Hun = {
+		ai_will_do = { factor = 0 }
+		cost = 50
+
+		visible = {
+			tag = GER
+			SLO = { is_ai = yes }
+			country_exists = SLO
+		}
+
+		complete_effect = {
+			HUN = {
+				annex_country = { target = SLO transfer_troops = yes }
 			}
 		}
 	}
@@ -138,57 +238,28 @@ political_actions = {
 
 		complete_effect = {
 			GER = {
-				annex_country = { target = BUL transfer_troops = yes }
-				add_ideas = annex_hungary_idea
+				annex_country = { target = HUN transfer_troops = yes }
+			}
+		}
+	}
+	annex_romania = {
+		ai_will_do = { factor = 0 }
+		cost = 50
+
+		visible = {
+			tag = GER
+			ROM = { is_ai = yes }
+			country_exists = ROM
+		}
+
+		complete_effect = {
+			GER = {
+				annex_country = { target = ROM transfer_troops = yes }
 			}
 		}
 	}
 
-	puppet_vichy_france = {
-		ai_will_do = { factor = 0 }
-		cost = 25
-
-		visible = {
-			tag = GER
-			country_exists = EFR
-			date > 1941.1.1
-		}
-
-		complete_effect = {
-			GER = { puppet = EFR }
-		}
-	}
-
-	capitulate_to_allies = {
-
-		allowed = {
-			original_tag = GER
-		}
-
-		available = {
-			GER = { has_war_with = SOV }
-			SOV = { surrender_progress < 0.80 }
-			date > 1941.10.1
-		}
-
-		cost = 15
-
-		fire_only_once = no
-
-		ai_will_do = {
-			factor = 0
-		}
-		days_remove = 30
-
-		visible = {
-			GER = { has_war_with = SOV }
-			SOV = { surrender_progress < 0.80 }
-		}
-
-		complete_effect = {
-			GER = { country_event = { id = JFU_germany.18 days = 1 } }
-		}
-	}
+	
 
 	# Reinstate Wilhelm IV into the line of succession
 	reinstate_wilhelm_iv_succession_rights = {

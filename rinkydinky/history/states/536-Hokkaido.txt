@@ -11,11 +11,6 @@ state={
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
-		
-				10444 = {
-				naval_base = 1
-
-			}
 		}
 		victory_points = {
 			10444 15 

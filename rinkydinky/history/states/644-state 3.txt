@@ -4,6 +4,12 @@ state={
 
 	history={
 		owner = SOV
+		buildings = {
+			infrastructure = 1
+			13204 ={
+				naval_base = 1
+			}
+		}
 		add_core_of = SOV
 
 	}
@@ -14,5 +20,4 @@ state={
 	manpower=68364
 	buildings_max_level_factor=1
 	state_category="wasteland"
-	impassable = yes
 }

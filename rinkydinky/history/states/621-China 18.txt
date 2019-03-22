@@ -1,4 +1,3 @@
-
 state={
 	id=621
 	name="STATE_621"
@@ -8,20 +7,18 @@ state={
 		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = JPO
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
 		1939.1.1 = {
-			remove_core_of = SHX
 			remove_building = {
 				type = industrial_complex
 				level = 1
 
 			}
-			owner = MEN
+			owner = PRC
 			controller = MEN
 
 		}
@@ -29,9 +26,10 @@ state={
 	}
 
 	provinces={
-		7158 7631 10424 12403 
+		2087 4525 7048 7158 7631 10424 10629 12331 12403 12609 12880 
 	}
-	manpower=2083700
+	manpower=1583700
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category= rural
+	impassable = yes
 }

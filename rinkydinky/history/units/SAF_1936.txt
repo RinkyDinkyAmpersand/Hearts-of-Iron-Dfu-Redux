@@ -114,7 +114,6 @@ units = {
 		location = 4696 # East London
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
 
 	}
 	
@@ -123,7 +122,6 @@ units = {
 		location = 1468 # Durbin
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
 
 	}
 

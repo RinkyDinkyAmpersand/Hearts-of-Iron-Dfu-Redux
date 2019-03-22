@@ -4,6 +4,195 @@ ideas = {
 
 		SPA_recovering_from_civil_war = {
 
+			picture = great_depression
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.6
+				justify_war_goal_time = 25.00
+				join_faction_tension = 2
+				stability_factor = -0.5
+				economy_cost_factor = 1.25  				
+			}
+		}
+			SPA_communist_guarrillas = {
+
+			picture = SPR_Communist
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = -0.01
+				war_support_factor = -0.5
+				conscription = -0.05
+			}
+		}
+			SPA_fascist_guarrillas = {
+
+			picture = SPR_Fascist
+
+			allowed = {
+				original_tag = SPR
+				has_government = communism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = -0.04
+				war_support_factor = -0.5
+				conscription = -0.05
+			}
+		}
+			SPA_king = {
+
+			picture = SPR_figurehead_king_jamie
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = 0.01
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+			}
+		}
+			SPA_franco = {
+
+			picture = HUN_treaty_of_triannon
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				army_morale_factor = 0.05
+				industrial_capacity_factory = 0.1
+			}
+		}
+			SPA_roads = {
+
+			picture = generic_build_infrastructure
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_infrastructure_factor = 0.25
+			}
+		}
+					SPA_fortification = {
+
+			picture = generic_fortify_the_borders
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_coastal_bunker_factor  = 0.5
+			}
+		}
+				SPA_recovering_from_civil_war2 = {
+
+			picture = great_depression
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.4
+				justify_war_goal_time = 25.00
+				join_faction_tension = 2
+				stability_factor = -0.3
+				economy_cost_factor = 1.25  				
+			}
+		}
+				SPA_recovering_from_civil_war3 = {
+
+			picture = great_depression
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.3
+				justify_war_goal_time = 25.00
+				join_faction_tension = 2
+				stability_factor = -0.1
+				economy_cost_factor = 1.25  				
+			}
+		}
+		SPA_recovering_from_civil_war4 = {
+
+			picture = great_depression
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.2 				
+			}
+		}
+
 			picture = FRA_matignon_agreements
 
 			allowed = {
@@ -16,10 +205,48 @@ ideas = {
 			}
 
 			modifier = {
-				consumer_goods_factor = 0.2
-				justify_war_goal_time = 5.00
+				consumer_goods_factor = 0.6
+				justify_war_goal_time = 25.00
 				join_faction_tension = 2
-				stability_factor = -0.4 
+				stability_factor = -0.5
+				economy_cost_factor = 1.25  				
+			}
+		}
+		SPR_tank = {
+
+			picture = generic_morale_bonus	
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+	 	army_armor_attack_factor = 0.1 
+		army_armor_defence_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05 
+			}
+		}
+		SPA_civil_war = {
+
+			picture = SPR_civil_war
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+		army_core_defence_factor = 0.1 
+		army_core_attack_factor = 0.1 
 			}
 		}
 
@@ -379,22 +606,4 @@ ideas = {
 		}
 	}
 
-	naval_manufacturer = {
-		SECN = {
-			picture = GFX_SPR_idea_SECN
-
-			allowed = {
-				original_TAG = SPR
-			}
-
-			research_bonus = {
-				naval_equipment = 0.10
-			}
-
-			traits = { raiding_fleet_naval_manufacturer }
-
-			modifier = {
-			}
-		}
-	}
 }

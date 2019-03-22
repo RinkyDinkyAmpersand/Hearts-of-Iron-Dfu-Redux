@@ -1,5 +1,344 @@
-﻿###########################
-# Baltic Events
-###########################
+﻿add_namespace = jfu
 
-add_namespace = JFU
+country_event = {
+	id = jfu.1
+	title = jfu.1.t
+	desc = jfu.1.d
+	picture = GFX_report_event_philippines
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		has_idea = fall_of_philippines
+		NOT = { has_global_flag = USA_Philippines }
+	}
+
+	immediate = {
+		set_global_flag = USA_Philippines
+	}
+
+	option = {
+		name = jfu.1.a
+	}
+	mean_time_to_happen = { days = 1 }
+}
+country_event = {
+	id = jfu.2
+	title = jfu.2.t
+	desc = jfu.2.d
+	picture = GFX_report_event_pacific
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		has_idea = loss_of_the_pacific
+		NOT = { has_global_flag = USA_pacific }
+	}
+
+	immediate = {
+		set_global_flag = USA_pacific
+	}
+
+	option = {
+		name = jfu.2.a
+	}
+	mean_time_to_happen = { days = 1 }
+}
+country_event = {
+	id = jfu.3
+	title = jfu.3.t
+	desc = jfu.3.d
+	picture = GFX_report_event_indonesia
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		has_idea = fall_of_indonesia
+		NOT = { has_global_flag = ENG_indonesia }
+	}
+
+	immediate = {
+		set_global_flag = ENG_indonesia
+	}
+
+	option = {
+		name = jfu.3.a
+	}
+	mean_time_to_happen = { days = 1 }
+}
+country_event = {
+	id = jfu.4
+	title = jfu.4.t
+	desc = jfu.4.d
+	picture = GFX_report_event_pacific2
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		has_idea = loss_of_the_pacific
+		NOT = { has_global_flag = USA_pacific2 }
+		has_full_control_of_state = 629
+		has_full_control_of_state = 631
+		has_full_control_of_state = 632
+	}
+
+	immediate = {
+		set_global_flag = USA_pacific2
+	}
+
+	option = {
+		name = jfu.4.a
+		remove_ideas = loss_of_the_pacific
+	}
+	mean_time_to_happen = { days = 1 }
+}
+country_event = {
+	id = jfu.5
+	title = jfu.5.t
+	desc = jfu.5.d
+	picture = GFX_report_event_HHK_failure
+	fire_only_once = yes
+
+	trigger = {
+		tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.8
+		NOT = { has_global_flag = CHI_surrender }
+	}
+
+	immediate = {
+	hidden_effect = {
+		JAP = {add_ideas = Chinese_ceasefireJAP}
+		JPO = {add_ideas = Chinese_puppet}
+		add_ideas = Chinese_ceasefireCHI
+		add_ideas = Crippeled_army
+		add_ideas = Loss_of_mainland
+		add_ideas = refugees
+		add_ideas = kuomintang_end
+		remove_ideas = CHI_war_of_anti_imperialism
+		remove_ideas = lure_them_in
+		remove_ideas = china_strengthen
+		remove_ideas = rear
+		remove_ideas = reformed_army
+		remove_ideas = Chinese_defence
+		set_global_flag = CHI_surrender
+		set_global_flag = CHI_fallen
+		remove_ideas = warlord_cliques
+		remove_ideas = warlord_cliques2
+		remove_ideas = warlord_cliques3
+		TIB = { transfer_state = 604 }
+		JAP = { transfer_state = 609 }
+		MEN = { transfer_state = 621 }
+		MEN = { transfer_state = 746 }
+		JAP = { transfer_state = 615 }
+		JAP = { transfer_state = 622 }
+		JAP = { transfer_state = 614 }
+		JAP = { transfer_state = 597 }
+		JAP = { transfer_state = 743 }
+		JAP = { transfer_state = 598 }
+		JAP = { transfer_state = 613 }
+		JAP = { transfer_state = 596 }
+		JAP = { transfer_state = 595 }
+		JAP = { transfer_state = 593 }
+		JAP = { transfer_state = 592 }
+		JAP = { transfer_state = 795 }
+		JAP = { transfer_state = 591 }
+		JAP = { transfer_state = 594 }
+		JAP = { transfer_state = 599 }
+		JAP = { transfer_state = 608 }
+		JAP = { transfer_state = 801 }
+		JAP = { transfer_state = 600 }
+		JAP = { transfer_state = 749 }
+		JAP = { transfer_state = 803 }
+		JAP = { transfer_state = 605 }
+		JAP = { transfer_state = 804 }
+		JAP = { transfer_state = 744 }
+		JAP = { transfer_state = 607 }
+		JAP = { transfer_state = 606 }
+		JAP = { transfer_state = 620 }
+		JAP = { transfer_state = 802 }
+		JAP = { transfer_state = 602 }
+		JAP = { transfer_state = 805 }
+		JAP = { transfer_state = 748 }
+		JAP = { transfer_state = 750 }
+		JAP = { transfer_state = 603 }
+		JAP = { transfer_state = 325 }
+		JAP = { transfer_state = 747 }
+		CHI = {annex_country = { target = XSM transfer_troops = yes }}
+		CHI = {annex_country = { target = SIK transfer_troops = yes }}
+		CHI = {annex_country = { target = SIC transfer_troops = yes }}
+				JPO = {
+				add_state_core = 605
+				add_state_core = 804
+				add_state_core = 744
+				add_state_core = 607
+				add_state_core = 606
+				add_state_core = 620
+				add_state_core = 802
+				add_state_core = 602
+				add_state_core = 805
+				add_state_core = 748
+				add_state_core = 750
+				add_state_core = 603
+				}
+JAP = {annex_country = { target = JPO transfer_troops = no }}
+CHI = {white_peace = JAP}
+CHI = {white_peace = MAN}
+CHI = {white_peace = MEN}
+CHI = {white_peace = SIA}
+CHI = {add_ideas = civilian_economy}
+create_country_leader = {
+			name = "Chen Jitang"
+			desc = ""
+			picture = Portrait_China_Chen_Jitang.tga
+			expire = "1965.1.1"
+			ideology = despotism
+}
+
+	CHI = {white_peace = JPO}
+CHI = {white_peace = JPH}
+CHI = {white_peace = JIN}
+JAP = {add_ideas = JAP_rebels}
+add_named_threat = { threat = 24 name = JAP_chinese }
+	}
+	}
+
+	option = {
+		name = jfu.5.a
+		}
+	mean_time_to_happen = { days = 1 }
+}
+country_event = {
+	id = jfu.6
+	title = jfu.6.t
+	desc = jfu.6.d
+	picture = GFX_report_event_pacific2
+	fire_only_once = yes
+
+	trigger = {
+		tag = YUG
+			has_war_with = ITA
+	}
+
+	immediate = {
+		ENG = {
+				add_to_faction = ROOT
+			}
+	}
+
+	option = {
+		name = jfu.6.a
+	}
+	mean_time_to_happen = { days = 1 }
+}
+country_event = {
+	id = jfu.7
+	title = jfu.7.t
+	desc = jfu.7.d
+	picture = GFX_report_event_battle_of_shanghai
+	fire_only_once = yes
+
+	trigger = {
+		tag = CHI
+		has_global_flag = CHI_fallen
+	}
+
+	immediate = {
+	JAP ={
+	declare_war_on = {
+					target = CHI
+					type = take_state
+					generator = { 85 }
+				}
+				}
+	JPO ={
+	declare_war_on = {
+					target = CHI
+					type = take_state
+					generator = { 85 }
+				}
+				}
+	}
+
+	option = {
+		name = jfu.7.a
+	}
+	mean_time_to_happen = { days = 100 }
+}
+country_event = {
+	id = jfu.8
+	title = jfu.8.t
+	desc = jfu.8.d
+	picture = GFX_report_event_china_flag
+	fire_only_once = yes
+
+	trigger = {
+		tag = CHI
+		has_global_flag = CHI_fallen
+		has_full_control_of_state = 605
+	}
+
+	immediate = {
+	add_ideas = CHI_war_of_anti_imperialism
+	remove_ideas = china_war_of_independence
+	remove_ideas = Loss_of_mainland
+	}
+
+	option = {
+		name = jfu.8.a
+	}
+	mean_time_to_happen = { days = 10 }
+}
+country_event = {
+	id = jfu.9
+	title = jfu.9.t
+	desc = jfu.9.d
+	picture = GFX_report_event_china_flag
+	fire_only_once = yes
+
+	trigger = {
+		tag = CHI
+		surrender_progress > 0.55
+	}	
+
+	immediate = {
+	add_ideas = Chinese_defence
+	}
+
+	option = {
+		name = jfu.8.a
+	}
+	mean_time_to_happen = { days = 1 }
+}
+country_event = {
+	id = jfu.10
+	title = jfu.10.t
+	desc = jfu.10.d
+	picture = GFX_report_event_indonesia
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		has_global_flag = CHI_fallen
+	}	
+
+	immediate = {
+	JAP = {
+			release = JPO
+			if = {
+			limit = { has_dlc = "Together for Victory" }
+			set_autonomy = {
+            target = JPO
+            autonomous_state = autonomy_puppet
+            freedom_level = 0.5
+        }
+    }
+}
+	}
+
+	option = {
+		name = jfu.10.a
+	}
+	mean_time_to_happen = { days = 1 }
+}
+

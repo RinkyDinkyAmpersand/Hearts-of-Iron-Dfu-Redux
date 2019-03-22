@@ -1356,7 +1356,6 @@ focus_tree = {
 
 		available = {
 			country_exists = GER
-			is_ai = no
 		}
 
 		completion_reward = {
@@ -1427,9 +1426,6 @@ focus_tree = {
 
 		available = {
 			country_exists = GER
-			EFR = {
-				is_puppet_of = GER
-			}
 		}
 
 		completion_reward = {
@@ -1466,7 +1462,7 @@ focus_tree = {
 
 		available_if_capitulated = no
 		available = {
-			is_puppet_of = GER
+
 		}
 
 		ai_will_do = {
@@ -1521,7 +1517,7 @@ focus_tree = {
 
 		available_if_capitulated = no
 		available = {
-			is_puppet_of = GER
+
 		}
 
 		ai_will_do = {

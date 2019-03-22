@@ -1,0 +1,58 @@
+on_actions = {
+
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+						has_country_flag = color_changed
+					} 
+				clr_country_flag = color_changed
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+
+#used when puppeting in a peace conference
+	#ROOT = nation being puppeted, FROM = overlord
+	on_puppet = {
+		effect = {
+			ROOT = {
+				if = {
+					limit = { 
+						AND = { 
+							TAG = SCR
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SCR_NCR
+					set_country_flag = color_changed
+				}
+
+
+
+
+			}	
+		}
+	}
+
+	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
+	#ROOT = nation being released, FROM = overlord
+	on_release_as_puppet = {
+		effect = {
+			ROOT = {
+				if = {
+					limit = { 
+						AND = { 
+							TAG = SCR
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SCR_NCR
+					set_country_flag = color_changed
+				}
+			}	
+		}
+	}
+
+
+}

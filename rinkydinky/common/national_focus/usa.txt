@@ -130,7 +130,7 @@ focus_tree = {
 			army_experience = 5
 			add_tech_bonus = {
 				name = special_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = paratroopers
 				technology = paratroopers2
@@ -239,7 +239,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_committee_on_technocracy
 				uses = 2
-				bonus = 0.5
+				bonus = 1
 				category = electronics
 				category = support_tech
 			}
@@ -263,7 +263,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_support_rock_island
 				uses = 2
-				bonus = 0.5
+				bonus = 1
 				category = artillery
 				category = support_tech
 			}
@@ -1109,13 +1109,13 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_manhattan_project
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = nuclear
 			}
 			add_tech_bonus = {
 				name = USA_manhattan_project
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = nuclear
 			}
@@ -1216,7 +1216,7 @@ focus_tree = {
 		completion_reward = {
 			air_experience = 25
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = air_doctrine
 			} # REVISIT May use modifier?
@@ -1282,7 +1282,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_TAC
 				uses = 1
-				bonus = 0.5
+				bonus = 1
 				technology = tactical_bomber2
 			}
 		}
@@ -1306,7 +1306,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_CAS
 				uses = 1
-				bonus = 0.5
+				bonus = 1
 				technology = CAS2
 			}
 		}
@@ -1340,7 +1340,7 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = USA_combined_bomber_offensive
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = strategic_bomber2
 			}
@@ -1365,7 +1365,66 @@ focus_tree = {
 			add_ideas = bureau_of_ships_focus
 		}
 	}
+	focus = {
+		id = USA_pacific
+		icon = GFX_goal_pacific
+		prerequisite = { focus = USA_bureau_of_ships }
+		x = 21
+		y = 3
+		cost = 5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		
+		available = {
+			date > 1943.1.1
+			has_war_with = GER
+			controls_state = 629
+			controls_state = 631
+			controls_state = 632
+			any_other_country = {
+					is_in_faction_with = USA
+					controls_state = 524
+				}
+			controls_state = 526
+			controls_state = 645
+			controls_state = 648
+			controls_state = 647
+			controls_state = 630
+			ENG = {controls_state = 336}
+			any_other_country = {
+					is_in_faction_with = USA
+					controls_state = 439
+				}
+			any_other_country = {
+					is_in_faction_with = USA
+					controls_state = 284
+				}
+			any_other_country = {
+					is_in_faction_with = USA
+					controls_state = 285
+				}
+			any_other_country = {
+					is_in_faction_with = USA
+					controls_state = 672
+				}
+			any_other_country = {
+					is_in_faction_with = USA
+					controls_state = 327
+				}
+		}
 
+		available_if_capitulated = no
+
+		completion_reward = {
+		custom_effect_tooltip = USA_pacific_tt
+		hidden_effect = {
+		USA = {add_timed_idea = { idea = pacific_secured days = 100}}
+		ENG = {add_timed_idea = { idea = pacific_secured days = 100}}
+		CAN = {add_timed_idea = { idea = pacific_secured days = 100}}
+		}
+		}
+	}
 	focus = {
 		id = USA_battleship_primacy
 		icon = GFX_goal_generic_navy_battleship
@@ -1382,7 +1441,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.35
+				bonus = 1
 				uses = 2
 				category = bb_tech
 			}
@@ -1404,7 +1463,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				category = base_strike_main
 			}
 		}
@@ -1426,9 +1485,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 1
-				technology = improved_carrier
+				technology = improved_ship_hull_carrier
 			}
 		}
 	}
@@ -1449,7 +1508,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_bureau_of_aeronautics
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = naval_bomber2
 			}
@@ -1490,7 +1549,7 @@ focus_tree = {
 		completion_reward = {
 			navy_experience = 25
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = convoy_defense_tree
 			}
@@ -1514,13 +1573,13 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_fund_the_navy
 				uses = 3
-				bonus = 0.5
+				bonus = 1
 				category = naval_doctrine
 			}
 			add_tech_bonus = {
 				name = USA_fund_the_navy
 				uses = 1
-				bonus = 0.5
+				bonus = 1
 				category = dd_tech
 			}
 		}
@@ -1541,7 +1600,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = marines2
 				technology = marines3
@@ -1564,7 +1623,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = tp_tech
 			}
@@ -2181,8 +2240,8 @@ focus_tree = {
 	focus = {
 		id = USA_vichy_ultimatum
 		icon = GFX_goal_generic_position_armies
-		x = 26
-		y = 0
+		x = 27
+		y = 1
 		cost = 4.3
 
 		available = {
@@ -2204,10 +2263,70 @@ focus_tree = {
 	}
 
 	focus = {
+		id = USA_operation_torchSPA
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = USA_vichy_ultimatum }
+		mutually_exclusive = { focus = USA_operation_torch }
+		x = 26
+		y = 2
+		cost = 4.3
+		
+		available = {
+			SPR = {is_in_faction_with = GER}
+		}
+		
+		completion_reward = {
+			declare_war_on = {
+				target = EFR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SPR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = D01
+				type = annex_everything
+			}
+			hidden_effect = {
+				if = {
+					limit = { NOT = { USA = { has_tech = basic_medium_art } } }
+					USA = { set_technology = { basic_medium_art = 1 }	}
+				}
+				if = {
+					limit = { NOT = { USA = { has_tech = mechanised_infantry } } }
+					USA = { set_technology = { mechanised_infantry = 1 }	}
+				}
+				if = {
+					limit = { NOT = { USA = { has_tech = basic_medium_tank } } }
+					USA = { set_technology = { basic_medium_tank = 1 }	}
+				}
+				if = {
+					limit = { NOT = { ENG = { has_tech = basic_medium_tank } } }
+					ENG = { set_technology = { basic_medium_tank = 1 }	}
+				}
+				if = {
+					limit = { NOT = { ENG = { has_tech = basic_heavy_tank } } }
+					ENG = { set_technology = { basic_heavy_tank = 1 }	}
+				}
+				if = {
+					limit = { NOT = { ENG = { has_tech = basic_medium_art } } }
+					ENG = { set_technology = { basic_medium_art = 1 }	}
+				}
+			}
+			hidden_effect = {
+				GER = { puppet = EFR }
+				load_oob = USA_torch
+			}
+			custom_effect_tooltip = USA_operation_torch_effect_3
+		}
+	}
+		focus = {
 		id = USA_operation_torch
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = USA_vichy_ultimatum }
-		x = 26
+		mutually_exclusive = { focus = USA_operation_torchSPA }
+		x = 28
 		y = 2
 		cost = 4.3
 
@@ -2216,6 +2335,8 @@ focus_tree = {
 				target = EFR
 				type = annex_everything
 			}
+			FRA = { transfer_state = 461 }
+			FRA = { transfer_state = 462 }
 			hidden_effect = {
 				if = {
 					limit = { NOT = { USA = { has_tech = basic_medium_art } } }

@@ -105,6 +105,30 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
+	division = {
+		name = "6 Juntuán"
+		location = 12408
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "3 Bubing Shi"
+		location = 1976
+		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "26 Bubing Shi"
+		location = 1976
+		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
 	## 1st Army ##
 	division = {
 		name = "27 Bubing Shi"
@@ -475,19 +499,7 @@ units = {
 	}
 
 
-	##### ROCN #####
-	navy = {
-		name = "Di 1 Jiandui"
-		base = 7014
-		location = 7014 #Shanghai
-		ship = { name = "Yingrui" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
-		ship = { name = "Ninghai" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
-		ship = { name = "Hairong" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
-		ship = { name = "Zhaohe" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
-		ship = { name = "Haiqi" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
-		ship = { name = "Dadong" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
-		ship = { name = "Zejiang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
-	}
+	
 }
 
 
@@ -518,15 +530,5 @@ instant_effect = {
 		efficiency = 100
 	}
 	
-#Under Construction in Shanghai
-	# Light Cruiser 
-	add_equipment_production = { 		# "Pinghai"
-		equipment = {
-			type = light_cruiser_1
-			creator = "CHI" 
-		}
-		requested_factories = 1
-		progress = 0.33
-		amount = 1
-	}
+}
 }

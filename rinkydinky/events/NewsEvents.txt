@@ -35,9 +35,9 @@ news_event = {
 }
 # Rudolf Hess Coup
 news_event = {
-	id = news.289
-	title = news.289.t
-	desc = news.289.d
+	id = news.760
+	title = news.760.t
+	desc = news.760.d
 	picture = GFX_news_event_809
 	
 	major = yes
@@ -45,21 +45,14 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = news.289.a
-		trigger = {
-	
-	GER = { has_country_leader = {
-    name = "Groß Führer Rudolf Hess"
-    ruling_only = yes
+		name = news.760.a
+		
 }
-}
-}
-hidden_effect = {
-			sound_effect = anthem
-			}
 }
 
-}
+
+
+
 
 # Marco Polo Bridge II
 news_event = {
@@ -330,101 +323,6 @@ news_event = {
 	option = {
 		name = news.11.e
 		trigger = { TAG = GER }
-	}
-}
-
-# Finland Refuses Demands
-news_event = {
-	id = news.12
-	title = news.12.t
-	desc = news.12.d
-	picture = GFX_news_event_011
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.12.a
-		trigger = {
-			NOT = {
-				TAG = SOV
-				TAG = FIN
-				TAG = GER
-				is_in_faction_with = SOV
-			}
-		}
-	}
-	option = {
-		name = news.12.b
-		trigger = { TAG = SOV }
-	}
-	option = {
-		name = news.12.c
-		trigger = { TAG = FIN }
-	}
-	option = {
-		name = news.12.e
-		trigger = { TAG = GER }
-	}
-	option = {
-		name = news.12.f
-		trigger = {
-			NOT = {
-				TAG = SOV
-				TAG = FIN
-				TAG = GER
-			}
-			is_in_faction_with = SOV
-		}
-	}
-}
-
-# Finland Accepts Demands
-news_event = {
-	id = news.13
-	title = news.13.t
-	desc = news.13.d
-	picture = GFX_news_event_012
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.13.a
-		trigger = {
-			NOT = {
-				TAG = SOV
-				TAG = FIN
-				TAG = GER
-				is_in_faction_with = SOV
-			}
-		}
-	}
-	option = {
-		name = news.13.b
-		trigger = { TAG = SOV }
-	}
-	option = {
-		name = news.13.c
-		trigger = { TAG = FIN }
-	}
-	option = {
-		name = news.13.e
-		trigger = { TAG = GER }
-	}
-
-	option = {
-		name = news.13.f
-		trigger = {
-			NOT = {
-				TAG = SOV
-				TAG = FIN
-				TAG = GER
-			}
-			is_in_faction_with = SOV
-		}
 	}
 }
 
@@ -2298,6 +2196,15 @@ news_event = {
 	}
 	
 	immediate = {
+	hidden_effect = {
+		news_event = { hours = 6 id = news.400 }
+		D01 = {delete_unit_template_and_units = { division_template = "Brigada Internacionales" } }
+		D01 = { set_cosmetic_tag =  SPR_LOST }
+		D01 = {  
+				add_ideas = SPA_recovering_from_civil_war
+				add_ideas = SPA_fascist_guarrillas
+	}
+	}
 		set_global_flag = republican_victory
 		set_global_flag = scw_over
 	}
@@ -2311,6 +2218,61 @@ news_event = {
 	option = {
 		name = news.64.b
 		trigger = { original_tag = SPR }
+	}
+}
+news_event = {
+	id = news.400
+	title = news.400.t
+	desc = news.400.d
+	picture = GFX_news_event_400
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = republican_victory
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+	}
+	
+	option = {
+		name = news.400.a
+		trigger = {
+			NOT = { original_tag = SPR }
+		}
+	}
+	option = {
+		name = news.400.b
+		trigger = { original_tag = SPR }
+	}
+}
+news_event = {
+	id = news.401
+	title = news.401.t
+	desc = news.401.d
+	picture = GFX_news_event_401
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+	}
+	
+	option = {
+		name = news.401.a
 	}
 }
 
@@ -4903,63 +4865,63 @@ news_event = {
 }
 
 # Germany Breaks Molotov-Ribbentrop Pact
-news_event = {
-	id = news.153
-	title = news.153.t
-	desc = news.153.d
-	picture = GFX_news_event_german_inspect_troops
-	
-	major = yes
-
-	trigger = {
-		SOV = {
-			has_defensive_war_with = GER
-			has_opinion_modifier = MR_pact
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
-	}
-
-	immediate = {
-		hidden_effect = {
-			SOV = { 
-				remove_opinion_modifier = { target = GER modifier = MR_pact }
-				remove_ideas = SOV_molotov_ribbentrop_pact
-			}
-			GER = { remove_opinion_modifier = { target = SOV modifier = MR_pact } }
-			every_other_country = {
-				limit = { has_opinion_modifier = MR_pact_fascists }
-				remove_opinion_modifier = { target = GER modifier = MR_pact_fascists }
-			}
-		}
-	}
-	
-	option = {
-		name = news.153.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = SOV
-				is_in_faction_with = SOV
-			}
-		}
-	}
-	option = {
-		name = news.153.b
-		trigger = { TAG = GER }
-	}
-	option = {
-		name = news.153.c
-		trigger = { 
-			OR = {
-				TAG = SOV
-				is_in_faction_with = SOV
-			}
-		}
-	}
-}
+#news_event = {
+#	id = news.153
+#	title = news.153.t
+#	desc = news.153.d
+#	picture = GFX_news_event_german_inspect_troops
+#	
+#	major = yes
+#
+#	trigger = {
+#		SOV = {
+#			has_defensive_war_with = GER
+#			has_opinion_modifier = MR_pact
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 2
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			SOV = { 
+#				remove_opinion_modifier = { target = GER modifier = MR_pact }
+#				remove_ideas = SOV_molotov_ribbentrop_pact
+#			}
+#			GER = { remove_opinion_modifier = { target = SOV modifier = MR_pact } }
+#			every_other_country = {
+#				limit = { has_opinion_modifier = MR_pact_fascists }
+#				remove_opinion_modifier = { target = GER modifier = MR_pact_fascists }
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = news.153.a
+#		trigger = {
+#			NOT = {
+#				TAG = GER
+#				TAG = SOV
+#				is_in_faction_with = SOV
+#			}
+#		}
+#	}
+#	option = {
+#		name = news.153.b
+#		trigger = { TAG = GER }
+#	}
+#	option = {
+#		name = news.153.c
+#		trigger = { 
+#			OR = {
+#				TAG = SOV
+#				is_in_faction_with = SOV
+#			}
+#		}
+#	}
+#}
 
 # USSR Breaks Molotov-Ribbentrop Pact
 news_event = {

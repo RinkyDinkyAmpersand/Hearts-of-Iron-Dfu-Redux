@@ -532,7 +532,7 @@ country_event = {
 		transfer_state = 735
 	}
 }
-#Defence agaist ENG after lose of Tobruk
+#Defense against ENG after lose of Tobruk
 country_event = {
 	id = italy.17
 	title = italy.17.t
@@ -544,8 +544,9 @@ country_event = {
 	trigger = {
 	tag = ITA
 	has_war_with = ENG
-	NOT = { controls_state = 451 }
+	ITL = {NOT = { controls_state = 451 }}
 	}
+	
 	
 	mean_time_to_happen = {
 		days = 2  
@@ -554,10 +555,17 @@ country_event = {
 	option = {
 		name = italy.17.a
 
-		add_timed_idea = {
+		ITL = {add_timed_idea = {
     idea = defence_of_el_agheila
     days = 60
-}
+	}
+		}
+		ITA = {add_timed_idea = {
+    idea = defence_of_el_agheila
+    days = 60
+	}
+		}
 	}
 }
+
 

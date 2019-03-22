@@ -23,15 +23,6 @@ country_event = {
 	}
 	
 	option = {
-		name = Tora.21.a
-		custom_effect_tooltip = Tora.21.c1
-		set_country_flag = Five_Ministers_North
-		ai_chance = {
-			factor = 0
-		}
-	}
-	
-	option = {
 		name = Tora.21.b
 		custom_effect_tooltip = Tora.21.c2
 		set_country_flag = Five_Ministers_South

@@ -133,9 +133,9 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "Phraya Phahon"
+		name = "Plaek Phibunsongkhram"
 		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
-		picture = "Portrait_Siam_Phraya_Phahon.dds"
+		picture = "Portrait_Siam_Plaek_Pibulsongkram.tga"
 		expire = "1965.1.1"
 		ideology = fascism_ideology
 		traits = {

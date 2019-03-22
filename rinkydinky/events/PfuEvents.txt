@@ -1,5 +1,38 @@
 ﻿add_namespace = pfu
+country_event = {
+	id = pfu.77
+	title = pfu.77.t
+	desc = pfu.77.d
+	picture = GFX_report_event_ite
 
+	fire_only_once = yes
+
+	trigger = {
+		tag = ITA
+		ITA = {
+			owns_state = 271
+		}
+	}
+
+	option = {
+		name = pfu.77.a
+		271 = {
+			if = {
+				limit = { is_owned_by = ITA }
+				add_core_of = ITE
+			}
+		}
+		ITE = {
+			transfer_state = 271
+			transfer_state = 550
+			transfer_state = 559
+		}
+		
+		ITA = {puppet = ITE}
+		}
+	mean_time_to_happen = { days = 20 }
+
+}
 country_event = {
 	id = pfu.1
 	title = pfu.1.t
@@ -74,123 +107,7 @@ country_event = {
 	mean_time_to_happen = { days = 30 }
 }
 
-country_event = {
-	id = pfu.3
-	title = pfu.3.t
-	desc = pfu.3.d
-	picture = GFX_report_event_yugoslavian_split
 
-	trigger = {
-		date > 1938.1.1
-		tag = GER
-		YUG = { NOT = {	is_in_faction_with = GER } }
-
-		YUG = { has_capitulated = yes}
-		NOT = { has_global_flag = yugo_historical_split }
-	}
-
-	immediate = { set_global_flag = yugo_historical_split }
-
-	option = {
-		name = pfu.3.a
-		GER = {
-			transfer_state = 107
-			transfer_state = 108
-			transfer_state = 102
-		}
-		if = {
-			limit = { country_exists = HUN }
-			HUN = { transfer_state = 45 }
-		}
-		if = {
-			limit = { NOT = { country_exists = HUN } }
-			GER = { transfer_state = 45 }
-		}
-		if = {
-			limit = { country_exists = BUL }
-
-			BUL = { transfer_state = 106 }
-		}
-		if = {
-			limit = { NOT = { country_exists = BUL } }
-			GER = { transfer_state = 106 }
-		}
-	    ITA = {
-			transfer_state = 757
-			transfer_state = 105
-			transfer_state = 103
-		}
-		CRO = {
-			transfer_state = 109
-			transfer_state = 104
-		}
-		CRO = {
-			declare_war_on = { target = YUG }
-			load_oob = "CRO_1939"
-		}
-		GER = { puppet = CRO }
-	}
-	mean_time_to_happen = { days = 30 }
-}
-
-country_event = {
-	id = pfu.4
-	title = pfu.4.t
-	desc = pfu.4.d
-	picture = GFX_report_event_yugoslavian_split
-
-	trigger = {
-		date > 1938.12.1
-		tag = GER
-		NOT = {country_exists = YUG}
-
-		NOT = { has_global_flag = yugo_historical_split }
-	}
-
-	immediate = {
-		set_global_flag = yugo_historical_split
-	}
-
-	option = {
-		name = pfu.4.a
-		GER = {
-			transfer_state = 107
-			transfer_state = 108
-			transfer_state = 102
-		}
-		if = {
-			limit = { country_exists = HUN }
-			HUN = { transfer_state = 45 }
-		}
-		if = {
-			limit = { NOT = { country_exists = HUN } }
-			GER = { transfer_state = 45 }
-		}
-		if = {
-			limit = { country_exists = BUL }
-
-			BUL = { transfer_state = 106 }
-		}
-		if = {
-			limit = { NOT = { country_exists = BUL } }
-			GER = { transfer_state = 106 }
-		}
-	    ITA = {
-			transfer_state = 757
-			transfer_state = 105
-			transfer_state = 103
-		}
-		CRO = {
-			transfer_state = 109
-			transfer_state = 104
-		}
-		CRO = {
-			load_oob = "CRO_1939"
-		}
-		GER = { puppet = CRO }
-	}
-	mean_time_to_happen = { days = 30 }
-}
 
 country_event = {
     id = pfu.5
@@ -486,7 +403,7 @@ country_event = {
 
 	trigger = {
 		tag = ENG
-		ENG = {
+		EGY = {
 			controls_state = 447
 		}
 		has_tech = basic_medium_tank
@@ -818,41 +735,6 @@ country_event = {
 }
 
 country_event = {
-	id = pfu.27
-	title = pfu.27.t
-	desc = pfu.27.d
-	picture = GFX_report_event_JAP_rebels
-
-	trigger = {
-		tag = JAP
-		OR = {
-			NOT = { CHI = { controls_state = 605 } }
-            NOT = { CHI = { controls_state = 601 } }
-			JAP = { controls_state = 325 }
-		    JAP = { controls_state = 283 }
-		}
-		NOT = { has_global_flag = rebels }
-	}
-
-	immediate = {
-		set_global_flag = rebels
-	}
-
-	option = {
-		name = pfu.27.a
-		add_ideas = JAP_rebels
-
-		hidden_effect = {
-			CHI = {
-			remove_ideas = warlord_cliques
-			add_ideas = chinese_rebels
-			}
-		}
-	}
-	mean_time_to_happen = { days = 30 }
-}
-
-country_event = {
 	id = pfu.28
 	title = pfu.28.t
 	desc = pfu.28.d
@@ -968,12 +850,12 @@ country_event = {
 	id = pfu.33
 	title = pfu.33.t
 	desc = pfu.33.d
-	picture = GFX_report_event_royalarmor
+	picture = GFX_report_event_froyalarmor
 
 	trigger = {
 		tag = ENG
 		date > 1939.5.1
-		ENG = { controls_state = 447 }
+		EGY = { controls_state = 447 }
 		has_tech = basic_heavy_tank
 		NOT = { has_global_flag = ENG_royalarmor }
 	}
@@ -1031,3 +913,564 @@ country_event = {
 	}
 	mean_time_to_happen = { days = 5 }
 }
+country_event = {
+	id = pfu.39
+	title = pfu.39.t
+	desc = pfu.39.d
+	picture = GFX_report_event_voronezh
+	fire_only_once = yes
+	
+		trigger = {
+		tag = GER
+		date > 1942.6.1
+		YUG = { has_capitulated = yes}
+		}
+
+	option = {
+		name = pfu.39.a
+		hidden_effect = {
+			YUG = {load_oob = "YUG_1939"}
+			news_event = pfu.40
+		}
+	}
+	mean_time_to_happen = { days = 5 }
+}
+news_event = {
+	id = pfu.40
+	title = pfu.40.t
+	desc = pfu.40.d
+	picture = GFX_news_event_016
+	is_triggered_only = yes
+	major = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = news.40.a
+		}
+	}
+
+country_event = {
+	id = pfu.42
+	title = pfu.41.t
+	desc = pfu.41.d
+	picture = GFX_report_event_ite
+	trigger = { 
+	ITE = { owns_state = 271 } 
+	tag = ITA
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = news.41.a
+		hidden_effect = {
+			news_event = pfu.41
+			ITE = {load_oob = "ETH_1936"}
+		}
+	}
+	
+}
+
+news_event = {
+	id = pfu.41
+	title = pfu.41.t
+	desc = pfu.41.d
+	picture = GFX_news_event_ite
+	is_triggered_only = yes
+	major = yes
+	show_major = {
+		NOT = { tag = ITA }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = news.41.b
+	}
+}
+country_event = {
+	id = pfu.43
+	title = pfu.43.t
+	desc = pfu.43.d
+	picture = GFX_report_event_confused_hitler
+	trigger = { 
+	tag = GER
+	surrender_progress > 0.1
+	date > 1942.1.1
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.43.a
+		GER = {add_ideas = endsieg}
+			create_country_leader = {
+			name = "Adolf Hitler"
+			desc = "POLITICS_ADOLF_HITLER_DESC"
+			picture = "Hitler_Endsieg.dds"
+			expire = "1965.1.1"
+			ideology = nazism
+			traits = {
+			dictator
+			cornered_fox
+			}
+		}
+		hidden_effect = {
+			news_event = pfu.44
+			}
+	}
+	
+}
+news_event = {
+	id = pfu.44
+	title = pfu.44.t
+	desc = pfu.44.d
+	picture = GFX_news_event_endsieg
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = pfu.44.a
+	}
+	
+}
+country_event = {
+	id = pfu.45
+	title = pfu.45.t
+	desc = pfu.45.d
+	picture = GFX_report_event_british_inspect_troops
+	trigger = { 
+	tag = ENG
+	BEL = { has_capitulated = yes }
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.45.a
+		
+		hidden_effect = {
+			ENG = { transfer_state = 538 }
+			ENG = { transfer_state = 718 }
+			ENG = { transfer_state = 295 }
+			}
+	}
+	
+}
+country_event = {
+	id = pfu.46
+	title = pfu.46.t
+	desc = pfu.46.d
+	picture = GFX_report_event_british_inspect_troops
+	trigger = { 
+	tag = ENG
+	SPR = {controls_state = 540}
+	SPR = {controls_state = 544}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.46.a
+		
+		hidden_effect = {
+			ENG = { transfer_state = 296 }
+			ENG = { transfer_state = 702 }
+			ENG = { transfer_state = 698 }
+			ENG = { transfer_state = 540 }
+			ENG = { transfer_state = 544 }
+			ENG = { transfer_state = 729 }
+			RAJ = { transfer_state = 321 }
+			}
+	}
+	
+}
+country_event = {
+	id = pfu.51
+	title = pfu.46.t
+	desc = pfu.46.d
+	picture = GFX_report_event_british_inspect_troops
+	trigger = { 
+	tag = ENG
+	SPR = {controls_state = 296}
+	SAF = {controls_state = 540}
+	SAF = {controls_state = 544}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.46.a
+		
+		hidden_effect = {
+			ENG = { transfer_state = 296 }
+			ENG = { transfer_state = 702 }
+			ENG = { transfer_state = 698 }
+			ENG = { transfer_state = 729 }
+			}
+	}
+	
+}
+country_event = {
+	id = pfu.52
+	title = pfu.52.t
+	desc = pfu.52.d
+	picture = GFX_report_event_egypt
+	trigger = { 
+	tag = ENG
+	EGY = {controls_state = 446	}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.52.a
+		
+		hidden_effect = {
+			EGY = {load_oob = "EGY_1936"}
+			}
+	}
+	#option = {
+	#	name = pfu.52.b
+	#	add_manpower = -10000
+	#	hidden_effect = {
+	#		EGY = {load_oob = "EGY_1939"}
+	#		EGY = { transfer_state = 453 }
+	#		EGY = { transfer_state = 454 }
+	#		EGY = { transfer_state = 455 }
+	#		EGY = { transfer_state = 656 }
+	#		EGY = { add_state_core  = 453 }
+	#		EGY = { add_state_core  = 454 }
+	#		EGY = { add_state_core  = 455 }
+	#		EGY = { add_state_core  = 675 }
+	#		EGY = { add_state_core  = 291 }
+	#		EGY = { add_state_core  = 676 }
+	#		EGY = { add_state_core  = 656 }
+	#		EGY = {set_cosmetic_tag = EGY_EAST}
+	#		EGY = {annex_country = {
+	#							target = IRQ
+	#							transfer_troops = yes
+	#							}
+	#							}
+	#		
+	#		news_event = pfu.57
+	#				}
+	#}
+	
+}
+news_event = {
+	id = pfu.53
+	title = pfu.53.t
+	desc = pfu.53.d
+	picture = GFX_news_event_egypt
+	is_triggered_only = yes
+	major = yes
+	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = pfu.53.a
+	}
+}
+#news_event = {
+#	id = pfu.55
+#	title = pfu.55.t
+#	desc = pfu.55.d
+#	picture = GFX_news_event_itl
+#	is_triggered_only = yes
+#	major = yes
+#	
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	option = {
+#		name = pfu.55.a
+#	}
+#}
+country_event = {
+	id = pfu.54
+	title = pfu.54.t
+	desc = pfu.54.d
+	picture = GFX_report_event_itl
+	trigger = { 
+	tag = ITA
+	ITL = { controls_state = 448	}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.54.a
+		
+		hidden_effect = {
+			ITL = {load_oob = "ITL_1936"}
+		
+			}
+	}
+	
+}
+country_event = {
+	id = pfu.60
+	title = pfu.60.t
+	desc = pfu.60.d
+	picture = GFX_report_event_generic_sign_treaty2
+	trigger = { 
+	tag = EGY
+	NOT = {EGY = {is_puppet = yes}}
+	has_idea = english
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.60.a
+		add_popularity = {
+		ideology = neutrality
+		popularity = 0.8
+		}
+		set_politics = {
+		ruling_party = neutrality
+		}
+		EGY = {remove_ideas = english}
+		EGY = {remove_ideas = egypt_ind}
+		EGY = {set_cosmetic_tag = EGY_Independent}
+	}
+	
+}
+country_event = {
+	id = pfu.56
+	title = pfu.56.t
+	desc = pfu.56.d
+	picture = GFX_report_event_british_inspect_troops
+	trigger = { 
+	tag = ENG
+	HOL = {has_capitulated = yes}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.56.a
+		
+		hidden_effect = {
+			ENG = { transfer_state = 309 }
+			}
+	}
+	
+}
+news_event = {
+	id = pfu.57
+	title = pfu.57.t
+	desc = pfu.57.d
+	picture = GFX_news_event_egypt
+	is_triggered_only = yes
+	major = yes
+	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = pfu.53.a
+	}
+}
+country_event = {
+	id = pfu.58
+	title = pfu.58.t
+	desc = pfu.58.d
+	picture = GFX_report_event_itl
+	trigger = { 
+	tag = ITA
+	date > 1939.1.1
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.58.a
+		send_equipment = {
+		equipment = infantry_equipment
+		amount = 2000
+		target = ITL
+		}
+		hidden_effect = {
+			ITL = {load_oob = "ITL_1936"}
+			}
+	}
+	option = {
+		name = pfu.58.b
+		}
+	
+}
+country_event = {
+	id = pfu.59
+	title = pfu.59.t
+	desc = pfu.59.d
+	picture = GFX_report_event_plan_vert
+	trigger = { 
+	tag = EGY
+	EGY = { controls_state = 291 }
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.59.a
+		EGY = {add_ideas = iraq}
+	}
+	
+	
+}
+
+	
+	country_event = {
+	id = pfu.62
+	title = pfu.62.t
+	desc = pfu.62.d
+	picture = GFX_report_event_gathering_protest
+	trigger = { 
+	tag = EGY
+	NOT = {EGY = {owns_state = 291}}
+	has_idea = iraq
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.62.a
+		EGY = {remove_ideas = iraq}
+	}
+	}
+	country_event = {
+	id = pfu.63
+	title = pfu.63.t
+	desc = pfu.63.d
+	picture = GFX_report_event_plan_vert
+	trigger = { 
+	tag = ITE
+	ITE = {owns_state = 271}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.63.a
+		ITE = {add_ideas = ethiopia}
+	}
+	}
+	country_event = {
+	id = pfu.64
+	title = pfu.64.t
+	desc = pfu.64.d
+	picture = GFX_report_event_tank_factory
+	trigger = { 
+	tag = GER
+	SOV = {has_idea = soviet_defeat}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.64.a
+		GER = {add_ideas = soviet}
+	}
+	}
+	country_event = {
+	id = pfu.65
+	title = pfu.65.t
+	desc = pfu.65.d
+	picture = GFX_report_event_generic_panzer_attack
+	trigger = { 
+	tag = GER
+	SOV = {has_idea = soviet_defeat}
+	SOV = {controls_state = 219}
+	GER = {owns_state = 219}
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = pfu.65.a
+		GER = {remove_ideas = soviet}
+		GER = {add_timed_idea = { idea = soviet_retreat days = 62 }}
+		hidden_effect = {
+			news_event = pfu.66
+			}
+	}
+	}
+	news_event = {
+	id = pfu.66
+	title = pfu.66.t
+	desc = pfu.66.d
+	picture = GFX_news_event_soviet
+	is_triggered_only = yes
+	major = yes
+	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = pfu.66.a
+	}
+}
+
+
+	
+	
+	

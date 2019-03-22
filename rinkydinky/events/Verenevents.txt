@@ -76,6 +76,19 @@ country_event = {
 				planning_skill = 4
 				logistics_skill = 4
         }
+	create_corps_commander = { 
+	name = "Don Camillo"
+	portrait_path = "gfx/leaders/SPR/Don_Camilos.tga"
+	traits = {
+		trickster
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 306
+}
 	}
 }
 

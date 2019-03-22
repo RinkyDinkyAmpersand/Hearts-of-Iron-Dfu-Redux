@@ -25,7 +25,6 @@ units = {
 		location = 4709
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.1
 
 	}
 	division = { # "2 Xin'jiang Juntuán"
@@ -36,7 +35,6 @@ units = {
 		location = 4709
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.1
 
 	}
 	division = { # "3 Xin'jiang Juntuán"
@@ -47,7 +45,6 @@ units = {
 		location = 4709
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.1
 
 	}
 }

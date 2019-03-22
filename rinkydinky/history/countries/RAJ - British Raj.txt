@@ -1,22 +1,25 @@
 ﻿capital = 439
 
 oob = "RAJ_1936"
-set_stability = 0.6
-set_war_support = 0.1
 
+
+set_stability = 0.71
+set_war_support = 0.1
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1
+	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	transport = 1
+	gw_artillery = 1
 	trench_warfare = 1
 	fleet_in_being = 1
 	CAS1 = 1
-	gw_artillery = 1
-
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
 
 if = {
@@ -32,12 +35,12 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-set_convoys = 20
+set_convoys = 50
 
 set_cosmetic_tag = RAJ_UK # British Raj
 
 1939.1.1 = {
-
+	
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
@@ -69,13 +72,13 @@ set_cosmetic_tag = RAJ_UK # British Raj
 
 	add_ideas = {
 		#laws
-		volunteer_only
+		disarmed_nation
 		low_economic_mobilisation
 	}
 
-
+	
 	set_technology = {
-
+		
 		early_fighter = 1
 		fighter1 = 1
 		#doctrines
@@ -106,9 +109,7 @@ set_cosmetic_tag = RAJ_UK # British Raj
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		rubber_processing = 1
+		fuel_refining2 = 1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1
@@ -121,14 +122,14 @@ set_cosmetic_tag = RAJ_UK # British Raj
 set_politics = {
 
 	parties = {
-		democratic = {
+		democratic = { 
 			popularity = 17
 		}
 
 		fascism = {
 			popularity = 2
 		}
-
+		
 		communism = {
 			popularity = 1
 		}
@@ -137,7 +138,7 @@ set_politics = {
 			popularity = 80
 		}
 	}
-
+	
 	ruling_party = neutrality
 	last_election = "1935.11.14"
 	election_frequency = 48
@@ -151,7 +152,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-
+		
 	}
 }
 
@@ -163,7 +164,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
-
+		
 	}
 }
 
@@ -174,7 +175,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-
+		
 	}
 }
 
@@ -185,7 +186,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-
+		
 	}
 }
 
@@ -194,7 +195,7 @@ create_corps_commander = {
 	gfx = "GFX_RAJ_noel_beresford_peirse"
 	traits = { panzer_leader }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 3
@@ -205,8 +206,8 @@ create_corps_commander = {
 	gfx = "GFX_RAJ_frank_messervy"
 	traits = { hill_fighter }
 	skill = 3
-	attack_skill = 2
-	defense_skill = 2
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 4
 }
@@ -216,15 +217,18 @@ create_corps_commander = {
 	gfx = "GFX_RAJ_douglas_gracey"
 	traits = { desert_fox }
 	skill = 3
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 4
+	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 3
 }
-
 create_navy_leader = {
 	name = "Herbert Fitzherbert"
 	gfx = "GFX_RAJ_herbert_fitzherbert"
-	traits = { }
-	skill = 3
+	traits = { old_guard_navy }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
 }

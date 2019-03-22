@@ -33,11 +33,35 @@ autonomy_state = {
 	}
 
 	allowed = {
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			NOT = { has_government = fascism }
+		has_dlc = "Together for Victory"
+		OVERLORD = {
+			NOT = { 
+				OR = {
+					has_government = fascism
+					has_government = communism 
+				}
+				tag = USA	
+				AND = {
+					has_government = neutrality
+					OR = {
+						tag = GER
+						tag = ITA
+						tag = HUN
+						tag = ROM
+						tag = YUG
+						tag = BUL
+						tag = LUX
+						tag = BEL
+						tag = HOL
+						tag = NOR
+						tag = ALB
+						tag = SWE
+					}
+				}
+			}
 		}
 	}
+	
 
 	can_take_level = {
 		#trigger here

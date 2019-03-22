@@ -74,7 +74,7 @@ ideas = {
 		}
         public_iliteracy = {
 			removal_cost = -1
-			picture = great_depression
+			picture = illiteracy
 
 			allowed = {
 				original_tag = CHI
@@ -104,7 +104,7 @@ ideas = {
 			picture = tfv_can_conscription_crisis
 
 			modifier = {
-                army_defence_factor = 0.4
+                army_attack_factor = 0.10
 				army_morale_factor = 0.10
 				conscription = 0.02
 			}
@@ -112,7 +112,7 @@ ideas = {
 
 		warlord_cliques = {
 			removal_cost = -1
-			picture = generic_volunteer_expedition_bonus
+			picture = warlord
 
 			allowed = {
                original_tag = CHI
@@ -125,12 +125,13 @@ ideas = {
 			modifier = {
 				army_attack_factor = -0.25 ##slight nerf from new units
 				army_org_Factor = -0.20
+				army_defence_factor = -0.5
 			}
 		}
 
 		warlord_cliques2 = {
 			removal_cost = -1
-			picture = generic_volunteer_expedition_bonus
+			picture = warlord
 
 			allowed = {
                original_tag = CHI
@@ -143,12 +144,13 @@ ideas = {
 			modifier = {
 				army_attack_factor = -0.20 ##slight nerf from new units
 				army_org_Factor = -0.15
+				army_defence_factor = -0.3
 			}
 		}
 
 		warlord_cliques3 = {
 			removal_cost = -1
-			picture = generic_volunteer_expedition_bonus
+			picture = warlord
 
 			allowed = {
                original_tag = CHI
@@ -163,10 +165,105 @@ ideas = {
 				army_org_Factor = -0.10
 			}
 		}
+		china_war_of_independence = {
+		removal_cost = -1
+			picture = inch
 
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				NOT = {
+					has_war = yes
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				out_of_supply_factor = -0.4
+				attrition = -0.4
+				supply_consumption_factor = -0.4
+				stability_factor = 0.2
+			}
+		}
+		
+		china_strengthen = {
+			removal_cost = -1
+			picture = strength
+
+			allowed = {
+               original_tag = CHI
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			stability_factor = 0.05
+			drift_defence_factor = 0.5
+			political_power_gain = 0.25
+			}
+		}
+		chiniese_determination = {
+		 
+		 removal_cost = -1
+			picture = determination
+
+			allowed = {
+               original_tag = CHI
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					modifier = {
+				surrender_limit = 0.2
+			}
+
+		}
+		reformed_army = {
+			removal_cost = -1
+			picture = CHIarmy
+
+			allowed = {
+               original_tag = CHI
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_defence_factor = 0.10 
+				army_org_Factor = 0.05
+			}
+		}
+		invasion_chaos = {
+					removal_cost = -1
+			picture = chaos
+
+			allowed = {
+               original_tag = CHI
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_defence_factor = -0.2 
+				army_org_Factor = -0.15
+			}
+		}
+		
 		incompetent_industry = {
 			removal_cost = -1
-			picture = FRA_factory_strikes
+			picture = CHIindustry
 
 			allowed = {
 				original_tag = CHI
@@ -239,7 +336,75 @@ ideas = {
 					}
 				}
 			}
-			lure_them_in = {
+		incompetent_industry2 = {
+			removal_cost = -1
+			picture = CHIindustry
+
+			allowed = {
+				original_tag = CHI
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			equipment_bonus = {
+				armor = {
+				build_cost_ic = 10 instant = yes
+				}
+				light_tank_equipment = {
+				build_cost_ic = 15 instant = yes
+				}
+				medium_tank_equipment = {
+				build_cost_ic = 17.5 instant = yes
+				}
+				heavy_tank_equipment = {
+				build_cost_ic = 20.25 instant = yes
+				}
+				mechanized_equipment = {
+				build_cost_ic = 17 instant = yes
+				}
+				motorized_equipment = {
+				build_cost_ic = 14 instant = yes
+				}
+				motorized_rocket_equipment = {
+				build_cost_ic = 14 instant = yes
+				}
+				anti_air_equipment = {
+				build_cost_ic = 10 instant = yes
+				}
+				anti_tank_equipment = {
+				build_cost_ic = 10 instant = yes
+				}
+				strat_bomber_equipment = {
+				build_cost_ic = 10 instant = yes
+				}
+				fighter_equipment = {
+				build_cost_ic = 10 instant = yes
+				}
+				cv_fighter_equipment = {
+				build_cost_ic = 12 instant = yes
+				}
+				transport_plane_equipment = {
+				instant = yes
+				build_cost_ic = 10000
+				}
+				guided_missile_equipment = {
+				instant = yes
+				build_cost_ic = 10
+				}
+				CAS_equipment = {
+				build_cost_ic = 10 instant = yes
+				}
+				cv_CAS_equipment = {
+				build_cost_ic = 12 instant = yes
+				}
+				nav_bomber_equipment = {
+				build_cost_ic = 10 instant = yes
+					}
+				}
+			}
+		lure_them_in = {
 			removal_cost = -1
 			picture = FRA_scw_intervention_nationalists_focus
 
@@ -263,6 +428,7 @@ ideas = {
 				attrition = -0.70
 				supply_consumption_factor = -0.60
 				stability_factor = 0.2
+				army_defence_factor = 0.15
 			}
 		}
 		rear = {

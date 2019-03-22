@@ -1,0 +1,99 @@
+﻿l_english:
+    FIN_infantry_equipment_0:0 "Mosin-Nagant M/91 with Bayonet"
+    FIN_infantry_equipment_0_short:0 "Mosin Nagant M/91"
+    FIN_infantry_equipment_0_desc:0 "Basic infantryman equipment developed before and during the Great War."
+    
+    FIN_infantry_equipment_1:0 "Suomi-submachine gun with molotov cocktail"
+    FIN_infantry_equipment_1_short:0 "Suomi-submachine"
+    FIN_infantry_equipment_1_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
+    
+    FIN_infantry_equipment_2:0 "Mosin-Nagant M/39 with stickgrenade"
+    FIN_infantry_equipment_2_short:0 "Mosin-Nagant M/39"
+    FIN_infantry_equipment_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles."
+    
+    FIN_infantry_equipment_3:0 "Degtjarjov M/27"
+    FIN_infantry_equipment_3_short:0 "Degtjarjov M/27"
+    FIN_infantry_equipment_3_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Further modernized to include personal Assault Rifles and anti-tank rockets."
+    
+    FIN_anti_tank_equipment_1:0 "PstK M/32 "
+    FIN_anti_tank_equipment_1_short:0 "PstK M/37"
+    FIN_anti_tank_equipment_1_desc:0 "Artillery specialized in defeating armored targets like Tanks, it generally fires armor piercing shells."
+
+    FIN_anti_tank_equipment_2:0 "75 PaK K/40"
+    FIN_anti_tank_equipment_2_short:0 "75 PaK K/40"
+    FIN_anti_tank_equipment_2_desc:0 "Larger caliber guns to combat heavier tanks with sloped armor."
+    
+    FIN_anti_tank_equipment_3:0 "75 PstK/97-38 "Mulatti""
+    FIN_anti_tank_equipment_3_short:0 "75 PstK/97-38"
+    FIN_anti_tank_equipment_3_desc:0 "Combining different kinds of new ammunition technology with guns with higher muzzle velocities, these anti-tank guns are prepared for whatever new armor our enemies may develop."
+     
+    FIN_anti_air_equipment_1:0 "40 ItK/35-39 B Bofors"
+    FIN_anti_air_equipment_1_short:0 "ItK/35-39 Bofors"
+    FIN_anti_air_equipment_1_desc:0 "Anti-air artillery is primarily designed to shoot down hostile planes, although the rapid fire cannons can also be effective against ground targets."
+    
+    FIN_anti_air_equipment_2:0 "20 ItK/40 VKT"
+    FIN_anti_air_equipment_2_desc:0 "Anti-air guns with longer cartridges and barrels, able to target high-flying aircraft."
+    
+    FIN_anti_air_equipment_3:0 "88 ItK/37 RMBK"
+    FIN_anti_air_equipment_3_desc:1 "An advanced mobile flak gun with greater reach and firing capacity, to combat even the fastest and highest-flying enemy aircraft."
+    
+    FIN_artillery_equipment_1:0 "Kenttätykki 76 K/02"
+    FIN_artillery_equipment_1_short:0 "76 K/02"
+    FIN_artillery_equipment_1_desc:0 "Artillery refers to large-caliber weapons, such as cannons and howitzers that are operated by crews, which can project munitions far beyond the effective range of personal weapons."
+    
+    FIN_artillery_equipment_2:0 "Haupitsi 120 K/78-31"
+    FIN_artillery_equipment_2_short:0 "Haupitsi 120 K/78-31"
+    FIN_artillery_equipment_2_desc:0 "New howitzer designs, taking advantage of new hydraulic recoil devices and longer barrels."
+    
+    FIN_artillery_equipment_3:0 "Haupitsi 150 H/40"
+    FIN_artillery_equipment_3_short:0 "Haupitsi 150 H/40"
+    FIN_artillery_equipment_3_desc:0 "New howitzer designs, taking advantage of new hydraulic recoil devices and longer barrels."
+    
+    FIN_gw_tank_equipment:0 "Renault FT-17"
+    FIN_gw_tank_equipment_short:0 "Renault FT-17"
+    FIN_gw_tank_equipment_desc:0 "The first armoured units were created in the 1920s when Finland, outside a few captured ex-Russian armoured cars, purchased in France 26 Renault FT tanks in 1919-21 (see later) which formed the first two battalions of tanks. A few were lent early one to the white Russian fighting in the North Western threater."
+
+    FIN_light_tank_equipment_1:0 "Vickers MK E"
+    FIN_light_tank_equipment_1_short:0 "Vickers MK E"
+    FIN_light_tank_equipment_1_desc:0 " Very close to the Vickers 6-tons, they shared similar components. T-26s were the most abundant of any soviet tanks and the most were captured in the winter war. 47 were repaired of which 34 were pressed into the front line, midly appreciated since their engine was more reliable than the Vickers model. Some T-26A (twin turreted) and OT-26s were converted with spare 45 mm armed turrets, but eventually their service time was limited and most had been retired at the end of the summer 1941."
+
+    FIN_light_tank_equipment_2:0 "BT-42"
+    FIN_light_tank_equipment_2_short:0 "BT-42"
+    FIN_light_tank_equipment_2_desc:0 "Properly speaking these were captured BT-7 modified to carry a Finnish 114 mm howitzer in a custom-built superstructure. Top heavy and unstable, the BT-42s proved unable to penetrate the thick sloped armour of standard soviet tanks in 1942."
+
+    FIN_light_tank_equipment_3:0 "T-50"
+    FIN_light_tank_equipment_3_short:0 "T-50"
+    FIN_light_tank_equipment_3_desc: "A single one of these rare and promising light tanks of 1941 was captured and pressed in service apparently up-armoured, known as “Niki” and attached to the heavy tank company in the winter 1942-1943."
+
+    FIN_medium_tank_equipment_1:0 "Panzer IV"
+    FIN_medium_tank_equipment_1_short:0 "Panzer IV"
+    FIN_medium_tank_equipment_1_desc:0 "Panzer IV ausf J were delivered to the Finnish Army. These were of simplified construction but with the best armour of the serie and the long KwK 43 version 75 mm well capable to destroy a T-34 or a KV-1."
+
+    FIN_medium_tank_equipment_2:0 "T-34B"
+    FIN_medium_tank_equipment_2_short:0 "T-34B"
+    FIN_medium_tank_equipment_2_desc:0 "The most prolific tank of all time was not available before the end of the winter war, therefore like the KV-1, almost all captured were so in 1941-42 and of the corresponding types. However some T-34/85s were also captured."
+
+    FIN_medium_tank_equipment_3:0 "StuG-III “Sturmi”"
+    FIN_medium_tank_equipment_3_short:0 "StuG III"
+    FIN_medium_tank_equipment_3_desc:0 "In all about 59 were obtained between the fall of 1943 and the beginning of 1944 in two batches, 30 and 29. These were of the Ausf G type, with the long barrel. The first batch killed in a few week no less than 87 Soviet tanks for only 8 losses… The Finnish nicknamed them “sturmi” for “sturmgeschutz”, and often protected them with extra logs."
+
+    FIN_heavy_tank_equipment_1:0 "T-28"
+    FIN_heavy_tank_equipment_1_short: "T-28" 
+    FIN_heavy_tank_equipment_1_desc:0 "hese comparatively rare infantry tanks were also heavily engaged in the winter war."
+
+    FIN_heavy_tank_equipment_2:0 "KV-1E"
+    FIN_heavy_tank_equipment_2_short:0 "KV-1E"
+    FIN_heavy_tank_equipment_2_desc:0 " This 50-tons monster became operational just before the continuation war. Therefore most were captured in 1941-42. However a single prototype was tested already in December 1939 with the 91st Tank Battalion."
+
+    FIN_heavy_tank_equipment_3:0 "KV-85"
+    FIN_heavy_tank_equipment_3_short:0 "KV-85"
+    FIN_heavy_tank_equipment_3_desc:0 "The KV-85 was a hybrid, transitional model built in small numbers. It was originally the KV-85G, which was meant to feature a modified KV-1S turret with an 85mm gun jammed inside, and would have made a horrible stopgap. The KV-85G almost entered production, but trials of the IS-85 turret on a KV-1S chassis took place, and this trial variant was accepted into stopgap production as the KV-85."
+
+    FIN_super_heavy_tank_equipment_1:0 "ISU-152"
+    FIN_super_heavy_tank_equipment_1_short:0 "ISU-152"
+    FIN_super_heavy_tank_equipment_1_desc:0 "The list of soviet Self-propelled guns reused by the Finnish forces includes SU-76s, SU-152s and even two ISU-152s."
+
+    FIN_modern_tank_equipment_1:0 "Finnish Comet MK 1"
+    FIN_modern_tank_equipment_1_short:0 "Comet MK 1"
+    FIN_modern_tank_equipment_1_desc:0 "The British 11th Armoured Division was the first formation to receive the new tanks—deliveries commenced in December 1944—and the only division to be completely refitted by the end of the war. Due to its late arrival in the war in north west Europe, the Comet did not participate in big battles, although it was used in combat. The Comet was involved in the crossing of the Rhine and the later Berlin Victory Parade in July 1945. The Comet's maximum speed of 32 miles per hour (51 km/h) was greatly exploited on the German Autobahns."
+

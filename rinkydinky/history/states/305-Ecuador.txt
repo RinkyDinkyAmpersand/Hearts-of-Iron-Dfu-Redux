@@ -3,15 +3,13 @@ state={
 	id=305
 	name="STATE_305"
 	manpower = 1
-
-
-	state_category = city
+	state_category = rural
 
 	history={
-		owner = BRA
+		
 	}
 
 	provinces={
-		5051 5120 8047 8075 8252 10888 11020 12798
+		5051 5120 8047 8075 8252 10888 11020 12798 
 	}
 }

@@ -5,13 +5,54 @@ focus_tree = {
 		factor = 0
 
 		modifier = {
-			add = 10
+			add = 20
 			tag = ENG
 		}
 	}
 
 	default = no
 
+	focus = {
+		id = soviet_help
+		available = {
+			SOV = { has_war_with = GER }
+		}
+		icon = GFX_goal_support_communism
+		x = 7
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = limited_rearmament_focus }
+		completion_reward = {
+		custom_effect_tooltip = ENG_lend_soviet_tt
+		hidden_effect = {
+		if = {
+					limit = { ENG = { has_tech = improved_infantry_weapons } }
+					SOV = { add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 30000 producer = ENG } }
+					else = { SOV = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 30000 producer = ENG } } }
+				}
+				if = {
+					limit = { ENG = { has_tech = artillery1 } }
+					SOV = { add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 3000 producer = ENG } }
+					else = { SOV = { add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 3000 producer = ENG } } }
+				}
+				if = {
+					limit = { ENG = { has_tech = fighter2 } }
+					SOV = { add_equipment_to_stockpile = { type = fighter_equipment_2 amount = 2000 producer = ENG } }
+					else = {
+						if = {
+							limit = { ENG = { has_tech = fighter1 } }
+							SOV = { add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 2000 producer = ENG } }
+							else = { SOV = { add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 2000 producer = ENG } } }
+						}
+					}
+				}
+				}
+		}
+	}
+	
 	focus = {
 		id = crypto_bomb_focus
 		available = {
@@ -50,7 +91,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = codebreaking_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 3
 				category = decryption_tech
 				category = computing_tech
@@ -110,7 +151,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = maud_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = nuclear
 			}
@@ -211,14 +252,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				name = mech_army_bonus2
 				technology = mechanised_infantry
 			}
 			add_tech_bonus = {
 				name = ENG_a_motorized_army
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = tech_field_hospital
 				technology = tech_field_hospital2
@@ -258,7 +299,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 					name = armor_bonus
-					bonus = 0.5
+					bonus = 1
 					uses = 1
 			        category = armor
 				}
@@ -549,7 +590,7 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = radar_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 3
 				category = radar_tech
 			}
@@ -598,7 +639,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = industry
 			}
@@ -787,7 +828,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = UK_secret_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 4
 				category = electronics
 			}
@@ -1024,13 +1065,13 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = fighter_command_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = fighter2
 			}
 			add_tech_bonus = {
 				name = fighter_command_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = heavy_fighter1
 				technology = heavy_fighter2
@@ -1054,7 +1095,7 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = bomber_command_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				technology = strategic_bomber2
 				technology = tactical_bomber2
@@ -1077,13 +1118,13 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = coastal_command_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				technology = naval_bomber2
 			}
 			add_tech_bonus = {
 				name = coastal_command_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				technology = tactical_bomber2
 			}
@@ -1122,7 +1163,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = uk_jet_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 4
 				category = jet_technology
 			}
@@ -1239,7 +1280,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = dd_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = dd_tech
 			}
@@ -1278,7 +1319,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = naval_doc_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 3
 				category = naval_doctrine
 			}
@@ -1302,10 +1343,9 @@ focus_tree = {
 			navy_experience = 25
 			add_tech_bonus = {
 				name = uk_carrier_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
-				technology = basic_carrier
-				technology = improved_carrier
+				category = cv_tech
 			}
 
 		}
@@ -1328,7 +1368,7 @@ focus_tree = {
 			navy_experience = 25
 			add_tech_bonus = {
 				name = uk_battleship_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = bb_tech
 			}
@@ -1351,13 +1391,13 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = uk_amphibious_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = marine_tech
 			}
 			add_tech_bonus = {
 				name = uk_amphibious_focus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = tp_tech
 			}
@@ -1762,7 +1802,7 @@ focus_tree = {
 		prerequisite = { focus = uk_mediterranean_focus }
 		icon = GFX_goal_generic_defence
 		x = 25
-		y = 4
+		y = 3
 		cost = 4.3
 		ai_will_do = {
 			factor = 1
@@ -1802,13 +1842,47 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 3
 					province = 1071
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13221
 					instant_build = yes
 				}
 			}
 		}
 	}
+	focus = {
+		id = uk_husky
+		prerequisite = { focus = uk_mediterranean_focus }
+		icon = GFX_goal_CRO_national_rebirth
+		x = 24
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		ITL = { has_capitulated = yes }
+		NOT = {
+		ITA = {controls_state = 665 }
+		ITA = {controls_state = 458 }
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_timed_idea = {
+		idea = uk_husky
+		days = 90
+		}
+		}
+		}
 
 
 	focus = {
@@ -1819,7 +1893,7 @@ focus_tree = {
 		}
 		icon = GFX_goal_generic_construct_military
 		x = 27
-		y = 4
+		y = 3
 		cost = 4.3
 
 		available_if_capitulated = yes
@@ -1933,8 +2007,8 @@ focus_tree = {
 		}
 
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 14
-		y = 4
+		x = 16
+		y = 7
 		cost = 4.3
 		ai_will_do = {
 			factor = 1
@@ -2071,7 +2145,7 @@ focus_tree = {
 		id = singapore_focus
 		prerequisite = { focus = uk_asia_focus }
 		icon = GFX_goal_generic_fortify_city
-		x = 16
+		x = 15
 		y = 4
 		cost = 4.3
 
@@ -2106,7 +2180,7 @@ focus_tree = {
 		id = sp_landward_forts_focus
 		prerequisite = { focus = singapore_focus }
 		icon = GFX_goal_generic_construct_military
-		x = 16
+		x = 15
 		y = 5
 		cost = 4.3
 		ai_will_do = {
@@ -2158,7 +2232,7 @@ focus_tree = {
 		id = peninsular_focus
 		prerequisite = { focus = sp_landward_forts_focus }
 		icon = GFX_goal_generic_construction2
-		x = 16
+		x = 15
 		y = 6
 		cost = 4.3
 		ai_will_do = {
@@ -2169,6 +2243,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		add_equipment_to_stockpile = {
+    type = transport_plane_equipment
+    amount = 200
+    producer = ENG
+}
 			336 = {
 				add_building_construction = {
 					type = bunker
@@ -2208,7 +2287,7 @@ focus_tree = {
 		id = hongkong_focus
 		prerequisite = { focus = uk_asia_focus }
 		icon = GFX_goal_generic_fortify_city
-		x = 18
+		x = 17
 		y = 4
 		cost = 4.3
 		ai_will_do = {
@@ -2234,7 +2313,7 @@ focus_tree = {
 		id = hk_landward_forts_focus
 		prerequisite = { focus = hongkong_focus }
 		icon = GFX_goal_generic_construct_military
-		x = 18
+		x = 17
 		y = 5
 		cost = 4.3
 		ai_will_do = {
@@ -2274,7 +2353,7 @@ focus_tree = {
 		id = hk_air_focus
 		prerequisite = { focus = hk_landward_forts_focus }
 		icon = GFX_goal_generic_construct_civilian
-		x = 18
+		x = 17
 		y = 6
 		cost = 4.3
 		ai_will_do = {
@@ -2369,7 +2448,7 @@ focus_tree = {
 			is_in_faction_with = RAJ
 		}
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 20
+		x = 19
 		y = 5
 		cost = 7
 
@@ -2495,7 +2574,7 @@ focus_tree = {
 			}
 		} #counters JAP's indian army focus
 		icon = GFX_goal_generic_improve_relations
-		x = 20
+		x = 19
 		y = 6
 		cost = 5
 
@@ -2533,7 +2612,7 @@ focus_tree = {
 			AST = { exists = no }
 		}
 		icon = GFX_goal_generic_construct_civilian
-		x = 22
+		x = 21
 		y = 5
 		cost = 5
 
@@ -2683,7 +2762,7 @@ focus_tree = {
 			is_in_faction_with = NZL
 		}
 		icon = GFX_goal_generic_construction
-		x = 22
+		x = 21
 		y = 6
 		cost = 3
 
@@ -2833,7 +2912,7 @@ focus_tree = {
 			is_in_faction_with = CAN
 		}
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 21
+		x = 20
 		y = 4
 		cost = 6
 
@@ -2976,14 +3055,103 @@ focus_tree = {
 	}
 
 	focus = {
-		id = uk_south_africa_focus
+		id = uk_egyptdev_focus
 		prerequisite = { focus = uk_commonwealth_focus }
+		available = {
+			is_in_faction_with = EGY
+		}
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = uk_commonwealth_focus
+		x = 2
+		y = 2
+		cost = 4
+
+		available_if_capitulated = yes
+
+		bypass = {
+			EGY = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = naval_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			EGY = {
+				add_opinion_modifier = { target = ENG modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+		
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+					}
+					
+				}
+				
+				
+				add_autonomy_ratio = {
+					value = -0.05
+					
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = uk_south_africa_focus
+		prerequisite = { focus = uk_egyptdev_focus }
 		available = {
 			is_in_faction_with = SAF
 		}
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 23
-		y = 4
+		relative_position_id = uk_egyptdev_focus
+		x = 0
+		y = 1
 		cost = 4
 
 		available_if_capitulated = yes

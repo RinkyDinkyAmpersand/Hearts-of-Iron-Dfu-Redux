@@ -1,6 +1,7 @@
 ﻿division_template = {
 	name = "Brigada Legionario"
-
+	is_locked = yes
+	division_names_group = SPAN_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -14,38 +15,7 @@
 
 
 	}
-		support = {
-		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
-		recon = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Brigada Legionarios de Elite"
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 0 y = 4 }
-		infantry = { x = 0 y = 5 }
-		infantry = { x = 0 y = 6 }
-		infantry = { x = 0 y = 3 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 3 }
-		infantry = { x = 1 y = 4 }
-		infantry = { x = 1 y = 5 }
-		infantry = { x = 1 y = 6 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		artillery_brigade = { x = 2 y = 0 }
-		artillery_brigade = { x = 2 y = 1 }
-		artillery_brigade = { x = 2 y = 2 }
-		artillery_brigade = { x = 2 y = 3 }
-
-
-	}
-		support = {
+	support = {
 		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
 		recon = { x = 0 y = 1 }
 		artillery = { x = 0 y = 2 }
@@ -53,30 +23,20 @@ division_template = {
 }
 
 units = {
-division = {
-		name = "1a Brigada Legionarios de Elite"
+	division = {
+		name = "Brigada Legionario Special"
 		location = 3816  # Zaragoza
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
-		name = "2a Brigada Legionarios de Elite"
+		name = "Brigada Legionario Special"
 		location = 3816  # Zaragoza
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
-		name = "3a Brigada Legionarios de Elite"
+		name = "Brigada Legionario Special"
 		location = 3816  # Zaragoza
-		division_template = "Brigada Legionarios de Elite"
-	}
-	division = {
-		name = "4a Brigada Legionarios de Elite"
-		location = 3816  # Zaragoza
-		division_template = "Brigada Legionarios de Elite"
-	}
-	division = {
-		name = "5a Brigada Legionarios de Elite"
-		location = 3816  # Zaragoza
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "1a Brigada Legionario"
@@ -116,12 +76,12 @@ division = {
 	division = {
 		name = "8a Brigada Legionario"
 		location = 885  # Burgos
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "9a Brigada Legionario"
 		location = 11825  # Valladolid
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "10a Brigada Legionario"
@@ -136,7 +96,7 @@ division = {
 	division = {
 		name = "12a Brigada Legionario"
 		location = 11707  # Oviedo
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "13a Brigada Legionario"
@@ -191,13 +151,13 @@ division = {
 	division = {
 		name = "23a Brigada Legionario"
 		location = 3874  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 
 	division = {
 		name = "24a Brigada Legionario"
 		location = 9800  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "25a Brigada Legionario"
@@ -227,7 +187,7 @@ division = {
 	division = {
 		name = "30a Brigada Legionario"
 		location = 7183  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "31a Brigada Legionario"
@@ -267,17 +227,17 @@ division = {
 	division = {
 		name = "38a Brigada Legionario"
 		location = 7183  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "39a Brigada Legionario"
 		location = 7183  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "40a Brigada Legionario"
 		location = 7183  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "41a Brigada Legionario"
@@ -302,16 +262,16 @@ division = {
 	division = {
 		name = "45a Brigada Legionario"
 		location = 7183  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "46a Brigada Legionario"
 		location = 7183  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "47a Brigada Legionario"
 		location = 7183  # Sevilla
-		division_template = "Brigada Legionarios de Elite"
+		division_template = "Brigada Legionario"
 	}
 }

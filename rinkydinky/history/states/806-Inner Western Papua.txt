@@ -1,0 +1,17 @@
+state={
+	id=806
+	name="STATE_806"
+	provinces={
+		7570 8235 8250 10436 10990 
+	}
+	history={
+		owner = HOL
+		add_core_of = INS
+
+	}
+	manpower=123183
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

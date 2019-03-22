@@ -1,0 +1,15 @@
+state={
+	id=799
+	name="STATE_799"
+	history={
+		owner = AST
+
+	}
+	manpower=154183
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	provinces={
+		2129 4635 5135 10954 11004 11018 12107 12428 12931 
+	}
+}

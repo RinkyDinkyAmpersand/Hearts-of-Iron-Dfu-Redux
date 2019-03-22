@@ -1,0 +1,51 @@
+﻿capital = 448
+
+
+set_stability = 0.5
+set_war_support = 0.70
+set_convoys = 250
+
+set_technology = {
+		improved_light_tank = 1
+		tech_recon = 1
+		tech_support = 1
+		tech_engineers = 1
+		motorised_infantry = 1
+		gw_artillery = 1
+		interwar_antiair = 1
+		gwtank = 1
+		basic_light_tank = 1
+		transport = 1
+		infantry_weapons = 1
+	}
+	set_politics = {
+
+	parties = {
+		democratic = {
+			popularity = 5
+		}
+
+		fascism = {
+			popularity = 90
+		}
+
+		communism = {
+			popularity = 5
+		}
+	}
+
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Italo Balbo"
+	desc = ""
+	picture = "Portrait_ITA_Italo_Balbo.tga"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}

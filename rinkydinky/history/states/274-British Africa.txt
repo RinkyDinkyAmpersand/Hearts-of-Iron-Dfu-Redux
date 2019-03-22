@@ -1,19 +1,15 @@
 state={
 	id=274
 	name="STATE_274"
-	resources={
-		rubber=4
-		aluminium=26
-	}
-	state_category = rural
 
 	history={
 		owner = ENG
+		add_core_of = GHA
 		victory_points = {
 			10862 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			10862 = {
 				naval_base = 2
 
@@ -28,4 +24,5 @@ state={
 	}
 	manpower=3163600
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -949,9 +949,7 @@ war_measures = {
 
 		cost = GER_war_bonds_var?50
 
-		modifier = {
-			consumer_goods_factor = -0.05
-		}
+		
 
 		ai_will_do = {
 			factor = 1
@@ -966,6 +964,10 @@ war_measures = {
 		}
 
 		complete_effect = {
+		add_timed_idea = {
+    idea = war_bonds
+    days = 180
+		}
 			if = {
 				limit = {
 					NOT = {

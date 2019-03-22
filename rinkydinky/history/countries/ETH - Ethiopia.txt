@@ -2,10 +2,10 @@
 
 oob = "ETH_1936"
 
-add_ideas = {
+	add_ideas = {
 	eth_failing_state
+	eth_kangz
 }
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -42,8 +42,7 @@ set_convoys = 5
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
+		fuel_silos = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -135,4 +134,8 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
 	traits = {  desert_fox }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }

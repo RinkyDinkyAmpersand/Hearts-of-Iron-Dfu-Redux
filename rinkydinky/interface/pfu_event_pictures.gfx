@@ -122,10 +122,6 @@ spriteType = {
 		name = "GFX_report_event_royalarmor"
 		texturefile = "gfx/event_pictures/report_event_royalarmor.dds"
 	}
-	spriteType = {
-		name = "GFX_news_event_809"
-		texturefile = "gfx/event_pictures/news_event_809.dds"
-	}
 	
 	
 }

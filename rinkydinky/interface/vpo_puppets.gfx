@@ -1,0 +1,91 @@
+spriteTypes = {
+
+	#communist
+	
+	spriteType = {
+		name = "GFX_autonomy_revolutionary_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_revolutionary_state_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_satellite_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_satellite_state_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_peoples_republic_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_peoples_republic_icon.dds"
+	}
+
+	#fascist
+
+	spriteType = {
+		name = "GFX_autonomy_military_administration_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_military_administration_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_puppet_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_puppet_state_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_reorganised_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_reorganised_state_icon.dds"
+	}
+
+	#special for vichy france
+	spriteType = {
+		name = "GFX_autonomy_collaborator_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_collaborator_state_icon.dds"
+	}
+
+
+
+	# non-aligned royalist
+
+	spriteType = {
+		name = "GFX_autonomy_imperial_territory_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_territory_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_vassal_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_vassal_state_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_imperial_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_state_icon.dds"
+	}
+	#special can be used by fascist too
+	spriteType = {
+		name = "GFX_autonomy_imperial_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_colony_icon.dds"
+	}
+
+
+	# american autonomy
+
+	spriteType = {
+		name = "GFX_autonomy_incorporated_territory_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_incorporated_territory_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_unincorporated_territory_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_unincorporated_territory_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_protected_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_protected_state_icon.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_autonomy_free_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_free_state_icon.dds"
+	}		
+
+}
+

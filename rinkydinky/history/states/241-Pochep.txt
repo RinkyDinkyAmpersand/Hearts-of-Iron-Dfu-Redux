@@ -12,11 +12,11 @@ state={
 			9288 10 
 		}
 		buildings = {
-			industrial_complex = 1
 			infrastructure = 5
 			air_base = 3
 		}
 		add_core_of = SOV
+		add_core_of = BLR
 	}
 
 	provinces={

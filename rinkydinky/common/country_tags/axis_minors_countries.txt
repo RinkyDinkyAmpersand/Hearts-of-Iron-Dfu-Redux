@@ -1,6 +1,11 @@
 
 EFR	= "countries/Etat_Francais.txt"
 JPO	= "countries/Japanese_Ocuppied_China.txt"
+ITE = "countries/Italian_East_Africa.txt"
+ITL = "countries/Italian_Libya.txt"
+SIC = "countries/Sichuan.txt"
+JPH = "countries/Japanese_Ocuppied_Phi.txt"
+JIN = "countries/Japanese_Ocuppied_Ind.txt"
 
 #to edit color you need to go to common/countries/colorstxt
 #to edit leader names go to histort/countries/ country name txt

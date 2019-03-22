@@ -4,6 +4,6 @@ units = {
 		name = "SS-Hohenstaufen"
 		location = 6521
 		division_template = "Panzer-Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.5
 	}
 }

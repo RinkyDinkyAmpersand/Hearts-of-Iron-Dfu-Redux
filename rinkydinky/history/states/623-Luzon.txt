@@ -6,13 +6,13 @@ state= {
 	state_category = city
 	
 	resources={
-		rubber=10
+		rubber=1 # was: 2
 	}
 
 	history= {
 		owner = PHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			industrial_complex = 1
 			12213 = {
 				naval_base = 1

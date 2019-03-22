@@ -1,6 +1,13 @@
 ﻿capital = 46
 
 oob = "ROM_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ROM_1936_naval_mtg"
+	else = {
+		set_naval_oob = "ROM_1936_naval_legacy"
+	}
+}
 
 set_research_slots = 3
 set_stability = 0.6
@@ -8,7 +15,7 @@ set_war_support = 0.6
 
 # Starting tech
 set_technology = {
-	tech_support = 1
+	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -17,9 +24,28 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1
+	interwar_antiair = 1
 	early_fighter = 1
-	early_submarine = 1
-	early_destroyer = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+	}
 }
 
 #Ideas
@@ -30,8 +56,12 @@ if = {
 	add_ideas = {
 		ROM_king_carol_ii_hedonist
 	}
+	
 }
-add_ideas = neutrality_idea
+ add_ideas = {
+	free_trade
+  
+}
 
 #Kick off kings crazy life
 if = {
@@ -46,10 +76,11 @@ if = {
 	}
 }
 
-add_ideas = low_economic_mobilisation
+
+
 set_convoys = 10
 1939.1.1 = {
-
+	
 	remove_ideas = neutrality_idea
 
 	add_political_power = 1198
@@ -87,7 +118,7 @@ set_convoys = 10
 		create_country_leader = {
 			name = "Carol II"
 			desc = "POLITICS_CAROL_II_DESC"
-			picture = GFX_Portrait_romania_Carol_II
+			picture = GFX_Portrait_romania_Carol_II			
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
@@ -103,7 +134,7 @@ set_convoys = 10
 		#	}
 		#}
 
-		else = {
+		else = {		
 			#generic focuses
 			complete_national_focus = army_effort
 			complete_national_focus = equipment_effort
@@ -116,8 +147,16 @@ set_convoys = 10
 			complete_national_focus = production_effort
 		}
 	}
-
+	
 	oob = "ROM_1939"
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+			set_naval_oob = "ROM_1939_naval_mtg"
+		else = {
+			set_naval_oob = "ROM_1939_naval_legacy"
+		}
+	}
+
 	set_technology = {
 		fighter1 = 1
 		early_bomber = 1
@@ -125,17 +164,15 @@ set_convoys = 10
 		basic_light_tank = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
-		interwar_antiair = 1
 		tech_recon = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
-		basic_submarine = 1
 
 		#doctrines
 		#Air
 		force_rotation = 1
 		fighter_baiting = 1
-
+		
 		grand_battle_plan = 1
 		trench_warfare = 1
 		fleet_in_being = 1
@@ -154,39 +191,48 @@ set_convoys = 10
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
+		fuel_silos = 1
 		oil_processing = 1
-		rubber_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
-
-add_ideas = {
-	free_trade
+	
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+			basic_submarine = 1
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		set_technology = {
+		}
+	}
 }
 
 set_politics = {
 
 	parties = {
-		democratic = {
+		democratic = { 
 			popularity = 20
 		}
 
 		fascism = {
 			popularity = 18
 		}
-
+		
 		communism = {
 			popularity = 2
 		}
-
-		neutrality = {
+		
+		neutrality = { 
 			popularity = 60
 		}
 	}
-
+	
 	ruling_party = neutrality
 	last_election = "1933.12.20"
 	election_frequency = 48
@@ -197,27 +243,38 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = {
+			democratic = { 
 				popularity = 20
 			}
 
 			fascism = {
 				popularity = 35
 			}
-
+			
 			communism = {
 				popularity = 2
 			}
-
-			neutrality = {
+			
+			neutrality = { 
 				popularity = 43
 			}
 		}
-
+		
 		ruling_party = neutrality
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
+	}
+}
+
+create_country_leader = {
+	name = "Gheorghe Tatarescu"
+	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
+	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
 	}
 }
 
@@ -324,25 +381,93 @@ if = {
 		planning_skill = 3
 		logistics_skill = 3
 	}
+}
 
-	create_navy_leader = {
-		name = "Horia Macellariu"
-		gfx = "GFX_Portrait_romania_horia_macellariu"
-		traits = { spotter }
-		skill = 2
-	}
+create_navy_leader = {
+	name = "Horia Macellariu"
+	gfx = "GFX_Portrait_romania_horia_macellariu"
+	traits = { gentlemanly spotter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
 }
 
 
-### Ship Variants ###
+### VARIANTS ###
+# 1936 Start #
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "Regele Ferdinand Class"
+		type = destroyer_1
+		upgrades = {
+			ship_torpedo_upgrade = 1
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	# Submarines #
+	create_equipment_variant = {
+		name = "Delfinul Class"				
+		type = ship_hull_submarine_2
+		name_group = ROM_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+	}
+	# Destroyers #
+	create_equipment_variant = {
+		name = "Marasti Class"				
+		type = ship_hull_light_1
+		name_group = ROM_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Regele Ferdinand Class"	
+		type = ship_hull_light_1
+		name_group = ROM_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+}
 
-create_equipment_variant = {
-	name = "Regele Ferdinand Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 1
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 1
+# 1939 Start #
+1939.1.1 = {
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		# Ship variants #
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
 	}
 }

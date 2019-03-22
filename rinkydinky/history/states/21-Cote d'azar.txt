@@ -3,6 +3,9 @@ state={
 	id=21
 	name="STATE_21" # Provence
 	manpower = 2060400
+	resources={
+		aluminium=60 # was: 120
+	}
 
 	state_category = city
 
@@ -18,6 +21,7 @@ state={
 			infrastructure = 6
 			industrial_complex = 1
 			dockyard = 2
+			fuel_silo = 1
 			air_base = 10
 			911 = {
 				naval_base = 10

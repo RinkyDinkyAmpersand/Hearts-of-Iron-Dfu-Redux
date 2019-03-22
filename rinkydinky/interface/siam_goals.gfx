@@ -1,5 +1,28 @@
 	spriteTypes = {	
-	
+	SpriteType = {
+		name = "GFX_ITA_victory_by_any_means"
+		texturefile = "gfx/interface/goals/goal_ita_victory_by_any_means.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_lebensraum"
+		texturefile = "gfx/interface/goals/goal_authority.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_JAP_war1"
+		texturefile = "gfx/interface/goals/goal_japanese_imperialism.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_JAP_war2"
+		texturefile = "gfx/interface/goals/goal_japanese_tank_import.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_JAP_war3"
+		texturefile = "gfx/interface/goals/goal_japanese_instructors.tga"
+	}
+	SpriteType = { 
+		name = "GFX_focus_JAP_war4"
+		texturefile = "gfx/interface/goals/goal_japanese_navy.tga"
+	}
 	SpriteType = { 
 		name = "GFX_focus_SIA_garuda"
 		texturefile = "gfx/interface/goals/focus_generic_garuda.dds"

@@ -5,7 +5,6 @@ oob = "SWI_1936"
 set_research_slots = 3
 
 set_technology = {
-	gw_artillery = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
@@ -14,7 +13,7 @@ set_technology = {
 	tech_recon = 1
 	early_fighter = 1
 	CAS1 = 1
-	trench_warfare = 1
+	fuel_silos = 1
 }
 
 1939.1.1 = {
@@ -59,13 +58,11 @@ set_technology = {
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		rubber_processing = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+		fuel_refining = 1
 	}
 }
 
@@ -116,10 +113,8 @@ set_politics = {
 }
 
 add_ideas = {
-	swiss_neutrality
-    neutrality_idea		
-	extensive_conscription
-	free_trade
+	neutrality_idea	
+	limited_conscription
 }
 
 set_stability = 0.85
@@ -173,4 +168,8 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  winter_specialist }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }

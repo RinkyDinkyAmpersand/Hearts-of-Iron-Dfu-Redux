@@ -3,16 +3,16 @@ state={
 	id=388
 	name="STATE_388"
 	manpower = 537605
-	state_category = town
+	state_category =  metropolis
 	resources={
-		tungsten=16
+		tungsten=11 # was: 16
 	}
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 4
+			industrial_complex = 20
 		}
 		add_core_of = USA
 		victory_points = {

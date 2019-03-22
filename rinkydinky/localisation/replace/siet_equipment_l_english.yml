@@ -157,8 +157,7 @@
  
  SOV_modern_tank_artillery_equipment_1:0 "155GH52-SP-T55"
  SOV_modern_tank_artillery_equipment_1_short:0 "155GH52-SP-T55"
- SOV_modern_tank_artillery_equipment_1_desc:0 "In the early 2000s, the Finnish company Patria Vammas Co tried to create SPG for Egypt. In 1998, Tampella AB industries created howitzer 155 GH 52 APU, which is still in service in Egyptians army. As chassis they decided to try the old T-55 - as tanks they were not very good, but as a chassis for self-propelled guns - very even. Vehicle was equipped with external hydraulic outriggers, which are didn't allow swinging after the shot, and remove the load from the brake.
- Egyptians were unable to produce these vehicles."
+ SOV_modern_tank_artillery_equipment_1_desc:0 "In the early 2000s, the Finnish company Patria Vammas Co tried to create SPG for Egypt. In 1998, Tampella AB industries created howitzer 155 GH 52 APU, which is still in service in Egyptians army. As chassis they decided to try the old T-55 - as tanks they were not very good, but as a chassis for self-propelled guns - very even. Vehicle was equipped with external hydraulic outriggers, which are didn't allow swinging after the shot, and remove the load from the brake. Egyptians were unable to produce these vehicles."
  
  SOV_modern_tank_destroyer_equipment_1:0 "SU-122-54"
  SOV_modern_tank_destroyer_equipment_1_short:0 "SU-122-54"

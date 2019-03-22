@@ -13,19 +13,7 @@ units = {
 		start_experience_factor = 0.5
 	}
 	division= {
-		name = "68. Gornostrelkovaya Diviziya"
-		location = 6516
-		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.5
-	}
-	division= {
 		name = "46. Gornostrelkovaya Diviziya"
-		location = 6486
-		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.5
-	}
-	division= {
-		name = "47. Gornostrelkovaya Diviziya"
 		location = 6486
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.5
@@ -49,19 +37,7 @@ units = {
 		start_experience_factor = 0.5
 	}
 	division= {
-		name = "318. Gornostrelkovaya Diviziya"
-		location = 6620
-		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.5
-	}
-	division= {
 		name = "98. Gornostrelkovaya Diviziya"
-		location = 9753
-		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.5
-	}
-	division= {
-		name = "99. Gornostrelkovaya Diviziya"
 		location = 9753
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.5

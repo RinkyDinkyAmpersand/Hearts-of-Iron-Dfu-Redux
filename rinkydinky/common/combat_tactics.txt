@@ -21,7 +21,7 @@ tactic_basic_attack = {
 
 	active = yes
 
-	base =  { factor = 4 }
+	base =  { factor = 3 }
 	picture = attack
 
 	countered_by = tactic_counterattack
@@ -37,7 +37,7 @@ tactic_basic_defend = {
 
 	active = yes
 
-	base =  { factor = 4 }
+	base =  { factor = 3 }
 	picture = defend
 	defender = 0.05
 }
@@ -51,7 +51,7 @@ tactic_default_attack = {
 
 	active = yes
 
-	base =  { factor = 4 }
+	base =  { factor = 3 }
 	picture = attack
 
 	countered_by = tactic_default_counterattack
@@ -66,7 +66,7 @@ tactic_default_defend = {
 
 	active = yes
 
-	base =  { factor = 4 }
+	base =  { factor = 3 }
 	picture = defend
 	defender = 0.05
 }
@@ -217,7 +217,7 @@ tactic_cc_withdraw = {
 
 	active = yes
 
-	base = { factor = 1 }
+	base = { factor = 2 }
 	picture = cc_withdraw
 
 	phase = default #changes phase to no
@@ -975,12 +975,12 @@ tactic_guerrilla_tactics = { #People's army defender tactic. also for German vol
 
 	active = no
 
-	base =  { factor = 4 }
+	base =  { factor = 3 }
 	picture = tactic_guerrilla_tactics
 
 	combat_width = -0.5
 	attacker = -0.7
-	defender = -0.6
+	defender = -0.75
 }
 
 tactic_default_guerrilla_tactics = { #People's army defender tactic. also for German volksturm branch.
@@ -996,12 +996,12 @@ tactic_default_guerrilla_tactics = { #People's army defender tactic. also for Ge
 
 	active = no
 
-	base =  { factor = 4 }
+	base =  { factor = 3 }
 	picture = tactic_guerrilla_tactics
 
 	combat_width = -0.5
 	attacker = -0.7
-	defender = -0.6
+	defender = -0.75
 }
 
 tactic_human_wave_tactics = { #People's army attacker tactic

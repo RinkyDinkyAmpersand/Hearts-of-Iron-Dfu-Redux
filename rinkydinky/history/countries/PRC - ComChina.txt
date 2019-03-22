@@ -66,7 +66,7 @@ save_global_event_target_as = WTT_communist_china
 			complete_national_focus = production_effort
 		}
 	}
-
+	
 	# Chinese Popular Front effects
 	add_to_war = {
 		targeted_alliance = CHI
@@ -97,7 +97,7 @@ save_global_event_target_as = WTT_communist_china
 		service_by_requirement
 		closed_economy
 	}
-
+	
 	set_technology = {
 		tech_mountaineers = 1
 		#doctrines
@@ -118,9 +118,8 @@ save_global_event_target_as = WTT_communist_china
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		improved_oil_processing = 1
+		fuel_silos = 1
+		fuel_refining = 1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1
@@ -133,20 +132,20 @@ save_global_event_target_as = WTT_communist_china
 set_politics = {
 
 	parties = {
-		democratic = {
+		democratic = { 
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
-
+		
 		communism = {
 			popularity = 100
 			#banned = no #default is no
 		}
 	}
-
+	
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
@@ -157,20 +156,20 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = {
+			democratic = { 
 				popularity = 0
 			}
 
 			fascism = {
 				popularity = 0
 			}
-
+			
 			communism = {
 				popularity = 100
 				#banned = no #default is no
 			}
 		}
-
+		
 		ruling_party = communism
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -206,7 +205,6 @@ create_country_leader = {
 	ideology = marxism
 	traits = {
 		cornered_fox
-		easy_surrender
 	}
 }
 

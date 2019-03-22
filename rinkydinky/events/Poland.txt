@@ -593,13 +593,11 @@ country_event = {
 
 	option = {
 		name = poland.14.a
-		ai_will_do = { factor = 100 }
 add_political_power = 250
 POL = { country_event = { id = poland.15 } }
 	}
 	option = {
 		name = poland.14.b
-		ai_will_do = { factor = 0 }
  add_stability = -0.25
  add_political_power = -150
  POL = { country_event = { id = poland.16 } }
@@ -665,12 +663,12 @@ country_event = {
 
 	option = {
 		name = poland.17.a
-		ai_will_do = { factor = 100 }
+
 		POL = { country_event = { id = poland.18 } }
 	}
 	option = {
 		name = poland.17.b
-		ai_will_do = { factor = 0 }
+
 		 add_stability = -0.25
  add_political_power = -150
 		POL = { country_event = { id = poland.19 } }

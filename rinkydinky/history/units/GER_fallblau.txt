@@ -39,13 +39,13 @@ units = {
 		name = "10. Panzergrenadier-Division"
 		location = 525
 		division_template = "Panzergrenadier-Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.5
 	}
 
 	division= {
 		name = "15. Panzergrenadier-Division"
 		location = 525
 		division_template = "Panzergrenadier-Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.5
 	}
 }

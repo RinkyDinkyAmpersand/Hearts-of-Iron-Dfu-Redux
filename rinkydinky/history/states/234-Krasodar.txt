@@ -6,14 +6,17 @@ state={
 	
 	state_category = city
 	resources={
-		tungsten=26
-		oil=38
+		tungsten=17 # was: 26
+		oil=12 # was: 18
 	}
 
 	history={
 		owner = SOV
 		victory_points = {
 			3720 1 
+		}
+		victory_points = {
+			719 3
 		}
 		victory_points = {
 			3734 5

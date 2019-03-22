@@ -527,12 +527,13 @@ country_event = {
 		tag = JAP
 		JAP = {
 			has_war_with = USA
-			surrender_progress > 0.80
+			surrender_progress > 0.70
 		}
 	}
 	mean_time_to_happen = { days = 1 }
 
 	immediate = {
+	hidden_effect = {
 		JAP = {
 			white_peace = ENG
 			white_peace = USA
@@ -540,18 +541,28 @@ country_event = {
 			white_peace = SIK
 			white_peace = PRC
 			white_peace = CHI
+			remove_ideas = chinese_rebels
+			create_country_leader = 
+			{
+			name = "Douglas MacArthur"
+			desc = ""
+			picture = Portrait_USA_Douglas_MacArthur.dds
+			expire = "1965.1.1"
+			ideology = liberalism
+			}
+			set_cosmetic_tag = JAP_OCCUPATION
 		}
-
+	USA = {annex_country = { target = JIN transfer_troops = no }}
+	USA = {annex_country = { target = JPH transfer_troops = no }}
+	CHI = {annex_country = { target = JPO transfer_troops = no }}
 		USA = {
 			transfer_state = 647
 			transfer_state = 684
 			transfer_state = 646
 			transfer_state = 638
 			transfer_state = 633
-			transfer_state = 743
 			transfer_state = 648
 			transfer_state = 645
-		
 			transfer_state = 526
 		}
 
@@ -562,7 +573,7 @@ country_event = {
 			transfer_state = 670
 		}
 
-		PRC = {
+		CHI = {
 			transfer_state = 611
 			transfer_state = 753
 			transfer_state = 612
@@ -574,24 +585,56 @@ country_event = {
 			transfer_state = 717
 			transfer_state = 615
 			transfer_state = 622
-			transfer_state = 621
-			transfer_state = 762
+			transfer_state = 621	
 			transfer_state = 752
+			transfer_state = 795
 		}
 			SOV = {
 			transfer_state = 527
 			transfer_state = 537
 			transfer_state = 555
-		
-			
 		}
 				KOR = {
 			transfer_state = 525
+			create_country_leader = 
+			{
+			name = "Courtney Hodges"
+			desc = ""
+			picture = Portrait_USA_Cortney_Hodges.dds
+			expire = "1965.1.1"
+			ideology = liberalism
+			}
+			set_cosmetic_tag = KOR_OCCUPATION
 		}
-		USA = { puppet = KOR }
-		USA = { puppet = JAP }
+		USA = {set_autonomy = {
+                target = KOR
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.1
+            } }
+		USA = { set_autonomy = {
+                target = JAP
+                autonomous_state = autonomy_integrated_puppet
+                freedom_level = 0.1
+            } }
+		
 
 		CHI = {
+			transfer_state = 744
+			transfer_state = 801
+			transfer_state = 804
+			transfer_state = 750
+			transfer_state = 805
+			transfer_state = 802
+			transfer_state = 803
+			transfer_state = 749
+			transfer_state = 743
+			transfer_state = 754
+			transfer_state = 756
+			transfer_state = 757
+			transfer_state = 751
+			transfer_state = 748
+			transfer_state = 747
+			transfer_state = 746
 			transfer_state = 609
 			transfer_state = 524
 			transfer_state = 608
@@ -621,11 +664,9 @@ country_event = {
 			transfer_state = 601
 			transfer_state = 605
 			transfer_state = 607
-			transfer_state = 763
 			transfer_state = 761
 			transfer_state = 620
 			transfer_state = 600
-			transfer_state = 764
 			transfer_state = 602
 			transfer_state = 765
 			transfer_state = 603
@@ -635,14 +676,16 @@ country_event = {
 		}
 		SIA = {
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = neutrality
 				elections_allowed = yes
 			}
-			add_popularity = { ideology = democratic popularity = 1 }
+			add_popularity = { ideology = neutrality popularity = 100 }
 		}
 		ENG = {
 			add_to_faction = SIA
+			add_to_faction = CHI
 		}
+	}
 	}
 
 	option = { #peacedeal

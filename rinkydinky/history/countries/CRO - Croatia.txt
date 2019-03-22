@@ -1,12 +1,12 @@
 ﻿capital = 109
 
 set_research_slots = 2
-set_stability = 0.90
-set_war_support = 0.6
+	set_stability = 0.90
+set_war_support = 0.6			 
 
 oob = "CRO_1936"
 
-	set_technology = {
+set_technology = {
 		improved_light_tank = 1
 		basic_medium_tank = 1
 		CAS2 = 1
@@ -21,6 +21,8 @@ oob = "CRO_1936"
 		jaegers2 = 1
 		infantry_weapons = 1
 	infantry_weapons1 = 1
+					  
+				 
 	tech_recon = 1
 	tech_logistics_company = 1
 	tech_support = 1
@@ -81,11 +83,9 @@ oob = "CRO_1936"
 		concentrated_industry4 = 1
 
 	}
-
-		add_ideas = {
+add_ideas = {
 		CRO_religious_minorities
-	}
-
+		}
 create_country_leader = {
 	name = "Ante Pavelic"
 	desc = "ANTE_PAVELIC_DESC"
@@ -95,8 +95,8 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
+	}
+set_convoys = 5
 create_corps_commander = {
 	name = "Vladimir Čukavac"
 	gfx = GFX_Portrait_yugoslavia_vladimir_cukavac
@@ -109,13 +109,12 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
-set_convoys = 5
 
 
 1939.1.1 = {
 
 	add_political_power = 1198
-
+	
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -126,9 +125,9 @@ set_convoys = 5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-
+	
 	set_technology = {
-
+	
 		#doctrines
 		air_superiority = 1
 		grand_battle_plan = 1
@@ -147,9 +146,7 @@ set_convoys = 5
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		rubber_processing = 1
+		fuel_silos = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -159,19 +156,19 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = {
+		democratic = { 
 			popularity = 15
 		}
 
 		fascism = {
 			popularity = 75
 		}
-
+		
 		communism = {
 			popularity = 10
 		}
 	}
-
+	
 	ruling_party = fascism
 	last_election = "1935.6.9"
 	election_frequency = 12
@@ -182,19 +179,19 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = {
+			democratic = { 
 				popularity = 15
 			}
 
 			fascism = {
 				popularity = 75
 			}
-
+			
 			communism = {
 				popularity = 10
 			}
 		}
-
+		
 		ruling_party = fascism
 		last_election = "1935.6.9"
 		election_frequency = 12

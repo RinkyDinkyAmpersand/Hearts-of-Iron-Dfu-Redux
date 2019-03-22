@@ -5,11 +5,14 @@ state={
 	manpower = 19757000
 	
 	state_category = rural
-	
+	resources={
+		rubber=2 # was: 3
+	}
 	history={
 		owner = ENG
+		add_core_of = NGA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 0
 			industrial_complex = 1
 			2050 = {

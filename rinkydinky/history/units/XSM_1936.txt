@@ -27,7 +27,6 @@ units = {
 		location = 12846
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
 
 	}
 	division = { # "81 Juntuán"
@@ -38,7 +37,6 @@ units = {
 		location = 1647
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
 
 	}
 	division = { # "82 Juntuán"
@@ -49,7 +47,6 @@ units = {
 		location = 1933
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
 
 	}
 	division = { # "1 Ma Juntuán"
@@ -60,7 +57,6 @@ units = {
 		location = 7911
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
 
 	}
 	division = { # "2 Ma Juntuán"
@@ -71,7 +67,6 @@ units = {
 		location = 531
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
 
 	}
 	division = { # "3 Ma Juntuán"
@@ -82,14 +77,12 @@ units = {
 		location = 12846
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
 
 	}
 	division = {
 		name = "Golmud Jingbei"
 		location = 12846
-		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.1
+		division_template = "Juntuán"
 
 	}
 }

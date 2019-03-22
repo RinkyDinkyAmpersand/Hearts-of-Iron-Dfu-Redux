@@ -195,7 +195,6 @@ focus_tree = {
 			is_subject = yes
 			threat > 0.99
 			320 = { is_controlled_by = FRA }
-			321 = { is_controlled_by = POR }
 		}
 
 		cancel_if_invalid = yes
@@ -565,7 +564,7 @@ focus_tree = {
 			army_experience = 20
 			add_tech_bonus = {
 				name = RAJ_british_army_support
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = support_tech
 			}
@@ -644,6 +643,105 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = RAJ_defence
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = RAJ_red_eagle_division }
+		x = 0
+		y = 3
+		relative_position_id = RAJ_british_army_support
+
+		cost = 11.5
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_equipment_to_stockpile = {
+    type = infantry_equipment_1
+    amount = 20000
+    producer = RAJ
+}
+			288 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4336
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4293
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 7441
+					instant_build = yes
+				}
+				
+			}
+			640 = {
+			add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4654
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 1607
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 7603
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2061
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 1170
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 12363
+					instant_build = yes
+				}
+		}
+		}
+		}
+		
 	############################
 	#### WAR PREP SECTION ######
 	############################
@@ -680,7 +778,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_lessons_of_the_great_war
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = land_doctrine
 			}
@@ -765,7 +863,7 @@ focus_tree = {
 			add_ideas = RAJ_indian_gurkhas
 				add_tech_bonus = {
 				name = RAJ_chindits
-				bonus = 0.50
+				bonus = 1
 				uses = 2
 				category = mountaineers_tech
 			}
@@ -1008,7 +1106,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_the_bangalore_torpedo
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = engineers_tech
 			}
@@ -1048,7 +1146,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_vickers_berthier_gun
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = infantry_weapons
 			}
@@ -1089,7 +1187,7 @@ focus_tree = {
 			army_experience = 10
 			add_tech_bonus = {
 				name = RAJ_royal_indian_artillery
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = artillery
 			}
@@ -1129,7 +1227,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_army_motorization
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = motorized_equipment
 			}
@@ -1213,7 +1311,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_indian_armor
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = cat_light_armor
 				category = cat_medium_armor
@@ -1242,7 +1340,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_modernizing_army
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = land_doctrine
 			}
@@ -1321,7 +1419,7 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = RAJ_british_pilot_training
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = air_doctrine
 			}
@@ -1445,7 +1543,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_air_support_effort
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = tactical_bomber1
 				technology = tactical_bomber2
@@ -1489,7 +1587,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_fighter_effort
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				technology = early_fighter
 				technology = fighter1
@@ -1540,7 +1638,7 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = RAJ_royal_indian_air_force
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = air_doctrine
 			}
@@ -1581,7 +1679,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_the_smiling_buddha
-				bonus = 0.50
+				bonus = 1
 				uses = 1
 				category = nuclear
 			}
@@ -2154,7 +2252,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = RAJ_royal_indian_navy
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = naval_doctrine
 			}
@@ -2194,7 +2292,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_screening_effort
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = dd_tech
 				category = cl_tech
@@ -2252,7 +2350,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_cruiser_effort
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = bc_tech
 				category = ca_tech
@@ -2310,7 +2408,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_submarine_effort
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = ss_tech
 			}
@@ -2350,7 +2448,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_capital_ship_effort
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = cv_tech
 				category = bb_tech
@@ -2383,7 +2481,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_modernizing_navy
-				bonus = 0.50
+				bonus = 1
 				uses = 2
 				category = naval_doctrine
 			}
@@ -2576,10 +2674,10 @@ focus_tree = {
 				limit = {
 					has_state_flag = RAJ_ishapore_arsenal_AF
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -2595,10 +2693,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 				set_state_flag = RAJ_ishapore_arsenal_AF

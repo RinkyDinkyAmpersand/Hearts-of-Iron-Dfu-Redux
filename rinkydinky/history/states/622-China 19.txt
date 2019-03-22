@@ -1,9 +1,8 @@
-
 state={
 	id=622
 	name="STATE_622"
 	resources={
-		steel=4.000
+		steel=3.000
 		tungsten=3.000
 	}
 
@@ -12,24 +11,34 @@ state={
 		add_core_of = PRC
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = JPO
 		victory_points = {
-			8049 3
+			8049 3 
 		}
 		buildings = {
-			infrastructure = 1
-			arms_factory = 4
-			industrial_complex = 2
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 4
+			10733 = {
+				bunker = 2
 
-			5007 = { bunker = 2 }
+			}
+			12156 = {
+				bunker = 2
+
+			}
+			5007 = {
+				bunker = 2
+
+			}
+
 		}
 
 	}
 
 	provinces={
-		517 1458 4939 7208 7314 7659 8049 10880 12356 5007 12156 10733
+		517 1458 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 
 	}
-	manpower=7906200
+	manpower=7006200
 	buildings_max_level_factor=1.000
 	state_category=city
 }

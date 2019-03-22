@@ -1,0 +1,19 @@
+state={
+	id=804
+	name="STATE_804"
+	provinces={
+		1367 2045 2091 5048 7256 8026 10132 10144 11865 12274 12767 
+	}
+		history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+	manpower= 46163300
+	buildings_max_level_factor=1.000
+}
+}

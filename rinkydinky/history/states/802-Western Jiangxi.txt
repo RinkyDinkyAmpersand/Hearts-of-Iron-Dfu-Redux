@@ -1,0 +1,20 @@
+state={
+	id=802
+	name="STATE_802"
+	provinces={
+		1628 4156 4183 7004 7653 9942 10057 10114 10501 11988 12495 
+	}
+		history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		}
+	manpower=1582000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

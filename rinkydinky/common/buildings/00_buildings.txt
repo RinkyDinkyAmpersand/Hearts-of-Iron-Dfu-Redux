@@ -12,6 +12,8 @@ buildings = {
 		max_level = 10
 		value = 1
 		local_building_slots = 0.5
+			show_modifier = yes
+		max_fuel_building = 0.75
 	}
 
 	arms_factory = {
@@ -105,7 +107,7 @@ buildings = {
 	anti_air_building = {
 		show_on_map = 3
 		base_cost = 1500
-		per_level_extra_cost = 500
+		per_level_extra_cost = 300
 		icon_frame = 9
 		anti_air = yes
 		disabled_in_dmz = yes
@@ -117,17 +119,30 @@ buildings = {
 
 	synthetic_refinery = {
 		show_on_map = 1
-		base_cost = 12000
+		base_cost = 13000
 		icon_frame = 10
-		local_resources_oil = 3 # May use local_resources_ + any resource name
 		local_resources_rubber = 3 # May use local_resources_ + any resource name
 		refinery = yes
 		max_level = 3 # This is the max unlock level
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+show_modifier = yes
+		fuel_gain_from_states = 2.0 #per hour
 	}
-
+		fuel_silo = {
+		show_on_map = 1
+		base_cost = 5000
+		icon_frame = 14
+		#max_level = 1
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		fuel_silo = yes
+		
+		show_modifier = yes
+		max_fuel_building = 100.0 #k
+	}
 	radar_station = {
 		show_on_map = 1
 		base_cost = 4000

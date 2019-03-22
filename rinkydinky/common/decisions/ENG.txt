@@ -257,24 +257,6 @@ political_actions = {
 		}
 	}
 
-	annex_british_raj = {
-		ai_will_do = { factor = 0 }
-		cost = 50
-
-		visible = {
-			tag = ENG
-			RAJ = { is_ai = yes }
-			country_exists = RAJ
-		}
-
-		complete_effect = {
-			ENG = {
-				annex_country = { target = RAJ transfer_troops = yes }
-			add_stability = -0.05
-			}
-		}
-	}
-
 	annex_south_africa = {
 		ai_will_do = { factor = 0 }
 		cost = 30
@@ -467,7 +449,6 @@ operations = {
 		}
 
 		complete_effect = {
-		complete_effect = {
 			random_other_country = {
 				limit = {
 					original_tag = FRA
@@ -476,5 +457,4 @@ operations = {
 				country_event = { id = wtt_britain.25 hours = 5 }
 			}
 		}
-	}
 }

@@ -246,7 +246,47 @@ foreign_politics = {
 			SOV = { country_event = { id = wtt_japan.118 } }
 		}
 	}
-}
+	
+	annex_siam = {
+		ai_will_do = { factor = 0 }
+		cost = 50
+
+		visible = {
+			tag = JAP
+			SIA = { is_ai = yes }
+			country_exists = SIA
+			JAP = {controls_state = 336}
+			}
+		
+		complete_effect = {
+			JAP = {
+				annex_country = { target = SIA transfer_troops = yes }
+			}
+		}
+		
+	}
+	annex_siam2 = {
+		ai_will_do = { factor = 0 }
+		cost = 50
+
+		visible = {
+			tag = JAP
+			SIA = { is_ai = yes }
+			country_exists = SIA
+			SIA = {controls_state = 336}
+			}
+		
+		complete_effect = {
+			JAP = {
+				annex_country = { target = SIA transfer_troops = yes }
+			}
+		}
+		
+	}
+	
+	}
+	
+
 
 #Category allowed for JAP
 #Visible when has completed JAP_pacific_guardian focus.

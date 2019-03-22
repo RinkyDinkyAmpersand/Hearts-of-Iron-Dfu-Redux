@@ -2,8 +2,8 @@
 
 oob = "SLO_1939"
 
-	set_technology = {
-		improved_light_tank = 1
+set_technology = {
+	improved_light_tank = 1
 		basic_medium_tank = 1
 		CAS2 = 1
 		heavy_fighter1 = 1
@@ -76,15 +76,14 @@ oob = "SLO_1939"
 		concentrated_industry3 = 1
 		concentrated_industry4 = 1
 
-	}
-
+}
 	add_ideas = {
 		war_economy
 		extensive_conscription
 	}
 
 1939.1.1 = {
-
+	
 	add_political_power = 1198
 
 	#generic focuses
@@ -97,7 +96,7 @@ oob = "SLO_1939"
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-
+	
 	set_technology = {
 		#doctrines
 		formation_flying = 1
@@ -114,8 +113,7 @@ oob = "SLO_1939"
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
+		fuel_silos = 1
 		construction1 = 1
 		concentrated_industry = 1
 	}
@@ -124,19 +122,19 @@ oob = "SLO_1939"
 set_politics = {
 
 	parties = {
-		democratic = {
+		democratic = { 
 			popularity = 5
 		}
 
 		fascism = {
 			popularity = 90
 		}
-
+		
 		communism = {
 			popularity = 5
 		}
 	}
-
+	
 	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
@@ -153,7 +151,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_field_marshal = {
 	name = "Stefan Jurek"
 	picture = "Portrait_Europe_Generic_land_2.tga"

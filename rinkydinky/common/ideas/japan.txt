@@ -21,6 +21,9 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			rule = {
+				can_create_factions = yes
+			}
 
 			allowed_civil_war = {
 				NOT = {
@@ -70,7 +73,7 @@ ideas = {
 			picture = generic_research_bonus
 
 			modifier = {
-				research_time_factor = -0.05
+				research_speed_factor = 0.05
 				industrial_capacity_factory = 0.1
 			}
 		}
@@ -187,6 +190,7 @@ ideas = {
 				army_morale_factor = 0.1
 				land_night_attack = 0.1
 				no_supply_grace = 48
+				army_core_defence_factor = 0.15
 			}
 		}
 
@@ -201,13 +205,33 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_morale_bonus
+			picture = emperor
 
 			modifier = {
 				army_attack_factor = 0.2
 				army_org_Factor = 0.20
 				army_morale_factor = 0.2
 				air_nav_efficiency = 0.20
+			}
+		}
+		
+		for_the_emperor_idea1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = emperor
+
+			modifier = {
+				army_attack_factor = 0.15
+				army_org_Factor = 0.15
+				army_morale_factor = 0.15
 			}
 		}
 				JAP_rebels = {
@@ -224,9 +248,8 @@ ideas = {
 			picture = tfv_can_conscription_crisis
 
 			modifier = {
-                industrial_capacity_factory = -0.2
+                industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1 
-				army_morale_factor = -0.05
 			}
 		}
 		for_the_emperor_idea_sov = {
@@ -278,7 +301,7 @@ ideas = {
 			picture = generic_research_bonus
 
 			modifier = {
-			research_time_factor = -0.05
+			research_speed_factor = 0.05
 			}
 		}
 		daitoakyoeiken = {
@@ -342,7 +365,7 @@ ideas = {
 				army_defence_factor = -0.5
 				max_planning = -0.5
 				planning_speed = -0.5
-				research_time_factor = 0.95
+				research_speed_factor = -0.95
 				political_power_factor = -1
 				ai_get_ally_desire_factor = -10000
 			}

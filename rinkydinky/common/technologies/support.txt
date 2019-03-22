@@ -544,6 +544,10 @@ technologies = {
 				defence = 0.10
 				attack = 0.10
 			}
+			jungle = {
+				attack = 0.1
+				movement = 0.1
+			}
 		}
 		
 		
@@ -575,6 +579,10 @@ technologies = {
 			urban = {
 				attack = 0.1	
 				defence = 0.10
+			}
+			jungle = {
+				attack = 0.1
+				movement = 0.1
 			}
 		}
 		path = {
@@ -776,6 +784,7 @@ technologies = {
 
 		logistics_company = {
 			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.1
 		}
 		
 		
@@ -806,6 +815,7 @@ technologies = {
 
 		logistics_company = {
 			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.1
 		}
 		path = {
 			leads_to_tech = tech_logistics_company4
@@ -833,6 +843,7 @@ technologies = {
 
 		logistics_company = {
 			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.1
 		}
 
 		research_cost = 0.75

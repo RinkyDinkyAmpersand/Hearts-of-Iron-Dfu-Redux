@@ -1,0 +1,87 @@
+﻿###########################
+# Chinese Events DFU
+###########################
+
+add_namespace = china
+
+country_event = {
+	id = china.500
+	title = china.500.t
+	desc = china.500.d
+	picture = GFX_report_event_china1.dds
+
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	trigger = {
+	tag = CHI
+	date > 1936.05.12
+	}
+
+	option = { 
+	hidden_effect ={
+	set_country_flag = The_Death_of_Hu_Hanmin
+	}
+		name = china.500.a
+		ai_chance = { factor = 100 }
+		
+			CHI = { transfer_state = 593 }
+			CHI = { transfer_state = 592 }
+			CHI = { transfer_state = 591 }
+			CHI = { transfer_state = 795 }
+			CHI = {puppet = GXC}
+			
+		}
+
+	}
+country_event = {
+	id = china.501
+	title = china.501.t
+	desc = china.501.d
+	picture = GFX_report_event_event_lushan_speech
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	}
+
+	option = { 
+	hidden_effect ={
+	remove_ideas = kuomintang_end
+	}
+		name = china.501.a
+		ai_chance = { factor = 50 }
+		create_country_leader = {
+	name = "Chiang Kai-shek"
+	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	picture = "Portrait_China_Chiang_Kai_Shek.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+				traits = {
+		cornered_fox
+	}
+}
+			
+		}
+		option = { 
+	hidden_effect ={
+	remove_ideas = kuomintang_end
+	}
+		name = china.501.b
+		ai_chance = { factor = 50 }
+	create_country_leader = {
+			name = "Chen Jitang"
+			desc = ""
+			picture = Portrait_China_Chen_Jitang.tga
+			expire = "1965.1.1"
+			ideology = despotism
+				traits = {
+		cornered_fox
+	}
+}	
+
+			
+		}
+
+	}

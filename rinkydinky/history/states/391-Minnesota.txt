@@ -6,14 +6,14 @@ state={
 	state_category = city
 
 	resources={
-		steel=208
+		steel=110 # was: 208
 	}
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 7
+			industrial_complex = 3
 		}
 		add_core_of = USA
 		victory_points = {

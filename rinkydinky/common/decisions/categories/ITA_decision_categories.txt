@@ -1,0 +1,22 @@
+################
+##### FRA ######
+################
+
+ITA_colonisation_effort = {
+	
+	allowed = {
+		original_tag = ITA
+	}
+}
+ITA_diplomacy = {
+	
+	allowed = {
+		original_tag = ITA
+	}
+}
+ITA_victory_in_africa = {
+	
+	allowed = {
+		original_tag = ITA
+	}
+}

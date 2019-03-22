@@ -1,24 +1,26 @@
-
-state={
+state=
+{
 	id=147
 	name="STATE_147"
-
-	history={
+	manpower = 4630
+	
+	state_category = enclave
+	impassable = yes
+	
+	
+	history = {	
 		owner = FIN
 		buildings = {
-
+			infrastructure = 3
 		}
 		add_core_of = FIN
-		victory_points = {
-			197 1 
-		}
 
+		victory_points = {
+			197 1
+		}
 	}
 
 	provinces={
-		197 11085 
+		197 9158 11085 	
 	}
-	manpower=4630
-	buildings_max_level_factor=1.000
-	state_category=enclave
 }

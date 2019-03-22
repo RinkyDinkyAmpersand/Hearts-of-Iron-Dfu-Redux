@@ -1,15 +1,11 @@
 state={
 	id=634
 	name="STATE_634"
-		resources={
-		rubber=20
-		oil=5
-		aluminium=3
-	}
+
 	history={
 		owner = AST
 		buildings = {
-		infrastructure = 1
+			infrastructure = 2
 			1269 = {
 				naval_base = 2
 

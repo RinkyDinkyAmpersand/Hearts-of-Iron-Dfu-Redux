@@ -10,6 +10,7 @@ set_technology = {
 	gw_artillery = 1
 	early_fighter = 1
 	CAS1 = 1
+	fuel_silos = 1
 	tech_support = 1
 }
 
@@ -18,7 +19,7 @@ set_convoys = 5
 1939.1.1 = {
 
 	add_political_power = 1198
-
+	
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -29,7 +30,7 @@ set_convoys = 5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-
+	
 	oob = "IRQ_1939"
 	set_technology = {
 		early_fighter = 1
@@ -60,9 +61,7 @@ set_convoys = 5
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		rubber_processing = 1
+		fuel_refining = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -73,24 +72,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = {
+		democratic = { 
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 20
 		}
-
+		
 		communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
-
-		neutrality = {
+		
+		neutrality = { 
 			popularity = 80
 		}
 	}
-
+	
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
@@ -134,24 +133,24 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = {
+			democratic = { 
 				popularity = 0
 			}
 
 			fascism = {
 				popularity = 30
 			}
-
+			
 			communism = {
 				popularity = 0
 				#banned = no #default is no
 			}
 
-			neutrality = {
+			neutrality = { 
 				popularity = 70
 			}
 		}
-
+	
 	ruling_party = neutrality
 		last_election = "1936.1.1"
 		election_frequency = 48

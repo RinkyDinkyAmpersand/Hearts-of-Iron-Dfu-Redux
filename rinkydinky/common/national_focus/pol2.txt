@@ -40,54 +40,7 @@ focus_tree = {
 		FRA = {country_event = { id = poland.14 }}
 		}
 	}
-	focus = {
-		id = POL_will_of_the_people
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		cost = 10.00
-		x = 2
-		y = 1
-		ai_will_do = {
-			factor = 1
-		}
-			prerequisite = {
-			focus = POL_buy_madagascar
-		}
-
-		available = {
-		AND = {
-		has_war_with = GER
-		SOV = { has_war_with = GER }
-		}}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		kill_country_leader = yes
-		set_politics = {
-		parties = {
-		democratic = {
-		popularity = 13
-		}
-		fascism = {
-		popularity = 0
-		}
-		neutrality = {
-		popularity = 32
-		}
-		communism = {
-		popularity = 55
-		}
-		}
-		ruling_party = communism
-		}
-		SOV = {puppet = POL}
-		}
-	}
+	
 	focus = {
 		id = POL_div303
 		icon = GFX_goal_generic_air_fighter

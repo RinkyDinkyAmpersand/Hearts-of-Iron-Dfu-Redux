@@ -3,16 +3,14 @@ state={
 	id=478
 	name="STATE_478" # Jalisco
 	manpower = 1
-
-	state_category = town
-
+	state_category = rural
 
 	history={
-		owner = BRA
+		
 	}
 
 	provinces={
-		2051 5052 10172 12746 12873 13089
+		2051 5052 10172 12746 12873 13089 
 	}
-
+	
 }

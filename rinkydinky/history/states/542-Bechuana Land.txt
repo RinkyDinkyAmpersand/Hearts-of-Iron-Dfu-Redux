@@ -3,11 +3,11 @@ state={
 	id=542
 	name="STATE_542"
 	manpower = 234000
-
+	
 	state_category = wasteland
-
+	
 	resources={
-		chromium=40
+		chromium=90 # was: 168
 	}
 
 	history={
@@ -15,10 +15,14 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = BOT
+		victory_points = {
+			8214 1
+		}
 
 	}
 
 	provinces={
-		1580 8214 10525 12940 12963
+		1580 8214 10525 12940 12963 
 	}
 }

@@ -1,5 +1,29 @@
 ideas = {
+	
 	country = {
+		soviet_defeat = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = fourth_international
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_core_attack_factor = 0.35
+				winter_attrition_factor = -0.75
+				mobilization_speed = 0.5
+				production_speed_industrial_complex_factor = 0.75
+				supply_consumption_factor = -0.75
+			}
+			}
 		shattered_retreat = {
 
 			allowed = {
@@ -10,7 +34,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = FRA_army_of_aggression_focus
+			picture = FRA_fortification_focus
 
 			removal_cost = -1
 
@@ -18,6 +42,25 @@ ideas = {
 				army_core_defence_factor = 0.05
 				army_speed_factor = -0.10
 			}
+		}
+		leningrad_treaty = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = HUN_treaty_of_triannon
+			
+			modifier = {
+				consumer_goods_factor = 0.8
+				army_morale_factor = -1.0
+				justify_war_goal_time = 20.00
+				enemy_justify_war_goal_time = 20.0
+				}
 		}
 		general_winter_idea = {
 
@@ -42,7 +85,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-
+			
 			allowed_civil_war = {
 				always = yes
 			}
@@ -61,12 +104,15 @@ ideas = {
 			allowed = {
 				always = no
 			}
+			rule = {
+				can_create_factions = yes
+			}
 
 			allowed_civil_war = {
 				has_government = communism
 			}
 
-			picture = generic_goods_red_bonus
+			picture = targets
 
 			modifier = {
 				production_factory_max_efficiency_factor = 0.10
@@ -199,7 +245,7 @@ ideas = {
 
 			modifier = {
 				subversive_activites_upkeep = -0.5
-				land_reinforce_rate = 0.15
+				land_reinforce_rate = 0.7
 			}
 		}
 
@@ -236,7 +282,7 @@ ideas = {
 			picture = generic_research_bonus
 
 			modifier = {
-				research_time_factor = -0.05
+				research_speed_factor = 0.05
 			}
 		}
 
@@ -2067,5 +2113,6 @@ ideas = {
 			traits = { rocket_scientist }
 		}
 	}
+
 
 }

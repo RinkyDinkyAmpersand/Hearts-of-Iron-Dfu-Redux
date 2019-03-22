@@ -7,21 +7,22 @@ state={
 	state_category = city
 	
 	resources={
-		rubber=242
-		oil=16
+		rubber=140 # was: 242
+		oil=10 # was: 16
 	}
 
 	history={
 		owner = HOL
+		add_core_of = INS
 		victory_points = {
-			7381 10
+			7381 5
 		}
 		victory_points = {
-			4608 5 
+			4608 3 
 		}
 
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 3

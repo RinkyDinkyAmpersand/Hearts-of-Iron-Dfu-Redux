@@ -1,0 +1,25 @@
+political_actions = {
+	
+	lease_muntenian_oil_to_germany = {
+		ai_will_do = { factor = 0 }
+		cost = 50
+		
+		available = {
+			date > 1939.6.1
+			
+		}
+		
+		visible = {
+			tag = ROM
+		}
+
+		complete_effect = {
+		add_relation_modifier = {
+				target = GER
+				modifier = ROM_license_german_equipment
+			}
+		give_resource_rights = { receiver = GER state = 46 }
+		}
+	}
+
+	}

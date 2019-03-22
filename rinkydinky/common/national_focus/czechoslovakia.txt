@@ -818,7 +818,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 40
+			factor = 900
 			modifier = {
 				factor = 2
 				has_completed_focus = CZE_go_right
@@ -877,7 +877,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 80
+			factor = 900
 		}
 
 		available = {
@@ -928,7 +928,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 80
+			factor = 900
 		}
 
 		available = {

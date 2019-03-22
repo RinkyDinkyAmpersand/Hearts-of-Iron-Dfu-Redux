@@ -2,9 +2,9 @@
 air_wings = {
 	358 = {
 		#reeeeeeee
-		strat_bomber_equipment_1 =  {
+		strat_bomber_equipment_2 =  {
 			owner = "USA" 
-			amount = 1000
+			amount = 600
 		}
 
  }

@@ -1,11 +1,16 @@
 #################
-#German Speeches#
+#DFU SOUNDS     #
 #################
 
 sound =
 {
-	name = "anthem"
-	file = "ger_sound/anthem.wav"
+	name = "sovietwar"
+	file = "dfu_sound/sovietwar.wav"
 
 }
+sound =
+{
+	name = "germanwar"
+	file = "dfu_sound/germanwar.wav"
 
+}

@@ -1,0 +1,131 @@
+﻿capital = 446
+
+set_stability = 0.5
+set_war_support = 0.20
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	tech_support = 1
+	tech_recon = 1
+	support_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+add_to_tech_sharing_group = commonwealth_research
+
+set_convoys = 100
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 40
+		}
+
+		fascism = {
+			popularity = 20
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 40
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Farouk Muhammad Ali"
+	desc = ""
+	picture = "Portrait_Egypt_Farouk.dds"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ahmed Husayn"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Farouk Muhammad Ali"
+	desc = ""
+	picture = "Portrait_Egypt_Farouk.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hosni al-Arabi"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+add_ideas = {
+	english
+	egypt
+	egypt_depression1
+}
+create_field_marshal = {
+	name = "Sir Richard O'Connor"
+	picture = "Portrait_Britain_Richard_OConnor.dds"
+	traits = { panzer_leader desert_fox trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Sir Henry Maitland Wilson"
+	picture = "Portrait_Britain_William_Platt.dds"
+	traits = { trickster trait_engineer }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Sir Harold Alexander"
+	picture = "Portrait_Britain_Harold_Alexander.dds"
+	traits = { infantry_leader organizer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Sir Bernard Paget"
+	picture = "Portrait_Bernard.dds"
+	traits = { panzer_leader desert_fox }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 5
+}
+

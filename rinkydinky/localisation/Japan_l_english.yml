@@ -1,4 +1,7 @@
 ﻿l_english:
+ CHI_fallen:0 "China Has Fallen..."
+ CHI_surrender:0 "Victory In The Second Sino Japanese War"
+ JAP_chinese:0 "End of The Second Sino Japanese War" 
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
  generic_focus:0 "National Focus"
  strike_usa_focus:0 "Strike the USA!"
@@ -243,6 +246,7 @@
  Tora.21.c2:0 "Unlocks the Southern Expansion Doctrine Focus Tree"
  Five_Ministers_North:0 "Nothern Expansion Doctrine Adopted"
  Five_Ministers_South:0 "Southern Expansion Doctrine Adopted"
+ The_Death_of_Hu_Hanmin:0 "The Death of Hu Hanmin"
  Tora.22.t:0 "February 26 Incident"
  Tora.22.d:0 "On the 26th of February, a group of young military officers attempted a coup d'état. The radical Kōdō-ha faction in the military assassinated several promiment politicans, but failed to assassinate the Prime Minister. The coup failed, and unlike in the aftermath of the previous attempted coup, the surviving perpetrators were given secret trials and shot."
  Tora.22.a:0 "Purge them!"

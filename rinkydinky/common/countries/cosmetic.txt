@@ -1,0 +1,16 @@
+EGY_Independent = {
+ color = rgb { 190 187 129 }
+ color_ui = rgb { 190 187 129 }
+}
+SPR_State = {
+color = rgb { 242 205 94 }
+color_ui = rgb { 255 255 122 }
+}
+PRC_non_communist_color = {
+	color = rgb { 191 173 100 }
+	color_ui = rgb { 191 173 100 }
+}
+GER_greater_german_reich = {
+	color = rgb { 54 54 54 }
+	color_ui = rgb { 115 115 115 }
+}

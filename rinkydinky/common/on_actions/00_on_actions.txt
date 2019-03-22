@@ -111,6 +111,15 @@ on_actions = {
 	on_nuke_drop = {
 
 		effect = {
+			set_global_flag = first_nuke_dropped
+			if = {
+				limit = { NOT = { has_global_flag = first_nuke_dropped } }
+				country_event = { id = generic.8 }
+				}
+			if = {
+				limit = { has_idea = race_for_the_bomb_outclassed }
+				remove_ideas = race_for_the_bomb_outclassed
+			}
 			if = {
 				limit = { NOT = { has_country_flag = achievement_has_dropped_nuke } }
 				goto_state = FROM
@@ -290,7 +299,8 @@ on_actions = {
 			}
 		}
 	}
-
+on_pride_of_the_fleet_sunk = {
+	}
 	#FROM is faction leader on join faction requests.
 	on_join_faction = {
 		effect = {
@@ -623,7 +633,12 @@ on_actions = {
 						has_government = fascism
 					}
 				}
-				add_timed_idea = { idea = SPA_recovering_from_civil_war days = 3650 }
+				add_ideas = SPA_recovering_from_civil_war
+				add_ideas = SPA_communist_guarrillas
+				add_ideas = spanish_war
+				add_ideas = fascism_trade
+				delete_unit_template_and_units = { division_template = "Brigada Legionario" }
+				delete_unit_template_and_units = { division_template = "Brigada Legionarios de Elite" }
 			}
 			#End of SCW
 			if = {
@@ -667,4 +682,5 @@ on_actions = {
 
 		}
 	}
+	
 }

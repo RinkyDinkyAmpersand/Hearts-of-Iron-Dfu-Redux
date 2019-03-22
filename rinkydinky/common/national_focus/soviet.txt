@@ -11,7 +11,91 @@ focus_tree = {
 	}
 
 	default = no
-
+		focus = {
+		id = soviet_operation_zet
+		prerequisite = {focus = SOV_stalin_constitution}
+		available = {
+			CHI = { has_war_with = JAP }
+			NOT = {has_global_flag = CHI_fallen}
+		}
+		bypass = {has_global_flag = CHI_fallen}
+		icon = GFX_goal_support_communism
+		x = 10
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		custom_effect_tooltip = SOV_lend_soviet_tt
+		hidden_effect = {
+		if = {
+					limit = { SOV = { has_tech = improved_infantry_weapons } }
+					CHI = { add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 6000 producer = SOV } }
+					else = { CHI = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = SOV } } }
+				}
+				if = {
+					limit = { SOV = { has_tech = artillery1 } }
+					CHI = { add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 1000 producer = SOV } }
+					else = { CHI = { add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1000 producer = SOV } } }
+				}
+				if = {
+					limit = { SOV = { has_tech = fighter2 } }
+					CHI = { add_equipment_to_stockpile = { type = fighter_equipment_2 amount = 400 producer = SOV } }
+					else = {
+						if = {
+							limit = { SOV = { has_tech = fighter1 } }
+							CHI = { add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 400 producer = SOV } }
+							else = { CHI = { add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 400 producer = SOV } } }
+						}
+					}
+				}
+				}
+		}
+	}
+			focus = {
+		id = soviet_operation_zet2
+		prerequisite = {focus = soviet_operation_zet}
+		available = {
+			CHI = { has_war_with = JAP }
+			has_global_flag = CHI_fallen
+		}
+		icon = GFX_goal_support_communism
+		x = 10
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		custom_effect_tooltip = SOV_lend_soviet_tt
+		hidden_effect = {
+		if = {
+					limit = { SOV = { has_tech = improved_infantry_weapons } }
+					CHI = { add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 3000 producer = SOV } }
+					else = { CHI = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3000 producer = SOV } } }
+				}
+				if = {
+					limit = { SOV = { has_tech = artillery1 } }
+					CHI = { add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 500 producer = SOV } }
+					else = { CHI = { add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = SOV } } }
+				}
+				if = {
+					limit = { SOV = { has_tech = fighter2 } }
+					CHI = { add_equipment_to_stockpile = { type = fighter_equipment_2 amount = 500 producer = SOV } }
+					else = {
+						if = {
+							limit = { SOV = { has_tech = fighter1 } }
+							CHI = { add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 500 producer = SOV } }
+							else = { CHI = { add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 500 producer = SOV } } }
+						}
+					}
+				}
+				}
+		}
+	}
+	
+	
 	focus = {
 		id = SOV_finish_five_year_plan
 		icon = GFX_goal_generic_construct_civ_factory
@@ -136,6 +220,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = pfu.urals.tt
 				hidden_effect = {
+				news_event = { hours = 1 id = dfu_news.2 }
 			219 = {
 				remove_building = {
 					type = arms_factory
@@ -904,9 +989,9 @@ focus_tree = {
 	focus = {
 		id = SOV_women_pilots
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = SOV_aviation_cult }
+		prerequisite = { focus = SOV_positive_heroism }
 		x = 8
-		y = 4
+		y = 2
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1009,40 +1094,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = SOV_aviation_cult
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SOV_positive_heroism }
-		x = 8
-		y = 3
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			air_experience = 25
-
-			add_tech_bonus = {
-				name = air_bonus
-				bonus = 0.5
-				uses = 1
-				technology = fighter1
-				technology = fighter2
-				technology = CAS1
-				technology = CAS2
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = tactical_bomber1
-				technology = tactical_bomber2
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				category = naval_air
-			}
-		}
-	}
 
 	focus = {
 		id = SOV_socialist_realism
@@ -1065,7 +1116,7 @@ focus_tree = {
 	focus = {
 		id = SOV_improve_railway
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 11
+		x = 12
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -1105,7 +1156,7 @@ focus_tree = {
 		id = SOV_Sinteticheskii_Kauchuk
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = SOV_improve_railway }
-		x = 11
+		x = 12
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -1183,7 +1234,7 @@ focus_tree = {
 	focus = {
 		id = SOV_transpolar_flights
 		icon = GFX_goal_generic_air_fighter2
-		x = 13
+		x = 14
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -1194,7 +1245,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = air_doctrine
 			}
@@ -1204,7 +1255,7 @@ focus_tree = {
 	focus = {
 		id = SOV_ocean_going_navy
 		icon = GFX_goal_generic_navy_battleship
-		x = 15
+		x = 16
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -1215,10 +1266,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 2
-				technology = basic_battleship
-				technology = heavy_battleship
+				technology = basic_ship_hull_heavy
+				technology = ship_hull_super_heavy
 			}
 		}
 	}
@@ -1229,7 +1280,7 @@ focus_tree = {
 		prerequisite = { focus = SOV_improve_railway }
 		prerequisite = { focus = SOV_transpolar_flights }
 		prerequisite = { focus = SOV_ocean_going_navy }
-		x = 13
+		x = 14
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -1264,7 +1315,7 @@ focus_tree = {
 		id = SOV_anti_fascist_diplomacy
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = SOV_diplomatic_effort }
-		x = 11
+		x = 12
 		y = 2
 		cost = 5
 		ai_will_do = {
@@ -1303,7 +1354,7 @@ focus_tree = {
 		id = SOV_far_east_fortification
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = SOV_anti_fascist_diplomacy }
-		x = 10
+		x = 11
 		y = 3
 		cost = 5
 		ai_will_do = {
@@ -1410,7 +1461,7 @@ focus_tree = {
 		id = SOV_improve_stalin_line
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = SOV_anti_fascist_diplomacy }
-		x = 12
+		x = 13
 		y = 3
 		cost = 5
 		ai_will_do = {
@@ -1538,7 +1589,7 @@ focus_tree = {
 		id = SOV_operation_countenance
 		icon = GFX_goal_generic_territory_or_war
 		prerequisite = { focus = SOV_improve_stalin_line focus = SOV_far_east_fortification }
-		x = 11
+		x = 12
 		y = 4
 		cost = 4.3
 		ai_will_do = {
@@ -1617,7 +1668,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_navy
 		prerequisite = { focus = SOV_anti_capitalist_diplomacy }
 		available = { has_offensive_war = no }
-		x = 14
+		x = 15
 		y = 3
 		cost = 5
 		ai_will_do = {
@@ -1638,7 +1689,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = ships_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = naval_equipment
 			}
@@ -1682,40 +1733,14 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = ships_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = naval_equipment
 			}
 		}
 	}
 	### END BRANCH ###
-	focus = {
-		id = SOV_reconcile_japan
-		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = SOV_anti_capitalist_diplomacy }
-		available = {
-			is_puppet = no
-			JAP = { NOT = { is_in_faction_with = GER } }
-			NOT = { has_war_with = JAP }
-		}
-
-		bypass = {
-			NOT = { country_exists = JAP }
-		}
-		x = 16
-		y = 3
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			JAP = {
-				add_opinion_modifier = { target = SOV modifier = border_conflict_reconciled }
-				country_event = { id = soviet.23 days = 1 }
-				effect_tooltip = { transfer_state = 655 }
-			}
-		}
-	}
+	
 
 		focus = {
 		id = SOV_wartime_propaganda
@@ -1875,38 +1900,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = SOV_permanent_revolution
-		icon = GFX_goal_support_fourth_int
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = SOV_permanent_revolution_tt
-				has_country_flag = counter_purge
-			}
-			has_government = communism
-			has_civil_war = no
-		}
-		x = 18
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				limit = { has_country_flag = counter_purge }
-				remove_country_leader_trait = permanent_revolutionary
-				add_country_leader_trait = triumphant_revolutionary
-			}
-			if = {
-				limit = { NOT = { has_country_flag = counter_purge } }
-				custom_effect_tooltip = SOV_permanent_revolution_tt2
-			}
-		}
-	}
+	
 
 	focus = {
 		id = SOV_rehabilitated_military
@@ -1952,7 +1946,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = land_doctrine
 			}
@@ -2040,14 +2034,14 @@ focus_tree = {
 			army_experience = 20
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 0.5
+				bonus = 1
 				category = land_doctrine
 			}
 		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = armor_bonus2
-				bonus = 0.4
+				bonus = 1
 				technology = improved_heavy_tank
 			}
 		}
@@ -2074,13 +2068,13 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = secret
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = rocketry
 			}
 						add_tech_bonus = {
 				name = radar_tech_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = radar_tech
 			}

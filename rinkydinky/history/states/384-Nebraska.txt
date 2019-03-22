@@ -4,13 +4,13 @@ state={
 	name="STATE_384"
 	manpower = 1377962
 	
-	state_category = large_town
+	state_category =  metropolis
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 4
+			industrial_complex = 20
 		}
 		add_core_of = USA
 		victory_points = {

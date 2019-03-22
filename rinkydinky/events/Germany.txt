@@ -4,6 +4,78 @@
 
 add_namespace = germany
 
+#Supplies
+country_event = {
+	id = germany.1100
+	title = germany.1100.t
+	desc = germany.1100.d
+	picture = GFX_report_event_hungarian_soldiers
+
+is_triggered_only = no
+
+	trigger = {
+	tag = GER
+	SOV = {surrender_progress > 0.2}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			}
+			GER = {country_event = { id = germany.1101 days = 80 }}
+		}
+	
+	option = { 
+		name = germany.1100.a
+		add_timed_idea = { idea = bad_supplies days = 80 }
+		}
+}
+country_event = {
+	id = germany.1101
+	title = germany.1101.t
+	desc = germany.1101.d
+	picture = GFX_report_event_hungarian_soldiers
+
+is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			}
+			GER = {country_event = { id = germany.1102 days = 80 }}
+		}
+		option = { 
+		name = germany.1101.a
+		add_timed_idea = { idea = bad_supplies2 days = 80 }
+		}
+}
+
+country_event = {
+	id = germany.1102
+	title = germany.1102.t
+	desc = germany.1102.d
+	picture = GFX_report_event_hungarian_soldiers
+
+is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	
+	fire_only_once = yes
+
+
+	option = { 
+		name = germany.1102.a
+		add_ideas = bad_supplies3
+		}
+}
+
+
 # Austrian Anschluss Completed
 country_event = {
 	id = germany.4
@@ -323,13 +395,13 @@ country_event = {
 						is_controlled_by = GER
 						any_other_country = {
 							controls_state = 96
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							
 						}
 					}
 				}
 			}
 			SOV = { transfer_state = 96 }
+			96 = {add_core_of = SOV}
 		}
 		if = {
 			limit = {
@@ -338,13 +410,13 @@ country_event = {
 						is_controlled_by = GER
 						any_other_country = {
 							controls_state = 95
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							
 						}
 					}
 				}
 			}
 			SOV = { transfer_state = 95 }
+			95 = {add_core_of = SOV}
 		}
 		if = {
 			limit = {
@@ -353,13 +425,13 @@ country_event = {
 						is_controlled_by = GER
 						any_other_country = {
 							controls_state = 94
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							
 						}
 					}
 				}
 			}
 			SOV = { transfer_state = 94 }
+			94 = {add_core_of = SOV}
 		}
 		if = {
 			limit = {
@@ -368,13 +440,12 @@ country_event = {
 						is_controlled_by = GER
 						any_other_country = {
 							controls_state = 93
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
-						}
+							}
 					}
 				}
 			}
 			SOV = { transfer_state = 93 }
+			93 = {add_core_of = SOV}
 		}
 		if = {
 			limit = {
@@ -383,13 +454,13 @@ country_event = {
 						is_controlled_by = GER
 						any_other_country = {
 							controls_state = 91
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							
 						}
 					}
 				}
 			}
 			SOV = { transfer_state = 91 }
+			91 = {add_core_of = SOV}
 		}
 		if = {
 			limit = {
@@ -398,13 +469,13 @@ country_event = {
 						is_controlled_by = GER
 						any_other_country = {
 							controls_state = 97
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							
 						}
 					}
 				}
 			}
 			SOV = { transfer_state = 97 }
+			97 = {add_core_of = SOV}
 		}
 		if = {
 			limit = {
@@ -413,29 +484,14 @@ country_event = {
 						is_controlled_by = GER
 						any_other_country = {
 							controls_state = 89
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							
 						}
 					}
 				}
 			}
 			SOV = { transfer_state = 89 }
 		}
-		if = {
-			limit = {
-				751 = {
-					OR = {
-						is_controlled_by = GER
-						any_other_country = {
-							controls_state = 751
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
-						}
-					}
-				}
-			}
-			SOV = { transfer_state = 751 }
-		}
+		
 		SOV = { country_event = germany.15 }
 	}
 }
@@ -3225,7 +3281,7 @@ country_event = {
 	}
 }
 
-# Germany: Italy demands lands in Vichy France
+# Germany: Italy demands lands in 	 France
 country_event = {
 	id = germany.104
 	title = germany.104.t
@@ -3388,7 +3444,9 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = nazism
 }
-		news_event = news.289
+		news_event = news.760
+		add_ideas = fourth_Reich
+	}
 	}
 
 # Rudolf Hess killed No Hindenburg
@@ -3422,7 +3480,11 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = nazism
 }
+
+news_event = news.289
+		add_ideas = fourth_Reich
 		
+	}
 	}
 
 
@@ -3458,8 +3520,12 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = nazism
 }
+news_event = news.289
+		add_ideas = fourth_Reich
 		
 	}
+	}
+	
 
 # Rudolf Hess Killed (Hindenburg)
 country_event = {
@@ -3480,7 +3546,7 @@ country_event = {
 		}
 	}
 
-	ooption = {
+	option = {
 		name = germany.107.a
 	}
 	option = {
@@ -3492,8 +3558,12 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = nazism
 }
+news_event = news.760
+		add_ideas = fourth_Reich
 		
 	}
+	}
+	
 
 # Yugoslavia refuses
 country_event = {
@@ -4451,30 +4521,7 @@ country_event = {
 	}
 
 }
-#DAK
-country_event = {
-	id = germany.1002
-	title = germany.1002.t
-	desc = germany.1002.d
-picture = GFX_report_event_polish_tanks_02
-	trigger = {
-	tag = GER
-	is_in_faction_with = ITA
-	ITA = { has_war_with = ENG }
-	NOT = { ITA = { controls_state = 450 } }
-	}
-		mean_time_to_happen = {
-		days = 2  
-	}
-	fire_only_once = yes
 
 
-	option = { 
-		name = germany.1002.a
-		hidden_effect = {
-		if = { limit = { has_tech = basic_medium_tank } load_oob = "DAK" }
-		if = { limit = { NOT = { has_tech = basic_medium_tank } } load_oob = "DAK2" }
-		}
-	}
 
-}
+

@@ -20,10 +20,10 @@
 		motorized = { x = 2 y = 2 }
 		motorized = { x = 2 y = 3 }
 		
-		motorized_artillery_brigade = { x = 3 y = 0 }
-		motorized_artillery_brigade = { x = 3 y = 1 }
-		motorized_artillery_brigade = { x = 3 y = 2 }
-		motorized_artillery_brigade = { x = 3 y = 3 }
+		mot_artillery_brigade = { x = 3 y = 0 }
+		mot_artillery_brigade = { x = 3 y = 1 }
+		mot_artillery_brigade = { x = 3 y = 2 }
+		mot_artillery_brigade = { x = 3 y = 3 }
 	}
 	support = {
         engineer = { x = 0 y = 0 }

@@ -7,8 +7,7 @@ set_technology = {
 
 }
 add_ideas = {
-	sik_neutrality
-    neutrality_idea
+	
 }
 
 1939.1.1 = {
@@ -67,12 +66,13 @@ set_politics = {
 		}
 
 		communism = {
-			popularity = 0
-			banned = yes
+			popularity = 20
+			banned = no
 		}
 
 		neutrality = {
-			popularity = 100
+			popularity = 80
+			banned = no
 		}
 	}
 
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_SHENG_SHICAI_DESC"
 	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = oligarchism
 	traits = {
 		#
 	}
@@ -115,7 +115,7 @@ create_country_leader = {
 		}
 
 
-		ruling_party = neutrality
+		ruling_party = communism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

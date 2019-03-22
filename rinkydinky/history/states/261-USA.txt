@@ -2,18 +2,18 @@ state={
 	id=261
 	name="STATE_261"
 	resources={
-		steel=98.000
-		aluminium=46.000
+		steel=28 # was: 48.000
+		aluminium=9 # was: 16.000
 	}
 	
-	state_category = megalopolis
+	state_category = metropolis
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
-			industrial_complex = 11
+			industrial_complex = 10
 
 		}
 		add_core_of = USA

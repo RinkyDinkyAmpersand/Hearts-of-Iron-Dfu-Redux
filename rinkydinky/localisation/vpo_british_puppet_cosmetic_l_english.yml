@@ -1,0 +1,2858 @@
+﻿l_english:
+
+###########
+##great Britain##
+###########
+
+BOT_ENG_autonomy_dominion:0 "Dominion of Botswana"
+BOT_ENG_autonomy_dominion_DEF:0 "The Dominion of Botswana"
+
+BOT_ENG_autonomy_colony:0 "Confederation of Botswana"
+BOT_ENG_autonomy_colony_DEF:0 "Confederation of Botswana"
+ 
+BOT_ENG_autonomy_puppet:0 "Province of Botswana"
+BOT_ENG_autonomy_puppet_DEF:0 "The Province of Botswana"
+
+BOT_ENG_autonomy_integrated_puppet:0 "British-Botswana"
+BOT_ENG_autonomy_integrated_puppet_DEF:0 "British-Botswana"
+#
+#
+
+###########
+PAK_ENG_autonomy_dominion:0 "Dominion of Pakistan"
+PAK_ENG_autonomy_dominion_DEF:0 "The Dominion of Pakistan"
+PAK_ENG_autonomy_colony:0 "Confederation of Pakistan"
+PAK_ENG_autonomy_colony_DEF:0 "Confederation of Pakistan" 
+PAK_ENG_autonomy_puppet:0 "Province of Pakistan"
+PAK_ENG_autonomy_puppet_DEF:0 "The Province of Pakistan"
+PAK_ENG_autonomy_integrated_puppet:0 "British-Pakistan"
+PAK_ENG_autonomy_integrated_puppet_DEF:0 "British-Pakistan"
+
+
+###########
+KEN_ENG_autonomy_dominion:0 "Dominion of Kenia"
+KEN_ENG_autonomy_dominion_DEF:0 "The Dominion of Kenia"
+KEN_ENG_autonomy_colony:0 "Confederation of Kenia"
+KEN_ENG_autonomy_colony_DEF:0 "Confederation of Kenia" 
+KEN_ENG_autonomy_puppet:0 "Province of Kenia"
+KEN_ENG_autonomy_puppet_DEF:0 "The Province of Kenia"
+KEN_ENG_autonomy_integrated_puppet:0 "British-Kenia"
+KEN_ENG_autonomy_integrated_puppet_DEF:0 "British-Kenia"
+
+
+###########
+COG_ENG_autonomy_dominion:0 "Dominion of Congo"
+COG_ENG_autonomy_dominion_DEF:0 "The Dominion of Congo"
+COG_ENG_autonomy_colony:0 "Confederation of Congo"
+COG_ENG_autonomy_colony_DEF:0 "Confederation of Congo" 
+COG_ENG_autonomy_puppet:0 "Province of Congo"
+COG_ENG_autonomy_puppet_DEF:0 "The Province of Congo"
+COG_ENG_autonomy_integrated_puppet:0 "British-Congo"
+COG_ENG_autonomy_integrated_puppet_DEF:0 "British-Congo"
+
+
+###########
+ZIM_ENG_autonomy_dominion:0 "Dominion of Zimbabwe"
+ZIM_ENG_autonomy_dominion_DEF:0 "The Dominion of Zimbabwe"
+ZIM_ENG_autonomy_colony:0 "Confederation of Zimbabwe"
+ZIM_ENG_autonomy_colony_DEF:0 "Confederation of Zimbabwe" 
+ZIM_ENG_autonomy_puppet:0 "Province of Zimbabwe"
+ZIM_ENG_autonomy_puppet_DEF:0 "The Province of Zimbabwe"
+ZIM_ENG_autonomy_integrated_puppet:0 "British-Zimbabwe"
+ZIM_ENG_autonomy_integrated_puppet_DEF:0 "British-Zimbabwe"
+
+
+###########
+MZB_ENG_autonomy_dominion:0 "Dominion of Mozambique"
+MZB_ENG_autonomy_dominion_DEF:0 "The Dominion of Mozambique"
+MZB_ENG_autonomy_colony:0 "Confederation of Mozambique"
+MZB_ENG_autonomy_colony_DEF:0 "Confederation of Mozambique" 
+MZB_ENG_autonomy_puppet:0 "Province of Mozambique"
+MZB_ENG_autonomy_puppet_DEF:0 "The Province of Mozambique"
+MZB_ENG_autonomy_integrated_puppet:0 "British-Mozambique"
+MZB_ENG_autonomy_integrated_puppet_DEF:0 "British-Mozambique"
+
+
+###########
+ANG_ENG_autonomy_dominion:0 "Dominion of Angola"
+ANG_ENG_autonomy_dominion_DEF:0 "The Dominion of Angola"
+ANG_ENG_autonomy_colony:0 "Confederation of Angola"
+ANG_ENG_autonomy_colony_DEF:0 "Confederation of Angola" 
+ANG_ENG_autonomy_puppet:0 "Province of Angola"
+ANG_ENG_autonomy_puppet_DEF:0 "The Province of Angola"
+ANG_ENG_autonomy_integrated_puppet:0 "British-Angola"
+ANG_ENG_autonomy_integrated_puppet_DEF:0 "British-Angola"
+
+
+###########
+BLR_ENG_autonomy_dominion:0 "Dominion of Belarus"
+BLR_ENG_autonomy_dominion_DEF:0 "The Dominion of Belarus"
+BLR_ENG_autonomy_colony:0 "Confederation of Belarus"
+BLR_ENG_autonomy_colony_DEF:0 "Confederation of Belarus" 
+BLR_ENG_autonomy_puppet:0 "Province of Belarus"
+BLR_ENG_autonomy_puppet_DEF:0 "The Province of Belarus"
+BLR_ENG_autonomy_integrated_puppet:0 "British-Belarus"
+BLR_ENG_autonomy_integrated_puppet_DEF:0 "British-Belarus"
+
+
+###########
+ARM_ENG_autonomy_dominion:0 "Dominion of Armenia"
+ARM_ENG_autonomy_dominion_DEF:0 "The Dominion of Armenia"
+ARM_ENG_autonomy_colony:0 "Confederation of Armenia"
+ARM_ENG_autonomy_colony_DEF:0 "Confederation of Armenia" 
+ARM_ENG_autonomy_puppet:0 "Province of Armenia"
+ARM_ENG_autonomy_puppet_DEF:0 "The Province of Armenia"
+ARM_ENG_autonomy_integrated_puppet:0 "British-Armenia"
+ARM_ENG_autonomy_integrated_puppet_DEF:0 "British-Armenia"
+
+
+###########
+AZR_ENG_autonomy_dominion:0 "Dominion of Azerbaijan"
+AZR_ENG_autonomy_dominion_DEF:0 "The Dominion of Azerbaijan"
+AZR_ENG_autonomy_colony:0 "Confederation of Azerbaijan"
+AZR_ENG_autonomy_colony_DEF:0 "Confederation of Azerbaijan" 
+AZR_ENG_autonomy_puppet:0 "Province of Azerbaijan"
+AZR_ENG_autonomy_puppet_DEF:0 "The Province of Azerbaijan"
+AZR_ENG_autonomy_integrated_puppet:0 "British-Azerbaijan"
+AZR_ENG_autonomy_integrated_puppet_DEF:0 "British-Azerbaijan"
+
+
+###########
+KAZ_ENG_autonomy_dominion:0 "Dominion of Kazakhstan"
+KAZ_ENG_autonomy_dominion_DEF:0 "The Dominion of Kazakhstan"
+KAZ_ENG_autonomy_colony:0 "Confederation of Kazakhstan"
+KAZ_ENG_autonomy_colony_DEF:0 "Confederation of Kazakhstan" 
+KAZ_ENG_autonomy_puppet:0 "Province of Kazakhstan"
+KAZ_ENG_autonomy_puppet_DEF:0 "The Province of Kazakhstan"
+KAZ_ENG_autonomy_integrated_puppet:0 "British-Kazakhstan"
+KAZ_ENG_autonomy_integrated_puppet_DEF:0 "British-Kazakhstan"
+
+
+###########
+GEO_ENG_autonomy_dominion:0 "Dominion of Georgia"
+GEO_ENG_autonomy_dominion_DEF:0 "The Dominion of Georgia"
+GEO_ENG_autonomy_colony:0 "Confederation of Georgia"
+GEO_ENG_autonomy_colony_DEF:0 "Confederation of Georgia" 
+GEO_ENG_autonomy_puppet:0 "Province of Georgia"
+GEO_ENG_autonomy_puppet_DEF:0 "The Province of Georgia"
+GEO_ENG_autonomy_integrated_puppet:0 "British-Georgia"
+GEO_ENG_autonomy_integrated_puppet_DEF:0 "British-Georgia"
+
+
+###########
+UKR_ENG_autonomy_dominion:0 "Dominion of Ukraine"
+UKR_ENG_autonomy_dominion_DEF:0 "The Dominion of Ukraine"
+UKR_ENG_autonomy_colony:0 "Confederation of Ukraine"
+UKR_ENG_autonomy_colony_DEF:0 "Confederation of Ukraine" 
+UKR_ENG_autonomy_puppet:0 "Province of Ukraine"
+UKR_ENG_autonomy_puppet_DEF:0 "The Province of Ukraine"
+UKR_ENG_autonomy_integrated_puppet:0 "British-Ukraine"
+UKR_ENG_autonomy_integrated_puppet_DEF:0 "British-Ukraine"
+
+
+###########
+MNT_ENG_autonomy_dominion:0 "Dominion of Montenegro"
+MNT_ENG_autonomy_dominion_DEF:0 "The Dominion of Montenegro"
+MNT_ENG_autonomy_colony:0 "Confederation of Montenegro"
+MNT_ENG_autonomy_colony_DEF:0 "Confederation of Montenegro" 
+MNT_ENG_autonomy_puppet:0 "Province of Montenegro"
+MNT_ENG_autonomy_puppet_DEF:0 "The Province of Montenegro"
+MNT_ENG_autonomy_integrated_puppet:0 "British-Montenegro"
+MNT_ENG_autonomy_integrated_puppet_DEF:0 "British-Montenegro"
+
+
+###########
+LAO_ENG_autonomy_dominion:0 "Dominion of Laos"
+LAO_ENG_autonomy_dominion_DEF:0 "The Dominion of Laos"
+LAO_ENG_autonomy_colony:0 "Confederation of Laos"
+LAO_ENG_autonomy_colony_DEF:0 "Confederation of Laos" 
+LAO_ENG_autonomy_puppet:0 "Province of Laos"
+LAO_ENG_autonomy_puppet_DEF:0 "The Province of Laos"
+LAO_ENG_autonomy_integrated_puppet:0 "British-Laos"
+LAO_ENG_autonomy_integrated_puppet_DEF:0 "British-Laos"
+
+
+###########
+INS_ENG_autonomy_dominion:0 "Dominion of Indonesia"
+INS_ENG_autonomy_dominion_DEF:0 "The Dominion of Indonesia"
+INS_ENG_autonomy_colony:0 "Confederation of Indonesia"
+INS_ENG_autonomy_colony_DEF:0 "Confederation of Indonesia" 
+INS_ENG_autonomy_puppet:0 "Province of Indonesia"
+INS_ENG_autonomy_puppet_DEF:0 "The Province of Indonesia"
+INS_ENG_autonomy_integrated_puppet:0 "British-Indonesia"
+INS_ENG_autonomy_integrated_puppet_DEF:0 "British-Indonesia"
+
+
+###########
+MAL_ENG_autonomy_dominion:0 "Dominion of Malaysia"
+MAL_ENG_autonomy_dominion_DEF:0 "The Dominion of Malaysia"
+MAL_ENG_autonomy_colony:0 "Confederation of Malaysia"
+MAL_ENG_autonomy_colony_DEF:0 "Confederation of Malaysia" 
+MAL_ENG_autonomy_puppet:0 "Province of Malaysia"
+MAL_ENG_autonomy_puppet_DEF:0 "The Province of Malaysia"
+MAL_ENG_autonomy_integrated_puppet:0 "British-Malaysia"
+MAL_ENG_autonomy_integrated_puppet_DEF:0 "British-Malaysia"
+
+
+###########
+CAM_ENG_autonomy_dominion:0 "Dominion of Combodscha"
+CAM_ENG_autonomy_dominion_DEF:0 "The Dominion of Combodscha"
+CAM_ENG_autonomy_colony:0 "Confederation of Combodscha"
+CAM_ENG_autonomy_colony_DEF:0 "Confederation of Combodscha" 
+CAM_ENG_autonomy_puppet:0 "Province of Combodscha"
+CAM_ENG_autonomy_puppet_DEF:0 "The Province of Combodscha"
+CAM_ENG_autonomy_integrated_puppet:0 "British-Combodscha"
+CAM_ENG_autonomy_integrated_puppet_DEF:0 "British-Combodscha"
+
+
+###########
+VIN_ENG_autonomy_dominion:0 "Dominion of Vietnam"
+VIN_ENG_autonomy_dominion_DEF:0 "The Dominion of Vietnam"
+VIN_ENG_autonomy_colony:0 "Confederation of Vietnam"
+VIN_ENG_autonomy_colony_DEF:0 "Confederation of Vietnam" 
+VIN_ENG_autonomy_puppet:0 "Province of Vietnam"
+VIN_ENG_autonomy_puppet_DEF:0 "The Province of Vietnam"
+VIN_ENG_autonomy_integrated_puppet:0 "British-Vietnam"
+VIN_ENG_autonomy_integrated_puppet_DEF:0 "British-Vietnam"
+
+
+###########
+ISR_ENG_autonomy_dominion:0 "Dominion of Israel"
+ISR_ENG_autonomy_dominion_DEF:0 "The Dominion of Israel"
+ISR_ENG_autonomy_colony:0 "Confederation of Israel"
+ISR_ENG_autonomy_colony_DEF:0 "Confederation of Israel" 
+ISR_ENG_autonomy_puppet:0 "Province of Israel"
+ISR_ENG_autonomy_puppet_DEF:0 "The Province of Israel"
+ISR_ENG_autonomy_integrated_puppet:0 "British-Israel"
+ISR_ENG_autonomy_integrated_puppet_DEF:0 "British-Israel"
+
+
+###########
+PAL_ENG_autonomy_dominion:0 "Dominion of Palestina"
+PAL_ENG_autonomy_dominion_DEF:0 "The Dominion of Palestina"
+PAL_ENG_autonomy_colony:0 "Confederation of Palestina"
+PAL_ENG_autonomy_colony_DEF:0 "Confederation of Palestina" 
+PAL_ENG_autonomy_puppet:0 "Province of Palestina"
+PAL_ENG_autonomy_puppet_DEF:0 "The Province of Palestina"
+PAL_ENG_autonomy_integrated_puppet:0 "British-Palestina"
+PAL_ENG_autonomy_integrated_puppet_DEF:0 "British-Palestina"
+
+###########
+SYR_ENG_autonomy_dominion:0 "Dominion of Syria"
+SYR_ENG_autonomy_dominion_DEF:0 "The Dominion of Syria"
+SYR_ENG_autonomy_colony:0 "Confederation of Syria"
+SYR_ENG_autonomy_colony_DEF:0 "Confederation of Syria" 
+SYR_ENG_autonomy_puppet:0 "Province of Syria"
+SYR_ENG_autonomy_puppet_DEF:0 "The Province of Syria"
+SYR_ENG_autonomy_integrated_puppet:0 "British-Syria"
+SYR_ENG_autonomy_integrated_puppet_DEF:0 "British-Syria"
+
+
+###########
+JOR_ENG_autonomy_dominion:0 "Dominion of Jordania"
+JOR_ENG_autonomy_dominion_DEF:0 "The Dominion of Jordania"
+JOR_ENG_autonomy_colony:0 "Confederation of Jordania"
+JOR_ENG_autonomy_colony_DEF:0 "Confederation of Jordania" 
+JOR_ENG_autonomy_puppet:0 "Province of Jordania"
+JOR_ENG_autonomy_puppet_DEF:0 "The Province of Jordania"
+JOR_ENG_autonomy_integrated_puppet:0 "British-Jordania"
+JOR_ENG_autonomy_integrated_puppet_DEF:0 "British-Jordania"
+
+
+###########
+LEB_ENG_autonomy_dominion:0 "Dominion of Lebanon"
+LEB_ENG_autonomy_dominion_DEF:0 "The Dominion of Lebanon"
+LEB_ENG_autonomy_colony:0 "Confederation of Lebanon"
+LEB_ENG_autonomy_colony_DEF:0 "Confederation of Lebanon" 
+LEB_ENG_autonomy_puppet:0 "Province of Lebanon"
+LEB_ENG_autonomy_puppet_DEF:0 "The Province of Lebanon"
+LEB_ENG_autonomy_integrated_puppet:0 "British-Lebanon"
+LEB_ENG_autonomy_integrated_puppet_DEF:0 "British-Lebanon"
+
+
+###########
+ICE_ENG_autonomy_dominion:0 "Dominion of Island"
+ICE_ENG_autonomy_dominion_DEF:0 "The Dominion of Island"
+ICE_ENG_autonomy_colony:0 "Confederation of Island"
+ICE_ENG_autonomy_colony_DEF:0 "Confederation of Island" 
+ICE_ENG_autonomy_puppet:0 "Province of Island"
+ICE_ENG_autonomy_puppet_DEF:0 "The Province of Island"
+ICE_ENG_autonomy_integrated_puppet:0 "British-Island"
+ICE_ENG_autonomy_integrated_puppet_DEF:0 "British-Island"
+
+
+###########
+XSM_ENG_autonomy_dominion:0 "Dominion of Qinghai"
+XSM_ENG_autonomy_dominion_DEF:0 "The Dominion of Qinghai"
+XSM_ENG_autonomy_colony:0 "Confederation of Qinghai"
+XSM_ENG_autonomy_colony_DEF:0 "Confederation of Qinghai" 
+XSM_ENG_autonomy_puppet:0 "Province of Qinghai"
+XSM_ENG_autonomy_puppet_DEF:0 "The Province of Qinghai"
+XSM_ENG_autonomy_integrated_puppet:0 "British-Qinghai"
+XSM_ENG_autonomy_integrated_puppet_DEF:0 "British-Qinghai"
+
+
+###########
+SHX_ENG_autonomy_dominion:0 "Dominion of Shanxi"
+SHX_ENG_autonomy_dominion_DEF:0 "The Dominion of Shanxi"
+SHX_ENG_autonomy_colony:0 "Confederation of Shanxi"
+SHX_ENG_autonomy_colony_DEF:0 "Confederation of Shanxi" 
+SHX_ENG_autonomy_puppet:0 "Province of Shanxi"
+SHX_ENG_autonomy_puppet_DEF:0 "The Province of Shanxi"
+SHX_ENG_autonomy_integrated_puppet:0 "British-Shanxi"
+SHX_ENG_autonomy_integrated_puppet_DEF:0 "British-Shanxi"
+
+
+###########
+PRC_ENG_autonomy_dominion:0 "Dominion of China"
+PRC_ENG_autonomy_dominion_DEF:0 "The Dominion of China"
+PRC_ENG_autonomy_colony:0 "Confederation of China"
+PRC_ENG_autonomy_colony_DEF:0 "Confederation of China" 
+PRC_ENG_autonomy_puppet:0 "Province of China"
+PRC_ENG_autonomy_puppet_DEF:0 "The Province of China"
+PRC_ENG_autonomy_integrated_puppet:0 "British-China"
+PRC_ENG_autonomy_integrated_puppet_DEF:0 "British-China"
+
+###########
+GXC_ENG_autonomy_dominion:0 "Dominion of Guangxi"
+GXC_ENG_autonomy_dominion_DEF:0 "The Dominion of Guangxi"
+GXC_ENG_autonomy_colony:0 "Confederation of Guangxi"
+GXC_ENG_autonomy_colony_DEF:0 "Confederation of Guangxi" 
+GXC_ENG_autonomy_puppet:0 "Province of Guangxi"
+GXC_ENG_autonomy_puppet_DEF:0 "The Province of Guangxi"
+GXC_ENG_autonomy_integrated_puppet:0 "British-Guangxi"
+GXC_ENG_autonomy_integrated_puppet_DEF:0 "British-Guangxi"
+
+
+###########
+CRO_ENG_autonomy_dominion:0 "Dominion of Croatia"
+CRO_ENG_autonomy_dominion_DEF:0 "The Dominion of Croatia"
+CRO_ENG_autonomy_colony:0 "Confederation of Croatia"
+CRO_ENG_autonomy_colony_DEF:0 "Confederation of Croatia" 
+CRO_ENG_autonomy_puppet:0 "Province of Croatia"
+CRO_ENG_autonomy_puppet_DEF:0 "The Province of Croatia"
+CRO_ENG_autonomy_integrated_puppet:0 "British-Croatia"
+CRO_ENG_autonomy_integrated_puppet_DEF:0 "British-Croatia"
+
+
+###########
+RAJ_ENG_autonomy_dominion:0 "Dominion of India"
+RAJ_ENG_autonomy_dominion_DEF:0 "The Dominion of India"
+RAJ_ENG_autonomy_colony:0 "Confederation of India"
+RAJ_ENG_autonomy_colony_DEF:0 "Confederation of India" 
+RAJ_ENG_autonomy_puppet:0 "Province of India"
+RAJ_ENG_autonomy_puppet_DEF:0 "The Province of India"
+RAJ_ENG_autonomy_integrated_puppet:0 "British-India"
+RAJ_ENG_autonomy_integrated_puppet_DEF:0 "British-India"
+
+
+###########
+SLO_ENG_autonomy_dominion:0 "Dominion of Slovakia"
+SLO_ENG_autonomy_dominion_DEF:0 "The Dominion of Slovakia"
+SLO_ENG_autonomy_colony:0 "Confederation of Slovakia"
+SLO_ENG_autonomy_colony_DEF:0 "Confederation of Slovakia" 
+SLO_ENG_autonomy_puppet:0 "Province of Slovakia"
+SLO_ENG_autonomy_puppet_DEF:0 "The Province of Slovakia"
+SLO_ENG_autonomy_integrated_puppet:0 "British-Slovakia"
+SLO_ENG_autonomy_integrated_puppet_DEF:0 "British-Slovakia"
+
+
+###########
+OMA_ENG_autonomy_dominion:0 "Dominion of Oman"
+OMA_ENG_autonomy_dominion_DEF:0 "The Oman"
+OMA_ENG_autonomy_colony:0 "Confederation of Oman"
+OMA_ENG_autonomy_colony_DEF:0 "Confederation of Oman" 
+OMA_ENG_autonomy_puppet:0 "Province of Oman"
+OMA_ENG_autonomy_puppet_DEF:0 "The Province of Oman"
+OMA_ENG_autonomy_integrated_puppet:0 "British-Oman"
+OMA_ENG_autonomy_integrated_puppet_DEF:0 "British-Oman"
+
+
+###########
+YEM_ENG_autonomy_dominion:0 "Dominion of Yemen"
+YEM_ENG_autonomy_dominion_DEF:0 "The Dominion of Yemen"
+YEM_ENG_autonomy_colony:0 "Confederation of Yemen"
+YEM_ENG_autonomy_colony_DEF:0 "Confederation of Yemen" 
+YEM_ENG_autonomy_puppet:0 "Province of Yemen"
+YEM_ENG_autonomy_puppet_DEF:0 "The Province of Yemen"
+YEM_ENG_autonomy_integrated_puppet:0 "British-Yemen"
+YEM_ENG_autonomy_integrated_puppet_DEF:0 "British-Yemen"
+
+
+###########
+HAI_ENG_autonomy_dominion:0 "Dominion of Haiti"
+HAI_ENG_autonomy_dominion_DEF:0 "The Dominion of Haiti"
+HAI_ENG_autonomy_colony:0 "Confederation of Haiti"
+HAI_ENG_autonomy_colony_DEF:0 "Confederation of Haiti" 
+HAI_ENG_autonomy_puppet:0 "Province of Haiti"
+HAI_ENG_autonomy_puppet_DEF:0 "The Province of Haiti"
+HAI_ENG_autonomy_integrated_puppet:0 "British-Haiti"
+HAI_ENG_autonomy_integrated_puppet_DEF:0 "British-Haiti"
+
+
+###########
+DOM_ENG_autonomy_dominion:0 "Dominion of Dominikan"
+DOM_ENG_autonomy_dominion_DEF:0 "The Dominion of Dominikan"
+DOM_ENG_autonomy_colony:0 "Confederation of Dominikan"
+DOM_ENG_autonomy_colony_DEF:0 "Confederation of Dominikan" 
+DOM_ENG_autonomy_puppet:0 "Province of Dominikan"
+DOM_ENG_autonomy_puppet_DEF:0 "The Province of Dominikan"
+DOM_ENG_autonomy_integrated_puppet:0 "British-Dominikan"
+DOM_ENG_autonomy_integrated_puppet_DEF:0 "British-Dominikan"
+
+
+###########
+CUB_ENG_autonomy_dominion:0 "Dominion of Cuba"
+CUB_ENG_autonomy_dominion_DEF:0 "The Dominion of Cuba"
+CUB_ENG_autonomy_colony:0 "Confederation of Cuba"
+CUB_ENG_autonomy_colony_DEF:0 "Confederation of Cuba" 
+CUB_ENG_autonomy_puppet:0 "Province of Cuba"
+CUB_ENG_autonomy_puppet_DEF:0 "The Province of Cuba"
+CUB_ENG_autonomy_integrated_puppet:0 "British-Cuba"
+CUB_ENG_autonomy_integrated_puppet_DEF:0 "British-Cuba"
+
+
+###########
+PAR_ENG_autonomy_dominion:0 "Dominion of Paraguay"
+PAR_ENG_autonomy_dominion_DEF:0 "The Dominion of Paraguay"
+PAR_ENG_autonomy_colony:0 "Confederation of Paraguay"
+PAR_ENG_autonomy_colony_DEF:0 "Confederation of Paraguay" 
+PAR_ENG_autonomy_puppet:0 "Province of Paraguay"
+PAR_ENG_autonomy_puppet_DEF:0 "The Province of Paraguay"
+PAR_ENG_autonomy_integrated_puppet:0 "British-Paraguay"
+PAR_ENG_autonomy_integrated_puppet_DEF:0 "British-Paraguay"
+
+
+###########
+TAN_ENG_autonomy_dominion:0 "Dominion of Tuwa"
+TAN_ENG_autonomy_dominion_DEF:0 "The Dominion of Tuwa"
+TAN_ENG_autonomy_colony:0 "Confederation of Tuwa"
+TAN_ENG_autonomy_colony_DEF:0 "Confederation of Tuwa" 
+TAN_ENG_autonomy_puppet:0 "Province of Tuwa"
+TAN_ENG_autonomy_puppet_DEF:0 "The Province of Tuwa"
+TAN_ENG_autonomy_integrated_puppet:0 "British-Tuwa"
+TAN_ENG_autonomy_integrated_puppet_DEF:0 "British-Tuwa"
+
+
+###########
+MON_ENG_autonomy_dominion:0 "Dominion of Mongolia"
+MON_ENG_autonomy_dominion_DEF:0 "The Dominion of Mongolia"
+MON_ENG_autonomy_colony:0 "Confederation of Mongolia"
+MON_ENG_autonomy_colony_DEF:0 "Confederation of Mongolia" 
+MON_ENG_autonomy_puppet:0 "Province of Mongolia"
+MON_ENG_autonomy_puppet_DEF:0 "The Province of Mongolia"
+MON_ENG_autonomy_integrated_puppet:0 "British-Mongolia"
+MON_ENG_autonomy_integrated_puppet_DEF:0 "British-Mongolia"
+
+
+###########
+YUN_ENG_autonomy_dominion:0 "Dominion of Yunnan"
+YUN_ENG_autonomy_dominion_DEF:0 "The Dominion of Yunnan"
+YUN_ENG_autonomy_colony:0 "Confederation of Yunnan"
+YUN_ENG_autonomy_colony_DEF:0 "Confederation of Yunnan" 
+YUN_ENG_autonomy_puppet:0 "Province of Yunnan"
+YUN_ENG_autonomy_puppet_DEF:0 "The Province of Yunnan"
+YUN_ENG_autonomy_integrated_puppet:0 "British-Yunnan"
+YUN_ENG_autonomy_integrated_puppet_DEF:0 "British-Yunnan"
+
+
+###########
+VEN_ENG_autonomy_dominion:0 "Dominion of Venezuela"
+VEN_ENG_autonomy_dominion_DEF:0 "The Dominion of Venezuela"
+VEN_ENG_autonomy_colony:0 "Confederation of Venezuela"
+VEN_ENG_autonomy_colony_DEF:0 "Confederation of Venezuela" 
+VEN_ENG_autonomy_puppet:0 "Province of Venezuela"
+VEN_ENG_autonomy_puppet_DEF:0 "The Province of Venezuela"
+VEN_ENG_autonomy_integrated_puppet:0 "British-Venezuela"
+VEN_ENG_autonomy_integrated_puppet_DEF:0 "British-Venezuela"
+
+
+###########
+URG_ENG_autonomy_dominion:0 "Dominion of Uruguay"
+URG_ENG_autonomy_dominion_DEF:0 "The Dominion of Uruguay"
+URG_ENG_autonomy_colony:0 "Confederation of Uruguay"
+URG_ENG_autonomy_colony_DEF:0 "Confederation of Uruguay" 
+URG_ENG_autonomy_puppet:0 "Province of Uruguay"
+URG_ENG_autonomy_puppet_DEF:0 "The Province of Uruguay"
+URG_ENG_autonomy_integrated_puppet:0 "British-Uruguay"
+URG_ENG_autonomy_integrated_puppet_DEF:0 "British-Uruguay"
+
+
+###########
+TIB_ENG_autonomy_dominion:0 "Dominion of Tibet"
+TIB_ENG_autonomy_dominion_DEF:0 "The Dominion of Tibet"
+TIB_ENG_autonomy_colony:0 "Confederation of Tibet"
+TIB_ENG_autonomy_colony_DEF:0 "Confederation of Tibet" 
+TIB_ENG_autonomy_puppet:0 "Province of Tibet"
+TIB_ENG_autonomy_puppet_DEF:0 "The Province of Tibet"
+TIB_ENG_autonomy_integrated_puppet:0 "British-Tibet"
+TIB_ENG_autonomy_integrated_puppet_DEF:0 "British-Tibet"
+
+
+###########
+SIK_ENG_autonomy_dominion:0 "Dominion of Uiguiria"
+SIK_ENG_autonomy_dominion_DEF:0 "The Dominion of Uiguiria"
+SIK_ENG_autonomy_colony:0 "Confederation of Uiguiria"
+SIK_ENG_autonomy_colony_DEF:0 "Confederation of Uiguiria" 
+SIK_ENG_autonomy_puppet:0 "Province of Uiguiria"
+SIK_ENG_autonomy_puppet_DEF:0 "The Province of Uiguiria"
+SIK_ENG_autonomy_integrated_puppet:0 "British-Uiguiria"
+SIK_ENG_autonomy_integrated_puppet_DEF:0 "British-Uiguiria"
+
+
+###########
+SIA_ENG_autonomy_dominion:0 "Dominion of Siam"
+SIA_ENG_autonomy_dominion_DEF:0 "The Dominion of Siam"
+SIA_ENG_autonomy_colony:0 "Confederation of Siam"
+SIA_ENG_autonomy_colony_DEF:0 "Confederation of Siam" 
+SIA_ENG_autonomy_puppet:0 "Province of Siam"
+SIA_ENG_autonomy_puppet_DEF:0 "The Province of Siam"
+SIA_ENG_autonomy_integrated_puppet:0 "British-Siam"
+SIA_ENG_autonomy_integrated_puppet_DEF:0 "British-Siam"
+
+
+###########
+SAU_ENG_autonomy_dominion:0 "Dominion of Arabia"
+SAU_ENG_autonomy_dominion_DEF:0 "The Dominion of Arabia"
+SAU_ENG_autonomy_colony:0 "Confederation of Arabia"
+SAU_ENG_autonomy_colony_DEF:0 "Confederation of Arabia" 
+SAU_ENG_autonomy_puppet:0 "Province of Arabia"
+SAU_ENG_autonomy_puppet_DEF:0 "The Province of Arabia"
+SAU_ENG_autonomy_integrated_puppet:0 "British-Arabia"
+SAU_ENG_autonomy_integrated_puppet_DEF:0 "British-Arabia"
+
+
+###########
+PRU_ENG_autonomy_dominion:0 "Dominion of Peru"
+PRU_ENG_autonomy_dominion_DEF:0 "The Dominion of Peru"
+PRU_ENG_autonomy_colony:0 "Confederation of Peru"
+PRU_ENG_autonomy_colony_DEF:0 "Confederation of Peru" 
+PRU_ENG_autonomy_puppet:0 "Province of Peru"
+PRU_ENG_autonomy_puppet_DEF:0 "The Province of Peru"
+PRU_ENG_autonomy_integrated_puppet:0 "British-Peru"
+PRU_ENG_autonomy_integrated_puppet_DEF:0 "British-Peru"
+
+
+###########
+PHI_ENG_autonomy_dominion:0 "Dominion of Philippines"
+PHI_ENG_autonomy_dominion_DEF:0 "The Dominion of Philippines"
+PHI_ENG_autonomy_colony:0 "Confederation of Philippines"
+PHI_ENG_autonomy_colony_DEF:0 "Confederation of Philippines" 
+PHI_ENG_autonomy_puppet:0 "Province of Philippines"
+PHI_ENG_autonomy_puppet_DEF:0 "The Province of Philippines"
+PHI_ENG_autonomy_integrated_puppet:0 "British-Philippines"
+PHI_ENG_autonomy_integrated_puppet_DEF:0 "British-Philippines"
+
+
+###########
+PER_ENG_autonomy_dominion:0 "Dominion of Persia"
+PER_ENG_autonomy_dominion_DEF:0 "The Dominion of Persia"
+PER_ENG_autonomy_colony:0 "Confederation of Persia"
+PER_ENG_autonomy_colony_DEF:0 "Confederation of Persia" 
+PER_ENG_autonomy_puppet:0 "Province of Persia"
+PER_ENG_autonomy_puppet_DEF:0 "The Province of Persia"
+PER_ENG_autonomy_integrated_puppet:0 "British-Persia"
+PER_ENG_autonomy_integrated_puppet_DEF:0 "British-Persia"
+
+
+###########
+PAN_ENG_autonomy_dominion:0 "Dominion of Panama"
+PAN_ENG_autonomy_dominion_DEF:0 "The Dominion of Panama"
+PAN_ENG_autonomy_colony:0 "Confederation of Panama"
+PAN_ENG_autonomy_colony_DEF:0 "Confederation of Panama" 
+PAN_ENG_autonomy_puppet:0 "Province of Panama"
+PAN_ENG_autonomy_puppet_DEF:0 "The Province of Panama"
+PAN_ENG_autonomy_integrated_puppet:0 "British-Panama"
+PAN_ENG_autonomy_integrated_puppet_DEF:0 "British-Panama"
+
+
+###########
+NZL_ENG_autonomy_dominion:0 "Dominion of New Zealand"
+NZL_ENG_autonomy_dominion_DEF:0 "The Dominion of New Zealand"
+NZL_ENG_autonomy_colony:0 "Confederation of New Zealand"
+NZL_ENG_autonomy_colony_DEF:0 "Confederation of New Zealand" 
+NZL_ENG_autonomy_puppet:0 "Province of New Zealand"
+NZL_ENG_autonomy_puppet_DEF:0 "The Province of New Zealand"
+NZL_ENG_autonomy_integrated_puppet:0 "British-New Zealand"
+NZL_ENG_autonomy_integrated_puppet_DEF:0 "British-New Zealand"
+
+
+###########
+NIC_ENG_autonomy_dominion:0 "Dominion of Nicaragua"
+NIC_ENG_autonomy_dominion_DEF:0 "The Dominion of Nicaragua"
+NIC_ENG_autonomy_colony:0 "Confederation of Nicaragua"
+NIC_ENG_autonomy_colony_DEF:0 "Confederation of Nicaragua" 
+NIC_ENG_autonomy_puppet:0 "Province of Nicaragua"
+NIC_ENG_autonomy_puppet_DEF:0 "The Province of Nicaragua"
+NIC_ENG_autonomy_integrated_puppet:0 "British-Nicaragua"
+NIC_ENG_autonomy_integrated_puppet_DEF:0 "British-Nicaragua"
+
+
+###########
+NEP_ENG_autonomy_dominion:0 "Dominion of Nepal"
+NEP_ENG_autonomy_dominion_DEF:0 "The Dominion of Nepal"
+NEP_ENG_autonomy_colony:0 "Confederation of Nepal"
+NEP_ENG_autonomy_colony_DEF:0 "Confederation of Nepal" 
+NEP_ENG_autonomy_puppet:0 "Province of Nepal"
+NEP_ENG_autonomy_puppet_DEF:0 "The Province of Nepal"
+NEP_ENG_autonomy_integrated_puppet:0 "British-Nepal"
+NEP_ENG_autonomy_integrated_puppet_DEF:0 "British-Nepal"
+
+
+###########
+MAN_ENG_autonomy_dominion:0 "Dominion of Mandschuko"
+MAN_ENG_autonomy_dominion_DEF:0 "The Dominion of Mandschuko"
+MAN_ENG_autonomy_colony:0 "Confederation of Mandschuko"
+MAN_ENG_autonomy_colony_DEF:0 "Confederation of Mandschuko" 
+MAN_ENG_autonomy_puppet:0 "Province of Mandschuko"
+MAN_ENG_autonomy_puppet_DEF:0 "The Province of Mandschuko"
+MAN_ENG_autonomy_integrated_puppet:0 "British-Mandschuko"
+MAN_ENG_autonomy_integrated_puppet_DEF:0 "British-Mandschuko"
+
+
+###########
+MEN_ENG_autonomy_dominion:0 "Dominion of Mengkukuo"
+MEN_ENG_autonomy_dominion_DEF:0 "The Dominion of Mengkukuo"
+MEN_ENG_autonomy_colony:0 "Confederation of Mengkukuo"
+MEN_ENG_autonomy_colony_DEF:0 "Confederation of Mengkukuo" 
+MEN_ENG_autonomy_puppet:0 "Province of Mengkukuo"
+MEN_ENG_autonomy_puppet_DEF:0 "The Province of Mengkukuo"
+MEN_ENG_autonomy_integrated_puppet:0 "British-Mengkukuo"
+MEN_ENG_autonomy_integrated_puppet_DEF:0 "British-Mengkukuo"
+
+
+###########
+MEX_ENG_autonomy_dominion:0 "Dominion of Mexico"
+MEX_ENG_autonomy_dominion_DEF:0 "The Dominion of Mexico"
+MEX_ENG_autonomy_colony:0 "Confederation of Mexico"
+MEX_ENG_autonomy_colony_DEF:0 "Confederation of Mexico" 
+MEX_ENG_autonomy_puppet:0 "Province of Mexico"
+MEX_ENG_autonomy_puppet_DEF:0 "The Province of Mexico"
+MEX_ENG_autonomy_integrated_puppet:0 "British-Mexico"
+MEX_ENG_autonomy_integrated_puppet_DEF:0 "British-Mexico"
+
+
+###########
+LIB_ENG_autonomy_dominion:0 "Dominion of Liberia"
+LIB_ENG_autonomy_dominion_DEF:0 "The Dominion of Liberia"
+LIB_ENG_autonomy_colony:0 "Confederation of Liberia"
+LIB_ENG_autonomy_colony_DEF:0 "Confederation of Liberia" 
+LIB_ENG_autonomy_puppet:0 "Province of Liberia"
+LIB_ENG_autonomy_puppet_DEF:0 "The Province of Liberia"
+LIB_ENG_autonomy_integrated_puppet:0 "British-Liberia"
+LIB_ENG_autonomy_integrated_puppet_DEF:0 "British-Liberia"
+
+
+###########
+KOR_ENG_autonomy_dominion:0 "Dominion of Korea"
+KOR_ENG_autonomy_dominion_DEF:0 "The Dominion of Korea"
+KOR_ENG_autonomy_colony:0 "Confederation of Korea"
+KOR_ENG_autonomy_colony_DEF:0 "Confederation of Korea" 
+KOR_ENG_autonomy_puppet:0 "Province of Korea"
+KOR_ENG_autonomy_puppet_DEF:0 "The Province of Korea"
+KOR_ENG_autonomy_integrated_puppet:0 "British-Korea"
+KOR_ENG_autonomy_integrated_puppet_DEF:0 "British-Korea"
+
+###########
+HON_ENG_autonomy_dominion:0 "Dominion of Honduras"
+HON_ENG_autonomy_dominion_DEF:0 "The Dominion of Honduras"
+HON_ENG_autonomy_colony:0 "Confederation of Honduras"
+HON_ENG_autonomy_colony_DEF:0 "Confederation of Honduras" 
+HON_ENG_autonomy_puppet:0 "Province of Honduras"
+HON_ENG_autonomy_puppet_DEF:0 "The Province of Honduras"
+HON_ENG_autonomy_integrated_puppet:0 "British-Honduras"
+HON_ENG_autonomy_integrated_puppet_DEF:0 "British-Honduras"
+
+
+###########
+GUA_ENG_autonomy_dominion:0 "Dominion of Guatemala"
+GUA_ENG_autonomy_dominion_DEF:0 "The Dominion of Guatemala"
+GUA_ENG_autonomy_colony:0 "Confederation of Guatemala"
+GUA_ENG_autonomy_colony_DEF:0 "Confederation of Guatemala" 
+GUA_ENG_autonomy_puppet:0 "Province of Guatemala"
+GUA_ENG_autonomy_puppet_DEF:0 "The Province of Guatemala"
+GUA_ENG_autonomy_integrated_puppet:0 "British-Guatemala"
+GUA_ENG_autonomy_integrated_puppet_DEF:0 "British-Guatemala"
+
+
+###########
+ETH_ENG_autonomy_dominion:0 "Dominion of Ethiopia"
+ETH_ENG_autonomy_dominion_DEF:0 "The Dominion of Ethiopia"
+ETH_ENG_autonomy_colony:0 "Confederation of Ethiopia"
+ETH_ENG_autonomy_colony_DEF:0 "Confederation of Ethiopia" 
+ETH_ENG_autonomy_puppet:0 "Province of Ethiopia"
+ETH_ENG_autonomy_puppet_DEF:0 "The Province of Ethiopia"
+ETH_ENG_autonomy_integrated_puppet:0 "British-Ethiopia"
+ETH_ENG_autonomy_integrated_puppet_DEF:0 "British-Ethiopia"
+
+
+###########
+ELS_ENG_autonomy_dominion:0 "Dominion of El Salvador"
+ELS_ENG_autonomy_dominion_DEF:0 "The Dominion of El Salvador"
+ELS_ENG_autonomy_colony:0 "Confederation of El Salvador"
+ELS_ENG_autonomy_colony_DEF:0 "Confederation of El Salvador" 
+ELS_ENG_autonomy_puppet:0 "Province of El Salvador"
+ELS_ENG_autonomy_puppet_DEF:0 "The Province of El Salvador"
+ELS_ENG_autonomy_integrated_puppet:0 "British-El Salvador"
+ELS_ENG_autonomy_integrated_puppet_DEF:0 "British-El Salvador"
+
+
+###########
+ECU_ENG_autonomy_dominion:0 "Dominion of Ecuador"
+ECU_ENG_autonomy_dominion_DEF:0 "The Dominion of Ecuador"
+ECU_ENG_autonomy_colony:0 "Confederation of Ecuador"
+ECU_ENG_autonomy_colony_DEF:0 "Confederation of Ecuador" 
+ECU_ENG_autonomy_puppet:0 "Province of Ecuador"
+ECU_ENG_autonomy_puppet_DEF:0 "The Province of Ecuador"
+ECU_ENG_autonomy_integrated_puppet:0 "British-Ecuador"
+ECU_ENG_autonomy_integrated_puppet_DEF:0 "British-Ecuador"
+
+
+###########
+COS_ENG_autonomy_dominion:0 "Dominion of Costa Rica"
+COS_ENG_autonomy_dominion_DEF:0 "The Dominion of Costa Rica"
+COS_ENG_autonomy_colony:0 "Confederation of Costa Rica"
+COS_ENG_autonomy_colony_DEF:0 "Confederation of Costa Rica" 
+COS_ENG_autonomy_puppet:0 "Province of Costa Rica"
+COS_ENG_autonomy_puppet_DEF:0 "The Province of Costa Rica"
+COS_ENG_autonomy_integrated_puppet:0 "British-Costa Rica"
+COS_ENG_autonomy_integrated_puppet_DEF:0 "British-Costa Rica"
+
+
+###########
+COL_ENG_autonomy_dominion:0 "Dominion of Colombia"
+COL_ENG_autonomy_dominion_DEF:0 "The Dominion of Colombia"
+COL_ENG_autonomy_colony:0 "Confederation of Colombia"
+COL_ENG_autonomy_colony_DEF:0 "Confederation of Colombia" 
+COL_ENG_autonomy_puppet:0 "Province of Colombia"
+COL_ENG_autonomy_puppet_DEF:0 "The Province of Colombia"
+COL_ENG_autonomy_integrated_puppet:0 "British-Colombia"
+COL_ENG_autonomy_integrated_puppet_DEF:0 "British-Colombia"
+
+
+###########
+CHL_ENG_autonomy_dominion:0 "Dominion of Chile"
+CHL_ENG_autonomy_dominion_DEF:0 "The Dominion of Chile"
+CHL_ENG_autonomy_colony:0 "Confederation of Chile"
+CHL_ENG_autonomy_colony_DEF:0 "Confederation of Chile" 
+CHL_ENG_autonomy_puppet:0 "Province of Chile"
+CHL_ENG_autonomy_puppet_DEF:0 "The Province of Chile"
+CHL_ENG_autonomy_integrated_puppet:0 "British-Chile"
+CHL_ENG_autonomy_integrated_puppet_DEF:0 "British-Chile"
+
+
+###########
+CAN_ENG_autonomy_dominion:0 "Dominion of Canada"
+CAN_ENG_autonomy_dominion_DEF:0 "The Dominion of Canada"
+CAN_ENG_autonomy_colony:0 "Confederation of Canada"
+CAN_ENG_autonomy_colony_DEF:0 "Confederation of Canada" 
+CAN_ENG_autonomy_puppet:0 "Province of Canada"
+CAN_ENG_autonomy_puppet_DEF:0 "The Province of Canada"
+CAN_ENG_autonomy_integrated_puppet:0 "British-Canada"
+CAN_ENG_autonomy_integrated_puppet_DEF:0 "British-Canada"
+
+
+###########
+BRA_ENG_autonomy_dominion:0 "Dominion of Brazil"
+BRA_ENG_autonomy_dominion_DEF:0 "The Dominion of Brazil"
+BRA_ENG_autonomy_colony:0 "Confederation of Brazil"
+BRA_ENG_autonomy_colony_DEF:0 "Confederation of Brazil" 
+BRA_ENG_autonomy_puppet:0 "Province of Brazil"
+BRA_ENG_autonomy_puppet_DEF:0 "The Province of Brazil"
+BRA_ENG_autonomy_integrated_puppet:0 "British-Brazil"
+BRA_ENG_autonomy_integrated_puppet_DEF:0 "British-Brazil"
+
+
+###########
+BOL_ENG_autonomy_dominion:0 "Dominion of Bolivia"
+BOL_ENG_autonomy_dominion_DEF:0 "The Dominion of Bolivia"
+BOL_ENG_autonomy_colony:0 "Confederation of Bolivia"
+BOL_ENG_autonomy_colony_DEF:0 "Confederation of Bolivia" 
+BOL_ENG_autonomy_puppet:0 "Province of Bolivia"
+BOL_ENG_autonomy_puppet_DEF:0 "The Province of Bolivia"
+BOL_ENG_autonomy_integrated_puppet:0 "British-Bolivia"
+BOL_ENG_autonomy_integrated_puppet_DEF:0 "British-Bolivia"
+
+
+###########
+BHU_ENG_autonomy_dominion:0 "Dominion of Bhutan"
+BHU_ENG_autonomy_dominion_DEF:0 "The Dominion of Bhutan"
+BHU_ENG_autonomy_colony:0 "Confederation of Bhutan"
+BHU_ENG_autonomy_colony_DEF:0 "Confederation of Bhutan" 
+BHU_ENG_autonomy_puppet:0 "Province of Bhutan"
+BHU_ENG_autonomy_puppet_DEF:0 "The Province of Bhutan"
+BHU_ENG_autonomy_integrated_puppet:0 "British-Bhutan"
+BHU_ENG_autonomy_integrated_puppet_DEF:0 "British-Bhutan"
+
+
+###########
+AST_ENG_autonomy_dominion:0 "Dominion of Australia"
+AST_ENG_autonomy_dominion_DEF:0 "The Dominion of Australia"
+AST_ENG_autonomy_colony:0 "Confederation of Australia"
+AST_ENG_autonomy_colony_DEF:0 "Confederation of Australia" 
+AST_ENG_autonomy_puppet:0 "Province of Australia"
+AST_ENG_autonomy_puppet_DEF:0 "The Province of Australia"
+AST_ENG_autonomy_integrated_puppet:0 "British-Australia"
+AST_ENG_autonomy_integrated_puppet_DEF:0 "British-Australia"
+
+
+###########
+AFG_ENG_autonomy_dominion:0 "Dominion of Afghanistan"
+AFG_ENG_autonomy_dominion_DEF:0 "The Dominion of Afghanistan"
+AFG_ENG_autonomy_colony:0 "Confederation of Afghanistan"
+AFG_ENG_autonomy_colony_DEF:0 "Confederation of Afghanistan" 
+AFG_ENG_autonomy_puppet:0 "Province of Afghanistan"
+AFG_ENG_autonomy_puppet_DEF:0 "The Province of Afghanistan"
+AFG_ENG_autonomy_integrated_puppet:0 "British-Afghanistan"
+AFG_ENG_autonomy_integrated_puppet_DEF:0 "British-Afghanistan"
+
+
+###########
+ARG_ENG_autonomy_dominion:0 "Dominion of Argentinia"
+ARG_ENG_autonomy_dominion_DEF:0 "The Dominion of Argentinia"
+ARG_ENG_autonomy_colony:0 "Confederation of Argentinia"
+ARG_ENG_autonomy_colony_DEF:0 "Confederation of Argentinia" 
+ARG_ENG_autonomy_puppet:0 "Province of Argentinia"
+ARG_ENG_autonomy_puppet_DEF:0 "The Province of Argentinia"
+ARG_ENG_autonomy_integrated_puppet:0 "British-Argentinia"
+ARG_ENG_autonomy_integrated_puppet_DEF:0 "British-Argentinia"
+
+
+###########
+HUN_ENG_autonomy_dominion:0 "Dominion of Hungary"
+HUN_ENG_autonomy_dominion_DEF:0 "The Dominion of Hungary"
+HUN_ENG_autonomy_colony:0 "Confederation of Hungary"
+HUN_ENG_autonomy_colony_DEF:0 "Confederation of Hungary" 
+HUN_ENG_autonomy_puppet:0 "Province of Hungary"
+HUN_ENG_autonomy_puppet_DEF:0 "The Province of Hungary"
+HUN_ENG_autonomy_integrated_puppet:0 "British-Hungary"
+HUN_ENG_autonomy_integrated_puppet_DEF:0 "British-Hungary"
+
+
+###########
+IRE_ENG_autonomy_dominion:0 "Dominion of Ireland"
+IRE_ENG_autonomy_dominion_DEF:0 "The Dominion of Ireland"
+IRE_ENG_autonomy_colony:0 "Confederation of Ireland"
+IRE_ENG_autonomy_colony_DEF:0 "Confederation of Ireland" 
+IRE_ENG_autonomy_puppet:0 "Province of Ireland"
+IRE_ENG_autonomy_puppet_DEF:0 "The Province of Ireland"
+IRE_ENG_autonomy_integrated_puppet:0 "British-Ireland"
+IRE_ENG_autonomy_integrated_puppet_DEF:0 "British-Ireland"
+
+
+###########
+FIN_ENG_autonomy_dominion:0 "Dominion of Finland"
+FIN_ENG_autonomy_dominion_DEF:0 "The Dominion of Finland"
+FIN_ENG_autonomy_colony:0 "Confederation of Finland"
+FIN_ENG_autonomy_colony_DEF:0 "Confederation of Finland" 
+FIN_ENG_autonomy_puppet:0 "Province of Finland"
+FIN_ENG_autonomy_puppet_DEF:0 "The Province of Finland"
+FIN_ENG_autonomy_integrated_puppet:0 "British-Finland"
+FIN_ENG_autonomy_integrated_puppet_DEF:0 "British-Finland"
+
+
+###########
+POR_ENG_autonomy_dominion:0 "Dominion of Portugal"
+POR_ENG_autonomy_dominion_DEF:0 "The Dominion of Portugal"
+POR_ENG_autonomy_colony:0 "Confederation of Portugal"
+POR_ENG_autonomy_colony_DEF:0 "Confederation of Portugal" 
+POR_ENG_autonomy_puppet:0 "Province of Portugal"
+POR_ENG_autonomy_puppet_DEF:0 "The Province of Portugal"
+POR_ENG_autonomy_integrated_puppet:0 "British-Portugal"
+POR_ENG_autonomy_integrated_puppet_DEF:0 "British-Portugal"
+
+
+###########
+ALB_ENG_autonomy_dominion:0 "Dominion of Albania"
+ALB_ENG_autonomy_dominion_DEF:0 "The Dominion of Albania"
+ALB_ENG_autonomy_colony:0 "Confederation of Albania"
+ALB_ENG_autonomy_colony_DEF:0 "Confederation of Albania" 
+ALB_ENG_autonomy_puppet:0 "Province of Albania"
+ALB_ENG_autonomy_puppet_DEF:0 "The Province of Albania"
+ALB_ENG_autonomy_integrated_puppet:0 "British-Albania"
+ALB_ENG_autonomy_integrated_puppet_DEF:0 "British-Albania"
+
+
+###########
+BUL_ENG_autonomy_dominion:0 "Dominion of Bulgaria"
+BUL_ENG_autonomy_dominion_DEF:0 "The Dominion of Bulgaria"
+BUL_ENG_autonomy_colony:0 "Confederation of Bulgaria"
+BUL_ENG_autonomy_colony_DEF:0 "Confederation of Bulgaria" 
+BUL_ENG_autonomy_puppet:0 "Province of Bulgaria"
+BUL_ENG_autonomy_puppet_DEF:0 "The Province of Bulgaria"
+BUL_ENG_autonomy_integrated_puppet:0 "British-Bulgaria"
+BUL_ENG_autonomy_integrated_puppet_DEF:0 "British-Bulgaria"
+
+
+###########
+GRE_ENG_autonomy_dominion:0 "Dominion of Greece"
+GRE_ENG_autonomy_dominion_DEF:0 "The Dominion of Greece"
+GRE_ENG_autonomy_colony:0 "Confederation of Greece"
+GRE_ENG_autonomy_colony_DEF:0 "Confederation of Greece" 
+GRE_ENG_autonomy_puppet:0 "Province of Greece"
+GRE_ENG_autonomy_puppet_DEF:0 "The Province of Greece"
+GRE_ENG_autonomy_integrated_puppet:0 "British-Greece"
+GRE_ENG_autonomy_integrated_puppet_DEF:0 "British-Greece"
+
+
+###########
+TUR_ENG_autonomy_dominion:0 "Dominion of Turkey"
+TUR_ENG_autonomy_dominion_DEF:0 "The Dominion of Turkey"
+TUR_ENG_autonomy_colony:0 "Confederation of Turkey"
+TUR_ENG_autonomy_colony_DEF:0 "Confederation of Turkey" 
+TUR_ENG_autonomy_puppet:0 "Province of Turkey"
+TUR_ENG_autonomy_puppet_DEF:0 "The Province of Turkey"
+TUR_ENG_autonomy_integrated_puppet:0 "British-Turkey"
+TUR_ENG_autonomy_integrated_puppet_DEF:0 "British-Turkey"
+
+
+###########
+YUG_ENG_autonomy_dominion:0 "Dominion of Yugoslavia"
+YUG_ENG_autonomy_dominion_DEF:0 "The Dominion of Yugoslavia"
+YUG_ENG_autonomy_colony:0 "Confederation of Yugoslavia"
+YUG_ENG_autonomy_colony_DEF:0 "Confederation of Yugoslavia" 
+YUG_ENG_autonomy_puppet:0 "Province of Yugoslavia"
+YUG_ENG_autonomy_puppet_DEF:0 "The Province of Yugoslavia"
+YUG_ENG_autonomy_integrated_puppet:0 "British-Yugoslavia"
+YUG_ENG_autonomy_integrated_puppet_DEF:0 "British-Yugoslavia"
+
+
+###########
+SER_ENG_autonomy_dominion:0 "Dominion of Serbia"
+SER_ENG_autonomy_dominion_DEF:0 "The Dominion of Serbia"
+SER_ENG_autonomy_colony:0 "Confederation of Serbia"
+SER_ENG_autonomy_colony_DEF:0 "Confederation of Serbia" 
+SER_ENG_autonomy_puppet:0 "Province of Serbia"
+SER_ENG_autonomy_puppet_DEF:0 "The Province of Serbia"
+SER_ENG_autonomy_integrated_puppet:0 "British-Serbia"
+SER_ENG_autonomy_integrated_puppet_DEF:0 "British-Serbia"
+
+
+###########
+DEN_ENG_autonomy_dominion:0 "Dominion of Denmark"
+DEN_ENG_autonomy_dominion_DEF:0 "The Dominion of Denmark"
+DEN_ENG_autonomy_colony:0 "Confederation of Denmark"
+DEN_ENG_autonomy_colony_DEF:0 "Confederation of Denmark" 
+DEN_ENG_autonomy_puppet:0 "Province of Denmark"
+DEN_ENG_autonomy_puppet_DEF:0 "The Province of Denmark"
+DEN_ENG_autonomy_integrated_puppet:0 "British-Denmark"
+DEN_ENG_autonomy_integrated_puppet_DEF:0 "British-Denmark"
+
+
+###########
+NOR_ENG_autonomy_dominion:0 "Dominion of Norway"
+NOR_ENG_autonomy_dominion_DEF:0 "The Dominion of Norway"
+NOR_ENG_autonomy_colony:0 "Confederation of Norway"
+NOR_ENG_autonomy_colony_DEF:0 "Confederation of Norway" 
+NOR_ENG_autonomy_puppet:0 "Province of Norway"
+NOR_ENG_autonomy_puppet_DEF:0 "The Province of Norway"
+NOR_ENG_autonomy_integrated_puppet:0 "British-Norway"
+NOR_ENG_autonomy_integrated_puppet_DEF:0 "British-Norway"
+
+
+###########
+SPR_ENG_autonomy_dominion:0 "Dominion of Spain"
+SPR_ENG_autonomy_dominion_DEF:0 "The Dominion of Spain"
+SPR_ENG_autonomy_colony:0 "Confederation of Spain"
+SPR_ENG_autonomy_colony_DEF:0 "Confederation of Spain" 
+SPR_ENG_autonomy_puppet:0 "Province of Spain"
+SPR_ENG_autonomy_puppet_DEF:0 "The Province of Spain"
+SPR_ENG_autonomy_integrated_puppet:0 "British-Spain"
+SPR_ENG_autonomy_integrated_puppet_DEF:0 "British-Spain"
+
+
+###########
+LAT_ENG_autonomy_dominion:0 "Dominion of Latvia"
+LAT_ENG_autonomy_dominion_DEF:0 "The Dominion of Latvia"
+LAT_ENG_autonomy_colony:0 "Confederation of Latvia"
+LAT_ENG_autonomy_colony_DEF:0 "Confederation of Latvia" 
+LAT_ENG_autonomy_puppet:0 "Province of Latvia"
+LAT_ENG_autonomy_puppet_DEF:0 "The Province of Latvia"
+LAT_ENG_autonomy_integrated_puppet:0 "British-Latvia"
+LAT_ENG_autonomy_integrated_puppet_DEF:0 "British-Latvia"
+
+
+###########
+EST_ENG_autonomy_dominion:0 "Dominion of Estonia"
+EST_ENG_autonomy_dominion_DEF:0 "The Dominion of Estonia"
+EST_ENG_autonomy_colony:0 "Confederation of Estonia"
+EST_ENG_autonomy_colony_DEF:0 "Confederation of Estonia" 
+EST_ENG_autonomy_puppet:0 "Province of Estonia"
+EST_ENG_autonomy_puppet_DEF:0 "The Province of Estonia"
+EST_ENG_autonomy_integrated_puppet:0 "British-Estonia"
+EST_ENG_autonomy_integrated_puppet_DEF:0 "British-Estonia"
+
+
+###########
+AUS_ENG_autonomy_dominion:0 "Dominion of Austria"
+AUS_ENG_autonomy_dominion_DEF:0 "The Dominion of Austria"
+AUS_ENG_autonomy_colony:0 "Confederation of Austria"
+AUS_ENG_autonomy_colony_DEF:0 "Confederation of Austria" 
+AUS_ENG_autonomy_puppet:0 "Province of Austria"
+AUS_ENG_autonomy_puppet_DEF:0 "The Province of Austria"
+AUS_ENG_autonomy_integrated_puppet:0 "British-Austria"
+AUS_ENG_autonomy_integrated_puppet_DEF:0 "British-Austria"
+
+
+###########
+POL_ENG_autonomy_dominion:0 "Dominion of Poland"
+POL_ENG_autonomy_dominion_DEF:0 "The Dominion of Poland"
+POL_ENG_autonomy_colony:0 "Confederation of Poland"
+POL_ENG_autonomy_colony_DEF:0 "Confederation of Poland" 
+POL_ENG_autonomy_puppet:0 "Province of Poland"
+POL_ENG_autonomy_puppet_DEF:0 "The Province of Poland"
+POL_ENG_autonomy_integrated_puppet:0 "British-Poland"
+POL_ENG_autonomy_integrated_puppet_DEF:0 "British-Poland"
+
+
+###########
+CZE_ENG_autonomy_dominion:0 "Dominion of Czechia"
+CZE_ENG_autonomy_dominion_DEF:0 "The Dominion of BCzechia"
+CZE_ENG_autonomy_colony:0 "Confederation of Czechia"
+CZE_ENG_autonomy_colony_DEF:0 "Confederation of Czechia" 
+CZE_ENG_autonomy_puppet:0 "Province of Czechia"
+CZE_ENG_autonomy_puppet_DEF:0 "The Province of Czechia"
+CZE_ENG_autonomy_integrated_puppet:0 "British-Czechia"
+CZE_ENG_autonomy_integrated_puppet_DEF:0 "British-Czechia"
+
+
+###########
+BEL_ENG_autonomy_dominion:0 "Dominion of Belgium"
+BEL_ENG_autonomy_dominion_DEF:0 "The Dominion of Belgium"
+BEL_ENG_autonomy_colony:0 "Confederation of Belgium"
+BEL_ENG_autonomy_colony_DEF:0 "Confederation of Belgium" 
+BEL_ENG_autonomy_puppet:0 "Province of Belgium"
+BEL_ENG_autonomy_puppet_DEF:0 "The Province of Belgium"
+BEL_ENG_autonomy_integrated_puppet:0 "British-Belgium"
+BEL_ENG_autonomy_integrated_puppet_DEF:0 "British-Belgium"
+
+
+###########
+LUX_ENG_autonomy_dominion:0 "Dominion of Luxembourg"
+LUX_ENG_autonomy_dominion_DEF:0 "The Dominion of Luxembourg"
+LUX_ENG_autonomy_colony:0 "Confederation of Luxembourg"
+LUX_ENG_autonomy_colony_DEF:0 "Confederation of Luxembourg" 
+LUX_ENG_autonomy_puppet:0 "Province of Luxembourg"
+LUX_ENG_autonomy_puppet_DEF:0 "The Province of Luxembourg"
+LUX_ENG_autonomy_integrated_puppet:0 "British-Luxembourg"
+LUX_ENG_autonomy_integrated_puppet_DEF:0 "British-Luxembourg"
+
+
+###########
+SWE_ENG_autonomy_dominion:0 "Dominion of Sweden"
+SWE_ENG_autonomy_dominion_DEF:0 "The Dominion of Sweden"
+SWE_ENG_autonomy_colony:0 "Confederation of Sweden"
+SWE_ENG_autonomy_colony_DEF:0 "Confederation of Sweden" 
+SWE_ENG_autonomy_puppet:0 "Province of Sweden"
+SWE_ENG_autonomy_puppet_DEF:0 "The Province of Sweden"
+SWE_ENG_autonomy_integrated_puppet:0 "British-Sweden"
+SWE_ENG_autonomy_integrated_puppet_DEF:0 "British-Sweden"
+
+
+###########
+CHI_ENG_autonomy_dominion:0 "Dominion of China"
+CHI_ENG_autonomy_dominion_DEF:0 "The Dominion of China"
+CHI_ENG_autonomy_colony:0 "Confederation of China"
+CHI_ENG_autonomy_colony_DEF:0 "Confederation of China" 
+CHI_ENG_autonomy_puppet:0 "Province of China"
+CHI_ENG_autonomy_puppet_DEF:0 "The Province of China"
+CHI_ENG_autonomy_integrated_puppet:0 "British-China"
+CHI_ENG_autonomy_integrated_puppet_DEF:0 "British-China"
+
+
+###########
+ROM_ENG_autonomy_dominion:0 "Dominion of Romania"
+ROM_ENG_autonomy_dominion_DEF:0 "The Dominion of Romania"
+ROM_ENG_autonomy_colony:0 "Confederation of Romania"
+ROM_ENG_autonomy_colony_DEF:0 "Confederation of Romania" 
+ROM_ENG_autonomy_puppet:0 "Province of Romania"
+ROM_ENG_autonomy_puppet_DEF:0 "The Province of Romania"
+ROM_ENG_autonomy_integrated_puppet:0 "British-Romania"
+ROM_ENG_autonomy_integrated_puppet_DEF:0 "British-Romania"
+
+
+###########
+ITA_ENG_autonomy_dominion:0 "Dominion of Italy"
+ITA_ENG_autonomy_dominion_DEF:0 "The Dominion of Italy"
+ITA_ENG_autonomy_colony:0 "Confederation of Italy"
+ITA_ENG_autonomy_colony_DEF:0 "Confederation of Italy" 
+ITA_ENG_autonomy_puppet:0 "Province of Italy"
+ITA_ENG_autonomy_puppet_DEF:0 "The Province of Italy"
+ITA_ENG_autonomy_integrated_puppet:0 "British-Italy"
+ITA_ENG_autonomy_integrated_puppet_DEF:0 "British-Italy"
+
+
+###########
+HOL_ENG_autonomy_dominion:0 "Dominion of Netherlands"
+HOL_ENG_autonomy_dominion_DEF:0 "The Dominion of Netherlands"
+HOL_ENG_autonomy_colony:0 "Confederation of Netherlands"
+HOL_ENG_autonomy_colony_DEF:0 "Confederation of Netherlands" 
+HOL_ENG_autonomy_puppet:0 "Province of Netherlands"
+HOL_ENG_autonomy_puppet_DEF:0 "The Province of Netherlands"
+HOL_ENG_autonomy_integrated_puppet:0 "British-Netherlands"
+HOL_ENG_autonomy_integrated_puppet_DEF:0 "British-Netherlands"
+
+
+###########
+SAF_ENG_autonomy_dominion:0 "Dominion of South Africa"
+SAF_ENG_autonomy_dominion_DEF:0 "The Dominion of South Africa"
+SAF_ENG_autonomy_colony:0 "Confederation of South Africa"
+SAF_ENG_autonomy_colony_DEF:0 "Confederation of South Africa" 
+SAF_ENG_autonomy_puppet:0 "Province of South Africa"
+SAF_ENG_autonomy_puppet_DEF:0 "The Province of South Africa"
+SAF_ENG_autonomy_integrated_puppet:0 "British-South Africa"
+SAF_ENG_autonomy_integrated_puppet_DEF:0 "British-South Africa"
+
+
+
+###########
+USA_ENG_autonomy_dominion:0 "Dominion of America"
+USA_ENG_autonomy_dominion_DEF:0 "The Dominion of America"
+USA_ENG_autonomy_colony:0 "Confederation of America"
+USA_ENG_autonomy_colony_DEF:0 "Confederation of America" 
+USA_ENG_autonomy_puppet:0 "Province of America"
+USA_ENG_autonomy_puppet_DEF:0 "The Province of America"
+USA_ENG_autonomy_integrated_puppet:0 "British-America"
+USA_ENG_autonomy_integrated_puppet_DEF:0 "British-America"
+
+
+###########
+FRA_ENG_autonomy_dominion:0 "Dominion of France"
+FRA_ENG_autonomy_dominion_DEF:0 "The Dominion of France"
+FRA_ENG_autonomy_colony:0 "Confederation of France"
+FRA_ENG_autonomy_colony_DEF:0 "Confederation of France" 
+FRA_ENG_autonomy_puppet:0 "Province of France"
+FRA_ENG_autonomy_puppet_DEF:0 "The Province of France"
+FRA_ENG_autonomy_integrated_puppet:0 "British-France"
+FRA_ENG_autonomy_integrated_puppet_DEF:0 "British-France"
+
+
+###########
+LIT_ENG_autonomy_dominion:0 "Dominion of Lithuania"
+LIT_ENG_autonomy_dominion_DEF:0 "The Dominion of Lithuania"
+LIT_ENG_autonomy_colony:0 "Confederation of Lithuania"
+LIT_ENG_autonomy_colony_DEF:0 "Confederation of Lithuania" 
+LIT_ENG_autonomy_puppet:0 "Province of Lithuania"
+LIT_ENG_autonomy_puppet_DEF:0 "The Province of Lithuania"
+LIT_ENG_autonomy_integrated_puppet:0 "British-Lithuania"
+LIT_ENG_autonomy_integrated_puppet_DEF:0 "British-Lithuania"
+
+
+###########
+JAP_ENG_autonomy_dominion:0 "Dominion of Japan"
+JAP_ENG_autonomy_dominion_DEF:0 "The Dominion of Japan"
+JAP_ENG_autonomy_colony:0 "Confederation of Japan"
+JAP_ENG_autonomy_colony_DEF:0 "Confederation of Japan" 
+JAP_ENG_autonomy_puppet:0 "Province of Japan"
+JAP_ENG_autonomy_puppet_DEF:0 "The Province of Japan"
+JAP_ENG_autonomy_integrated_puppet:0 "British-Japan"
+JAP_ENG_autonomy_integrated_puppet_DEF:0 "British-Japan"
+
+
+###########
+SOV_ENG_autonomy_dominion:0 "Dominion of Russia"
+SOV_ENG_autonomy_dominion_DEF:0 "The Dominion of Russia"
+SOV_ENG_autonomy_colony:0 "Confederation of Russia"
+SOV_ENG_autonomy_colony_DEF:0 "Confederation of Russia" 
+SOV_ENG_autonomy_puppet:0 "Province of Russia"
+SOV_ENG_autonomy_puppet_DEF:0 "The Province of Russia"
+SOV_ENG_autonomy_integrated_puppet:0 "British-Russia"
+SOV_ENG_autonomy_integrated_puppet_DEF:0 "British-Russia"
+
+
+###########
+LBA_ENG_autonomy_dominion:0 "Dominion of North Afrika"
+LBA_ENG_autonomy_dominion_DEF:0 "The Dominion of North Afrika"
+LBA_ENG_autonomy_colony:0 "Confederation of North Afrika"
+LBA_ENG_autonomy_colony_DEF:0 "Confederation of North Afrika" 
+LBA_ENG_autonomy_puppet:0 "Province of North Afrika"
+LBA_ENG_autonomy_puppet_DEF:0 "The Province of North Afrika"
+LBA_ENG_autonomy_integrated_puppet:0 "British-North Afrika"
+LBA_ENG_autonomy_integrated_puppet_DEF:0 "British-North Afrika"
+
+
+###########
+GER_ENG_autonomy_dominion:0 "Dominion of Germany"
+GER_ENG_autonomy_dominion_DEF:0 "The Dominion of Germany"
+GER_ENG_autonomy_colony:0 "Confederation of Germany"
+GER_ENG_autonomy_colony_DEF:0 "Confederation of Germany" 
+GER_ENG_autonomy_puppet:0 "Province of Germany"
+GER_ENG_autonomy_puppet_DEF:0 "The Province of Germany"
+GER_ENG_autonomy_integrated_puppet:0 "British-Germany"
+GER_ENG_autonomy_integrated_puppet_DEF:0 "British-Germany"
+
+
+
+#################
+###new_nations###
+#################
+
+N01_ENG_autonomy_dominion:0 "Dominion of Bavaria"
+N01_ENG_autonomy_dominion_DEF:0 "The Dominion of Bavaria"
+N01_ENG_autonomy_colony:0 "Confederation of Bavaria"
+N01_ENG_autonomy_colony_DEF:0 "Confederation of Bavaria" 
+N01_ENG_autonomy_puppet:0 "Province of Bavaria"
+N01_ENG_autonomy_puppet_DEF:0 "The Province of Bavaria"
+N01_ENG_autonomy_integrated_puppet:0 "British-Bavaria"
+N01_ENG_autonomy_integrated_puppet_DEF:0 "British-Bavaria"
+
+N01_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Bavaria"
+N01_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Bavaria"
+N01_ENG_fascism_autonomy_satellite_DEF:0 "The British-Bavaria"
+N01_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Bavaria"
+N01_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Bavaria"
+N01_ENG_fascism_autonomy_satellite:0 "British-Bavaria"
+###########
+N02_ENG_autonomy_dominion:0 "Dominion of Scotland"
+N02_ENG_autonomy_dominion_DEF:0 "The Dominion of Scotland"
+N02_ENG_autonomy_colony:0 "Confederation of Scotland"
+N02_ENG_autonomy_colony_DEF:0 "Confederation of Scotland" 
+N02_ENG_autonomy_puppet:0 "Province of Scotland"
+N02_ENG_autonomy_puppet_DEF:0 "The Province of Scotland"
+N02_ENG_autonomy_integrated_puppet:0 "British-Scotland"
+N02_ENG_autonomy_integrated_puppet_DEF:0 "British-Scotland"
+
+N02_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Scotland"
+N02_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Scotland"
+N02_ENG_fascism_autonomy_satellite_DEF:0 "The British-Scotland"
+N02_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Scotland"
+N02_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Scotland"
+N02_ENG_fascism_autonomy_satellite:0 "British-Scotland"
+###########
+N03_ENG_autonomy_dominion:0 "Dominion of Wales"
+N03_ENG_autonomy_dominion_DEF:0 "The Dominion of Wales"
+N03_ENG_autonomy_colony:0 "Confederation of Wales"
+N03_ENG_autonomy_colony_DEF:0 "Confederation of Wales" 
+N03_ENG_autonomy_puppet:0 "Province of Wales"
+N03_ENG_autonomy_puppet_DEF:0 "The Province of Wales"
+N03_ENG_autonomy_integrated_puppet:0 "British-Wales"
+N03_ENG_autonomy_integrated_puppet_DEF:0 "British-Wales"
+
+N03_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Wales"
+N03_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Wales"
+N03_ENG_fascism_autonomy_satellite_DEF:0 "The British-Wales"
+N03_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Wales"
+N03_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Wales"
+N03_ENG_fascism_autonomy_satellite:0 "British-Wales"
+###########
+N04_ENG_autonomy_dominion:0 "Dominion of Britanny"
+N04_ENG_autonomy_dominion_DEF:0 "The Dominion of Britanny"
+N04_ENG_autonomy_colony:0 "Confederation of Britanny"
+N04_ENG_autonomy_colony_DEF:0 "Confederation of Britanny" 
+N04_ENG_autonomy_puppet:0 "Province of Britanny"
+N04_ENG_autonomy_puppet_DEF:0 "The Province of Britanny"
+N04_ENG_autonomy_integrated_puppet:0 "British-Britanny"
+N04_ENG_autonomy_integrated_puppet_DEF:0 "British-Britanny"
+
+N04_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Britanny"
+N04_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Britanny"
+N04_ENG_fascism_autonomy_satellite_DEF:0 "The British-Britanny"
+N04_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Britanny"
+N04_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Britanny"
+N04_ENG_fascism_autonomy_satellite:0 "British-Britanny"
+###########
+N05_ENG_autonomy_dominion:0 "Dominion of Catalonia"
+N05_ENG_autonomy_dominion_DEF:0 "The Dominion of Catalonia"
+N05_ENG_autonomy_colony:0 "Confederation of Catalonia"
+N05_ENG_autonomy_colony_DEF:0 "Confederation of Catalonia" 
+N05_ENG_autonomy_puppet:0 "Province of Catalonia"
+N05_ENG_autonomy_puppet_DEF:0 "The Province of Catalonia"
+N05_ENG_autonomy_integrated_puppet:0 "British-Catalonia"
+N05_ENG_autonomy_integrated_puppet_DEF:0 "British-Catalonia"
+
+N05_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Catalonia"
+N05_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Catalonia"
+N05_ENG_fascism_autonomy_satellite_DEF:0 "The British-Catalonia"
+N05_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Catalonia"
+N05_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Catalonia"
+N05_ENG_fascism_autonomy_satellite:0 "British-Catalonia"
+###########
+N06_ENG_autonomy_dominion:0 "Dominion of Quebec"
+N06_ENG_autonomy_dominion_DEF:0 "The Dominion of Quebec"
+N06_ENG_autonomy_colony:0 "Confederation of Quebec"
+N06_ENG_autonomy_colony_DEF:0 "Confederation of Quebec" 
+N06_ENG_autonomy_puppet:0 "Province of Quebec"
+N06_ENG_autonomy_puppet_DEF:0 "The Province of Quebec"
+N06_ENG_autonomy_integrated_puppet:0 "British-Quebec"
+N06_ENG_autonomy_integrated_puppet_DEF:0 "British-Quebec"
+
+N06_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Quebec"
+N06_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Quebec"
+N06_ENG_fascism_autonomy_satellite_DEF:0 "The British-Quebec"
+N06_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Quebec"
+N06_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Quebec"
+N06_ENG_fascism_autonomy_satellite:0 "British-Quebec"
+###########
+N07_ENG_autonomy_dominion:0 "Dominion of Texas"
+N07_ENG_autonomy_dominion_DEF:0 "The Dominion of Texas"
+N07_ENG_autonomy_colony:0 "Confederation of Texas"
+N07_ENG_autonomy_colony_DEF:0 "Confederation of Texas" 
+N07_ENG_autonomy_puppet:0 "Province of Texas"
+N07_ENG_autonomy_puppet_DEF:0 "The Province of Texas"
+N07_ENG_autonomy_integrated_puppet:0 "British-Texas"
+N07_ENG_autonomy_integrated_puppet_DEF:0 "British-Texas"
+
+N07_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Texas"
+N07_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Texas"
+N07_ENG_fascism_autonomy_satellite_DEF:0 "The British-Texas"
+N07_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Texas"
+N07_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Texas"
+N07_ENG_fascism_autonomy_satellite:0 "British-Texas"
+###########
+N08_ENG_autonomy_dominion:0 "Dominion of California"
+N08_ENG_autonomy_dominion_DEF:0 "The Dominion of California"
+N08_ENG_autonomy_colony:0 "Confederation of California"
+N08_ENG_autonomy_colony_DEF:0 "Confederation of California" 
+N08_ENG_autonomy_puppet:0 "Province of California"
+N08_ENG_autonomy_puppet_DEF:0 "The Province of California"
+N08_ENG_autonomy_integrated_puppet:0 "British-California"
+N08_ENG_autonomy_integrated_puppet_DEF:0 "British-California"
+
+N08_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of California"
+N08_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of California"
+N08_ENG_fascism_autonomy_satellite_DEF:0 "The British-California"
+N08_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of California"
+N08_ENG_fascism_autonomy_reichsprotectorate:0 "Province of California"
+N08_ENG_fascism_autonomy_satellite:0 "British-California"
+###########
+N09_ENG_autonomy_dominion:0 "Dominion of Bosnia"
+N09_ENG_autonomy_dominion_DEF:0 "The Dominion of Bosnia"
+N09_ENG_autonomy_colony:0 "Confederation of Bosnia"
+N09_ENG_autonomy_colony_DEF:0 "Confederation of Bosnia" 
+N09_ENG_autonomy_puppet:0 "Province of Bosnia"
+N09_ENG_autonomy_puppet_DEF:0 "The Province of Bosnia"
+N09_ENG_autonomy_integrated_puppet:0 "British-Bosnia"
+N09_ENG_autonomy_integrated_puppet_DEF:0 "British-Bosnia"
+
+N09_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Bosnia"
+N09_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Bosnia"
+N09_ENG_fascism_autonomy_satellite_DEF:0 "The British-Bosnia"
+N09_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Bosnia"
+N09_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Bosnia"
+N09_ENG_fascism_autonomy_satellite:0 "British-Bosnia"
+###########
+N10_ENG_autonomy_dominion:0 "Dominion of Slowenia"
+N10_ENG_autonomy_dominion_DEF:0 "The Dominion of Slowenia"
+N10_ENG_autonomy_colony:0 "Confederation of Slowenia"
+N10_ENG_autonomy_colony_DEF:0 "Confederation of Slowenia" 
+N10_ENG_autonomy_puppet:0 "Province of Slowenia"
+N10_ENG_autonomy_puppet_DEF:0 "The Province of Slowenia"
+N10_ENG_autonomy_integrated_puppet:0 "British-Slowenia"
+N10_ENG_autonomy_integrated_puppet_DEF:0 "British-Slowenia"
+
+N10_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Slowenia"
+N10_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Slowenia"
+N10_ENG_fascism_autonomy_satellite_DEF:0 "The British-Slowenia"
+N10_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Slowenia"
+N10_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Slowenia"
+N10_ENG_fascism_autonomy_satellite:0 "British-Slowenia"
+###########
+N11_ENG_autonomy_dominion:0 "Dominion of Southwestafrika"
+N11_ENG_autonomy_dominion_DEF:0 "The Dominion of Southwestafrika"
+N11_ENG_autonomy_colony:0 "Confederation of Southwestafrika"
+N11_ENG_autonomy_colony_DEF:0 "Confederation of Southwestafrika" 
+N11_ENG_autonomy_puppet:0 "Province of Namibia"
+N11_ENG_autonomy_puppet_DEF:0 "The Province of Namibia"
+N11_ENG_autonomy_integrated_puppet:0 "British-Namibia"
+N11_ENG_autonomy_integrated_puppet_DEF:0 "British-Namibia"
+
+N11_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Southwestafrika"
+N11_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Southwestafrika"
+N11_ENG_fascism_autonomy_satellite_DEF:0 "The British-Southwestafrika"
+N11_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Southwestafrika"
+N11_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Southwestafrika"
+N11_ENG_fascism_autonomy_satellite:0 "British-Southwestafrika"
+###########
+N12_ENG_autonomy_dominion:0 "Dominion of Madagaskar"
+N12_ENG_autonomy_dominion_DEF:0 "The Dominion of Madagaskar"
+N12_ENG_autonomy_colony:0 "Confederation of Madagaskar"
+N12_ENG_autonomy_colony_DEF:0 "Confederation of Madagaskar" 
+N12_ENG_autonomy_puppet:0 "Province of Madagaskar"
+N12_ENG_autonomy_puppet_DEF:0 "The Province of Madagaskar"
+N12_ENG_autonomy_integrated_puppet:0 "British-Madagaskar"
+N12_ENG_autonomy_integrated_puppet_DEF:0 "British-Madagaskar"
+
+N12_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Madagaskar"
+N12_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Madagaskar"
+N12_ENG_fascism_autonomy_satellite_DEF:0 "The British-Madagaskar"
+N12_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Madagaskar"
+N12_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Madagaskar"
+N12_ENG_fascism_autonomy_satellite:0 "British-Madagaskar"
+###########
+N13_ENG_autonomy_dominion:0 "Dominion of Ostafrika"
+N13_ENG_autonomy_dominion_DEF:0 "The Dominion of Ostafrika"
+N13_ENG_autonomy_colony:0 "Confederation of Ostafrika"
+N13_ENG_autonomy_colony_DEF:0 "Confederation of Ostafrika" 
+N13_ENG_autonomy_puppet:0 "Province of Tansania"
+N13_ENG_autonomy_puppet_DEF:0 "The Province of Tansania"
+N13_ENG_autonomy_integrated_puppet:0 "British-Tansania"
+N13_ENG_autonomy_integrated_puppet_DEF:0 "British-Tansania"
+
+N13_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Ostafrika"
+N13_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Ostafrika"
+N13_ENG_fascism_autonomy_satellite_DEF:0 "The British-Ostafrika"
+N13_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Ostafrika"
+N13_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Ostafrika"
+N13_ENG_fascism_autonomy_satellite:0 "British-Ostafrika"
+###########
+N14_ENG_autonomy_dominion:0 "Dominion of Algeria"
+N14_ENG_autonomy_dominion_DEF:0 "The Dominion of Algeria"
+N14_ENG_autonomy_colony:0 "Confederation of Algeria"
+N14_ENG_autonomy_colony_DEF:0 "Confederation of Algeria" 
+N14_ENG_autonomy_puppet:0 "Province of Algeria"
+N14_ENG_autonomy_puppet_DEF:0 "The Province of Algeria"
+N14_ENG_autonomy_integrated_puppet:0 "British-Algeria"
+N14_ENG_autonomy_integrated_puppet_DEF:0 "British-Algeria"
+
+N14_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Algeria"
+N14_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Algeria"
+N14_ENG_fascism_autonomy_satellite_DEF:0 "The British-Algeria"
+N14_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Algeria"
+N14_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Algeria"
+N14_ENG_fascism_autonomy_satellite:0 "British-Algeria"
+###########
+N15_ENG_autonomy_dominion:0 "Dominion of Tunesia"
+N15_ENG_autonomy_dominion_DEF:0 "The Dominion of Tunesia"
+N15_ENG_autonomy_colony:0 "Confederation of Tunesia"
+N15_ENG_autonomy_colony_DEF:0 "Confederation of Tunesia" 
+N15_ENG_autonomy_puppet:0 "Province of Tunesia"
+N15_ENG_autonomy_puppet_DEF:0 "The Province of Tunesia"
+N15_ENG_autonomy_integrated_puppet:0 "British-Tunesia"
+N15_ENG_autonomy_integrated_puppet_DEF:0 "British-Tunesia"
+
+N15_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Tunesia"
+N15_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Tunesia"
+N15_ENG_fascism_autonomy_satellite_DEF:0 "The British-Tunesia"
+N15_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Tunesia"
+N15_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Tunesia"
+N15_ENG_fascism_autonomy_satellite:0 "British-Tunesia"
+###########
+N16_ENG_autonomy_dominion:0 "Dominion of Kurdistan"
+N16_ENG_autonomy_dominion_DEF:0 "The Dominion of Kurdistan"
+N16_ENG_autonomy_colony:0 "Confederation of Kurdistan"
+N16_ENG_autonomy_colony_DEF:0 "Confederation of Kurdistan" 
+N16_ENG_autonomy_puppet:0 "Province of Kurdistan"
+N16_ENG_autonomy_puppet_DEF:0 "The Province of Kurdistan"
+N16_ENG_autonomy_integrated_puppet:0 "British-Kurdistan"
+N16_ENG_autonomy_integrated_puppet_DEF:0 "British-Kurdistan"
+
+N16_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of Kurdistan"
+N16_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of Kurdistan"
+N16_ENG_fascism_autonomy_satellite_DEF:0 "The British-Kurdistan"
+N16_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of Kurdistan"
+N16_ENG_fascism_autonomy_reichsprotectorate:0 "Province of Kurdistan"
+N16_ENG_fascism_autonomy_satellite:0 "British-Kurdistan"
+###########
+N17_ENG_autonomy_dominion:0 "Dominion of England"
+N17_ENG_autonomy_dominion_DEF:0 "The Dominion of England"
+N17_ENG_autonomy_colony:0 "Confederation of England"
+N17_ENG_autonomy_colony_DEF:0 "Confederation of England" 
+N17_ENG_autonomy_puppet:0 "Province of England"
+N17_ENG_autonomy_puppet_DEF:0 "The Province of England"
+N17_ENG_autonomy_integrated_puppet:0 "British-England"
+N17_ENG_autonomy_integrated_puppet_DEF:0 "British-England"
+
+N17_ENG_fascism_autonomy_reichskommissariat_DEF:0 "The Dominion of England"
+N17_ENG_fascism_autonomy_reichsprotectorate_DEF:0 "The Province of England"
+N17_ENG_fascism_autonomy_satellite_DEF:0 "The British-England"
+N17_ENG_fascism_autonomy_reichskommissariat:0 "Dominion of England"
+N17_ENG_fascism_autonomy_reichsprotectorate:0 "Province of England"
+N17_ENG_fascism_autonomy_satellite:0 "British-England"
+###########
+
+l_english:
+
+###########
+##great Britain##
+###########
+
+BOT_ENG_autonomy_reorganised_state:0 "Dominion of Botswana"
+BOT_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Botswana"
+
+BOT_ENG_autonomy_puppet_state:0 "Confederation of Botswana"
+BOT_ENG_autonomy_puppet_state_DEF:0 "Confederation of Botswana"
+ 
+BOT_ENG_autonomy_military_administration:0 "Province of Botswana"
+BOT_ENG_autonomy_military_administration_DEF:0 "The Province of Botswana"
+
+BOT_ENG_autonomy_integrated_puppet:0 "British-Botswana"
+BOT_ENG_autonomy_integrated_puppet_DEF:0 "British-Botswana"
+#
+#
+
+###########
+PAK_ENG_autonomy_reorganised_state:0 "Dominion of Pakistan"
+PAK_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Pakistan"
+PAK_ENG_autonomy_puppet_state:0 "Confederation of Pakistan"
+PAK_ENG_autonomy_puppet_state_DEF:0 "Confederation of Pakistan" 
+PAK_ENG_autonomy_military_administration:0 "Province of Pakistan"
+PAK_ENG_autonomy_military_administration_DEF:0 "The Province of Pakistan"
+PAK_ENG_autonomy_integrated_puppet:0 "British-Pakistan"
+PAK_ENG_autonomy_integrated_puppet_DEF:0 "British-Pakistan"
+
+
+###########
+KEN_ENG_autonomy_reorganised_state:0 "Dominion of Kenia"
+KEN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Kenia"
+KEN_ENG_autonomy_puppet_state:0 "Confederation of Kenia"
+KEN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Kenia" 
+KEN_ENG_autonomy_military_administration:0 "Province of Kenia"
+KEN_ENG_autonomy_military_administration_DEF:0 "The Province of Kenia"
+KEN_ENG_autonomy_integrated_puppet:0 "British-Kenia"
+KEN_ENG_autonomy_integrated_puppet_DEF:0 "British-Kenia"
+
+
+###########
+COG_ENG_autonomy_reorganised_state:0 "Dominion of Congo"
+COG_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Congo"
+COG_ENG_autonomy_puppet_state:0 "Confederation of Congo"
+COG_ENG_autonomy_puppet_state_DEF:0 "Confederation of Congo" 
+COG_ENG_autonomy_military_administration:0 "Province of Congo"
+COG_ENG_autonomy_military_administration_DEF:0 "The Province of Congo"
+COG_ENG_autonomy_integrated_puppet:0 "British-Congo"
+COG_ENG_autonomy_integrated_puppet_DEF:0 "British-Congo"
+
+
+###########
+ZIM_ENG_autonomy_reorganised_state:0 "Dominion of Zimbabwe"
+ZIM_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Zimbabwe"
+ZIM_ENG_autonomy_puppet_state:0 "Confederation of Zimbabwe"
+ZIM_ENG_autonomy_puppet_state_DEF:0 "Confederation of Zimbabwe" 
+ZIM_ENG_autonomy_military_administration:0 "Province of Zimbabwe"
+ZIM_ENG_autonomy_military_administration_DEF:0 "The Province of Zimbabwe"
+ZIM_ENG_autonomy_integrated_puppet:0 "British-Zimbabwe"
+ZIM_ENG_autonomy_integrated_puppet_DEF:0 "British-Zimbabwe"
+
+
+###########
+MZB_ENG_autonomy_reorganised_state:0 "Dominion of Mozambique"
+MZB_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Mozambique"
+MZB_ENG_autonomy_puppet_state:0 "Confederation of Mozambique"
+MZB_ENG_autonomy_puppet_state_DEF:0 "Confederation of Mozambique" 
+MZB_ENG_autonomy_military_administration:0 "Province of Mozambique"
+MZB_ENG_autonomy_military_administration_DEF:0 "The Province of Mozambique"
+MZB_ENG_autonomy_integrated_puppet:0 "British-Mozambique"
+MZB_ENG_autonomy_integrated_puppet_DEF:0 "British-Mozambique"
+
+
+###########
+ANG_ENG_autonomy_reorganised_state:0 "Dominion of Angola"
+ANG_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Angola"
+ANG_ENG_autonomy_puppet_state:0 "Confederation of Angola"
+ANG_ENG_autonomy_puppet_state_DEF:0 "Confederation of Angola" 
+ANG_ENG_autonomy_military_administration:0 "Province of Angola"
+ANG_ENG_autonomy_military_administration_DEF:0 "The Province of Angola"
+ANG_ENG_autonomy_integrated_puppet:0 "British-Angola"
+ANG_ENG_autonomy_integrated_puppet_DEF:0 "British-Angola"
+
+
+###########
+BLR_ENG_autonomy_reorganised_state:0 "Dominion of Belarus"
+BLR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Belarus"
+BLR_ENG_autonomy_puppet_state:0 "Confederation of Belarus"
+BLR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Belarus" 
+BLR_ENG_autonomy_military_administration:0 "Province of Belarus"
+BLR_ENG_autonomy_military_administration_DEF:0 "The Province of Belarus"
+BLR_ENG_autonomy_integrated_puppet:0 "British-Belarus"
+BLR_ENG_autonomy_integrated_puppet_DEF:0 "British-Belarus"
+
+
+###########
+ARM_ENG_autonomy_reorganised_state:0 "Dominion of Armenia"
+ARM_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Armenia"
+ARM_ENG_autonomy_puppet_state:0 "Confederation of Armenia"
+ARM_ENG_autonomy_puppet_state_DEF:0 "Confederation of Armenia" 
+ARM_ENG_autonomy_military_administration:0 "Province of Armenia"
+ARM_ENG_autonomy_military_administration_DEF:0 "The Province of Armenia"
+ARM_ENG_autonomy_integrated_puppet:0 "British-Armenia"
+ARM_ENG_autonomy_integrated_puppet_DEF:0 "British-Armenia"
+
+
+###########
+AZR_ENG_autonomy_reorganised_state:0 "Dominion of Azerbaijan"
+AZR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Azerbaijan"
+AZR_ENG_autonomy_puppet_state:0 "Confederation of Azerbaijan"
+AZR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Azerbaijan" 
+AZR_ENG_autonomy_military_administration:0 "Province of Azerbaijan"
+AZR_ENG_autonomy_military_administration_DEF:0 "The Province of Azerbaijan"
+AZR_ENG_autonomy_integrated_puppet:0 "British-Azerbaijan"
+AZR_ENG_autonomy_integrated_puppet_DEF:0 "British-Azerbaijan"
+
+
+###########
+KAZ_ENG_autonomy_reorganised_state:0 "Dominion of Kazakhstan"
+KAZ_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Kazakhstan"
+KAZ_ENG_autonomy_puppet_state:0 "Confederation of Kazakhstan"
+KAZ_ENG_autonomy_puppet_state_DEF:0 "Confederation of Kazakhstan" 
+KAZ_ENG_autonomy_military_administration:0 "Province of Kazakhstan"
+KAZ_ENG_autonomy_military_administration_DEF:0 "The Province of Kazakhstan"
+KAZ_ENG_autonomy_integrated_puppet:0 "British-Kazakhstan"
+KAZ_ENG_autonomy_integrated_puppet_DEF:0 "British-Kazakhstan"
+
+
+###########
+GEO_ENG_autonomy_reorganised_state:0 "Dominion of Georgia"
+GEO_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Georgia"
+GEO_ENG_autonomy_puppet_state:0 "Confederation of Georgia"
+GEO_ENG_autonomy_puppet_state_DEF:0 "Confederation of Georgia" 
+GEO_ENG_autonomy_military_administration:0 "Province of Georgia"
+GEO_ENG_autonomy_military_administration_DEF:0 "The Province of Georgia"
+GEO_ENG_autonomy_integrated_puppet:0 "British-Georgia"
+GEO_ENG_autonomy_integrated_puppet_DEF:0 "British-Georgia"
+
+
+###########
+UKR_ENG_autonomy_reorganised_state:0 "Dominion of Ukraine"
+UKR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Ukraine"
+UKR_ENG_autonomy_puppet_state:0 "Confederation of Ukraine"
+UKR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Ukraine" 
+UKR_ENG_autonomy_military_administration:0 "Province of Ukraine"
+UKR_ENG_autonomy_military_administration_DEF:0 "The Province of Ukraine"
+UKR_ENG_autonomy_integrated_puppet:0 "British-Ukraine"
+UKR_ENG_autonomy_integrated_puppet_DEF:0 "British-Ukraine"
+
+
+###########
+MNT_ENG_autonomy_reorganised_state:0 "Dominion of Montenegro"
+MNT_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Montenegro"
+MNT_ENG_autonomy_puppet_state:0 "Confederation of Montenegro"
+MNT_ENG_autonomy_puppet_state_DEF:0 "Confederation of Montenegro" 
+MNT_ENG_autonomy_military_administration:0 "Province of Montenegro"
+MNT_ENG_autonomy_military_administration_DEF:0 "The Province of Montenegro"
+MNT_ENG_autonomy_integrated_puppet:0 "British-Montenegro"
+MNT_ENG_autonomy_integrated_puppet_DEF:0 "British-Montenegro"
+
+
+###########
+LAO_ENG_autonomy_reorganised_state:0 "Dominion of Laos"
+LAO_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Laos"
+LAO_ENG_autonomy_puppet_state:0 "Confederation of Laos"
+LAO_ENG_autonomy_puppet_state_DEF:0 "Confederation of Laos" 
+LAO_ENG_autonomy_military_administration:0 "Province of Laos"
+LAO_ENG_autonomy_military_administration_DEF:0 "The Province of Laos"
+LAO_ENG_autonomy_integrated_puppet:0 "British-Laos"
+LAO_ENG_autonomy_integrated_puppet_DEF:0 "British-Laos"
+
+
+###########
+INS_ENG_autonomy_reorganised_state:0 "Dominion of Indonesia"
+INS_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Indonesia"
+INS_ENG_autonomy_puppet_state:0 "Confederation of Indonesia"
+INS_ENG_autonomy_puppet_state_DEF:0 "Confederation of Indonesia" 
+INS_ENG_autonomy_military_administration:0 "Province of Indonesia"
+INS_ENG_autonomy_military_administration_DEF:0 "The Province of Indonesia"
+INS_ENG_autonomy_integrated_puppet:0 "British-Indonesia"
+INS_ENG_autonomy_integrated_puppet_DEF:0 "British-Indonesia"
+
+
+###########
+MAL_ENG_autonomy_reorganised_state:0 "Dominion of Malaysia"
+MAL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Malaysia"
+MAL_ENG_autonomy_puppet_state:0 "Confederation of Malaysia"
+MAL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Malaysia" 
+MAL_ENG_autonomy_military_administration:0 "Province of Malaysia"
+MAL_ENG_autonomy_military_administration_DEF:0 "The Province of Malaysia"
+MAL_ENG_autonomy_integrated_puppet:0 "British-Malaysia"
+MAL_ENG_autonomy_integrated_puppet_DEF:0 "British-Malaysia"
+
+
+###########
+CAM_ENG_autonomy_reorganised_state:0 "Dominion of Combodscha"
+CAM_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Combodscha"
+CAM_ENG_autonomy_puppet_state:0 "Confederation of Combodscha"
+CAM_ENG_autonomy_puppet_state_DEF:0 "Confederation of Combodscha" 
+CAM_ENG_autonomy_military_administration:0 "Province of Combodscha"
+CAM_ENG_autonomy_military_administration_DEF:0 "The Province of Combodscha"
+CAM_ENG_autonomy_integrated_puppet:0 "British-Combodscha"
+CAM_ENG_autonomy_integrated_puppet_DEF:0 "British-Combodscha"
+
+
+###########
+VIN_ENG_autonomy_reorganised_state:0 "Dominion of Vietnam"
+VIN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Vietnam"
+VIN_ENG_autonomy_puppet_state:0 "Confederation of Vietnam"
+VIN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Vietnam" 
+VIN_ENG_autonomy_military_administration:0 "Province of Vietnam"
+VIN_ENG_autonomy_military_administration_DEF:0 "The Province of Vietnam"
+VIN_ENG_autonomy_integrated_puppet:0 "British-Vietnam"
+VIN_ENG_autonomy_integrated_puppet_DEF:0 "British-Vietnam"
+
+
+###########
+ISR_ENG_autonomy_reorganised_state:0 "Dominion of Israel"
+ISR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Israel"
+ISR_ENG_autonomy_puppet_state:0 "Confederation of Israel"
+ISR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Israel" 
+ISR_ENG_autonomy_military_administration:0 "Province of Israel"
+ISR_ENG_autonomy_military_administration_DEF:0 "The Province of Israel"
+ISR_ENG_autonomy_integrated_puppet:0 "British-Israel"
+ISR_ENG_autonomy_integrated_puppet_DEF:0 "British-Israel"
+
+
+###########
+PAL_ENG_autonomy_reorganised_state:0 "Dominion of Palestina"
+PAL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Palestina"
+PAL_ENG_autonomy_puppet_state:0 "Confederation of Palestina"
+PAL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Palestina" 
+PAL_ENG_autonomy_military_administration:0 "Province of Palestina"
+PAL_ENG_autonomy_military_administration_DEF:0 "The Province of Palestina"
+PAL_ENG_autonomy_integrated_puppet:0 "British-Palestina"
+PAL_ENG_autonomy_integrated_puppet_DEF:0 "British-Palestina"
+
+
+###########
+EGY_ENG_autonomy_reorganised_state:0 "Dominion of Egypt"
+EGY_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Egypt"
+EGY_ENG_autonomy_puppet_state:0 "Confederation of Egypt"
+EGY_ENG_autonomy_puppet_state_DEF:0 "Confederation of Egypt" 
+EGY_ENG_autonomy_military_administration:0 "Province of Egypt"
+EGY_ENG_autonomy_military_administration_DEF:0 "The Province of Egypt"
+EGY_ENG_autonomy_integrated_puppet:0 "British-Egypt"
+EGY_ENG_autonomy_integrated_puppet_DEF:0 "British-Egypt"
+
+
+###########
+SYR_ENG_autonomy_reorganised_state:0 "Dominion of Syria"
+SYR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Syria"
+SYR_ENG_autonomy_puppet_state:0 "Confederation of Syria"
+SYR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Syria" 
+SYR_ENG_autonomy_military_administration:0 "Province of Syria"
+SYR_ENG_autonomy_military_administration_DEF:0 "The Province of Syria"
+SYR_ENG_autonomy_integrated_puppet:0 "British-Syria"
+SYR_ENG_autonomy_integrated_puppet_DEF:0 "British-Syria"
+
+
+###########
+JOR_ENG_autonomy_reorganised_state:0 "Dominion of Jordania"
+JOR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Jordania"
+JOR_ENG_autonomy_puppet_state:0 "Confederation of Jordania"
+JOR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Jordania" 
+JOR_ENG_autonomy_military_administration:0 "Province of Jordania"
+JOR_ENG_autonomy_military_administration_DEF:0 "The Province of Jordania"
+JOR_ENG_autonomy_integrated_puppet:0 "British-Jordania"
+JOR_ENG_autonomy_integrated_puppet_DEF:0 "British-Jordania"
+
+
+###########
+LEB_ENG_autonomy_reorganised_state:0 "Dominion of Lebanon"
+LEB_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Lebanon"
+LEB_ENG_autonomy_puppet_state:0 "Confederation of Lebanon"
+LEB_ENG_autonomy_puppet_state_DEF:0 "Confederation of Lebanon" 
+LEB_ENG_autonomy_military_administration:0 "Province of Lebanon"
+LEB_ENG_autonomy_military_administration_DEF:0 "The Province of Lebanon"
+LEB_ENG_autonomy_integrated_puppet:0 "British-Lebanon"
+LEB_ENG_autonomy_integrated_puppet_DEF:0 "British-Lebanon"
+
+
+###########
+ICE_ENG_autonomy_reorganised_state:0 "Dominion of Island"
+ICE_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Island"
+ICE_ENG_autonomy_puppet_state:0 "Confederation of Island"
+ICE_ENG_autonomy_puppet_state_DEF:0 "Confederation of Island" 
+ICE_ENG_autonomy_military_administration:0 "Province of Island"
+ICE_ENG_autonomy_military_administration_DEF:0 "The Province of Island"
+ICE_ENG_autonomy_integrated_puppet:0 "British-Island"
+ICE_ENG_autonomy_integrated_puppet_DEF:0 "British-Island"
+
+
+###########
+XSM_ENG_autonomy_reorganised_state:0 "Dominion of Qinghai"
+XSM_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Qinghai"
+XSM_ENG_autonomy_puppet_state:0 "Confederation of Qinghai"
+XSM_ENG_autonomy_puppet_state_DEF:0 "Confederation of Qinghai" 
+XSM_ENG_autonomy_military_administration:0 "Province of Qinghai"
+XSM_ENG_autonomy_military_administration_DEF:0 "The Province of Qinghai"
+XSM_ENG_autonomy_integrated_puppet:0 "British-Qinghai"
+XSM_ENG_autonomy_integrated_puppet_DEF:0 "British-Qinghai"
+
+
+###########
+SHX_ENG_autonomy_reorganised_state:0 "Dominion of Shanxi"
+SHX_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Shanxi"
+SHX_ENG_autonomy_puppet_state:0 "Confederation of Shanxi"
+SHX_ENG_autonomy_puppet_state_DEF:0 "Confederation of Shanxi" 
+SHX_ENG_autonomy_military_administration:0 "Province of Shanxi"
+SHX_ENG_autonomy_military_administration_DEF:0 "The Province of Shanxi"
+SHX_ENG_autonomy_integrated_puppet:0 "British-Shanxi"
+SHX_ENG_autonomy_integrated_puppet_DEF:0 "British-Shanxi"
+
+
+###########
+PRC_ENG_autonomy_reorganised_state:0 "Dominion of China"
+PRC_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of China"
+PRC_ENG_autonomy_puppet_state:0 "Confederation of China"
+PRC_ENG_autonomy_puppet_state_DEF:0 "Confederation of China" 
+PRC_ENG_autonomy_military_administration:0 "Province of China"
+PRC_ENG_autonomy_military_administration_DEF:0 "The Province of China"
+PRC_ENG_autonomy_integrated_puppet:0 "British-China"
+PRC_ENG_autonomy_integrated_puppet_DEF:0 "British-China"
+
+###########
+GXC_ENG_autonomy_reorganised_state:0 "Dominion of Guangxi"
+GXC_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Guangxi"
+GXC_ENG_autonomy_puppet_state:0 "Confederation of Guangxi"
+GXC_ENG_autonomy_puppet_state_DEF:0 "Confederation of Guangxi" 
+GXC_ENG_autonomy_military_administration:0 "Province of Guangxi"
+GXC_ENG_autonomy_military_administration_DEF:0 "The Province of Guangxi"
+GXC_ENG_autonomy_integrated_puppet:0 "British-Guangxi"
+GXC_ENG_autonomy_integrated_puppet_DEF:0 "British-Guangxi"
+
+
+###########
+CRO_ENG_autonomy_reorganised_state:0 "Dominion of Croatia"
+CRO_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Croatia"
+CRO_ENG_autonomy_puppet_state:0 "Confederation of Croatia"
+CRO_ENG_autonomy_puppet_state_DEF:0 "Confederation of Croatia" 
+CRO_ENG_autonomy_military_administration:0 "Province of Croatia"
+CRO_ENG_autonomy_military_administration_DEF:0 "The Province of Croatia"
+CRO_ENG_autonomy_integrated_puppet:0 "British-Croatia"
+CRO_ENG_autonomy_integrated_puppet_DEF:0 "British-Croatia"
+
+
+###########
+RAJ_ENG_autonomy_reorganised_state:0 "Dominion of India"
+RAJ_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of India"
+RAJ_ENG_autonomy_puppet_state:0 "Confederation of India"
+RAJ_ENG_autonomy_puppet_state_DEF:0 "Confederation of India" 
+RAJ_ENG_autonomy_military_administration:0 "Province of India"
+RAJ_ENG_autonomy_military_administration_DEF:0 "The Province of India"
+RAJ_ENG_autonomy_integrated_puppet:0 "British-India"
+RAJ_ENG_autonomy_integrated_puppet_DEF:0 "British-India"
+
+
+###########
+SLO_ENG_autonomy_reorganised_state:0 "Dominion of Slovakia"
+SLO_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Slovakia"
+SLO_ENG_autonomy_puppet_state:0 "Confederation of Slovakia"
+SLO_ENG_autonomy_puppet_state_DEF:0 "Confederation of Slovakia" 
+SLO_ENG_autonomy_military_administration:0 "Province of Slovakia"
+SLO_ENG_autonomy_military_administration_DEF:0 "The Province of Slovakia"
+SLO_ENG_autonomy_integrated_puppet:0 "British-Slovakia"
+SLO_ENG_autonomy_integrated_puppet_DEF:0 "British-Slovakia"
+
+
+###########
+OMA_ENG_autonomy_reorganised_state:0 "Dominion of Oman"
+OMA_ENG_autonomy_reorganised_state_DEF:0 "The Oman"
+OMA_ENG_autonomy_puppet_state:0 "Confederation of Oman"
+OMA_ENG_autonomy_puppet_state_DEF:0 "Confederation of Oman" 
+OMA_ENG_autonomy_military_administration:0 "Province of Oman"
+OMA_ENG_autonomy_military_administration_DEF:0 "The Province of Oman"
+OMA_ENG_autonomy_integrated_puppet:0 "British-Oman"
+OMA_ENG_autonomy_integrated_puppet_DEF:0 "British-Oman"
+
+
+###########
+YEM_ENG_autonomy_reorganised_state:0 "Dominion of Yemen"
+YEM_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Yemen"
+YEM_ENG_autonomy_puppet_state:0 "Confederation of Yemen"
+YEM_ENG_autonomy_puppet_state_DEF:0 "Confederation of Yemen" 
+YEM_ENG_autonomy_military_administration:0 "Province of Yemen"
+YEM_ENG_autonomy_military_administration_DEF:0 "The Province of Yemen"
+YEM_ENG_autonomy_integrated_puppet:0 "British-Yemen"
+YEM_ENG_autonomy_integrated_puppet_DEF:0 "British-Yemen"
+
+
+###########
+HAI_ENG_autonomy_reorganised_state:0 "Dominion of Haiti"
+HAI_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Haiti"
+HAI_ENG_autonomy_puppet_state:0 "Confederation of Haiti"
+HAI_ENG_autonomy_puppet_state_DEF:0 "Confederation of Haiti" 
+HAI_ENG_autonomy_military_administration:0 "Province of Haiti"
+HAI_ENG_autonomy_military_administration_DEF:0 "The Province of Haiti"
+HAI_ENG_autonomy_integrated_puppet:0 "British-Haiti"
+HAI_ENG_autonomy_integrated_puppet_DEF:0 "British-Haiti"
+
+
+###########
+DOM_ENG_autonomy_reorganised_state:0 "Dominion of Dominikan"
+DOM_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Dominikan"
+DOM_ENG_autonomy_puppet_state:0 "Confederation of Dominikan"
+DOM_ENG_autonomy_puppet_state_DEF:0 "Confederation of Dominikan" 
+DOM_ENG_autonomy_military_administration:0 "Province of Dominikan"
+DOM_ENG_autonomy_military_administration_DEF:0 "The Province of Dominikan"
+DOM_ENG_autonomy_integrated_puppet:0 "British-Dominikan"
+DOM_ENG_autonomy_integrated_puppet_DEF:0 "British-Dominikan"
+
+
+###########
+CUB_ENG_autonomy_reorganised_state:0 "Dominion of Cuba"
+CUB_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Cuba"
+CUB_ENG_autonomy_puppet_state:0 "Confederation of Cuba"
+CUB_ENG_autonomy_puppet_state_DEF:0 "Confederation of Cuba" 
+CUB_ENG_autonomy_military_administration:0 "Province of Cuba"
+CUB_ENG_autonomy_military_administration_DEF:0 "The Province of Cuba"
+CUB_ENG_autonomy_integrated_puppet:0 "British-Cuba"
+CUB_ENG_autonomy_integrated_puppet_DEF:0 "British-Cuba"
+
+
+###########
+PAR_ENG_autonomy_reorganised_state:0 "Dominion of Paraguay"
+PAR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Paraguay"
+PAR_ENG_autonomy_puppet_state:0 "Confederation of Paraguay"
+PAR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Paraguay" 
+PAR_ENG_autonomy_military_administration:0 "Province of Paraguay"
+PAR_ENG_autonomy_military_administration_DEF:0 "The Province of Paraguay"
+PAR_ENG_autonomy_integrated_puppet:0 "British-Paraguay"
+PAR_ENG_autonomy_integrated_puppet_DEF:0 "British-Paraguay"
+
+
+###########
+TAN_ENG_autonomy_reorganised_state:0 "Dominion of Tuwa"
+TAN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Tuwa"
+TAN_ENG_autonomy_puppet_state:0 "Confederation of Tuwa"
+TAN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Tuwa" 
+TAN_ENG_autonomy_military_administration:0 "Province of Tuwa"
+TAN_ENG_autonomy_military_administration_DEF:0 "The Province of Tuwa"
+TAN_ENG_autonomy_integrated_puppet:0 "British-Tuwa"
+TAN_ENG_autonomy_integrated_puppet_DEF:0 "British-Tuwa"
+
+
+###########
+MON_ENG_autonomy_reorganised_state:0 "Dominion of Mongolia"
+MON_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Mongolia"
+MON_ENG_autonomy_puppet_state:0 "Confederation of Mongolia"
+MON_ENG_autonomy_puppet_state_DEF:0 "Confederation of Mongolia" 
+MON_ENG_autonomy_military_administration:0 "Province of Mongolia"
+MON_ENG_autonomy_military_administration_DEF:0 "The Province of Mongolia"
+MON_ENG_autonomy_integrated_puppet:0 "British-Mongolia"
+MON_ENG_autonomy_integrated_puppet_DEF:0 "British-Mongolia"
+
+
+###########
+YUN_ENG_autonomy_reorganised_state:0 "Dominion of Yunnan"
+YUN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Yunnan"
+YUN_ENG_autonomy_puppet_state:0 "Confederation of Yunnan"
+YUN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Yunnan" 
+YUN_ENG_autonomy_military_administration:0 "Province of Yunnan"
+YUN_ENG_autonomy_military_administration_DEF:0 "The Province of Yunnan"
+YUN_ENG_autonomy_integrated_puppet:0 "British-Yunnan"
+YUN_ENG_autonomy_integrated_puppet_DEF:0 "British-Yunnan"
+
+
+###########
+VEN_ENG_autonomy_reorganised_state:0 "Dominion of Venezuela"
+VEN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Venezuela"
+VEN_ENG_autonomy_puppet_state:0 "Confederation of Venezuela"
+VEN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Venezuela" 
+VEN_ENG_autonomy_military_administration:0 "Province of Venezuela"
+VEN_ENG_autonomy_military_administration_DEF:0 "The Province of Venezuela"
+VEN_ENG_autonomy_integrated_puppet:0 "British-Venezuela"
+VEN_ENG_autonomy_integrated_puppet_DEF:0 "British-Venezuela"
+
+
+###########
+URG_ENG_autonomy_reorganised_state:0 "Dominion of Uruguay"
+URG_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Uruguay"
+URG_ENG_autonomy_puppet_state:0 "Confederation of Uruguay"
+URG_ENG_autonomy_puppet_state_DEF:0 "Confederation of Uruguay" 
+URG_ENG_autonomy_military_administration:0 "Province of Uruguay"
+URG_ENG_autonomy_military_administration_DEF:0 "The Province of Uruguay"
+URG_ENG_autonomy_integrated_puppet:0 "British-Uruguay"
+URG_ENG_autonomy_integrated_puppet_DEF:0 "British-Uruguay"
+
+
+###########
+TIB_ENG_autonomy_reorganised_state:0 "Dominion of Tibet"
+TIB_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Tibet"
+TIB_ENG_autonomy_puppet_state:0 "Confederation of Tibet"
+TIB_ENG_autonomy_puppet_state_DEF:0 "Confederation of Tibet" 
+TIB_ENG_autonomy_military_administration:0 "Province of Tibet"
+TIB_ENG_autonomy_military_administration_DEF:0 "The Province of Tibet"
+TIB_ENG_autonomy_integrated_puppet:0 "British-Tibet"
+TIB_ENG_autonomy_integrated_puppet_DEF:0 "British-Tibet"
+
+
+###########
+SIK_ENG_autonomy_reorganised_state:0 "Dominion of Uiguiria"
+SIK_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Uiguiria"
+SIK_ENG_autonomy_puppet_state:0 "Confederation of Uiguiria"
+SIK_ENG_autonomy_puppet_state_DEF:0 "Confederation of Uiguiria" 
+SIK_ENG_autonomy_military_administration:0 "Province of Uiguiria"
+SIK_ENG_autonomy_military_administration_DEF:0 "The Province of Uiguiria"
+SIK_ENG_autonomy_integrated_puppet:0 "British-Uiguiria"
+SIK_ENG_autonomy_integrated_puppet_DEF:0 "British-Uiguiria"
+
+
+###########
+SIA_ENG_autonomy_reorganised_state:0 "Dominion of Siam"
+SIA_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Siam"
+SIA_ENG_autonomy_puppet_state:0 "Confederation of Siam"
+SIA_ENG_autonomy_puppet_state_DEF:0 "Confederation of Siam" 
+SIA_ENG_autonomy_military_administration:0 "Province of Siam"
+SIA_ENG_autonomy_military_administration_DEF:0 "The Province of Siam"
+SIA_ENG_autonomy_integrated_puppet:0 "British-Siam"
+SIA_ENG_autonomy_integrated_puppet_DEF:0 "British-Siam"
+
+
+###########
+SAU_ENG_autonomy_reorganised_state:0 "Dominion of Arabia"
+SAU_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Arabia"
+SAU_ENG_autonomy_puppet_state:0 "Confederation of Arabia"
+SAU_ENG_autonomy_puppet_state_DEF:0 "Confederation of Arabia" 
+SAU_ENG_autonomy_military_administration:0 "Province of Arabia"
+SAU_ENG_autonomy_military_administration_DEF:0 "The Province of Arabia"
+SAU_ENG_autonomy_integrated_puppet:0 "British-Arabia"
+SAU_ENG_autonomy_integrated_puppet_DEF:0 "British-Arabia"
+
+
+###########
+PRU_ENG_autonomy_reorganised_state:0 "Dominion of Peru"
+PRU_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Peru"
+PRU_ENG_autonomy_puppet_state:0 "Confederation of Peru"
+PRU_ENG_autonomy_puppet_state_DEF:0 "Confederation of Peru" 
+PRU_ENG_autonomy_military_administration:0 "Province of Peru"
+PRU_ENG_autonomy_military_administration_DEF:0 "The Province of Peru"
+PRU_ENG_autonomy_integrated_puppet:0 "British-Peru"
+PRU_ENG_autonomy_integrated_puppet_DEF:0 "British-Peru"
+
+
+###########
+PHI_ENG_autonomy_reorganised_state:0 "Dominion of Philippines"
+PHI_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Philippines"
+PHI_ENG_autonomy_puppet_state:0 "Confederation of Philippines"
+PHI_ENG_autonomy_puppet_state_DEF:0 "Confederation of Philippines" 
+PHI_ENG_autonomy_military_administration:0 "Province of Philippines"
+PHI_ENG_autonomy_military_administration_DEF:0 "The Province of Philippines"
+PHI_ENG_autonomy_integrated_puppet:0 "British-Philippines"
+PHI_ENG_autonomy_integrated_puppet_DEF:0 "British-Philippines"
+
+
+###########
+PER_ENG_autonomy_reorganised_state:0 "Dominion of Persia"
+PER_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Persia"
+PER_ENG_autonomy_puppet_state:0 "Confederation of Persia"
+PER_ENG_autonomy_puppet_state_DEF:0 "Confederation of Persia" 
+PER_ENG_autonomy_military_administration:0 "Province of Persia"
+PER_ENG_autonomy_military_administration_DEF:0 "The Province of Persia"
+PER_ENG_autonomy_integrated_puppet:0 "British-Persia"
+PER_ENG_autonomy_integrated_puppet_DEF:0 "British-Persia"
+
+
+###########
+PAN_ENG_autonomy_reorganised_state:0 "Dominion of Panama"
+PAN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Panama"
+PAN_ENG_autonomy_puppet_state:0 "Confederation of Panama"
+PAN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Panama" 
+PAN_ENG_autonomy_military_administration:0 "Province of Panama"
+PAN_ENG_autonomy_military_administration_DEF:0 "The Province of Panama"
+PAN_ENG_autonomy_integrated_puppet:0 "British-Panama"
+PAN_ENG_autonomy_integrated_puppet_DEF:0 "British-Panama"
+
+
+###########
+NZL_ENG_autonomy_reorganised_state:0 "Dominion of New Zealand"
+NZL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of New Zealand"
+NZL_ENG_autonomy_puppet_state:0 "Confederation of New Zealand"
+NZL_ENG_autonomy_puppet_state_DEF:0 "Confederation of New Zealand" 
+NZL_ENG_autonomy_military_administration:0 "Province of New Zealand"
+NZL_ENG_autonomy_military_administration_DEF:0 "The Province of New Zealand"
+NZL_ENG_autonomy_integrated_puppet:0 "British-New Zealand"
+NZL_ENG_autonomy_integrated_puppet_DEF:0 "British-New Zealand"
+
+
+###########
+NIC_ENG_autonomy_reorganised_state:0 "Dominion of Nicaragua"
+NIC_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Nicaragua"
+NIC_ENG_autonomy_puppet_state:0 "Confederation of Nicaragua"
+NIC_ENG_autonomy_puppet_state_DEF:0 "Confederation of Nicaragua" 
+NIC_ENG_autonomy_military_administration:0 "Province of Nicaragua"
+NIC_ENG_autonomy_military_administration_DEF:0 "The Province of Nicaragua"
+NIC_ENG_autonomy_integrated_puppet:0 "British-Nicaragua"
+NIC_ENG_autonomy_integrated_puppet_DEF:0 "British-Nicaragua"
+
+
+###########
+NEP_ENG_autonomy_reorganised_state:0 "Dominion of Nepal"
+NEP_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Nepal"
+NEP_ENG_autonomy_puppet_state:0 "Confederation of Nepal"
+NEP_ENG_autonomy_puppet_state_DEF:0 "Confederation of Nepal" 
+NEP_ENG_autonomy_military_administration:0 "Province of Nepal"
+NEP_ENG_autonomy_military_administration_DEF:0 "The Province of Nepal"
+NEP_ENG_autonomy_integrated_puppet:0 "British-Nepal"
+NEP_ENG_autonomy_integrated_puppet_DEF:0 "British-Nepal"
+
+
+###########
+MAN_ENG_autonomy_reorganised_state:0 "Dominion of Mandschuko"
+MAN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Mandschuko"
+MAN_ENG_autonomy_puppet_state:0 "Confederation of Mandschuko"
+MAN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Mandschuko" 
+MAN_ENG_autonomy_military_administration:0 "Province of Mandschuko"
+MAN_ENG_autonomy_military_administration_DEF:0 "The Province of Mandschuko"
+MAN_ENG_autonomy_integrated_puppet:0 "British-Mandschuko"
+MAN_ENG_autonomy_integrated_puppet_DEF:0 "British-Mandschuko"
+
+
+###########
+MEN_ENG_autonomy_reorganised_state:0 "Dominion of Mengkukuo"
+MEN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Mengkukuo"
+MEN_ENG_autonomy_puppet_state:0 "Confederation of Mengkukuo"
+MEN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Mengkukuo" 
+MEN_ENG_autonomy_military_administration:0 "Province of Mengkukuo"
+MEN_ENG_autonomy_military_administration_DEF:0 "The Province of Mengkukuo"
+MEN_ENG_autonomy_integrated_puppet:0 "British-Mengkukuo"
+MEN_ENG_autonomy_integrated_puppet_DEF:0 "British-Mengkukuo"
+
+
+###########
+MEX_ENG_autonomy_reorganised_state:0 "Dominion of Mexico"
+MEX_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Mexico"
+MEX_ENG_autonomy_puppet_state:0 "Confederation of Mexico"
+MEX_ENG_autonomy_puppet_state_DEF:0 "Confederation of Mexico" 
+MEX_ENG_autonomy_military_administration:0 "Province of Mexico"
+MEX_ENG_autonomy_military_administration_DEF:0 "The Province of Mexico"
+MEX_ENG_autonomy_integrated_puppet:0 "British-Mexico"
+MEX_ENG_autonomy_integrated_puppet_DEF:0 "British-Mexico"
+
+
+###########
+LIB_ENG_autonomy_reorganised_state:0 "Dominion of Liberia"
+LIB_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Liberia"
+LIB_ENG_autonomy_puppet_state:0 "Confederation of Liberia"
+LIB_ENG_autonomy_puppet_state_DEF:0 "Confederation of Liberia" 
+LIB_ENG_autonomy_military_administration:0 "Province of Liberia"
+LIB_ENG_autonomy_military_administration_DEF:0 "The Province of Liberia"
+LIB_ENG_autonomy_integrated_puppet:0 "British-Liberia"
+LIB_ENG_autonomy_integrated_puppet_DEF:0 "British-Liberia"
+
+
+###########
+KOR_ENG_autonomy_reorganised_state:0 "Dominion of Korea"
+KOR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Korea"
+KOR_ENG_autonomy_puppet_state:0 "Confederation of Korea"
+KOR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Korea" 
+KOR_ENG_autonomy_military_administration:0 "Province of Korea"
+KOR_ENG_autonomy_military_administration_DEF:0 "The Province of Korea"
+KOR_ENG_autonomy_integrated_puppet:0 "British-Korea"
+KOR_ENG_autonomy_integrated_puppet_DEF:0 "British-Korea"
+
+
+###########
+IRQ_ENG_autonomy_reorganised_state:0 "Dominion of Iraq"
+IRQ_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Iraq"
+IRQ_ENG_autonomy_puppet_state:0 "Confederation of Iraq"
+IRQ_ENG_autonomy_puppet_state_DEF:0 "Confederation of Iraq" 
+IRQ_ENG_autonomy_military_administration:0 "Province of Iraq"
+IRQ_ENG_autonomy_military_administration_DEF:0 "The Province of Iraq"
+IRQ_ENG_autonomy_integrated_puppet:0 "British-Iraq"
+IRQ_ENG_autonomy_integrated_puppet_DEF:0 "British-Iraq"
+
+
+###########
+HON_ENG_autonomy_reorganised_state:0 "Dominion of Honduras"
+HON_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Honduras"
+HON_ENG_autonomy_puppet_state:0 "Confederation of Honduras"
+HON_ENG_autonomy_puppet_state_DEF:0 "Confederation of Honduras" 
+HON_ENG_autonomy_military_administration:0 "Province of Honduras"
+HON_ENG_autonomy_military_administration_DEF:0 "The Province of Honduras"
+HON_ENG_autonomy_integrated_puppet:0 "British-Honduras"
+HON_ENG_autonomy_integrated_puppet_DEF:0 "British-Honduras"
+
+
+###########
+GUA_ENG_autonomy_reorganised_state:0 "Dominion of Guatemala"
+GUA_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Guatemala"
+GUA_ENG_autonomy_puppet_state:0 "Confederation of Guatemala"
+GUA_ENG_autonomy_puppet_state_DEF:0 "Confederation of Guatemala" 
+GUA_ENG_autonomy_military_administration:0 "Province of Guatemala"
+GUA_ENG_autonomy_military_administration_DEF:0 "The Province of Guatemala"
+GUA_ENG_autonomy_integrated_puppet:0 "British-Guatemala"
+GUA_ENG_autonomy_integrated_puppet_DEF:0 "British-Guatemala"
+
+
+###########
+ETH_ENG_autonomy_reorganised_state:0 "Dominion of Ethiopia"
+ETH_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Ethiopia"
+ETH_ENG_autonomy_puppet_state:0 "Confederation of Ethiopia"
+ETH_ENG_autonomy_puppet_state_DEF:0 "Confederation of Ethiopia" 
+ETH_ENG_autonomy_military_administration:0 "Province of Ethiopia"
+ETH_ENG_autonomy_military_administration_DEF:0 "The Province of Ethiopia"
+ETH_ENG_autonomy_integrated_puppet:0 "British-Ethiopia"
+ETH_ENG_autonomy_integrated_puppet_DEF:0 "British-Ethiopia"
+
+
+###########
+ELS_ENG_autonomy_reorganised_state:0 "Dominion of El Salvador"
+ELS_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of El Salvador"
+ELS_ENG_autonomy_puppet_state:0 "Confederation of El Salvador"
+ELS_ENG_autonomy_puppet_state_DEF:0 "Confederation of El Salvador" 
+ELS_ENG_autonomy_military_administration:0 "Province of El Salvador"
+ELS_ENG_autonomy_military_administration_DEF:0 "The Province of El Salvador"
+ELS_ENG_autonomy_integrated_puppet:0 "British-El Salvador"
+ELS_ENG_autonomy_integrated_puppet_DEF:0 "British-El Salvador"
+
+
+###########
+ECU_ENG_autonomy_reorganised_state:0 "Dominion of Ecuador"
+ECU_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Ecuador"
+ECU_ENG_autonomy_puppet_state:0 "Confederation of Ecuador"
+ECU_ENG_autonomy_puppet_state_DEF:0 "Confederation of Ecuador" 
+ECU_ENG_autonomy_military_administration:0 "Province of Ecuador"
+ECU_ENG_autonomy_military_administration_DEF:0 "The Province of Ecuador"
+ECU_ENG_autonomy_integrated_puppet:0 "British-Ecuador"
+ECU_ENG_autonomy_integrated_puppet_DEF:0 "British-Ecuador"
+
+
+###########
+COS_ENG_autonomy_reorganised_state:0 "Dominion of Costa Rica"
+COS_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Costa Rica"
+COS_ENG_autonomy_puppet_state:0 "Confederation of Costa Rica"
+COS_ENG_autonomy_puppet_state_DEF:0 "Confederation of Costa Rica" 
+COS_ENG_autonomy_military_administration:0 "Province of Costa Rica"
+COS_ENG_autonomy_military_administration_DEF:0 "The Province of Costa Rica"
+COS_ENG_autonomy_integrated_puppet:0 "British-Costa Rica"
+COS_ENG_autonomy_integrated_puppet_DEF:0 "British-Costa Rica"
+
+
+###########
+COL_ENG_autonomy_reorganised_state:0 "Dominion of Colombia"
+COL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Colombia"
+COL_ENG_autonomy_puppet_state:0 "Confederation of Colombia"
+COL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Colombia" 
+COL_ENG_autonomy_military_administration:0 "Province of Colombia"
+COL_ENG_autonomy_military_administration_DEF:0 "The Province of Colombia"
+COL_ENG_autonomy_integrated_puppet:0 "British-Colombia"
+COL_ENG_autonomy_integrated_puppet_DEF:0 "British-Colombia"
+
+
+###########
+CHL_ENG_autonomy_reorganised_state:0 "Dominion of Chile"
+CHL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Chile"
+CHL_ENG_autonomy_puppet_state:0 "Confederation of Chile"
+CHL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Chile" 
+CHL_ENG_autonomy_military_administration:0 "Province of Chile"
+CHL_ENG_autonomy_military_administration_DEF:0 "The Province of Chile"
+CHL_ENG_autonomy_integrated_puppet:0 "British-Chile"
+CHL_ENG_autonomy_integrated_puppet_DEF:0 "British-Chile"
+
+
+###########
+CAN_ENG_autonomy_reorganised_state:0 "Dominion of Canada"
+CAN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Canada"
+CAN_ENG_autonomy_puppet_state:0 "Confederation of Canada"
+CAN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Canada" 
+CAN_ENG_autonomy_military_administration:0 "Province of Canada"
+CAN_ENG_autonomy_military_administration_DEF:0 "The Province of Canada"
+CAN_ENG_autonomy_integrated_puppet:0 "British-Canada"
+CAN_ENG_autonomy_integrated_puppet_DEF:0 "British-Canada"
+
+
+###########
+BRA_ENG_autonomy_reorganised_state:0 "Dominion of Brazil"
+BRA_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Brazil"
+BRA_ENG_autonomy_puppet_state:0 "Confederation of Brazil"
+BRA_ENG_autonomy_puppet_state_DEF:0 "Confederation of Brazil" 
+BRA_ENG_autonomy_military_administration:0 "Province of Brazil"
+BRA_ENG_autonomy_military_administration_DEF:0 "The Province of Brazil"
+BRA_ENG_autonomy_integrated_puppet:0 "British-Brazil"
+BRA_ENG_autonomy_integrated_puppet_DEF:0 "British-Brazil"
+
+
+###########
+BOL_ENG_autonomy_reorganised_state:0 "Dominion of Bolivia"
+BOL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Bolivia"
+BOL_ENG_autonomy_puppet_state:0 "Confederation of Bolivia"
+BOL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Bolivia" 
+BOL_ENG_autonomy_military_administration:0 "Province of Bolivia"
+BOL_ENG_autonomy_military_administration_DEF:0 "The Province of Bolivia"
+BOL_ENG_autonomy_integrated_puppet:0 "British-Bolivia"
+BOL_ENG_autonomy_integrated_puppet_DEF:0 "British-Bolivia"
+
+
+###########
+BHU_ENG_autonomy_reorganised_state:0 "Dominion of Bhutan"
+BHU_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Bhutan"
+BHU_ENG_autonomy_puppet_state:0 "Confederation of Bhutan"
+BHU_ENG_autonomy_puppet_state_DEF:0 "Confederation of Bhutan" 
+BHU_ENG_autonomy_military_administration:0 "Province of Bhutan"
+BHU_ENG_autonomy_military_administration_DEF:0 "The Province of Bhutan"
+BHU_ENG_autonomy_integrated_puppet:0 "British-Bhutan"
+BHU_ENG_autonomy_integrated_puppet_DEF:0 "British-Bhutan"
+
+
+###########
+AST_ENG_autonomy_reorganised_state:0 "Dominion of Australia"
+AST_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Australia"
+AST_ENG_autonomy_puppet_state:0 "Confederation of Australia"
+AST_ENG_autonomy_puppet_state_DEF:0 "Confederation of Australia" 
+AST_ENG_autonomy_military_administration:0 "Province of Australia"
+AST_ENG_autonomy_military_administration_DEF:0 "The Province of Australia"
+AST_ENG_autonomy_integrated_puppet:0 "British-Australia"
+AST_ENG_autonomy_integrated_puppet_DEF:0 "British-Australia"
+
+
+###########
+AFG_ENG_autonomy_reorganised_state:0 "Dominion of Afghanistan"
+AFG_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Afghanistan"
+AFG_ENG_autonomy_puppet_state:0 "Confederation of Afghanistan"
+AFG_ENG_autonomy_puppet_state_DEF:0 "Confederation of Afghanistan" 
+AFG_ENG_autonomy_military_administration:0 "Province of Afghanistan"
+AFG_ENG_autonomy_military_administration_DEF:0 "The Province of Afghanistan"
+AFG_ENG_autonomy_integrated_puppet:0 "British-Afghanistan"
+AFG_ENG_autonomy_integrated_puppet_DEF:0 "British-Afghanistan"
+
+
+###########
+ARG_ENG_autonomy_reorganised_state:0 "Dominion of Argentinia"
+ARG_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Argentinia"
+ARG_ENG_autonomy_puppet_state:0 "Confederation of Argentinia"
+ARG_ENG_autonomy_puppet_state_DEF:0 "Confederation of Argentinia" 
+ARG_ENG_autonomy_military_administration:0 "Province of Argentinia"
+ARG_ENG_autonomy_military_administration_DEF:0 "The Province of Argentinia"
+ARG_ENG_autonomy_integrated_puppet:0 "British-Argentinia"
+ARG_ENG_autonomy_integrated_puppet_DEF:0 "British-Argentinia"
+
+
+###########
+HUN_ENG_autonomy_reorganised_state:0 "Dominion of Hungary"
+HUN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Hungary"
+HUN_ENG_autonomy_puppet_state:0 "Confederation of Hungary"
+HUN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Hungary" 
+HUN_ENG_autonomy_military_administration:0 "Province of Hungary"
+HUN_ENG_autonomy_military_administration_DEF:0 "The Province of Hungary"
+HUN_ENG_autonomy_integrated_puppet:0 "British-Hungary"
+HUN_ENG_autonomy_integrated_puppet_DEF:0 "British-Hungary"
+
+
+###########
+IRE_ENG_autonomy_reorganised_state:0 "Dominion of Ireland"
+IRE_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Ireland"
+IRE_ENG_autonomy_puppet_state:0 "Confederation of Ireland"
+IRE_ENG_autonomy_puppet_state_DEF:0 "Confederation of Ireland" 
+IRE_ENG_autonomy_military_administration:0 "Province of Ireland"
+IRE_ENG_autonomy_military_administration_DEF:0 "The Province of Ireland"
+IRE_ENG_autonomy_integrated_puppet:0 "British-Ireland"
+IRE_ENG_autonomy_integrated_puppet_DEF:0 "British-Ireland"
+
+
+###########
+FIN_ENG_autonomy_reorganised_state:0 "Dominion of Finland"
+FIN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Finland"
+FIN_ENG_autonomy_puppet_state:0 "Confederation of Finland"
+FIN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Finland" 
+FIN_ENG_autonomy_military_administration:0 "Province of Finland"
+FIN_ENG_autonomy_military_administration_DEF:0 "The Province of Finland"
+FIN_ENG_autonomy_integrated_puppet:0 "British-Finland"
+FIN_ENG_autonomy_integrated_puppet_DEF:0 "British-Finland"
+
+
+###########
+POR_ENG_autonomy_reorganised_state:0 "Dominion of Portugal"
+POR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Portugal"
+POR_ENG_autonomy_puppet_state:0 "Confederation of Portugal"
+POR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Portugal" 
+POR_ENG_autonomy_military_administration:0 "Province of Portugal"
+POR_ENG_autonomy_military_administration_DEF:0 "The Province of Portugal"
+POR_ENG_autonomy_integrated_puppet:0 "British-Portugal"
+POR_ENG_autonomy_integrated_puppet_DEF:0 "British-Portugal"
+
+
+###########
+ALB_ENG_autonomy_reorganised_state:0 "Dominion of Albania"
+ALB_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Albania"
+ALB_ENG_autonomy_puppet_state:0 "Confederation of Albania"
+ALB_ENG_autonomy_puppet_state_DEF:0 "Confederation of Albania" 
+ALB_ENG_autonomy_military_administration:0 "Province of Albania"
+ALB_ENG_autonomy_military_administration_DEF:0 "The Province of Albania"
+ALB_ENG_autonomy_integrated_puppet:0 "British-Albania"
+ALB_ENG_autonomy_integrated_puppet_DEF:0 "British-Albania"
+
+
+###########
+BUL_ENG_autonomy_reorganised_state:0 "Dominion of Bulgaria"
+BUL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Bulgaria"
+BUL_ENG_autonomy_puppet_state:0 "Confederation of Bulgaria"
+BUL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Bulgaria" 
+BUL_ENG_autonomy_military_administration:0 "Province of Bulgaria"
+BUL_ENG_autonomy_military_administration_DEF:0 "The Province of Bulgaria"
+BUL_ENG_autonomy_integrated_puppet:0 "British-Bulgaria"
+BUL_ENG_autonomy_integrated_puppet_DEF:0 "British-Bulgaria"
+
+
+###########
+GRE_ENG_autonomy_reorganised_state:0 "Dominion of Greece"
+GRE_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Greece"
+GRE_ENG_autonomy_puppet_state:0 "Confederation of Greece"
+GRE_ENG_autonomy_puppet_state_DEF:0 "Confederation of Greece" 
+GRE_ENG_autonomy_military_administration:0 "Province of Greece"
+GRE_ENG_autonomy_military_administration_DEF:0 "The Province of Greece"
+GRE_ENG_autonomy_integrated_puppet:0 "British-Greece"
+GRE_ENG_autonomy_integrated_puppet_DEF:0 "British-Greece"
+
+
+###########
+TUR_ENG_autonomy_reorganised_state:0 "Dominion of Turkey"
+TUR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Turkey"
+TUR_ENG_autonomy_puppet_state:0 "Confederation of Turkey"
+TUR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Turkey" 
+TUR_ENG_autonomy_military_administration:0 "Province of Turkey"
+TUR_ENG_autonomy_military_administration_DEF:0 "The Province of Turkey"
+TUR_ENG_autonomy_integrated_puppet:0 "British-Turkey"
+TUR_ENG_autonomy_integrated_puppet_DEF:0 "British-Turkey"
+
+
+###########
+YUG_ENG_autonomy_reorganised_state:0 "Dominion of Yugoslavia"
+YUG_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Yugoslavia"
+YUG_ENG_autonomy_puppet_state:0 "Confederation of Yugoslavia"
+YUG_ENG_autonomy_puppet_state_DEF:0 "Confederation of Yugoslavia" 
+YUG_ENG_autonomy_military_administration:0 "Province of Yugoslavia"
+YUG_ENG_autonomy_military_administration_DEF:0 "The Province of Yugoslavia"
+YUG_ENG_autonomy_integrated_puppet:0 "British-Yugoslavia"
+YUG_ENG_autonomy_integrated_puppet_DEF:0 "British-Yugoslavia"
+
+
+###########
+SER_ENG_autonomy_reorganised_state:0 "Dominion of Serbia"
+SER_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Serbia"
+SER_ENG_autonomy_puppet_state:0 "Confederation of Serbia"
+SER_ENG_autonomy_puppet_state_DEF:0 "Confederation of Serbia" 
+SER_ENG_autonomy_military_administration:0 "Province of Serbia"
+SER_ENG_autonomy_military_administration_DEF:0 "The Province of Serbia"
+SER_ENG_autonomy_integrated_puppet:0 "British-Serbia"
+SER_ENG_autonomy_integrated_puppet_DEF:0 "British-Serbia"
+
+
+###########
+DEN_ENG_autonomy_reorganised_state:0 "Dominion of Denmark"
+DEN_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Denmark"
+DEN_ENG_autonomy_puppet_state:0 "Confederation of Denmark"
+DEN_ENG_autonomy_puppet_state_DEF:0 "Confederation of Denmark" 
+DEN_ENG_autonomy_military_administration:0 "Province of Denmark"
+DEN_ENG_autonomy_military_administration_DEF:0 "The Province of Denmark"
+DEN_ENG_autonomy_integrated_puppet:0 "British-Denmark"
+DEN_ENG_autonomy_integrated_puppet_DEF:0 "British-Denmark"
+
+
+###########
+NOR_ENG_autonomy_reorganised_state:0 "Dominion of Norway"
+NOR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Norway"
+NOR_ENG_autonomy_puppet_state:0 "Confederation of Norway"
+NOR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Norway" 
+NOR_ENG_autonomy_military_administration:0 "Province of Norway"
+NOR_ENG_autonomy_military_administration_DEF:0 "The Province of Norway"
+NOR_ENG_autonomy_integrated_puppet:0 "British-Norway"
+NOR_ENG_autonomy_integrated_puppet_DEF:0 "British-Norway"
+
+
+###########
+SPR_ENG_autonomy_reorganised_state:0 "Dominion of Spain"
+SPR_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Spain"
+SPR_ENG_autonomy_puppet_state:0 "Confederation of Spain"
+SPR_ENG_autonomy_puppet_state_DEF:0 "Confederation of Spain" 
+SPR_ENG_autonomy_military_administration:0 "Province of Spain"
+SPR_ENG_autonomy_military_administration_DEF:0 "The Province of Spain"
+SPR_ENG_autonomy_integrated_puppet:0 "British-Spain"
+SPR_ENG_autonomy_integrated_puppet_DEF:0 "British-Spain"
+
+
+###########
+LAT_ENG_autonomy_reorganised_state:0 "Dominion of Latvia"
+LAT_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Latvia"
+LAT_ENG_autonomy_puppet_state:0 "Confederation of Latvia"
+LAT_ENG_autonomy_puppet_state_DEF:0 "Confederation of Latvia" 
+LAT_ENG_autonomy_military_administration:0 "Province of Latvia"
+LAT_ENG_autonomy_military_administration_DEF:0 "The Province of Latvia"
+LAT_ENG_autonomy_integrated_puppet:0 "British-Latvia"
+LAT_ENG_autonomy_integrated_puppet_DEF:0 "British-Latvia"
+
+
+###########
+EST_ENG_autonomy_reorganised_state:0 "Dominion of Estonia"
+EST_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Estonia"
+EST_ENG_autonomy_puppet_state:0 "Confederation of Estonia"
+EST_ENG_autonomy_puppet_state_DEF:0 "Confederation of Estonia" 
+EST_ENG_autonomy_military_administration:0 "Province of Estonia"
+EST_ENG_autonomy_military_administration_DEF:0 "The Province of Estonia"
+EST_ENG_autonomy_integrated_puppet:0 "British-Estonia"
+EST_ENG_autonomy_integrated_puppet_DEF:0 "British-Estonia"
+
+
+###########
+AUS_ENG_autonomy_reorganised_state:0 "Dominion of Austria"
+AUS_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Austria"
+AUS_ENG_autonomy_puppet_state:0 "Confederation of Austria"
+AUS_ENG_autonomy_puppet_state_DEF:0 "Confederation of Austria" 
+AUS_ENG_autonomy_military_administration:0 "Province of Austria"
+AUS_ENG_autonomy_military_administration_DEF:0 "The Province of Austria"
+AUS_ENG_autonomy_integrated_puppet:0 "British-Austria"
+AUS_ENG_autonomy_integrated_puppet_DEF:0 "British-Austria"
+
+
+###########
+POL_ENG_autonomy_reorganised_state:0 "Dominion of Poland"
+POL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Poland"
+POL_ENG_autonomy_puppet_state:0 "Confederation of Poland"
+POL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Poland" 
+POL_ENG_autonomy_military_administration:0 "Province of Poland"
+POL_ENG_autonomy_military_administration_DEF:0 "The Province of Poland"
+POL_ENG_autonomy_integrated_puppet:0 "British-Poland"
+POL_ENG_autonomy_integrated_puppet_DEF:0 "British-Poland"
+
+
+###########
+CZE_ENG_autonomy_reorganised_state:0 "Dominion of Czechia"
+CZE_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of BCzechia"
+CZE_ENG_autonomy_puppet_state:0 "Confederation of Czechia"
+CZE_ENG_autonomy_puppet_state_DEF:0 "Confederation of Czechia" 
+CZE_ENG_autonomy_military_administration:0 "Province of Czechia"
+CZE_ENG_autonomy_military_administration_DEF:0 "The Province of Czechia"
+CZE_ENG_autonomy_integrated_puppet:0 "British-Czechia"
+CZE_ENG_autonomy_integrated_puppet_DEF:0 "British-Czechia"
+
+
+###########
+BEL_ENG_autonomy_reorganised_state:0 "Dominion of Belgium"
+BEL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Belgium"
+BEL_ENG_autonomy_puppet_state:0 "Confederation of Belgium"
+BEL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Belgium" 
+BEL_ENG_autonomy_military_administration:0 "Province of Belgium"
+BEL_ENG_autonomy_military_administration_DEF:0 "The Province of Belgium"
+BEL_ENG_autonomy_integrated_puppet:0 "British-Belgium"
+BEL_ENG_autonomy_integrated_puppet_DEF:0 "British-Belgium"
+
+
+###########
+LUX_ENG_autonomy_reorganised_state:0 "Dominion of Luxembourg"
+LUX_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Luxembourg"
+LUX_ENG_autonomy_puppet_state:0 "Confederation of Luxembourg"
+LUX_ENG_autonomy_puppet_state_DEF:0 "Confederation of Luxembourg" 
+LUX_ENG_autonomy_military_administration:0 "Province of Luxembourg"
+LUX_ENG_autonomy_military_administration_DEF:0 "The Province of Luxembourg"
+LUX_ENG_autonomy_integrated_puppet:0 "British-Luxembourg"
+LUX_ENG_autonomy_integrated_puppet_DEF:0 "British-Luxembourg"
+
+
+###########
+SWE_ENG_autonomy_reorganised_state:0 "Dominion of Sweden"
+SWE_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Sweden"
+SWE_ENG_autonomy_puppet_state:0 "Confederation of Sweden"
+SWE_ENG_autonomy_puppet_state_DEF:0 "Confederation of Sweden" 
+SWE_ENG_autonomy_military_administration:0 "Province of Sweden"
+SWE_ENG_autonomy_military_administration_DEF:0 "The Province of Sweden"
+SWE_ENG_autonomy_integrated_puppet:0 "British-Sweden"
+SWE_ENG_autonomy_integrated_puppet_DEF:0 "British-Sweden"
+
+
+###########
+CHI_ENG_autonomy_reorganised_state:0 "Dominion of China"
+CHI_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of China"
+CHI_ENG_autonomy_puppet_state:0 "Confederation of China"
+CHI_ENG_autonomy_puppet_state_DEF:0 "Confederation of China" 
+CHI_ENG_autonomy_military_administration:0 "Province of China"
+CHI_ENG_autonomy_military_administration_DEF:0 "The Province of China"
+CHI_ENG_autonomy_integrated_puppet:0 "British-China"
+CHI_ENG_autonomy_integrated_puppet_DEF:0 "British-China"
+
+
+###########
+ROM_ENG_autonomy_reorganised_state:0 "Dominion of Romania"
+ROM_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Romania"
+ROM_ENG_autonomy_puppet_state:0 "Confederation of Romania"
+ROM_ENG_autonomy_puppet_state_DEF:0 "Confederation of Romania" 
+ROM_ENG_autonomy_military_administration:0 "Province of Romania"
+ROM_ENG_autonomy_military_administration_DEF:0 "The Province of Romania"
+ROM_ENG_autonomy_integrated_puppet:0 "British-Romania"
+ROM_ENG_autonomy_integrated_puppet_DEF:0 "British-Romania"
+
+
+###########
+ITA_ENG_autonomy_reorganised_state:0 "Dominion of Italy"
+ITA_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Italy"
+ITA_ENG_autonomy_puppet_state:0 "Confederation of Italy"
+ITA_ENG_autonomy_puppet_state_DEF:0 "Confederation of Italy" 
+ITA_ENG_autonomy_military_administration:0 "Province of Italy"
+ITA_ENG_autonomy_military_administration_DEF:0 "The Province of Italy"
+ITA_ENG_autonomy_integrated_puppet:0 "British-Italy"
+ITA_ENG_autonomy_integrated_puppet_DEF:0 "British-Italy"
+
+
+###########
+HOL_ENG_autonomy_reorganised_state:0 "Dominion of Netherlands"
+HOL_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Netherlands"
+HOL_ENG_autonomy_puppet_state:0 "Confederation of Netherlands"
+HOL_ENG_autonomy_puppet_state_DEF:0 "Confederation of Netherlands" 
+HOL_ENG_autonomy_military_administration:0 "Province of Netherlands"
+HOL_ENG_autonomy_military_administration_DEF:0 "The Province of Netherlands"
+HOL_ENG_autonomy_integrated_puppet:0 "British-Netherlands"
+HOL_ENG_autonomy_integrated_puppet_DEF:0 "British-Netherlands"
+
+
+###########
+SAF_ENG_autonomy_reorganised_state:0 "Dominion of South Africa"
+SAF_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of South Africa"
+SAF_ENG_autonomy_puppet_state:0 "Confederation of South Africa"
+SAF_ENG_autonomy_puppet_state_DEF:0 "Confederation of South Africa" 
+SAF_ENG_autonomy_military_administration:0 "Province of South Africa"
+SAF_ENG_autonomy_military_administration_DEF:0 "The Province of South Africa"
+SAF_ENG_autonomy_integrated_puppet:0 "British-South Africa"
+SAF_ENG_autonomy_integrated_puppet_DEF:0 "British-South Africa"
+
+
+
+###########
+USA_ENG_autonomy_reorganised_state:0 "Dominion of America"
+USA_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of America"
+USA_ENG_autonomy_puppet_state:0 "Confederation of America"
+USA_ENG_autonomy_puppet_state_DEF:0 "Confederation of America" 
+USA_ENG_autonomy_military_administration:0 "Province of America"
+USA_ENG_autonomy_military_administration_DEF:0 "The Province of America"
+USA_ENG_autonomy_integrated_puppet:0 "British-America"
+USA_ENG_autonomy_integrated_puppet_DEF:0 "British-America"
+
+
+###########
+FRA_ENG_autonomy_reorganised_state:0 "Dominion of France"
+FRA_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of France"
+FRA_ENG_autonomy_puppet_state:0 "Confederation of France"
+FRA_ENG_autonomy_puppet_state_DEF:0 "Confederation of France" 
+FRA_ENG_autonomy_military_administration:0 "Province of France"
+FRA_ENG_autonomy_military_administration_DEF:0 "The Province of France"
+FRA_ENG_autonomy_integrated_puppet:0 "British-France"
+FRA_ENG_autonomy_integrated_puppet_DEF:0 "British-France"
+
+
+###########
+LIT_ENG_autonomy_reorganised_state:0 "Dominion of Lithuania"
+LIT_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Lithuania"
+LIT_ENG_autonomy_puppet_state:0 "Confederation of Lithuania"
+LIT_ENG_autonomy_puppet_state_DEF:0 "Confederation of Lithuania" 
+LIT_ENG_autonomy_military_administration:0 "Province of Lithuania"
+LIT_ENG_autonomy_military_administration_DEF:0 "The Province of Lithuania"
+LIT_ENG_autonomy_integrated_puppet:0 "British-Lithuania"
+LIT_ENG_autonomy_integrated_puppet_DEF:0 "British-Lithuania"
+
+
+###########
+JAP_ENG_autonomy_reorganised_state:0 "Dominion of Japan"
+JAP_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Japan"
+JAP_ENG_autonomy_puppet_state:0 "Confederation of Japan"
+JAP_ENG_autonomy_puppet_state_DEF:0 "Confederation of Japan" 
+JAP_ENG_autonomy_military_administration:0 "Province of Japan"
+JAP_ENG_autonomy_military_administration_DEF:0 "The Province of Japan"
+JAP_ENG_autonomy_integrated_puppet:0 "British-Japan"
+JAP_ENG_autonomy_integrated_puppet_DEF:0 "British-Japan"
+
+
+###########
+SOV_ENG_autonomy_reorganised_state:0 "Dominion of Russia"
+SOV_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Russia"
+SOV_ENG_autonomy_puppet_state:0 "Confederation of Russia"
+SOV_ENG_autonomy_puppet_state_DEF:0 "Confederation of Russia" 
+SOV_ENG_autonomy_military_administration:0 "Province of Russia"
+SOV_ENG_autonomy_military_administration_DEF:0 "The Province of Russia"
+SOV_ENG_autonomy_integrated_puppet:0 "British-Russia"
+SOV_ENG_autonomy_integrated_puppet_DEF:0 "British-Russia"
+
+
+###########
+LBA_ENG_autonomy_reorganised_state:0 "Dominion of North Afrika"
+LBA_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of North Afrika"
+LBA_ENG_autonomy_puppet_state:0 "Confederation of North Afrika"
+LBA_ENG_autonomy_puppet_state_DEF:0 "Confederation of North Afrika" 
+LBA_ENG_autonomy_military_administration:0 "Province of North Afrika"
+LBA_ENG_autonomy_military_administration_DEF:0 "The Province of North Afrika"
+LBA_ENG_autonomy_integrated_puppet:0 "British-North Afrika"
+LBA_ENG_autonomy_integrated_puppet_DEF:0 "British-North Afrika"
+
+
+###########
+GER_ENG_autonomy_reorganised_state:0 "Dominion of Germany"
+GER_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Germany"
+GER_ENG_autonomy_puppet_state:0 "Confederation of Germany"
+GER_ENG_autonomy_puppet_state_DEF:0 "Confederation of Germany" 
+GER_ENG_autonomy_military_administration:0 "Province of Germany"
+GER_ENG_autonomy_military_administration_DEF:0 "The Province of Germany"
+GER_ENG_autonomy_integrated_puppet:0 "British-Germany"
+GER_ENG_autonomy_integrated_puppet_DEF:0 "British-Germany"
+
+
+
+#################
+###new_nations###
+#################
+
+N01_ENG_autonomy_reorganised_state:0 "Dominion of Bavaria"
+N01_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Bavaria"
+N01_ENG_autonomy_puppet_state:0 "Confederation of Bavaria"
+N01_ENG_autonomy_puppet_state_DEF:0 "Confederation of Bavaria" 
+N01_ENG_autonomy_military_administration:0 "Province of Bavaria"
+N01_ENG_autonomy_military_administration_DEF:0 "The Province of Bavaria"
+N01_ENG_autonomy_integrated_puppet:0 "British-Bavaria"
+N01_ENG_autonomy_integrated_puppet_DEF:0 "British-Bavaria"
+
+
+###########
+N02_ENG_autonomy_reorganised_state:0 "Dominion of Scotland"
+N02_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Scotland"
+N02_ENG_autonomy_puppet_state:0 "Confederation of Scotland"
+N02_ENG_autonomy_puppet_state_DEF:0 "Confederation of Scotland" 
+N02_ENG_autonomy_military_administration:0 "Province of Scotland"
+N02_ENG_autonomy_military_administration_DEF:0 "The Province of Scotland"
+N02_ENG_autonomy_integrated_puppet:0 "British-Scotland"
+N02_ENG_autonomy_integrated_puppet_DEF:0 "British-Scotland"
+
+
+###########
+N03_ENG_autonomy_reorganised_state:0 "Dominion of Wales"
+N03_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Wales"
+N03_ENG_autonomy_puppet_state:0 "Confederation of Wales"
+N03_ENG_autonomy_puppet_state_DEF:0 "Confederation of Wales" 
+N03_ENG_autonomy_military_administration:0 "Province of Wales"
+N03_ENG_autonomy_military_administration_DEF:0 "The Province of Wales"
+N03_ENG_autonomy_integrated_puppet:0 "British-Wales"
+N03_ENG_autonomy_integrated_puppet_DEF:0 "British-Wales"
+
+
+###########
+N04_ENG_autonomy_reorganised_state:0 "Dominion of Britanny"
+N04_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Britanny"
+N04_ENG_autonomy_puppet_state:0 "Confederation of Britanny"
+N04_ENG_autonomy_puppet_state_DEF:0 "Confederation of Britanny" 
+N04_ENG_autonomy_military_administration:0 "Province of Britanny"
+N04_ENG_autonomy_military_administration_DEF:0 "The Province of Britanny"
+N04_ENG_autonomy_integrated_puppet:0 "British-Britanny"
+N04_ENG_autonomy_integrated_puppet_DEF:0 "British-Britanny"
+
+###########
+N05_ENG_autonomy_reorganised_state:0 "Dominion of Catalonia"
+N05_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Catalonia"
+N05_ENG_autonomy_puppet_state:0 "Confederation of Catalonia"
+N05_ENG_autonomy_puppet_state_DEF:0 "Confederation of Catalonia" 
+N05_ENG_autonomy_military_administration:0 "Province of Catalonia"
+N05_ENG_autonomy_military_administration_DEF:0 "The Province of Catalonia"
+N05_ENG_autonomy_integrated_puppet:0 "British-Catalonia"
+N05_ENG_autonomy_integrated_puppet_DEF:0 "British-Catalonia"
+
+
+###########
+N06_ENG_autonomy_reorganised_state:0 "Dominion of Quebec"
+N06_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Quebec"
+N06_ENG_autonomy_puppet_state:0 "Confederation of Quebec"
+N06_ENG_autonomy_puppet_state_DEF:0 "Confederation of Quebec" 
+N06_ENG_autonomy_military_administration:0 "Province of Quebec"
+N06_ENG_autonomy_military_administration_DEF:0 "The Province of Quebec"
+N06_ENG_autonomy_integrated_puppet:0 "British-Quebec"
+N06_ENG_autonomy_integrated_puppet_DEF:0 "British-Quebec"
+
+
+###########
+N07_ENG_autonomy_reorganised_state:0 "Dominion of Texas"
+N07_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Texas"
+N07_ENG_autonomy_puppet_state:0 "Confederation of Texas"
+N07_ENG_autonomy_puppet_state_DEF:0 "Confederation of Texas" 
+N07_ENG_autonomy_military_administration:0 "Province of Texas"
+N07_ENG_autonomy_military_administration_DEF:0 "The Province of Texas"
+N07_ENG_autonomy_integrated_puppet:0 "British-Texas"
+N07_ENG_autonomy_integrated_puppet_DEF:0 "British-Texas"
+
+
+###########
+N08_ENG_autonomy_reorganised_state:0 "Dominion of California"
+N08_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of California"
+N08_ENG_autonomy_puppet_state:0 "Confederation of California"
+N08_ENG_autonomy_puppet_state_DEF:0 "Confederation of California" 
+N08_ENG_autonomy_military_administration:0 "Province of California"
+N08_ENG_autonomy_military_administration_DEF:0 "The Province of California"
+N08_ENG_autonomy_integrated_puppet:0 "British-California"
+N08_ENG_autonomy_integrated_puppet_DEF:0 "British-California"
+
+
+###########
+N09_ENG_autonomy_reorganised_state:0 "Dominion of Bosnia"
+N09_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Bosnia"
+N09_ENG_autonomy_puppet_state:0 "Confederation of Bosnia"
+N09_ENG_autonomy_puppet_state_DEF:0 "Confederation of Bosnia" 
+N09_ENG_autonomy_military_administration:0 "Province of Bosnia"
+N09_ENG_autonomy_military_administration_DEF:0 "The Province of Bosnia"
+N09_ENG_autonomy_integrated_puppet:0 "British-Bosnia"
+N09_ENG_autonomy_integrated_puppet_DEF:0 "British-Bosnia"
+
+
+###########
+N10_ENG_autonomy_reorganised_state:0 "Dominion of Slowenia"
+N10_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Slowenia"
+N10_ENG_autonomy_puppet_state:0 "Confederation of Slowenia"
+N10_ENG_autonomy_puppet_state_DEF:0 "Confederation of Slowenia" 
+N10_ENG_autonomy_military_administration:0 "Province of Slowenia"
+N10_ENG_autonomy_military_administration_DEF:0 "The Province of Slowenia"
+N10_ENG_autonomy_integrated_puppet:0 "British-Slowenia"
+N10_ENG_autonomy_integrated_puppet_DEF:0 "British-Slowenia"
+
+
+###########
+N11_ENG_autonomy_reorganised_state:0 "Dominion of Southwestafrika"
+N11_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Southwestafrika"
+N11_ENG_autonomy_puppet_state:0 "Confederation of Southwestafrika"
+N11_ENG_autonomy_puppet_state_DEF:0 "Confederation of Southwestafrika" 
+N11_ENG_autonomy_military_administration:0 "Province of Namibia"
+N11_ENG_autonomy_military_administration_DEF:0 "The Province of Namibia"
+N11_ENG_autonomy_integrated_puppet:0 "British-Namibia"
+N11_ENG_autonomy_integrated_puppet_DEF:0 "British-Namibia"
+
+
+###########
+N12_ENG_autonomy_reorganised_state:0 "Dominion of Madagaskar"
+N12_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Madagaskar"
+N12_ENG_autonomy_puppet_state:0 "Confederation of Madagaskar"
+N12_ENG_autonomy_puppet_state_DEF:0 "Confederation of Madagaskar" 
+N12_ENG_autonomy_military_administration:0 "Province of Madagaskar"
+N12_ENG_autonomy_military_administration_DEF:0 "The Province of Madagaskar"
+N12_ENG_autonomy_integrated_puppet:0 "British-Madagaskar"
+N12_ENG_autonomy_integrated_puppet_DEF:0 "British-Madagaskar"
+
+
+###########
+N13_ENG_autonomy_reorganised_state:0 "Dominion of Ostafrika"
+N13_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Ostafrika"
+N13_ENG_autonomy_puppet_state:0 "Confederation of Ostafrika"
+N13_ENG_autonomy_puppet_state_DEF:0 "Confederation of Ostafrika" 
+N13_ENG_autonomy_military_administration:0 "Province of Tansania"
+N13_ENG_autonomy_military_administration_DEF:0 "The Province of Tansania"
+N13_ENG_autonomy_integrated_puppet:0 "British-Tansania"
+N13_ENG_autonomy_integrated_puppet_DEF:0 "British-Tansania"
+
+
+###########
+N14_ENG_autonomy_reorganised_state:0 "Dominion of Algeria"
+N14_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Algeria"
+N14_ENG_autonomy_puppet_state:0 "Confederation of Algeria"
+N14_ENG_autonomy_puppet_state_DEF:0 "Confederation of Algeria" 
+N14_ENG_autonomy_military_administration:0 "Province of Algeria"
+N14_ENG_autonomy_military_administration_DEF:0 "The Province of Algeria"
+N14_ENG_autonomy_integrated_puppet:0 "British-Algeria"
+N14_ENG_autonomy_integrated_puppet_DEF:0 "British-Algeria"
+
+
+###########
+N15_ENG_autonomy_reorganised_state:0 "Dominion of Tunesia"
+N15_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Tunesia"
+N15_ENG_autonomy_puppet_state:0 "Confederation of Tunesia"
+N15_ENG_autonomy_puppet_state_DEF:0 "Confederation of Tunesia" 
+N15_ENG_autonomy_military_administration:0 "Province of Tunesia"
+N15_ENG_autonomy_military_administration_DEF:0 "The Province of Tunesia"
+N15_ENG_autonomy_integrated_puppet:0 "British-Tunesia"
+N15_ENG_autonomy_integrated_puppet_DEF:0 "British-Tunesia"
+
+
+###########
+N16_ENG_autonomy_reorganised_state:0 "Dominion of Kurdistan"
+N16_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of Kurdistan"
+N16_ENG_autonomy_puppet_state:0 "Confederation of Kurdistan"
+N16_ENG_autonomy_puppet_state_DEF:0 "Confederation of Kurdistan" 
+N16_ENG_autonomy_military_administration:0 "Province of Kurdistan"
+N16_ENG_autonomy_military_administration_DEF:0 "The Province of Kurdistan"
+N16_ENG_autonomy_integrated_puppet:0 "British-Kurdistan"
+N16_ENG_autonomy_integrated_puppet_DEF:0 "British-Kurdistan"
+
+
+###########
+N17_ENG_autonomy_reorganised_state:0 "Dominion of England"
+N17_ENG_autonomy_reorganised_state_DEF:0 "The Dominion of England"
+N17_ENG_autonomy_puppet_state:0 "Confederation of England"
+N17_ENG_autonomy_puppet_state_DEF:0 "Confederation of England" 
+N17_ENG_autonomy_military_administration:0 "Province of England"
+N17_ENG_autonomy_military_administration_DEF:0 "The Province of England"
+N17_ENG_autonomy_integrated_puppet:0 "British-England"
+N17_ENG_autonomy_integrated_puppet_DEF:0 "British-England"

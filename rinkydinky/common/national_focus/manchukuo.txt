@@ -1158,8 +1158,6 @@ focus_tree = {
 			615 = { add_core_of = ROOT }
 			621 = { add_core_of = ROOT }
 			622 = { add_core_of = ROOT }
-			743 = { add_core_of = ROOT }
-			746 = { add_core_of = ROOT }
 		}
 	}
 

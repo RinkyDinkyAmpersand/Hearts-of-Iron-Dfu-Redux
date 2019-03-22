@@ -28,10 +28,31 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Together for Victory"
-
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			NOT = { has_government = fascism }
+		OVERLORD = {
+			NOT = { 
+				OR = {
+					has_government = fascism
+					has_government = communism 
+				}
+				tag = USA	
+				AND = {
+					has_government = neutrality
+					OR = {
+						tag = GER
+						tag = ITA
+						tag = HUN
+						tag = ROM
+						tag = YUG
+						tag = BUL
+						tag = LUX
+						tag = BEL
+						tag = HOL
+						tag = NOR
+						tag = ALB
+						tag = SWE
+					}
+				}
+			}
 		}
 	}
 	

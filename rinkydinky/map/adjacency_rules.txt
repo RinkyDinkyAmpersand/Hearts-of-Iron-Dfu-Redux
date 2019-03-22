@@ -11,8 +11,6 @@
 #Suez Canal
 adjacency_rule
 {
-	name = "SUEZ_CANAL"
-
 	contested =
 	{
 		army = no
@@ -41,76 +39,70 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
-	required_provinces = { 12049 1155 4073 9947 }
 
-	is_disabled = {
-		OR = {
-			has_global_flag = SUEZ_CANAL_BLOCKED
-			has_country_flag = SUEZ_CANAL_BLOCKED_FOR_COUNTRY
-		}
-		tooltip = disable_canal_tt
-	}
-		
+	required_provinces = { 12049 13219 13220 4073  }
+
 	icon = 12049
 	offset = { 1 0 -6 }
-}
-#Cape
-adjacency_rule
-{
-	name = "CAPE_SS"
 
-	contested =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = yes
-	}
-	enemy =
-	{
-		army = no
-		navy = no
-		submarine = no
-		trade = yes
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	
-	required_provinces = { 12589 }
-
-		
-	icon = 2495
-	offset = { 1 0 -6 }
+	name = "SUEZ_CANAL"
 }
+
 #Gibraltar Strait
 adjacency_rule
 {
-	name = "GIBRALTAR_STRAIT"
-
 	contested =
 	{
 		army = no
 		navy = no
-		submarine = yes
+		submarine = no
 		trade = no
 	}
 	enemy =
 	{
 		army = no
 		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 4135 9945 }
+
+	icon = 5407
+	offset = { -31 0 -2 }
+
+
+	name = "GIBRALTAR_STRAIT"
+}
+
+#Sicily Strait
+adjacency_rule
+{
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = yes
+		navy = yes
 		submarine = yes
 		trade = no
 	}
@@ -128,18 +120,19 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
-	required_provinces = { 4135 9945 }
-	
-	icon = 5407	
-	offset = { -31.0 0.0 -2.0 }
+
+	required_provinces = { 10091 7059 } #7162
+
+	icon = 9013
+	offset = { -2 0 -2  }
+
+
+	name = "SICILY_STRAIT"
 }
 
 #Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen)
 adjacency_rule
 {
-	name = "DANISH_BELTS_STRAIT"
-
 	contested =
 	{
 		army = no
@@ -168,18 +161,57 @@ adjacency_rule
 		submarine = yes
 		trade = yes
 	}
-	
-	required_provinces = { 6287 3277 3325 3260 394 }
-	
+
+	required_provinces = { 316 11176}
+
 	icon = 2455
 	offset = { -26 0 -13 }
+
+	name = "DANISH_BELTS_STRAIT"
+}
+
+adjacency_rule
+{
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 3277 3325 3260 6287 394 }
+
+	icon = 2408
+	offset = { 0 0 0 }
+
+	name = "DANISH_BELTS_STRAIT2"
 }
 
 #Panama Canal
 adjacency_rule
 {
-	name = "PANAMA_CANAL"
-
 	contested =
 	{
 		army = no
@@ -208,26 +240,18 @@ adjacency_rule
 		submarine = no
 		trade = yes
 	}
-	
+
 	required_provinces = { 4624 7617 }
 
-	is_disabled = {
-		OR = {
-			has_global_flag = PANAMA_CANAL_BLOCKED
-			has_country_flag = PANAMA_CANAL_BLOCKED_FOR_COUNTRY
-		}
-		tooltip = disable_canal_tt
-	}
-		
 	icon = 7617
 	offset = { -3 0 -2 }
+
+	name = "PANAMA_CANAL"
 }
 
 #Turkish Straits
 adjacency_rule
 {
-	name = "BOSPHORUS_STRAIT"
-
 	contested =
 	{
 		army = no
@@ -247,34 +271,27 @@ adjacency_rule
 		army = yes
 		navy = yes
 		submarine = yes
-		trade = yes
+		trade = no
 	}
 	neutral =
 	{
 		army = no
 		navy = no
 		submarine = no
-		trade = yes
+		trade = no
 	}
-	
+
 	required_provinces = { 9833 11829 }
-	
+
 	icon = 9833
 	offset = { -2 0 -9 }
-		is_disabled = {
-		OR = {
-			has_global_flag = TURKISH_CANAL_BLOCKED
-			has_country_flag = TURKISH_CANAL_BLOCKED_FOR_COUNTRY
-		}
-		tooltip = disable_canal_tt
-	}
+
+	name = "BOSPHORUS_STRAIT"
 }
 
 #Kiel Canal
 adjacency_rule
 {
-	name = "KIEL_CANAL"
-
 	contested =
 	{
 		army = no
@@ -303,11 +320,13 @@ adjacency_rule
 		submarine = no
 		trade = yes
 	}
-	
+
 	required_provinces = { 11366 317 3231 }
-		
+
 	icon = 11366
 	offset = { 5 0 -6 }
+
+	name = "KIEL_CANAL"
 }
 
 #Dover Strait - 34 km
@@ -365,7 +384,7 @@ adjacency_rule
 	{
 		army = no
 		navy = no
-		submarine = yes
+		submarine = no
 		trade = no
 	}
 	friend =
@@ -727,14 +746,14 @@ adjacency_rule
 	{
 		army = no
 		navy = no
-		submarine = yes
+		submarine = no
 		trade = no
 	}
 	enemy =
 	{
 		army = no
 		navy = no
-		submarine = yes
+		submarine = no
 		trade = no
 	}
 	friend =

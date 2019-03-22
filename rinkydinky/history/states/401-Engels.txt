@@ -7,17 +7,19 @@ state={
 	state_category = rural
 	
 	resources={
-		steel=40
-		tungsten=34
+		steel=24 # was: 40
+		tungsten=220 # was: 34
 	}
 
 	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
 		}
 		add_core_of = SOV
+		victory_points = {
+			6502 1
+		}
 	}
 
 	provinces={

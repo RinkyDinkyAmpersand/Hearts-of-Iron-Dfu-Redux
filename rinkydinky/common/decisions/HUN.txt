@@ -1,0 +1,20 @@
+political_actions = {
+	
+	annex_slovakia = {
+		ai_will_do = { factor = 0 }
+		cost = 10
+
+		visible = {
+			tag = HUN
+			SLO = { is_ai = yes }
+			country_exists = SLO
+		}
+
+		complete_effect = {
+			HUN = {
+				annex_country = { target = SLO transfer_troops = yes }
+			}
+		}
+	}
+
+	}

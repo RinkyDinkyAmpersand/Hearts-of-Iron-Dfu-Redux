@@ -1,0 +1,100 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = dfu_news
+
+news_event = {
+	id = dfu_news.1
+	title = dfu_news.1.t
+	desc = dfu_news.1.desc
+	picture = GFX_news_event_barbarossa
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	hidden_effect = {
+		sound_effect = germanwar
+		}
+	}
+	
+	option = {
+		name = dfu_news.1.a
+		trigger = {
+			original_tag = GER
+		}
+	}
+	option = {
+		name = dfu_news.1.b
+		trigger = { 
+			NOT = { original_tag = GER }
+			has_government = fascism
+		}
+	}
+	option = {
+		name = dfu_news.1.c
+		trigger = { 
+			original_tag = SOV
+		}
+	}
+	option = {
+		name = dfu_news.1.d
+		trigger = { 
+			NOT = { original_tag = SOV }
+			Or = {
+				has_government = democratic
+				has_government = neutrality
+				has_government = communism
+			}
+		}
+	}
+}
+news_event = {
+	id = dfu_news.2
+	title = dfu_news.2.t
+	desc = dfu_news.2.desc
+	picture = GFX_news_event_mobilization
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	hidden_effect = {
+		sound_effect = sovietwar
+		}
+	}
+	
+	option = {
+		name = dfu_news.2.a
+		trigger = {
+			original_tag = GER
+		}
+	}
+	option = {
+		name = dfu_news.2.b
+		trigger = { 
+			NOT = { original_tag = GER }
+			has_government = fascism
+		}
+	}
+	option = {
+		name = dfu_news.2.c
+		trigger = { 
+			original_tag = SOV
+		}
+	}
+	option = {
+		name = dfu_news.2.d
+		trigger = { 
+			NOT = { original_tag = SOV }
+			Or = {
+				has_government = democratic
+				has_government = neutrality
+				has_government = communism
+			}
+		}
+	}
+}		

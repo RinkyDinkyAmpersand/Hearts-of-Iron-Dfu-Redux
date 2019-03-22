@@ -1,0 +1,1276 @@
+﻿l_english:
+
+###########
+###Italy###
+###########
+
+ROM_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Dacia"
+ROM_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Dacia"
+
+ROM_SPQR_fascism_autonomy_puppet_state:0 "Provincia Dacia"
+ROM_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Dacia"
+
+ROM_SPQR_fascism_autonomy_military_administration:0 "Provincia Dacia"
+ROM_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Dacia"
+
+###########
+FRA_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Gallia"
+FRA_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Gallia"
+
+FRA_SPQR_fascism_autonomy_puppet_state:0 "Provincia Gallia"
+FRA_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Gallia"
+
+FRA_SPQR_fascism_autonomy_military_administration:0 "Provincia Gallia"
+FRA_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Gallia" 
+
+###########
+GER_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Germania"
+GER_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Germania"
+
+GER_SPQR_fascism_autonomy_puppet_state:0 "Provincia Germania"
+GER_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Germania"
+
+GER_SPQR_fascism_autonomy_military_administration:0 "Provincia Germania"
+GER_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Germania" 
+
+###########
+BEL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Belgica"
+BEL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Belgica"
+
+BEL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Belgica"
+BEL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Belgica"
+
+BEL_SPQR_fascism_autonomy_military_administration:0 "Provincia Belgica"
+BEL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Belgica"    
+
+###########
+SWI_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Raetia"
+SWI_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Raetia"
+
+SWI_SPQR_fascism_autonomy_puppet_state:0 "Provincia Raetia"
+SWI_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Raetia"
+
+SWI_SPQR_fascism_autonomy_military_administration:0 "Provincia Raetia"
+SWI_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Raetia" 
+
+###########
+AUS_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Noricum"
+AUS_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Noricum"
+
+AUS_SPQR_fascism_autonomy_puppet_state:0 "Provincia Noricum"
+AUS_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Noricum"
+
+AUS_SPQR_fascism_autonomy_military_administration:0 "Provincia Noricum"
+AUS_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Noricum"
+
+###########
+POR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Lusitania"
+POR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Lusitania"
+
+POR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Lusitania"
+POR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Lusitania"
+
+POR_SPQR_fascism_autonomy_military_administration:0 "Provincia Lusitania"
+POR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Lusitania" 
+
+###########
+GRE_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Graecia"
+GRE_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Graecia"
+
+GRE_SPQR_fascism_autonomy_puppet_state:0 "Provincia Graecia"
+GRE_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Graecia"
+
+GRE_SPQR_fascism_autonomy_military_administration:0 "Provincia Graecia"
+GRE_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Graecia" 
+
+###########
+DEN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Germania Septemtrionis"
+DEN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Germania Septemtrionis"
+
+DEN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Germania Septemtrionis"
+DEN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Germania Septemtrionis"
+
+DEN_SPQR_fascism_autonomy_military_administration:0 "Provincia Germania Septemtrionis"
+DEN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Germania Septemtrionis"
+
+###########
+USA_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Americae"
+USA_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Americae"
+
+USA_SPQR_fascism_autonomy_puppet_state:0 "Provincia Americae"
+USA_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Americae"
+
+USA_SPQR_fascism_autonomy_military_administration:0 "Provincia Americae"
+USA_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Americae" 
+
+###########
+CAN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Magna Americae"
+CAN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Magna Americae"
+
+CAN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Magna Americae"
+CAN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Magna Americae"
+
+CAN_SPQR_fascism_autonomy_military_administration:0 "Provincia Magna Americae"
+CAN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Magna Americae" 
+
+###########
+JAP_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Absit Orientis"
+JAP_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Absit Orientis"
+
+JAP_SPQR_fascism_autonomy_puppet_state:0 "Provincia Absit Orientis"
+JAP_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Absit Orientis"
+
+JAP_SPQR_fascism_autonomy_military_administration:0 "Provincia Absit Orientis"
+JAP_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Absit Orientis" 
+
+###########
+NZL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Parvae Insulae"
+NZL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Parvae Insulae"
+
+NZL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Parvae Insulae"
+NZL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Parvae Insulae"
+
+NZL_SPQR_fascism_autonomy_military_administration:0 "Provincia Parvae Insulae"
+NZL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Parvae Insulae" 
+
+###########
+YUG_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Dalmatia"
+YUG_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Dalmatia"
+
+YUG_SPQR_fascism_autonomy_puppet_state:0 "Provincia Dalmatia"
+YUG_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Dalmatia"
+
+YUG_SPQR_fascism_autonomy_military_administration:0 "Provincia Dalmatia"
+YUG_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Dalmatia" 
+
+###########
+RAJ_SPQR_fascism_autonomy_reorganised_state:0 "Clientela India"
+RAJ_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela India"
+
+RAJ_SPQR_fascism_autonomy_puppet_state:0 "Provincia India"
+RAJ_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia India"
+
+RAJ_SPQR_fascism_autonomy_military_administration:0 "Provincia India"
+RAJ_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia India" 
+
+###########
+TUR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Anatolia"
+TUR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Anatolia"
+
+TUR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Anatolia"
+TUR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Anatolia"
+
+TUR_SPQR_fascism_autonomy_military_administration:0 "Provincia Anatolia"
+TUR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Anatolia" 
+
+###########
+SYR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Syria"
+SYR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Syria"
+
+SYR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Syria"
+SYR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Syria"
+
+SYR_SPQR_fascism_autonomy_military_administration:0 "Provincia Syria"
+SYR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Syria" 
+
+###########
+IRQ_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Mesopotamia"
+IRQ_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Mesopotamia"
+
+IRQ_SPQR_fascism_autonomy_puppet_state:0 "Provincia Mesopotamia"
+IRQ_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Mesopotamia"
+
+IRQ_SPQR_fascism_autonomy_military_administration:0 "Provincia Mesopotamia"
+IRQ_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Mesopotamia" 
+
+###########
+LEB_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Libanus"
+LEB_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Libanus"
+
+LEB_SPQR_fascism_autonomy_puppet_state:0 "Provincia Libanus"
+LEB_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Libanus"
+
+LEB_SPQR_fascism_autonomy_military_administration:0 "Provincia Libanus"
+LEB_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Libanus" 
+
+###########
+ISR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Iudaea"
+ISR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Iudaea"
+
+ISR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Iudaea"
+ISR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Iudaea"
+
+ISR_SPQR_fascism_autonomy_military_administration:0 "Provincia Iudaea"
+ISR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Iudaea"
+
+###########
+FIN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Suomia"
+FIN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Suomia"
+
+FIN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Suomia"
+FIN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Suomia"
+
+FIN_SPQR_fascism_autonomy_military_administration:0 "Provincia Suomia"
+FIN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Suomia"
+
+###########
+HOL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Humilis Terra"
+HOL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Humilis Terra"
+
+HOL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Humilis Terra"
+HOL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Humilis Terra"
+
+HOL_SPQR_fascism_autonomy_military_administration:0 "Provincia Humilis Terra"
+HOL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Humilis Terra"
+
+###########
+LUX_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Luxemburgum"
+LUX_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Luxemburgum"
+
+LUX_SPQR_fascism_autonomy_puppet_state:0 "Provincia Luxemburgum"
+LUX_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Luxemburgum"
+
+LUX_SPQR_fascism_autonomy_military_administration:0 "Provincia Luxemburgum"
+LUX_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Luxemburgum"
+
+###########
+MON_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Mongoliam"
+MON_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Mongoliam"
+
+MON_SPQR_fascism_autonomy_puppet_state:0 "Provincia Mongoliam"
+MON_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Mongoliam"
+
+MON_SPQR_fascism_autonomy_military_administration:0 "Provincia Mongoliam"
+MON_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Mongoliam"
+
+###########
+NOR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Frigus Litore"
+NOR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Frigus Litore"
+
+NOR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Frigus Litore"
+NOR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Frigus Litore"
+
+NOR_SPQR_fascism_autonomy_military_administration:0 "Provincia Frigus Litore"
+NOR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Frigus Litore"
+
+###########
+SOV_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Magna Patria"
+SOV_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Magna Patria"
+
+SOV_SPQR_fascism_autonomy_puppet_state:0 "Provincia Magna Patria"
+SOV_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Magna Patria"
+
+SOV_SPQR_fascism_autonomy_military_administration:0 "Provincia Magna Patria"
+SOV_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Magna Patria"
+
+###########
+SWE_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Scandinavia"
+SWE_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Scandinavia"
+
+SWE_SPQR_fascism_autonomy_puppet_state:0 "Provincia Scandinavia"
+SWE_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Scandinavia"
+
+SWE_SPQR_fascism_autonomy_military_administration:0 "Provincia Scandinavia"
+SWE_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Scandinavia"
+
+###########
+KOR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Korea"
+KOR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Korea"
+
+KOR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Korea"
+KOR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Korea"
+
+KOR_SPQR_fascism_autonomy_military_administration:0 "Provincia Korea"
+KOR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Korea"
+
+###########
+MAN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Asia Inferior"
+MAN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Asia Inferior"
+
+MAN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Asia Inferior"
+MAN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Asia Inferior"
+
+MAN_SPQR_fascism_autonomy_military_administration:0 "Provincia Asia Inferior"
+MAN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Asia Inferior"
+
+###########
+MEX_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Aztecia"
+MEX_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Aztecia"
+
+MEX_SPQR_fascism_autonomy_puppet_state:0 "Provincia Aztecia"
+MEX_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Aztecia"
+
+MEX_SPQR_fascism_autonomy_military_administration:0 "Provincia Aztecia"
+MEX_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Aztecia"
+
+###########
+PRU_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Vetus Montis"
+PRU_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Vetus Montis"
+
+PRU_SPQR_fascism_autonomy_puppet_state:0 "Provincia Vetus Montis"
+PRU_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Vetus Montis"
+
+PRU_SPQR_fascism_autonomy_military_administration:0 "Provincia Vetus Montis"
+PRU_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Vetus Montis"
+
+###########
+EGY_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Aegyptus"
+EGY_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Aegyptus"
+
+EGY_SPQR_fascism_autonomy_puppet_state:0 "Provincia Aegyptus"
+EGY_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Aegyptus"
+
+EGY_SPQR_fascism_autonomy_military_administration:0 "Provincia Aegyptus"
+EGY_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Aegyptus"
+
+###########
+SPR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Terraconensis"
+SPR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Terraconensis"
+
+SPR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Terraconensis"
+SPR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Terraconensis"
+
+SPR_SPQR_fascism_autonomy_military_administration:0 "Provincia Terraconensis"
+SPR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Terraconensis"
+
+###########
+LBA_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Cyrenaica"
+LBA_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Cyrenaica"
+
+LBA_SPQR_fascism_autonomy_puppet_state:0 "Provincia Cyrenaica"
+LBA_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Cyrenaica"
+
+LBA_SPQR_fascism_autonomy_military_administration:0 "Provincia Cyrenaica"
+LBA_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Cyrenaica"
+
+###########
+IRE_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Hibernia"
+IRE_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Hibernia"
+
+IRE_SPQR_fascism_autonomy_puppet_state:0 "Provincia Hibernia"
+IRE_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Hibernia"
+
+IRE_SPQR_fascism_autonomy_military_administration:0 "Provincia Hibernia"
+IRE_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Hibernia"
+
+###########
+BUL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Thracia"
+BUL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Thracia"
+
+BUL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Thracia"
+BUL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Thracia"
+
+BUL_SPQR_fascism_autonomy_military_administration:0 "Provincia Thracia"
+BUL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Thracia"
+
+###########
+SER_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Moesia Superior"
+SER_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Moesia Superior"
+
+SER_SPQR_fascism_autonomy_puppet_state:0 "Provincia Moesia Superior"
+SER_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Moesia Superior"
+
+SER_SPQR_fascism_autonomy_military_administration:0 "Provincia Moesia Superior"
+SER_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Moesia Superior"
+
+###########
+MNT_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Moesia"
+MNT_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Moesia"
+
+MNT_SPQR_fascism_autonomy_puppet_state:0 "Provincia Moesia"
+MNT_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Moesia"
+
+MNT_SPQR_fascism_autonomy_military_administration:0 "Provincia Moesia"
+MNT_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Moesia"
+
+###########
+AST_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Insula Magna"
+AST_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Insula Magna"
+
+AST_SPQR_fascism_autonomy_puppet_state:0 "Provincia Insula Magna"
+AST_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Insula Magna"
+
+AST_SPQR_fascism_autonomy_military_administration:0 "Provincia Insula Magna"
+AST_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Insula Magna"
+
+###########
+CHI_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Sina"
+CHI_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Sina"
+
+CHI_SPQR_fascism_autonomy_puppet_state:0 "Provincia Sina"
+CHI_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Sina"
+
+CHI_SPQR_fascism_autonomy_military_administration:0 "Provincia Sina"
+CHI_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Sina"
+
+###########
+TIB_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Tibetum"
+TIB_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Tibetum"
+
+TIB_SPQR_fascism_autonomy_puppet_state:0 "Provincia Tibetum"
+TIB_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Tibetum"
+
+TIB_SPQR_fascism_autonomy_military_administration:0 "Provincia Tibetum"
+TIB_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Tibetum"
+
+###########
+NEP_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Summum Montis"
+NEP_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Summum Montis"
+
+NEP_SPQR_fascism_autonomy_puppet_state:0 "Provincia Summum Montis"
+NEP_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Summum Montis"
+
+NEP_SPQR_fascism_autonomy_military_administration:0 "Provincia Summum Montis"
+NEP_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Summum Montis"
+
+###########
+ENG_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Anglia"
+ENG_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Anglia"
+
+ENG_SPQR_fascism_autonomy_puppet_state:0 "Provincia Anglia"
+ENG_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Anglia"
+
+ENG_SPQR_fascism_autonomy_military_administration:0 "Provincia Anglia"
+ENG_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Anglia"
+
+###########
+CZE_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Boia"
+CZE_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Boia"
+
+CZE_SPQR_fascism_autonomy_puppet_state:0 "Provincia Boia"
+CZE_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Boia"
+
+CZE_SPQR_fascism_autonomy_military_administration:0 "Provincia Boia"
+CZE_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Boia"
+
+###########
+POL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Polannia"
+POL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Polannia"
+
+POL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Polannia"
+POL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Polannia"
+
+POL_SPQR_fascism_autonomy_military_administration:0 "Provincia Polannia"
+POL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Polannia"
+
+###########
+LIT_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Litua"
+LIT_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Litua"
+
+LIT_SPQR_fascism_autonomy_puppet_state:0 "Provincia Litua"
+LIT_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Litua"
+
+LIT_SPQR_fascism_autonomy_military_administration:0 "Provincia Litua"
+LIT_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Litua"
+
+###########
+EST_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Estia"
+EST_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Estia"
+
+EST_SPQR_fascism_autonomy_puppet_state:0 "Provincia Estia"
+EST_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Estia"
+
+EST_SPQR_fascism_autonomy_military_administration:0 "Provincia Estia"
+EST_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Estia"
+
+###########
+LAT_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Lettonia"
+LAT_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Lettonia"
+
+LAT_SPQR_fascism_autonomy_puppet_state:0 "Provincia Lettonia"
+LAT_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Lettonia"
+
+LAT_SPQR_fascism_autonomy_military_administration:0 "Provincia Lettonia"
+LAT_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Lettonia"
+
+###########
+ALB_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Albania"
+ALB_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Albania"
+
+ALB_SPQR_fascism_autonomy_puppet_state:0 "Provincia Albania"
+ALB_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Albania"
+
+ALB_SPQR_fascism_autonomy_military_administration:0 "Provincia Albania"
+ALB_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Albania"
+
+###########
+HUN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Pannonia"
+HUN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Pannonia"
+
+HUN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Pannonia"
+HUN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Pannonia"
+
+HUN_SPQR_fascism_autonomy_military_administration:0 "Provincia Pannonia"
+HUN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Pannonia"
+
+###########
+AFG_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Paropanisi Exadversus"
+AFG_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Paropanisi Exadversus"
+
+AFG_SPQR_fascism_autonomy_puppet_state:0 "Provincia Paropanisi Exadversus"
+AFG_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Paropanisi Exadversus"
+
+AFG_SPQR_fascism_autonomy_military_administration:0 "Provincia Paropanisi Exadversus"
+AFG_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Paropanisi Exadversus"
+
+###########
+ARG_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Patagonia"
+ARG_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Patagonia"
+
+ARG_SPQR_fascism_autonomy_puppet_state:0 "Provincia Patagonia"
+ARG_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Patagonia"
+
+ARG_SPQR_fascism_autonomy_military_administration:0 "Provincia Patagonia"
+ARG_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Patagonia"
+
+###########
+BHU_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Gangkhar Puensum"
+BHU_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Gangkhar Puensum"
+
+BHU_SPQR_fascism_autonomy_puppet_state:0 "Provincia Gangkhar Puensum"
+BHU_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Gangkhar Puensum"
+
+BHU_SPQR_fascism_autonomy_military_administration:0 "Provincia Gangkhar Puensum"
+BHU_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Gangkhar Puensum"
+
+###########
+BOL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Bolivia"
+BOL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Bolivia"
+
+BOL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Bolivia"
+BOL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Bolivia"
+
+BOL_SPQR_fascism_autonomy_military_administration:0 "Provincia Bolivia"
+BOL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Bolivia"
+
+###########
+BRA_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Americae Meridionalis"
+BRA_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Americae Meridionalis"
+
+BRA_SPQR_fascism_autonomy_puppet_state:0 "Provincia Americae Meridionalis"
+BRA_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Americae Meridionalis"
+
+BRA_SPQR_fascism_autonomy_military_administration:0 "Provincia Americae Meridionalis"
+BRA_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Americae Meridionalis"
+
+###########
+COL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Antioquia"
+COL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Antioquia"
+
+COL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Antioquia"
+COL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Antioquia"
+
+COL_SPQR_fascism_autonomy_military_administration:0 "Provincia Antioquia"
+COL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Antioquia"
+
+###########
+CHL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Andes Montes"
+CHL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Andes Montes"
+
+CHL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Andes Montes"
+CHL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Andes Montes"
+
+CHL_SPQR_fascism_autonomy_military_administration:0 "Provincia Andes Montes"
+CHL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Andes Montes"
+
+###########
+COS_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Dives Oram"
+COS_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Dives Oram"
+
+COS_SPQR_fascism_autonomy_puppet_state:0 "Provincia Dives Oram"
+COS_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Dives Oram"
+
+COS_SPQR_fascism_autonomy_military_administration:0 "Provincia Dives Oram"
+COS_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Dives Oram"
+
+###########
+ECU_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Aequatoria"
+ECU_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Aequatoria"
+
+ECU_SPQR_fascism_autonomy_puppet_state:0 "Provincia Aequatoria"
+ECU_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Aequatoria"
+
+ECU_SPQR_fascism_autonomy_military_administration:0 "Provincia Aequatoria"
+ECU_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Aequatoria"
+
+###########
+ELS_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Redemptor"
+ELS_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Redemptor"
+
+ELS_SPQR_fascism_autonomy_puppet_state:0 "Provincia Redemptor"
+ELS_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Redemptor"
+
+ELS_SPQR_fascism_autonomy_military_administration:0 "Provincia Redemptor"
+ELS_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Redemptor"
+
+###########
+ETH_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Abyssinia"
+ETH_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Abyssinia"
+
+ETH_SPQR_fascism_autonomy_puppet_state:0 "Provincia Abyssinia"
+ETH_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Abyssinia"
+
+ETH_SPQR_fascism_autonomy_military_administration:0 "Provincia Abyssinia"
+ETH_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Abyssinia"
+
+###########
+GUA_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Americae Centralis"
+GUA_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Americae Centralis"
+
+GUA_SPQR_fascism_autonomy_puppet_state:0 "Provincia Americae Centralis"
+GUA_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Americae Centralis"
+
+GUA_SPQR_fascism_autonomy_military_administration:0 "Provincia Americae Centralis"
+GUA_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Americae Centralis"
+
+###########
+HON_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Honduria"
+HON_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Honduria"
+
+HON_SPQR_fascism_autonomy_puppet_state:0 "Provincia Honduria"
+HON_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Honduria"
+
+HON_SPQR_fascism_autonomy_military_administration:0 "Provincia Honduria"
+HON_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Honduria"
+
+###########
+LIB_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Liberia"
+LIB_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Liberia"
+
+LIB_SPQR_fascism_autonomy_puppet_state:0 "Provincia Liberia"
+LIB_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Liberia"
+
+LIB_SPQR_fascism_autonomy_military_administration:0 "Provincia Liberia"
+LIB_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Liberia"
+
+###########
+MEN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Mongolica Fines IngreThenti"
+MEN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Mongolica Fines IngreThenti"
+
+MEN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Mongolica Fines IngreThenti"
+MEN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Mongolica Fines IngreThenti"
+
+MEN_SPQR_fascism_autonomy_military_administration:0 "Provincia Mongolica Fines IngreThenti"
+MEN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Mongolica Fines IngreThenti"
+
+###########
+NIC_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Nicaragua"
+NIC_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Nicaragua"
+
+NIC_SPQR_fascism_autonomy_puppet_state:0 "Provincia Nicaragua"
+NIC_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Nicaragua"
+
+NIC_SPQR_fascism_autonomy_military_administration:0 "Provincia Nicaragua"
+NIC_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Nicaragua"
+
+###########
+PAN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Duo Maria"
+PAN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Duo Maria"
+
+PAN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Duo Maria"
+PAN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Duo Maria"
+
+PAN_SPQR_fascism_autonomy_military_administration:0 "Provincia Duo Maria"
+PAN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Duo Maria"
+
+###########
+PER_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Persae"
+PER_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Persae"
+
+PER_SPQR_fascism_autonomy_puppet_state:0 "Provincia Persae"
+PER_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Persae"
+
+PER_SPQR_fascism_autonomy_military_administration:0 "Provincia Persae"
+PER_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Persae"
+
+###########
+PHI_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Philippinae"
+PHI_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Philippinae"
+
+PHI_SPQR_fascism_autonomy_puppet_state:0 "Provincia Philippinae"
+PHI_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Philippinae"
+
+PHI_SPQR_fascism_autonomy_military_administration:0 "Provincia Philippinae"
+PHI_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Philippinae"
+
+###########
+SAF_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Africa Meridianam"
+SAF_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Africa Meridianam"
+
+SAF_SPQR_fascism_autonomy_puppet_state:0 "Provincia Africa Meridianam"
+SAF_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Africa Meridianam"
+
+SAF_SPQR_fascism_autonomy_military_administration:0 "Provincia Africa Meridianam"
+SAF_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Africa Meridianam"
+
+###########
+SAU_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Arabia"
+SAU_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Arabia"
+
+SAU_SPQR_fascism_autonomy_puppet_state:0 "Provincia Arabia"
+SAU_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Arabia"
+
+SAU_SPQR_fascism_autonomy_military_administration:0 "Provincia Arabia"
+SAU_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Arabia"
+
+###########
+SIK_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Uiguria"
+SIK_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Uiguria"
+
+SIK_SPQR_fascism_autonomy_puppet_state:0 "Provincia Uiguria"
+SIK_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Uiguria"
+
+SIK_SPQR_fascism_autonomy_military_administration:0 "Provincia Uiguria"
+SIK_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Uiguria"
+
+###########
+SIA_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Siam"
+SIA_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Siam"
+
+SIA_SPQR_fascism_autonomy_puppet_state:0 "Provincia Siam"
+SIA_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Siam"
+
+SIA_SPQR_fascism_autonomy_military_administration:0 "Provincia Siam"
+SIA_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Siam"
+
+###########
+URG_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Uruguai"
+URG_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Uruguai"
+
+URG_SPQR_fascism_autonomy_puppet_state:0 "Provincia Uruguai"
+URG_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Uruguai"
+
+URG_SPQR_fascism_autonomy_military_administration:0 "Provincia Uruguai"
+URG_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Uruguai"
+
+###########
+VEN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Paulo Venice"
+VEN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Paulo Venice"
+
+VEN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Paulo Venice"
+VEN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Paulo Venice"
+
+VEN_SPQR_fascism_autonomy_military_administration:0 "Provincia Paulo Venice"
+VEN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Paulo Venice"
+
+###########
+YUN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela De Nubibus Meridianam"
+YUN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela De Nubibus Meridianam"
+
+YUN_SPQR_fascism_autonomy_puppet_state:0 "Provincia De Nubibus Meridianam"
+YUN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia De Nubibus Meridianam"
+
+YUN_SPQR_fascism_autonomy_military_administration:0 "Provincia De Nubibus Meridianam"
+YUN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia De Nubibus Meridianam"
+
+###########
+TAN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Tannu Tuva"
+TAN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Tannu Tuva"
+
+TAN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Tannu Tuva"
+TAN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Tannu Tuva"
+
+TAN_SPQR_fascism_autonomy_military_administration:0 "Provincia Tannu Tuva"
+TAN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Tannu Tuva"
+
+###########
+PAR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Oceani est Aqua"
+PAR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Oceani est Aqua"
+
+PAR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Oceani est Aqua"
+PAR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Oceani est Aqua"
+
+PAR_SPQR_fascism_autonomy_military_administration:0 "Provincia Oceani est Aqua"
+PAR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Oceani est Aqua"
+
+###########
+CUB_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Juana"
+CUB_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Juana"
+
+CUB_SPQR_fascism_autonomy_puppet_state:0 "Provincia Juana"
+CUB_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Juana"
+
+CUB_SPQR_fascism_autonomy_military_administration:0 "Provincia Juana"
+CUB_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Juana"
+
+###########
+DOM_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Dominicus"
+DOM_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Dominicus"
+
+DOM_SPQR_fascism_autonomy_puppet_state:0 "Provincia Dominicus"
+DOM_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Dominicus"
+
+DOM_SPQR_fascism_autonomy_military_administration:0 "Provincia Dominicus"
+DOM_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Dominicus"
+
+###########
+HAI_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Dominicus Inferior"
+HAI_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Dominicus Inferior"
+
+HAI_SPQR_fascism_autonomy_puppet_state:0 "Provincia Dominicus Inferior"
+HAI_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Dominicus Inferior"
+
+HAI_SPQR_fascism_autonomy_military_administration:0 "Provincia Dominicus Inferior"
+HAI_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Dominicus Inferior"
+
+###########
+YEM_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Arabia Meridianam"
+YEM_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Arabia Meridianam"
+
+YEM_SPQR_fascism_autonomy_puppet_state:0 "Provincia Arabia Meridianam"
+YEM_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Arabia Meridianam"
+
+YEM_SPQR_fascism_autonomy_military_administration:0 "Provincia Arabia Meridianam"
+YEM_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Arabia Meridianam"
+
+###########
+OMA_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Arabia Inferior"
+OMA_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Arabia Inferior"
+
+OMA_SPQR_fascism_autonomy_puppet_state:0 "Provincia Arabia Inferior"
+OMA_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Arabia Inferior"
+
+OMA_SPQR_fascism_autonomy_military_administration:0 "Provincia Arabia Inferior"
+OMA_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Arabia Inferior"
+
+###########
+SLO_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Carpathio Inferior"
+SLO_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Carpathio Inferior"
+
+SLO_SPQR_fascism_autonomy_puppet_state:0 "Provincia Carpathio Inferior"
+SLO_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Carpathio Inferior"
+
+SLO_SPQR_fascism_autonomy_military_administration:0 "Provincia Carpathio Inferior"
+SLO_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Carpathio Inferior"
+
+###########
+CRO_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Croatiae"
+CRO_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Croatiae"
+
+CRO_SPQR_fascism_autonomy_puppet_state:0 "Provincia Croatiae"
+CRO_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Croatiae"
+
+CRO_SPQR_fascism_autonomy_military_administration:0 "Provincia Croatiae"
+CRO_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Croatiae"
+
+###########
+GXC_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Guanxiae"
+GXC_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Guanxiae"
+
+GXC_SPQR_fascism_autonomy_puppet_state:0 "Provincia Guanxiae"
+GXC_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Guanxiae"
+
+GXC_SPQR_fascism_autonomy_military_administration:0 "Provincia Guanxiae"
+GXC_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Guanxiae"
+
+###########
+PRC_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Sina Inferior"
+PRC_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Sina Inferior"
+
+PRC_SPQR_fascism_autonomy_puppet_state:0 "Provincia Sina Inferior"
+PRC_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Sina Inferior"
+
+PRC_SPQR_fascism_autonomy_military_administration:0 "Provincia Sina Inferior"
+PRC_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Sina Inferior"
+
+###########
+SHX_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Shanxiae"
+SHX_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Shanxiae"
+
+SHX_SPQR_fascism_autonomy_puppet_state:0 "Provincia Shanxiae"
+SHX_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Shanxiae"
+
+SHX_SPQR_fascism_autonomy_military_administration:0 "Provincia Shanxiae"
+SHX_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Shanxiae"
+
+###########
+XSM_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Patriae Seres"
+XSM_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Patriae Seres"
+
+XSM_SPQR_fascism_autonomy_puppet_state:0 "Provincia Patriae Seres"
+XSM_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Patriae Seres"
+
+XSM_SPQR_fascism_autonomy_military_administration:0 "Provincia Patriae Seres"
+XSM_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Patriae Seres"
+
+###########
+ICE_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Glaciei Insulae"
+ICE_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Glaciei Insulae"
+
+ICE_SPQR_fascism_autonomy_puppet_state:0 "Provincia Glaciei Insulae"
+ICE_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Glaciei Insulae"
+
+ICE_SPQR_fascism_autonomy_military_administration:0 "Provincia Glaciei Insulae"
+ICE_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Glaciei Insulae"
+
+###########
+JOR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Arabia Petrae"
+JOR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Arabia Petrae"
+
+JOR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Arabia Petrae"
+JOR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Arabia Petrae"
+
+JOR_SPQR_fascism_autonomy_military_administration:0 "Provincia Arabia Petrae"
+JOR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Arabia Petrae"
+
+###########
+PAL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Palaestinae"
+PAL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Palaestinae"
+
+PAL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Palaestinae"
+PAL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Palaestinae"
+
+PAL_SPQR_fascism_autonomy_military_administration:0 "Provincia Palaestinae"
+PAL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Palaestinae"
+
+###########
+VIN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Tonkin"
+VIN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Tonkin"
+
+VIN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Tonkin"
+VIN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Tonkin"
+
+VIN_SPQR_fascism_autonomy_military_administration:0 "Provincia Tonkin"
+VIN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Tonkin"
+
+###########
+CAM_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Cambodia"
+CAM_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Cambodia"
+
+CAM_SPQR_fascism_autonomy_puppet_state:0 "Provincia Cambodia"
+CAM_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Cambodia"
+
+CAM_SPQR_fascism_autonomy_military_administration:0 "Provincia Cambodia"
+CAM_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Cambodia"
+
+###########
+MAL_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Malaia"
+MAL_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Malaia"
+
+MAL_SPQR_fascism_autonomy_puppet_state:0 "Provincia Malaia"
+MAL_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Malaia"
+
+MAL_SPQR_fascism_autonomy_military_administration:0 "Provincia Malaia"
+MAL_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Malaia"
+
+###########
+INS_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Indiae Insulam"
+INS_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Indiae Insulam"
+
+INS_SPQR_fascism_autonomy_puppet_state:0 "Provincia Indiae Insulam"
+INS_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Indiae Insulam"
+
+INS_SPQR_fascism_autonomy_military_administration:0 "Provincia Indiae Insulam"
+INS_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Indiae Insulam"
+
+###########
+LAO_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Vientiane"
+LAO_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Vientiane"
+
+LAO_SPQR_fascism_autonomy_puppet_state:0 "Provincia Vientiane"
+LAO_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Vientiane"
+
+LAO_SPQR_fascism_autonomy_military_administration:0 "Provincia Vientiane"
+LAO_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Vientiane"
+
+###########
+UKR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Sarmatia"
+UKR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Sarmatia"
+
+UKR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Sarmatia"
+UKR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Sarmatia"
+
+UKR_SPQR_fascism_autonomy_military_administration:0 "Provincia Sarmatia"
+UKR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Sarmatia"
+
+###########
+UKR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Sarmatia"
+UKR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Sarmatia"
+
+UKR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Sarmatia"
+UKR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Sarmatia"
+
+UKR_SPQR_fascism_autonomy_military_administration:0 "Provincia Sarmatia"
+UKR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Sarmatia"
+
+###########
+ARM_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Armenia"
+ARM_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Armenia"
+
+ARM_SPQR_fascism_autonomy_puppet_state:0 "Provincia Armenia"
+ARM_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Armenia"
+
+ARM_SPQR_fascism_autonomy_military_administration:0 "Provincia Armenia"
+ARM_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Armenia"
+
+###########
+GEO_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Caucasi Domui Latus"
+GEO_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Caucasi Domui Latus"
+
+GEO_SPQR_fascism_autonomy_puppet_state:0 "Provincia Caucasi Domui Latus"
+GEO_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Caucasi Domui Latus"
+
+GEO_SPQR_fascism_autonomy_military_administration:0 "Provincia Caucasi Domui Latus"
+GEO_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Caucasi Domui Latus"
+
+###########
+AZR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Adrabigania"
+AZR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Adrabigania"
+
+AZR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Adrabigania"
+AZR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Adrabigania"
+
+AZR_SPQR_fascism_autonomy_military_administration:0 "Provincia Adrabigania"
+AZR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Adrabigania"
+
+###########
+BLR_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Belorussia"
+BLR_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Belorussia"
+
+BLR_SPQR_fascism_autonomy_puppet_state:0 "Provincia Belorussia"
+BLR_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Belorussia"
+
+BLR_SPQR_fascism_autonomy_military_administration:0 "Provincia Belorussia"
+BLR_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Belorussia"
+
+###########
+ANG_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Bantu"
+ANG_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Bantu"
+
+ANG_SPQR_fascism_autonomy_puppet_state:0 "Provincia Bantu"
+ANG_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Bantu"
+
+ANG_SPQR_fascism_autonomy_military_administration:0 "Provincia Bantu"
+ANG_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Bantu"
+
+###########
+MZB_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Mozambicum"
+MZB_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Mozambicum"
+
+MZB_SPQR_fascism_autonomy_puppet_state:0 "Provincia Mozambicum"
+MZB_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Mozambicum"
+
+MZB_SPQR_fascism_autonomy_military_administration:0 "Provincia Mozambicum"
+MZB_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Mozambicum"
+
+###########
+ZIM_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Rhodesiensis Meridionalis"
+ZIM_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Rhodesiensis Meridionalis"
+
+ZIM_SPQR_fascism_autonomy_puppet_state:0 "Provincia Rhodesiensis Meridionalis"
+ZIM_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Rhodesiensis Meridionalis"
+
+ZIM_SPQR_fascism_autonomy_military_administration:0 "Provincia Rhodesiensis Meridionalis"
+ZIM_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Rhodesiensis Meridionalis"
+
+###########
+COG_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Congensis"
+COG_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Congensis"
+
+COG_SPQR_fascism_autonomy_puppet_state:0 "Provincia Congensis"
+COG_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Congensis"
+
+COG_SPQR_fascism_autonomy_military_administration:0 "Provincia Congensis"
+COG_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Congensis"
+
+###########
+KEN_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Keniae"
+KEN_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Keniae"
+
+KEN_SPQR_fascism_autonomy_puppet_state:0 "Provincia Keniae"
+KEN_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Keniae"
+
+KEN_SPQR_fascism_autonomy_military_administration:0 "Provincia Keniae"
+KEN_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Keniae"
+
+###########
+PAK_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Pacistania"
+PAK_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Pacistania"
+
+PAK_SPQR_fascism_autonomy_puppet_state:0 "Provincia Pacistania"
+PAK_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Pacistania"
+
+PAK_SPQR_fascism_autonomy_military_administration:0 "Provincia Pacistania"
+PAK_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Pacistania"
+
+###########
+BOT_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Bechuana"
+BOT_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Bechuana"
+
+BOT_SPQR_fascism_autonomy_puppet_state:0 "Provincia Bechuana"
+BOT_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Bechuana"
+
+BOT_SPQR_fascism_autonomy_military_administration:0 "Provincia Bechuana"
+BOT_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Bechuana"
+
+#############
+#new_nations#
+#############
+N01_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Palatinatus"
+N01_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Palatinatus"
+
+N01_SPQR_fascism_autonomy_puppet_state:0 "Provincia Palatinatus"
+N01_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Palatinatus"
+
+N01_SPQR_fascism_autonomy_military_administration:0 "Provincia Palatinatus"
+N01_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Palatinatus"
+
+###########
+N02_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Caledonia"
+N02_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Caledonia"
+
+N02_SPQR_fascism_autonomy_puppet_state:0 "Provincia Caledonia"
+N02_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Caledonia"
+
+N02_SPQR_fascism_autonomy_military_administration:0 "Provincia Caledonia"
+N02_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Caledonia"
+
+###########
+N03_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Wallia"
+N03_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Wallia"
+
+N03_SPQR_fascism_autonomy_puppet_state:0 "Provincia Wallia"
+N03_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Wallia"
+
+N03_SPQR_fascism_autonomy_military_administration:0 "Provincia Wallia"
+N03_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Wallia"
+
+###########
+N04_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Lugdunensis"
+N04_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Lugdunensis"
+
+N04_SPQR_fascism_autonomy_puppet_state:0 "Provincia Lugdunensis"
+N04_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Lugdunensis"
+
+N04_SPQR_fascism_autonomy_military_administration:0 "Provincia Lugdunensis"
+N04_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Lugdunensis"
+
+###########
+N05_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Catalonia"
+N05_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Catalonia"
+
+N05_SPQR_fascism_autonomy_puppet_state:0 "Provincia Catalonia"
+N05_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Catalonia"
+
+N05_SPQR_fascism_autonomy_military_administration:0 "Provincia Catalonia"
+N05_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Catalonia"
+
+###########
+N06_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Quebecia"
+N06_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Quebecia"
+
+N06_SPQR_fascism_autonomy_puppet_state:0 "Provincia Quebecia"
+N06_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Quebecia"
+
+N06_SPQR_fascism_autonomy_military_administration:0 "Provincia Quebecia"
+N06_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Quebecia"
+
+###########
+N07_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Oleum Oram"
+N07_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Oleum Oram"
+
+N07_SPQR_fascism_autonomy_puppet_state:0 "Provincia Oleum Oram"
+N07_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Oleum Oram"
+
+N07_SPQR_fascism_autonomy_military_administration:0 "Provincia Oleum Oram"
+N07_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Oleum Oram"
+
+###########
+N08_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Oram Pacificus"
+N08_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Oram Pacificus"
+
+N08_SPQR_fascism_autonomy_puppet_state:0 "Provincia Oram Pacificus"
+N08_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Oram Pacificus"
+
+N08_SPQR_fascism_autonomy_military_administration:0 "Provincia Oram Pacificus"
+N08_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Oram Pacificus"
+
+###########
+N09_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Dalmatia Inferior"
+N09_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Dalmatia Inferior"
+
+N09_SPQR_fascism_autonomy_puppet_state:0 "Provincia Dalmatia Inferior"
+N09_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Dalmatia Inferior"
+
+N09_SPQR_fascism_autonomy_military_administration:0 "Provincia Dalmatia Inferior"
+N09_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Dalmatia Inferior"
+
+###########
+N10_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Pannonia Superior"
+N10_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Pannonia Superior"
+
+N10_SPQR_fascism_autonomy_puppet_state:0 "Provincia Pannonia Superior"
+N10_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Pannonia Superior"
+
+N10_SPQR_fascism_autonomy_military_administration:0 "Provincia Pannonia Superior"
+N10_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Pannonia Superior"
+
+###########
+N11_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Namibia"
+N11_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Namibia"
+
+N11_SPQR_fascism_autonomy_puppet_state:0 "Provincia Namibia"
+N11_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Namibia"
+
+N11_SPQR_fascism_autonomy_military_administration:0 "Provincia Namibia"
+N11_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Namibia"
+
+###########
+N12_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Insula Africae"
+N12_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Insula Africae"
+
+N12_SPQR_fascism_autonomy_puppet_state:0 "Provincia Insula Africae"
+N12_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Insula Africae"
+
+N12_SPQR_fascism_autonomy_military_administration:0 "Provincia Insula Africae"
+N12_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Insula Africae"
+
+###########
+N13_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Africa Orientis"
+N13_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Africa Orientis"
+
+N13_SPQR_fascism_autonomy_puppet_state:0 "Provincia Africa Orientis"
+N13_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Africa Orientis"
+
+N13_SPQR_fascism_autonomy_military_administration:0 "Provincia Africa Orientis"
+N13_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Africa Orientis"
+
+###########
+N14_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Mauretania Caesariensis"
+N14_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Mauretania Caesariensis"
+
+N14_SPQR_fascism_autonomy_puppet_state:0 "Provincia Mauretania Caesariensis"
+N14_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Mauretania Caesariensis"
+
+N14_SPQR_fascism_autonomy_military_administration:0 "Provincia Mauretania Caesariensis"
+N14_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Mauretania Caesariensis"
+
+###########
+N15_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Africa Procunsularis"
+N15_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Africa Procunsularis"
+
+N15_SPQR_fascism_autonomy_puppet_state:0 "Provincia Africa Procunsularis"
+N15_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Africa Procunsularis"
+
+N15_SPQR_fascism_autonomy_military_administration:0 "Provincia Africa Procunsularis"
+N15_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Africa Procunsularis" 
+
+###########
+N16_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Asia Plagam"
+N16_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Asia Plagam"
+
+N16_SPQR_fascism_autonomy_puppet_state:0 "Provincia Asia Plagam"
+N16_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Asia Plagam"
+
+N16_SPQR_fascism_autonomy_military_administration:0 "Provincia Asia Plagam"
+N16_SPQR_fascism_autonomy_military_administration_DEF:0 "The Asia Plagam" 
+
+###########
+N17_SPQR_fascism_autonomy_reorganised_state:0 "Clientela Anglia"
+N17_SPQR_fascism_autonomy_reorganised_state_DEF:0 "The Clientela Anglia"
+
+N17_SPQR_fascism_autonomy_puppet_state:0 "Provincia Anglia"
+N17_SPQR_fascism_autonomy_puppet_state_DEF:0 "The Provincia Anglia"
+
+N17_SPQR_fascism_autonomy_military_administration:0 "Provincia Africa Anglia"
+N17_SPQR_fascism_autonomy_military_administration_DEF:0 "The Provincia Anglia" 

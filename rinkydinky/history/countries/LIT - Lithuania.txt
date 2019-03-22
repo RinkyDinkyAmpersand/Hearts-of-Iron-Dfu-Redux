@@ -126,9 +126,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Tim Heidecker"
+	name = "Baltic Congress"
 	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "gfx/leaders/LIT/free.dds"
+	picture = "Congress.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {

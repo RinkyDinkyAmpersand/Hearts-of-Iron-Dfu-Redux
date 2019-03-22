@@ -12,7 +12,6 @@ state=
 		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = JPO
 		victory_points = {
 			1519 3 
 		}
@@ -22,9 +21,8 @@ state=
 			industrial_complex = 2
 		}
 
-		1938.10.25 = {		
-			remove_core_of = SHX
-			add_core_of = PRC
+		1938.10.25 = {
+			#remove_core_of = SHX
 			owner = PRC
 			controller = JAP
 			PRC = {

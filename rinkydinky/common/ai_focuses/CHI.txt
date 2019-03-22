@@ -1,17 +1,20 @@
 
 ai_historical_focus_list_CHI = {
 	ai_national_focuses = {
+	CHI_political_effort
+	CHI_strengthen_the_republic
+	CHI_strengthen_the_republic2
+	CHI_strengthen_the_republic3
+	CHI_strengthen_the_republic4
+	CHI_strengthen_the_republic5
+	CHI_strengthen_the_republic6
+	CHI_strengthen_the_republic7
     CHI_national_defense_council
 	CHI_the_big_rear_concept
 	CHI_lure_them_in_strategy
 	CHI_centralizing_power
-	CHI_prc_friend
-	CHI_sinkiang_friend
 	CHI_industrial_reform
-	CHI_inland_infrastructure
-	CHI_inland_industrialization
-	CHI_seizure_of_land
-	CHI_revive_hanyang_armory
-	CHI_armament_effort
+	CHI_coastal_infrastructure
+	CHI_coastal_industrialization
 	}
 }

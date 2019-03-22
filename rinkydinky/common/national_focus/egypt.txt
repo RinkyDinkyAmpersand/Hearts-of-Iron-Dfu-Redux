@@ -1,0 +1,1511 @@
+focus_tree = {
+	id = egypt_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = EGY
+		}
+	}
+	
+	default = no
+	
+			focus = {
+		id = EGY_victory
+		icon = GFX_goal_liberty
+		x = -2
+		y = 2
+		relative_position_id = EGY_compass
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			ITL = { has_capitulated = yes }
+			ITE = { has_capitulated = yes }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			EGY = {
+	add_offsite_building = { type = industrial_complex level = 20 }
+				}
+			}
+		}
+
+	focus = {
+		id = EGY_anglo_egyptian_treaty
+		icon = GFX_focus_generic_treaty
+		x = 4
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			is_subject = yes
+			threat > 0.05
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100			
+			add_autonomy_ratio = {
+				value = 0.25
+				localization = EGY_anglo_egyptian_treaty
+			}
+			EGY = { transfer_state = 551 }
+			EGY = { transfer_state = 549 }
+			EGY = { transfer_state = 767 }
+			add_state_core = 551
+			
+			add_state_core = 549
+			add_state_core = 767
+		}
+	}
+	focus = {
+		id = EGY_egyptian_partisans
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = EGY_anglo_egyptian_treaty }
+		relative_position_id = EGY_anglo_egyptian_treaty
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			remove_ideas = egypt
+			add_popularity = {
+			ideology = fascism
+			popularity = -0.15
+			}
+		add_stability = -0.05
+		}
+	}
+	focus = {
+		id = EGY_adress
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = EGY_egyptian_partisans }
+		relative_position_id = EGY_egyptian_partisans
+		x = -1
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_stability = 0.1
+			add_war_support = 0.1
+			add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+			}
+			add_autonomy_ratio = {
+				value = 0.25
+		}
+	}
+	}
+	focus = {
+		id = EGY_islamic
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = EGY_egyptian_partisans }
+		relative_position_id = EGY_egyptian_partisans
+		x = 1
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_stability = 0.1
+			add_war_support = 0.1
+			add_autonomy_ratio = {
+				value = 0.25
+				}
+		add_ideas = islamic1
+	}
+	}
+	focus = {
+		id = EGY_king_inspect
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		prerequisite = { focus = EGY_islamic }
+		relative_position_id = EGY_islamic
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			swap_ideas = {
+     remove_idea = islamic1
+     add_idea = islamic2
+							}
+		}
+		
+	}
+	focus = {
+		id = EGY_research
+		icon = GFX_focus_research2
+		prerequisite = { focus = EGY_adress }
+		relative_position_id = EGY_adress
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_research_slot = 1
+		}
+		
+	}
+	focus = {
+		id = EGY_independent
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = EGY_research }
+		prerequisite = { focus = EGY_king_inspect }
+		relative_position_id = EGY_egyptian_partisans
+		x = 0
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+		add_ideas = egypt_ind
+		}
+		
+	}
+	focus = {
+		id = EGY_sinai
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = { focus = EGY_independent }
+		relative_position_id = EGY_independent
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {			
+			add_autonomy_ratio = {
+				value = 0.1
+			}
+			EGY = { transfer_state = 453 }
+			add_state_core = 453		
+		
+		}
+		
+	}
+	
+
+	focus = {
+		id = EGY_british_industrial_assistance
+		icon = GFX_goal_generic_construction
+		x = 10
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				is_subject = yes
+				has_full_control_of_state = 446
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			446 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+			}
+			}
+			add_tech_bonus = {
+				name = EGY_british_industrial_assistance
+				bonus = 1
+				uses = 1
+				category = construction_tech
+				category = industry
+			}
+			add_autonomy_ratio = {
+				value = -0.05
+				localization = EGY_anglo_egyptian_treaty
+			}
+	}
+}
+
+
+	focus = {
+		id = EGY_develop_the_port_of_alexandria
+		icon = GFX_goal_generic_occupy_states_coastal
+		prerequisite = { focus = EGY_british_industrial_assistance }
+		x = 2
+		y = 1
+		relative_position_id = EGY_british_industrial_assistance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 447
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			447 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+			}
+			}
+			447 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+			}
+			}
+			447 = {
+							add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 4076
+					instant_build = yes
+				}
+				}
+
+	}
+}
+focus = {
+		id = EGY_depression1
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = EGY_british_industrial_assistance }
+		x = 0
+		y = 1
+		relative_position_id = EGY_british_industrial_assistance
+
+		cost = 11.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		swap_ideas = {
+				remove_idea = egypt_depression1
+				add_idea = egypt_depression2
+			}
+	}
+}
+
+	focus = {
+		id = EGY_industrialize_cairo
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = EGY_british_industrial_assistance }
+		x = -2
+		y = 1
+		relative_position_id = EGY_british_industrial_assistance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 446
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			446 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+			}
+			}
+
+	}
+}
+
+	focus = {
+		id = EGY_expand_military_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = EGY_depression1 }
+		x = 0
+		y = 1
+		relative_position_id = EGY_depression1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 446
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			446 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+			}
+			}
+
+	}
+}
+
+	focus = {
+		id = EGY_build_steelworks
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = EGY_depression1 }
+		x = 0
+		y = 1
+		relative_position_id = EGY_industrialize_cairo
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 446
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			446 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+			}
+			}
+			add_resource = {
+				type = steel
+				amount = 24
+				state = 446
+			}
+
+	}
+}
+
+	focus = {
+		id = EGY_build_north_south_railroad
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {  focus = EGY_depression1 }
+		x = 0
+		y = 1
+		relative_position_id = EGY_develop_the_port_of_alexandria
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 447
+				has_full_control_of_state = 446
+				has_full_control_of_state = 456
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			447 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+			}
+			}
+			446 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+			}
+			}
+			456 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				}
+
+	}
+}
+
+
+	
+
+	focus = {
+		id = EGY_build_weapon_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {  focus = EGY_expand_military_industry }
+		prerequisite = {focus = EGY_build_north_south_railroad}
+		prerequisite = {focus = EGY_build_steelworks}
+		x = 0
+		y = 1
+		relative_position_id = EGY_expand_military_industry
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 446
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			446 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+			}
+			}
+
+	}
+}
+focus = {
+		id = EGY_depression2
+		icon = GFX_goal_generic_air_production
+		prerequisite = { focus = EGY_build_weapon_factories}
+		x = 0
+		y = 2
+		relative_position_id = EGY_expand_military_industry
+
+		cost = 11.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	swap_ideas = {
+     remove_idea = egypt_depression2
+     add_idea = egypt_depression3
+	}
+	add_ideas = EGY_air_regiments
+			}
+}
+
+	focus = {
+		id = EGY_extra_research_slot
+		icon = GFX_focus_research
+		prerequisite = {focus = EGY_depression2 }
+		x = 0
+		y = 1
+		relative_position_id = EGY_depression2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+	}
+}
+focus = {
+		id = EGY_depression3
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus = EGY_extra_research_slot }
+		x = 0
+		y = 1
+		relative_position_id = EGY_extra_research_slot
+
+		cost = 14.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			remove_ideas = egypt_depression3
+	}
+}
+
+	focus = {
+		id = EGY_organization_of_army
+		icon = GFX_goal_generic_build_tank
+		x = 16
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
+	}
+}
+
+	focus = {
+		id = EGY_study_british_doctrines
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = EGY_organization_of_army }
+		x = -1
+		y = 1
+		relative_position_id = EGY_organization_of_army
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 3
+				category = land_doctrine
+			}
+	}
+}
+
+	focus = {
+		id = EGY_modernize_support_battalions
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = EGY_study_british_doctrines }
+		x = -1
+		y = 1
+		relative_position_id = EGY_study_british_doctrines
+
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = recon_bonus
+				bonus = 1
+				uses = 1
+				technology = tech_recon
+				technology = tech_recon2
+				technology = tech_recon3
+			}
+			add_tech_bonus = {
+				name = engy_bonus
+				bonus = 1
+				uses = 1
+				technology = tech_engineers
+				technology = tech_engineers2
+				technology = tech_engineers3
+			}
+	}
+}
+focus = {
+		id = EGY_protect_suez_canal
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = {  focus = EGY_modernize_support_battalions }
+		x = 0
+		y = 1
+		relative_position_id = EGY_modernize_support_battalions
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 446
+		}
+
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+			446 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 12049
+					instant_build = yes
+			}
+			}
+			446 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 4073
+					instant_build = yes
+			}
+			}
+			446 = {
+							add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 12049
+					instant_build = yes
+				}
+				}
+			446 = {
+							add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 4073
+					instant_build = yes
+				}
+				}
+
+	}
+}
+
+	focus = {
+		id = EGY_british_equipment
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EGY_organization_of_army }
+		x = 1
+		y = 1
+		relative_position_id = EGY_organization_of_army
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			is_subject = yes
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 500
+    producer = ENG
+		}
+		hidden_effect = {
+
+			set_technology = { infantry_weapons1 = 1 }
+		}
+	}
+}
+
+
+
+	focus = {
+		id = EGY_import_british_artillery
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = EGY_british_equipment }
+		prerequisite = { focus = EGY_study_british_doctrines }
+		x = -1
+		y = 1
+		relative_position_id = EGY_british_equipment
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = EGY_import_british_artillery
+				bonus = 1
+				uses = 1
+				category = artillery
+			}
+		add_equipment_to_stockpile = {
+    type = artillery_equipment
+    amount = 150
+    producer = ENG
+		}
+	}
+}
+
+
+	focus = {
+		id = EGY_desert_infantry
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		prerequisite = { focus = EGY_british_equipment }
+		x = 1
+		y = 1
+		relative_position_id = EGY_british_equipment
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 446
+				has_full_control_of_state = 447
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = EGY_desert_infantry_tt 
+			division_template = {
+				name = "Desert Brigade"
+				regiments = {
+					desertinfantry = { x = 0 y = 0 }
+					desertinfantry = { x = 0 y = 1 }
+					desertinfantry = { x = 0 y = 2 }
+					desertinfantry = { x = 1 y = 0 }
+					desertinfantry = { x = 1 y = 1 }
+					desertinfantry = { x = 1 y = 2 }
+					desertinfantry = { x = 2 y = 0 }
+					desertinfantry = { x = 2 y = 1 }
+					desertinfantry = { x = 2 y = 2 }
+					desertinfantry = { x = 3 y = 0 }
+				}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+			hidden_effect = {
+			set_technology = { desertinfantry_at
+			= 1 }
+		
+	
+	
+			
+			446 = {
+				create_unit = {
+					division = " name = \"1. Egyptian Desert Brigade\" division_template = \"Desert Brigade\" start_experience_factor = 0.4"
+					owner = EGY
+				}
+			}
+
+			446 = {
+				create_unit = {
+					division = " name = \"2. Egyptian Desert Brigade\" division_template = \"Desert Brigade\" start_experience_factor = 0.4"
+					owner = EGY
+				}
+			}
+
+			447 = {
+				create_unit = {
+					division = " name = \"3. Egyptian Desert Brigade\" division_template = \"Desert Brigade\" start_experience_factor = 0.4"
+					owner = EGY
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EGY_antitank_support
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		prerequisite = { focus = EGY_import_british_artillery }
+		x = 0
+		y = 1
+		relative_position_id = EGY_import_british_artillery
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 446
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = EGY_antitank_support_tt 
+			division_template = {
+				name = "Egyptian Infantry Division with Antitank Support"
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+					infantry = { x = 3 y = 0 }
+					infantry = { x = 3 y = 1 }
+					infantry = { x = 3 y = 2 }
+					infantry = { x = 4 y = 0 }
+					infantry = { x = 4 y = 1 }
+					infantry = { x = 4 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 1 y = 3 }
+					infantry = { x = 2 y = 3 }
+					infantry = { x = 3 y = 3 }
+					infantry = { x = 4 y = 0 }
+					infantry = { x = 4 y = 3 }
+				}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+	}
+}
+			hidden_effect = {
+			set_technology = { interwar_antitank = 1 }
+		
+	
+	
+			
+			446 = {
+				create_unit = {
+					division = " name = \"1. Egyptian Infantry Division with Antitank Support\" division_template = \"Egyptian Infantry Division with Antitank Support\" start_experience_factor = 0.4"
+					owner = EGY
+				}
+			}
+
+			446 = {
+				create_unit = {
+					division = " name = \"2. Egyptian Infantry Division with Antitank Support\" division_template = \"Egyptian Infantry Division with Antitank Support\" start_experience_factor = 0.4"
+					owner = EGY
+				}
+			}
+		}
+	}
+}
+focus = {
+		id = EGY_compass
+		icon = GFX_goal_CRO_national_rebirth
+		prerequisite = { focus = EGY_antitank_support }
+		x = 0
+		y = 1
+		relative_position_id = EGY_antitank_support
+
+		cost = 1.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		date < 1942.1.1
+		has_war_with = ITL
+		has_war_with = ITA
+}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+    idea = compass
+    days = 30
+	}
+		}
+	}
+
+
+
+	focus = {
+		id = EGY_create_a_royal_egyptian_air_force
+		icon = GFX_goal_generic_build_airforce
+		x = 20
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				has_full_control_of_state = 447
+				has_full_control_of_state = 452
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = 50
+				producer = ENG
+			}
+		}
+	}
+
+
+	focus = {
+		id = EGY_fighter_research
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = EGY_create_a_royal_egyptian_air_force }
+		x = 0
+		y = 1
+		relative_position_id = EGY_create_a_royal_egyptian_air_force
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				date > 1938.4.1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_research
+				bonus = 1
+				uses = 1
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+			}
+	}
+	}
+
+	focus = {
+		id = EGY_aviation_doctrines
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = EGY_fighter_research }
+		x = 0
+		y = 1
+		relative_position_id = EGY_fighter_research
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = aviation_doctrines
+				bonus = 1
+				uses = 3
+				category = air_doctrine
+			}
+	}
+	}
+	focus = {
+		id = EGY_CSIR
+		icon = GFX_goal_tfv_generic_tech_sharing
+		prerequisite = { focus = EGY_research }
+		x = -1
+		y = 1
+		relative_position_id = EGY_research
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			is_subject_of = ENG
+			is_in_tech_sharing_group = commonwealth_research
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			EGY = {
+  				modify_tech_sharing_bonus = {
+     				id = commonwealth_research
+     				bonus = 0.05
+				}
+			}
+		}
+	}
+	}

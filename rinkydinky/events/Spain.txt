@@ -33,12 +33,14 @@ country_event = {
 		}
 		hidden_effect = {
 			set_capital = 176
+			SPR = {add_ideas = SPA_civil_war}
+			SPR = {set_cosmetic_tag = SPR_Civil_war}
 			start_civil_war = {
 				ruling_party = fascism
 				ideology = communism
 				size = 0.5
 				capital = 41
-				states = { 41 165 167 168 172 173 175 }
+				states = { 41 165 167 168 172 173 175 166 }
 			}
 			random_other_country = {
 				limit = {
@@ -46,6 +48,7 @@ country_event = {
 					has_government = communism
 				}
 				load_oob = "SPR_Civil_War"
+				D01 = {remove_ideas = SPA_civil_War}
 				set_equipment_fraction = 0.5
 				set_stability = 0.9
 				add_ideas = limited_conscription
@@ -200,7 +203,34 @@ country_event = {
 	}
 }
 
-# Nationalist Spain Appreciates our Help
+country_event = {
+	id = spain.99
+	title = spain.99.t
+	desc = spain.99.d
+	picture = GFX_report_event_spr_king
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = spain.99.a
+		add_ideas = SPA_king
+	}
+		option = {
+		name = spain.99.b
+		SPR = {set_cosmetic_tag = SPR_Kingdom}
+		create_country_leader = {
+	name = "King Jaime I"
+	desc = ""
+	picture = "Portrait_SPR_Jaime_I.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	spanish_king
+	}
+}
+	}
+}
 country_event = {
 	id = spain.6
 	title = spain.6.t
@@ -257,6 +287,36 @@ country_event = {
 		SPR = { add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war } }
 	}
 }
+country_event = {
+	id = spain.98
+	title = spain.98.t
+	desc = spain.98.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SPR
+		has_government = communism
+		has_global_flag = republican_victory
+		owns_state = 41
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option = {
+		name = spain.7.a
+		D01 = { set_cosmetic_tag =  SPR_LOST }
+		D01 = {  
+				add_ideas = SPA_recovering_from_civil_war
+				add_ideas = SPA_fascist_guarrillas
+	}
+	}
+	
+}
 
 # Civil war over. Move Capital
 country_event = {
@@ -282,10 +342,18 @@ country_event = {
 		ai_chance = { factor = 1 }
 		name = spain.8.a
 		set_capital = 41
+		SPR = {remove_ideas = SPA_Civil_War}
+		SPR = {set_cosmetic_tag = SPR_State}
+		delete_unit_template_and_units = { division_template = "Brigada Legionario" }
+		delete_unit_template_and_units = { division_template = "Brigada Legionarios de Elite" }
 	}
 	option = {
 		ai_chance = { factor = 0 }
 		name = spain.8.b
+		remove_ideas = SPA_Civil_War
+		SPR = {set_cosmetic_tag = SPR_State}
+		delete_unit_template_and_units = { division_template = "Brigada Legionario" }
+		delete_unit_template_and_units = { division_template = "Brigada Legionarios de Elite" }
 	}
 }
 
@@ -352,12 +420,13 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			set_capital = 176
+			SPR = {set_cosmetic_tag = SPR_Civil_war}
 			start_civil_war = {
 				ruling_party = fascism
 				ideology = communism
 				size = 0.5
 				capital = 41
-				states = { 41 165 167 168 172 173 175 }
+				states = {  41 165 167 168 172 173 175 774 775 166 777 780  }
 			}
 			random_other_country = {
 				limit = {
@@ -378,6 +447,7 @@ country_event = {
 			load_oob = "SPA_Civil_War"
 			set_equipment_fraction = 0.7
 			set_stability = 0.9
+			add_ideas = SPA_civil_war
 			add_popularity = {
 				ideology = fascism
 				popularity = 1

@@ -5,18 +5,12 @@ state={
 	manpower = 578000
 	
 	state_category = small_island
-	resources={
-		oil=2
-		aluminium=4
-	}
-	resources={
-		chromium=8
-	}
+
 	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			air_base = 3
 			11932 = {
 				naval_base = 3

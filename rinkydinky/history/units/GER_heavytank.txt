@@ -38,6 +38,6 @@ units = {
 		name = "502. Schwere Panzer-Abteilung"
 		location = 6521
 		division_template = "Schwere Panzer-Abteilung"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.5
 	}
 }

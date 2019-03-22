@@ -13,7 +13,7 @@ equipments = {
 		air_map_icon_frame = 6
 
 		manpower = 40
-
+fuel_consumption = 1
 		interface_category = interface_category_air
 
 		# Tactical bomber
@@ -36,12 +36,13 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 10
 
-		build_cost_ic = 35
+		build_cost_ic = 40
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
+fuel_consumption = 0.36
 	}
 
 	jet_tac_bomber_equipment = {
@@ -76,14 +77,15 @@ equipments = {
 		naval_strike_attack = 15
 		naval_strike_targetting = 6
 
-		build_cost_ic = 45
+		build_cost_ic = 60
 		resources = {
-			oil = 3
+			#oil = 3
 			aluminium = 2
 			rubber = 1
 		}
 
 		manpower = 80
+	fuel_consumption = 0.72
 	}
 
 	heavy_fighter_equipment = {
@@ -122,12 +124,13 @@ equipments = {
 
 		build_cost_ic = 56
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
 
 		manpower = 40
+fuel_consumption = 0.26
 	}
 
 
@@ -168,9 +171,9 @@ equipments = {
 		air_bombing = 18
 		air_ground_attack = 8
 
-		build_cost_ic = 37
+		build_cost_ic = 48
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -194,9 +197,9 @@ equipments = {
 		air_bombing = 21
 		air_ground_attack = 12
 
-		build_cost_ic = 39
+		build_cost_ic = 52
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 4
 			rubber = 1
 		}
@@ -220,9 +223,9 @@ equipments = {
 		air_bombing = 24
 		air_ground_attack = 18
 
-		build_cost_ic = 41
+		build_cost_ic = 56
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 5
 			rubber = 1
 		}
@@ -264,9 +267,9 @@ equipments = {
 		air_bombing = 30
 		air_ground_attack = 20
 
-		build_cost_ic = 48
+		build_cost_ic = 62
 		resources = {
-			oil = 3
+			#oil = 3
 			aluminium = 3
 			rubber = 1
 		}
@@ -308,7 +311,7 @@ equipments = {
 
 		build_cost_ic = 60
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -332,7 +335,7 @@ equipments = {
 
 		build_cost_ic = 64
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 4
 			rubber = 1
 		}

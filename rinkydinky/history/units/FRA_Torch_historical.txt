@@ -222,78 +222,78 @@ units = {
 	}
 	
 	# TUNIS
-	# division= {
-		# name = "Partisans"		
-		# location = 9994
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 9994
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 9994
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 9994
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 11969
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 11969
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 11969
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 11969
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 4163
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 4163
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 4163
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
-	# division= {
-		# name = "Partisans"		
-		# location = 4163
-		# division_template = "Partisans NAF"
-		# start_experience_factor = 0.2
-	# }
+	division= {
+		name = "Partisans"		
+		location = 9994
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 9994
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 9994
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 9994
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 11969
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 11969
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 11969
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 11969
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 4163
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 4163
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 4163
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
+	division= {
+		name = "Partisans"		
+		location = 4163
+		division_template = "Partisans NAF"
+		start_experience_factor = 0.2
+	}
 	
 	
 }

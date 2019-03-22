@@ -2,15 +2,17 @@
 state={
 	id=600
 	name="STATE_600"
+	resources={
+		aluminium=68.000
+	}
 
 	history={
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = JPO
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
 
 		}
 		victory_points = {
@@ -35,7 +37,7 @@ state={
 	}
 
 	provinces={
-		1153 1628 3992 4038 4083 4185 7007 7653 9984 10114 10501 11988 12495 13141 
+		1053 1066 1110 3992 4038 4081 4083 4185 7054 7172 7199 9984 10112 11945 11961 12030 13141 
 	}
 	manpower=15820400
 	buildings_max_level_factor=1.000

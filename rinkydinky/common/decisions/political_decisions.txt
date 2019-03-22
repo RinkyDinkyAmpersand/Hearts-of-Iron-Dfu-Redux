@@ -1518,7 +1518,7 @@ political_actions = {
         }
 
         modifier = {
-            research_time_factor = -0.01
+            research_speed_factor = 0.03
             stability_factor = -0.05
         }
 
@@ -1563,7 +1563,7 @@ political_actions = {
         }
 
         modifier = {
-            research_time_factor = -0.01
+            research_speed_factor = 0.03
             stability_factor = -0.05
         }
 
@@ -1745,6 +1745,7 @@ political_actions = {
 
 		available = {
 			democratic < 0.2
+			NOT = {tag = RAJ}
 		}
 
 		visible = {
@@ -1795,6 +1796,7 @@ political_actions = {
 
 		available = {
 			communism < 0.2
+			NOT = {tag = RAJ}
 		}
 
 		visible = {
